@@ -1,0 +1,6 @@
+data/
+proxy/runs/
+*.pyc
+__pycache__/
+venv/
+.DS_Store

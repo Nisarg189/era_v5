@@ -1,0 +1,322 @@
+[
+ {
+  "g": "code",
+  "name": "The Stack v2",
+  "src": "BigCode / Software Heritage",
+  "lic": "permissive + opt-out",
+  "tier": "B",
+  "tag": "approx",
+  "samples": 600000000.0,
+  "tokens": 900000000000.0
+ },
+ {
+  "g": "code",
+  "name": "CommitPack / CommitPackFT",
+  "src": "BigCode",
+  "lic": "mixed / permissive",
+  "tier": "B",
+  "tag": "approx",
+  "samples": 4000000.0,
+  "tokens": 4000000000.0
+ },
+ {
+  "g": "code",
+  "name": "D3 Code (V4 corpus)",
+  "src": "V4 run (confirmed)",
+  "lic": "V4 lineage",
+  "tier": "B",
+  "tag": "conf",
+  "samples": 250000000.0,
+  "tokens": 199000000000.0
+ },
+ {
+  "g": "agentic",
+  "name": "Glaive function-calling v2",
+  "src": "Glaive",
+  "lic": "Apache-2.0",
+  "tier": "D",
+  "tag": "approx",
+  "samples": 113000.0,
+  "tokens": 50000000.0
+ },
+ {
+  "g": "agentic",
+  "name": "xLAM / APIGen",
+  "src": "Salesforce",
+  "lic": "CC-BY (mixed)",
+  "tier": "A/D",
+  "tag": "approx",
+  "samples": 60000.0,
+  "tokens": 25000000.0
+ },
+ {
+  "g": "agentic",
+  "name": "ToolACE",
+  "src": "ToolACE",
+  "lic": "Apache-2.0",
+  "tier": "A/D",
+  "tag": "approx",
+  "samples": 110000.0,
+  "tokens": 60000000.0
+ },
+ {
+  "g": "agentic",
+  "name": "Hermes function-calling",
+  "src": "NousResearch",
+  "lic": "Apache-2.0",
+  "tier": "A/D",
+  "tag": "approx",
+  "samples": 15000.0,
+  "tokens": 22000000.0
+ },
+ {
+  "g": "agentic",
+  "name": "ToolBench",
+  "src": "OpenBMB",
+  "lic": "Apache-2.0",
+  "tier": "D",
+  "tag": "approx",
+  "samples": 120000.0,
+  "tokens": 80000000.0
+ },
+ {
+  "g": "agentic",
+  "name": "Nexus / NexusRaven",
+  "src": "Nexusflow",
+  "lic": "CC-BY-4.0",
+  "tier": "A",
+  "tag": "approx",
+  "samples": 40000.0,
+  "tokens": 30000000.0
+ },
+ {
+  "g": "agentic",
+  "name": "SWE-Gym",
+  "src": "SWE-Gym",
+  "lic": "task licenses",
+  "tier": "A",
+  "tag": "approx",
+  "samples": 2400.0,
+  "tokens": 150000000.0
+ },
+ {
+  "g": "agentic",
+  "name": "SWE-smith",
+  "src": "SWE-smith",
+  "lic": "task licenses",
+  "tier": "A",
+  "tag": "approx",
+  "samples": 26000.0,
+  "tokens": 120000000.0
+ },
+ {
+  "g": "agentic",
+  "name": "OpenHands rollouts",
+  "src": "All-Hands / OpenHands",
+  "lic": "mixed",
+  "tier": "A",
+  "tag": "approx",
+  "samples": 10000.0,
+  "tokens": 90000000.0
+ },
+ {
+  "g": "reason",
+  "name": "OpenThoughts2",
+  "src": "OpenThoughts",
+  "lic": "Apache-2.0",
+  "tier": "A/D",
+  "tag": "approx",
+  "samples": 1100000.0,
+  "tokens": 3000000000.0
+ },
+ {
+  "g": "reason",
+  "name": "OpenMathReasoning",
+  "src": "NVIDIA",
+  "lic": "CC-BY-4.0",
+  "tier": "A/D",
+  "tag": "approx",
+  "samples": 3200000.0,
+  "tokens": 2000000000.0
+ },
+ {
+  "g": "reason",
+  "name": "NuminaMath",
+  "src": "Numina",
+  "lic": "Apache / CC-BY",
+  "tier": "A",
+  "tag": "approx",
+  "samples": 860000.0,
+  "tokens": 500000000.0
+ },
+ {
+  "g": "reason",
+  "name": "OpenR1-Math (R1-distilled)",
+  "src": "Hugging Face",
+  "lic": "Apache-2.0",
+  "tier": "D",
+  "tag": "approx",
+  "samples": 220000.0,
+  "tokens": 1600000000.0
+ },
+ {
+  "g": "reason",
+  "name": "AON (V4 corpus)",
+  "src": "V4 run (confirmed)",
+  "lic": "V4 lineage",
+  "tier": "A",
+  "tag": "conf",
+  "samples": 40000000.0,
+  "tokens": 78000000000.0
+ },
+ {
+  "g": "long",
+  "name": "Repo-packed code (32K+)",
+  "src": "packed from code corpora",
+  "lic": "permissive",
+  "tier": "B",
+  "tag": "approx",
+  "samples": 1500000.0,
+  "tokens": 60000000000.0
+ },
+ {
+  "g": "long",
+  "name": "Book-length corpora (packed)",
+  "src": "books + long docs",
+  "lic": "mixed / public-domain",
+  "tier": "B",
+  "tag": "approx",
+  "samples": 400000.0,
+  "tokens": 40000000000.0
+ },
+ {
+  "g": "indic",
+  "name": "Sangraha (verified)",
+  "src": "AI4Bharat",
+  "lic": "CC-BY-4.0",
+  "tier": "A",
+  "tag": "conf",
+  "samples": 40000000.0,
+  "tokens": 64000000000.0
+ },
+ {
+  "g": "indic",
+  "name": "Sangraha (unverified)",
+  "src": "AI4Bharat",
+  "lic": "CC-BY-4.0",
+  "tier": "B",
+  "tag": "conf",
+  "samples": 15000000.0,
+  "tokens": 24000000000.0
+ },
+ {
+  "g": "indic",
+  "name": "Sangraha (synthetic)",
+  "src": "AI4Bharat",
+  "lic": "CC-BY-4.0",
+  "tier": "C",
+  "tag": "synth",
+  "samples": 90000000.0,
+  "tokens": 162000000000.0
+ },
+ {
+  "g": "indic",
+  "name": "IndicCorpV2",
+  "src": "AI4Bharat",
+  "lic": "CC-BY / mixed",
+  "tier": "B",
+  "tag": "approx",
+  "samples": 10000000.0,
+  "tokens": 20900000000.0
+ },
+ {
+  "g": "indic",
+  "name": "BPCC (parallel)",
+  "src": "AI4Bharat",
+  "lic": "CC-BY-4.0",
+  "tier": "C",
+  "tag": "approx",
+  "samples": 22000000.0,
+  "tokens": 3000000000.0
+ },
+ {
+  "g": "indic",
+  "name": "Samanantar",
+  "src": "AI4Bharat",
+  "lic": "CC0 / CC-BY",
+  "tier": "C",
+  "tag": "approx",
+  "samples": 49700000.0,
+  "tokens": 2000000000.0
+ },
+ {
+  "g": "general",
+  "name": "FineWeb-Edu",
+  "src": "Hugging Face",
+  "lic": "ODC-By",
+  "tier": "B",
+  "tag": "approx",
+  "samples": 1300000000.0,
+  "tokens": 1300000000000.0
+ },
+ {
+  "g": "general",
+  "name": "DCLM-Baseline",
+  "src": "DataComp-LM",
+  "lic": "mixed / CommonCrawl",
+  "tier": "B",
+  "tag": "approx",
+  "samples": 2600000000.0,
+  "tokens": 2600000000000.0
+ },
+ {
+  "g": "general",
+  "name": "peS2o",
+  "src": "AI2",
+  "lic": "ODC-By",
+  "tier": "A",
+  "tag": "approx",
+  "samples": 40000000.0,
+  "tokens": 42000000000.0
+ },
+ {
+  "g": "general",
+  "name": "proof-pile-2",
+  "src": "EleutherAI",
+  "lic": "mixed",
+  "tier": "A",
+  "tag": "approx",
+  "samples": 5000000.0,
+  "tokens": 55000000000.0
+ },
+ {
+  "g": "general",
+  "name": "D1 Web-Foundation (V4)",
+  "src": "V4 run (confirmed)",
+  "lic": "V4 lineage",
+  "tier": "B",
+  "tag": "conf",
+  "samples": 200000000.0,
+  "tokens": 164000000000.0
+ },
+ {
+  "g": "general",
+  "name": "D2 Web-Diverse (V4)",
+  "src": "V4 run (confirmed)",
+  "lic": "V4 lineage",
+  "tier": "B",
+  "tag": "conf",
+  "samples": 780000000.0,
+  "tokens": 627000000000.0
+ },
+ {
+  "g": "general",
+  "name": "D4 STEM (V4)",
+  "src": "V4 run (confirmed)",
+  "lic": "V4 lineage",
+  "tier": "B",
+  "tag": "conf",
+  "samples": 60000000.0,
+  "tokens": 49000000000.0
+ }
+]

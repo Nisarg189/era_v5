@@ -1,0 +1,79 @@
+MAIN PRETRAINING MIXTURE — 15.0T tokens, 4-epoch repetition cap
+
+lane      share   demand   invent   added  effective  epochs  verdict
+------------------------------------------------------------------------------
+web         34%    5.10T    4.69T   0.00T      4.69T     1.1  repeat 1.1x
+code        24%    3.60T    1.10T   0.00T      1.10T     3.3  repeat 3.3x
+indic       13%    1.95T    0.28T   0.39T      0.66T     3.0  repeat 3.0x
+stem        10%    1.50T    0.15T   0.35T      0.50T     3.0  repeat 3.0x
+longctx      8%    1.20T    0.10T   0.60T      0.70T     1.7  repeat 1.7x
+reason       8%    1.20T    0.09T   0.25T      0.34T     3.6  repeat 3.6x
+agentic      3%    0.45T    0.00T   0.13T      0.13T     3.4  repeat 3.4x
+------------------------------------------------------------------------------
+total      100%   15.00T    6.40T   1.71T      8.12T     1.8
+
+
+WHERE THE 1.71T OF NEW UNIQUE TOKENS COMES FROM
+
+  indic      0.20T  acquire  licensed news archives, book and textbook digitisation, broadcast ASR, government and court records (Session 3 sourcing) -> lands in tier A, native text
+  indic      0.18T  generate verified machine translation into tier C and templated or self-instruct text into tier D, both capped at 2 epochs
+  stem       0.25T  mine     classifier-selected STEM already inside DCLM and FineWeb-Edu, relabelled rather than re-sourced
+  stem       0.10T  acquire  arXiv full text, PubMed, open textbooks
+  longctx    0.60T  pack     documents and repositories of 8K tokens or more already inside the web and code lanes
+  reason     0.25T  generate teacher distillation filtered by verifiable rewards
+  agentic    0.10T  mine     issue to pull-request to diff chains, CI logs, notebooks and shell sessions inside the code lane
+  agentic    0.03T  generate execution-verified trajectories in tool sandboxes
+------------------------------------------------------------------------------
+             0.60T  pack
+             0.46T  generate
+             0.35T  mine
+             0.30T  acquire
+
+  Only 0.46T of the 1.71T is model-generated. The rest is acquired,
+  mined or repacked from data the programme already holds.
+
+
+INDIC SLOT — 13% = 1.95T, by provenance tier
+
+tier                  existing     new  epochs    tokens  % of slot
+-------------------------------------------------------------------
+A verified native        64.0B    200B      4x     1056B     54.2%
+B unverified crawl       44.9B      0B      4x      180B      9.2%
+C translated              5.0B     60B      2x      130B      6.7%
+D synthetic             162.0B    125B      2x      574B     29.4%
+-------------------------------------------------------------------
+total                   275.9B    385B             1940B     99.5%
+
+  Native text (tiers A and B):  63% of the slot
+  Translated (tier C):          7%
+  Model-generated (tier D):     29%
+
+  The lever is acquisition, not generation. 200B newly digitised native tokens
+  move tier A from 13% to 54% of the slot. No amount of synthetic text does that.
+
+
+AGENTIC SLOT — 3% = 450B against 0.63B natural trajectories
+  Natural supply covers 0.6% of the slot even at 4 epochs.
+  The lane is therefore mined and built, not collected. A trajectory runs 15-30K
+  tokens, so the 30B generated portion is roughly 1.4M validated trajectories.
+
+
+PROTECTED FLOORS — the selector may not go below these in any batch
+
+  indic     10%   (main-run share 13%)
+  agentic    2%   (main-run share 3%)
+  reason     5%   (main-run share 8%)
+  total     17% of every batch is outside the selector's control
+
+
+ANNEAL — 8% of the budget = 1.20T held back for the cooldown
+
+lane        anneal   main   change
+----------------------------------
+indic          26%    13%     +13pp
+reason         18%     8%     +10pp
+code           16%    24%      -8pp
+agentic        12%     3%      +9pp
+stem           10%    10%      +0pp
+longctx        10%     8%      +2pp
+web             8%    34%     -26pp

@@ -1,5 +1,5 @@
 data/
-proxy/runs/
+proxy/runs/*.pt
 *.pyc
 __pycache__/
 venv/

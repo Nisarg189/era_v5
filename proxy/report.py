@@ -82,6 +82,28 @@ def e2():
     print()
 
 
+def e2b():
+    a, b = load("e2b_spread_s0"), load("e2b_anneal_s0")
+    if not (a and b):
+        print("E2b: incomplete\n")
+        return
+    print("E2b  ANNEAL WITH A HIGHER-QUALITY RESERVE — same test as E2, but the reserve is\n"
+          "     the top 15% of Hindi by the Session 4 quality signal rather than an "
+          "arbitrary slice\n")
+    print(f"{'arm':<26}" + "".join(f"{l:>10}" for l in LANES))
+    rule(66)
+    print(f"{'reserve spread evenly':<26}" + "".join(f"{bpb(a,l):>10.4f}" for l in LANES))
+    print(f"{'reserve held for anneal':<26}" + "".join(f"{bpb(b,l):>10.4f}" for l in LANES))
+    rule(66)
+    imp = (bpb(a, "indic") - bpb(b, "indic")) / bpb(a, "indic")
+    print(f"\nindic improvement from holding the reserve back: {imp:+.2%}")
+    print("\ntokens per pool, confirming the arms are matched:")
+    for k in sorted(set(a["tokens_seen_per_pool"]) | set(b["tokens_seen_per_pool"])):
+        va, vb = a["tokens_seen_per_pool"].get(k, 0), b["tokens_seen_per_pool"].get(k, 0)
+        print(f"  {k:<15}{va:>12,}{vb:>12,}   delta {(vb-va)/max(va,1):>+7.2%}")
+    print()
+
+
 def e3():
     nf, fl = load("e3_sel_nofloor"), load("e3_sel_floor")
     if not (nf and fl):
@@ -112,6 +134,7 @@ def main():
     print(f"runs present: {len(done)}\n{done}\n")
     e1()
     e2()
+    e2b()
     e3()
 
 

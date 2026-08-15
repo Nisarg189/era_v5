@@ -7,8 +7,16 @@ proxy runs that were actually executed rather than only proposed.
 
 Three numbers carry the plan. The mixture assigns **13 percent to Indic**, a
 **17 percent protected floor** sits outside the data selector's control, and
-**8 percent of the budget is held back** for the final anneal. Each of the three
-was tested, and the results are in section 12.
+**8 percent of the budget is held back** for the final anneal.
+
+All three were tested on real training runs, not argued for. Two survived and one did
+not. The protected floor is strongly confirmed: an English-only selector rejected
+**98.6 percent** of the Hindi it was offered, and the floor restored the lane
+completely. The Indic share is supported at the floor but sits past the elbow of its
+own return curve at 13 percent. The anneal reserve **failed to replicate** across
+three comparisons and is now the weakest number in the plan. Section 12 has the
+numbers, section 13 has what happens next. Two parts of the plan, in sections 6 and 7,
+were changed by results that contradicted them.
 
 Every table below is printed by a script in this repository, not typed by hand.
 `proxy/plan_arithmetic.py` produces sections 2 to 7 from the inventory. `proxy/report.py`
@@ -139,9 +147,18 @@ Indic. V5 extends the protection and raises the Indic figure:
 
 17 percent of every batch is outside the selector's control. The floor is a
 guarantee against starvation, not a large allocation. Indic is set at 10 rather
-than V4's 8 because experiment E1 shows the Indic lane still improving between
-8 and 13 percent, and experiment E3 shows what an unprotected lane does under a
-selector that does not speak the language.
+than V4's 8 because experiment E1 shows the Indic lane still paying well above
+break-even at 8 to 10 percent, and experiment E3 shows an unprotected lane losing
+98.6 percent of its data to a selector that does not speak the language.
+
+E3 also forced a correction to this section. **The selector runs inside each lane's
+budget, not across lanes.** The mixture in section 2 decides how many tokens a lane
+receives and the selector decides which tokens within that allocation. Floors are
+kept as a second guarantee, but they are no longer the only thing standing between
+the mixture and a selector that would otherwise overwrite it. The reason is in E3:
+protecting only the scarce lanes pushed the entire cost onto code and STEM, which
+fell to a 1.6 percent keep rate. A floor redistributes a biased selector, it does
+not fix one.
 
 ## 7. The anneal reserve
 
@@ -149,6 +166,14 @@ selector that does not speak the language.
 at reduced learning rate. The reserve is identified now and protected from ordinary
 sampling, because a reserve that the selector has already consumed does not exist
 when the cooldown arrives.
+
+This is the least defended number in the plan. Experiments E2 and E2b tested it three
+times and found no benefit in any of them, including once with a reserve selected for
+quality. It is retained rather than dropped because the proxy could not test the
+mechanism that is believed to make annealing work, which is the coincidence of the
+reserve with a sharp learning-rate decay, and because a reserve is cheap to keep and
+impossible to recover once spent. Section 13 fixes the 3B test that decides it and the
+share it falls to if that test is also flat.
 
 | Lane | Anneal | Main run | Change |
 |---|---:|---:|---:|
@@ -236,37 +261,160 @@ comparable across lanes while bits per byte is. Architecture, token budget, lear
 rate schedule, batch size, seed and tokenizer are identical across arms. The
 mixture is the only independent variable.
 
-RESULTS_PLACEHOLDER
+### E1. The Indic share sweep, and where the floor belongs
+
+Indic share varied at a fixed budget, with the other three lanes held in the plan's
+ratio. Held-out bits per byte, lower is better.
+
+| Indic share | web | code | indic | math | non-Indic mean |
+|---|---:|---:|---:|---:|---:|
+| 0% | 2.1298 | 2.7039 | 1.6159 | 1.6730 | 2.1689 |
+| 3% | 2.1483 | 2.7331 | 1.1438 | 1.6964 | 2.1926 |
+| 8% | 2.1518 | 2.7528 | 1.0494 | 1.7132 | 2.2059 |
+| 13% (plan) | 2.1722 | 2.7790 | 1.0093 | 1.7372 | 2.2295 |
+| 30% | 2.2002 | 2.8369 | 0.9588 | 1.7883 | 2.2752 |
+
+| Indic share | Indic gain vs 0% | Cost to other lanes | Gain per point of cost |
+|---|---:|---:|---:|
+| 3% | 29.2% | 1.09% | 26.8 |
+| 8% | 35.1% | 1.71% | 9.5 |
+| 13% (plan) | 37.5% | 2.79% | 2.2 |
+| 30% | 40.7% | 4.90% | 1.5 |
+
+The first three points of Indic are worth roughly 27 times their cost. The next five
+are worth 9.5. Past 8 percent the exchange rate collapses to about 2, and past 13
+percent it is 1.5.
+
+**Effect on the plan.** The 10 percent floor is confirmed: the lane is still paying
+well above break-even at 8 to 10 percent, so a floor below that gives away real
+capability. The 13 percent main share is *not* strongly confirmed. It sits past the
+elbow, and it buys 2.4 percent more Indic for 1.08 percent off every other lane. It
+is retained because Indic is the model's stated differentiator and that exchange is
+worth making for the one capability the programme exists to build, but it is retained
+as a judgement call on top of a flat part of the curve, not as an optimum. The 1B run
+in section 13 decides it, using MILU rather than bits per byte, because held-out loss
+saturates earlier than generation quality does.
+
+### E2 and E2b. The anneal reserve, which did not replicate
+
+Both arms train on the same budget, the same learning-rate schedule and the same
+number of tokens from every pool. Only the timing of the reserve differs. E2 uses an
+arbitrary disjoint slice of Hindi, so quality is held constant and only ordering
+varies. E2b repeats it with a reserve that is genuinely better data, the top 15
+percent of Hindi by the Session 4 quality signal.
+
+| Experiment | Reserve | Indic bpb, spread | Indic bpb, held back | Change |
+|---|---|---:|---:|---:|
+| E2 seed 0 | arbitrary slice | 1.0085 | 1.0112 | -0.27% |
+| E2 seed 1 | arbitrary slice | 1.0038 | 1.0050 | -0.12% |
+| E2b seed 0 | top 15% by quality | 1.0081 | 1.0171 | -0.89% |
+
+**Holding the reserve back for the cooldown produced no benefit in any of the three
+comparisons, and was marginally worse in all three.** By the decision rule fixed in
+advance in section 13, a difference under 0.3 percent or in the wrong direction
+refutes the hypothesis at this scale. It is refuted.
+
+Four reasons this is a limited refutation, stated so a reviewer can weigh it:
+
+1. Scale. 9M parameters and 30M tokens is far from convergence, and the annealing
+   result the session cites is observed at 1B and above.
+2. Size of the reserve. It is 2.2 percent of the run's tokens. A slice that small
+   concentrated into the last tenth may not move a held-out loss measured over the
+   whole distribution.
+3. Metric. Bits per byte on held-out text of the same distribution is not what the
+   anneal is believed to improve. The reported gains in the literature are downstream
+   benchmark gains, which this proxy has no way to measure.
+4. **The most likely reason.** The learning-rate schedule is a single cosine in both
+   arms, which is the correct control for isolating data ordering but removes the
+   mechanism. A real anneal is a joint decision about data *and* learning rate, where
+   a sustained high rate is followed by a sharp decay over the reserve. Holding the
+   data back while decaying the rate identically in both arms tests only half of it.
+
+**Effect on the plan.** The 8 percent reserve is kept, and is now marked as the
+weakest number in the plan. Section 13 replaces the proxy with a 3B test that uses a
+warmup-stable-decay schedule rather than a cosine, so that the reserve and the decay
+coincide, and that scores MILU rather than bits per byte. If that test is also flat,
+the reserve drops from 8 percent to 3 and the difference returns to the main run.
+
+### E3. The selector, and what a protected floor is actually worth
+
+Candidate batches of 60 sequences are scored by excess loss against an English-only
+reference model trained on 12M tokens of web, and the top 24 are kept. This is the
+proxy failure the session describes, made concrete.
+
+| Pool | Offered | Kept, no floor | Rate | Kept, with floor | Rate |
+|---|---:|---:|---:|---:|---:|
+| web | 28,956,160 | 27,545,600 | 95.1% | 24,467,456 | 84.5% |
+| code | 20,603,904 | 1,261,568 | 6.1% | 334,848 | 1.6% |
+| indic | 11,014,144 | 149,504 | **1.4%** | 4,971,008 | **45.1%** |
+| math | 14,413,312 | 1,038,336 | 7.2% | 221,696 | 1.5% |
+
+An English-only proxy **rejects 98.6 percent of the Hindi it is offered** and turns a
+deliberate four-lane mixture into a nearly pure web run. Indic bits per byte degrades
+from 1.0093 to 1.3279, a 31.6 percent loss, against the identical mixture trained
+without a selector.
+
+With a 14.8 percent always-on floor, the Indic lane recovers to **1.0093**, which is
+the same number the unselected mixture reached. The floor does not partially protect
+the lane. It makes the lane immune, because the floor fixes the token count at the
+share the mixture designed.
+
+**Effect on the plan, and a correction to it.** The floor works, but the cost lands
+somewhere the plan did not anticipate. Protecting Indic pushes the damage onto the
+unprotected lanes: code falls to a 1.6 percent keep rate and 14.6 percent worse bits
+per byte, math to 1.5 percent and 19.6 percent worse. A floor on the scarce lanes does
+not fix a biased selector, it redistributes the bias onto whatever is left unprotected.
+
+The plan is therefore corrected: **the selector operates within each lane's budget, not
+across lanes.** The mixture fixes how many tokens each lane receives, and OPUS chooses
+which tokens inside that allocation. Protected floors remain as a second guarantee for
+the scarce lanes, but the mixture itself is no longer something the selector can
+overwrite. This change came out of the experiment and was not in the plan beforehand.
 
 ## 13. What would refute this plan
 
-The proxy runs above are small. The same three experiments are specified at 1B and
-3B, with the decision rule fixed in advance so the result cannot be reinterpreted
-after the fact.
+The proxy settled two of the three numbers and refuted the third. What remains is
+specified at 1B and 3B, with the decision rule fixed in advance so that no result can
+be reinterpreted after it arrives.
 
-| Experiment | Metric | Confirms the plan | Refutes it |
-|---|---|---|---|
-| Indic share sweep at 1B, shares 6 / 10 / 13 / 18% | MILU, IndicGenBench, Indic bits per byte | Indic gains continue to 13% and non-Indic loss rises under 0.5% | Indic gains flatten by 8%, or non-Indic cost exceeds 1% |
-| Anneal ordering at 3B, matched tokens | Indic and reasoning bits per byte, MILU | Held-back reserve beats even spending by 1% or more | Difference under 0.3%, or reversed |
-| Selector floor at 1B | Indic kept-token rate, MILU | Unprotected Indic retention falls below 3%, floor restores capability | Selector retains Indic without a floor |
+| Experiment | Scale | Metric | Confirms | Refutes |
+|---|---|---|---|---|
+| Indic share sweep, 6 / 10 / 13 / 18% | 1B, 20B tokens | MILU and IndicGenBench, not bits per byte | MILU still rising between 10% and 13%, non-Indic benchmarks down under 1% | MILU flat by 10%, or non-Indic cost above 1% |
+| Anneal reserve, matched tokens, **warmup-stable-decay schedule** so the decay coincides with the reserve | 3B, 60B tokens | MILU and LiveCodeBench, plus Indic bits per byte | Held-back reserve beats even spending by 1% or more on benchmarks | Difference under 0.3%, or reversed, as at proxy scale |
+| Selector inside lane budgets vs across lanes | 1B, 20B tokens | Kept-token rate per lane, MILU, LiveCodeBench | Per-lane selection holds every lane at its designed share and beats global selection with floors | Global selection with floors matches it on every lane |
+| Agentic mining yield | offline | Unique tokens recovered from issue to pull-request chains, CI logs, notebooks | 0.10T or more at acceptable quality | Below 0.05T |
 
-If the 1B sweep flattens by 8 percent, the Indic share drops to 10 and the freed
-3 percent goes to code. If the anneal shows no effect at 3B, the reserve falls from
-8 percent to 3 and the rest returns to the main run. If the agentic mining yield
-comes in below 0.05T unique tokens, the agentic share drops to 2 percent rather
-than being filled with more synthetic data.
+Pre-committed consequences:
+
+- If MILU is flat by 10 percent, the Indic share drops from 13 to 10 and the freed
+  3 points go to code. The 10 percent floor stands either way, because E1 and E3
+  already support it.
+- If the 3B anneal is flat under a warmup-stable-decay schedule as well, the reserve
+  drops from 8 percent to 3 and the rest returns to the main run. Two flat results
+  at two scales with two different reserve qualities would mean the mechanism is not
+  worth 1.2T tokens of deferred data.
+- If agentic mining yields under 0.05T unique tokens, the agentic share drops from
+  3 percent to 2 rather than being topped up with more synthetic trajectories. This
+  is the rule that stops the lane from becoming the wishful accounting the session
+  warns about.
+- If per-lane selection does not beat global selection with floors, the correction in
+  E3 is reverted and the floors are extended to code and STEM instead.
 
 ## 14. Reproducing
 
 ```bash
 python3 proxy/build_corpus.py      # four lanes from the inventory's datasets
 python3 proxy/train_tokenizer.py   # one frozen 16,384 character-level BPE
-python3 proxy/tokenize_corpus.py   # uint16 arrays plus a held-out tail per lane
+python3 proxy/tokenize_corpus.py     # uint16 arrays plus a held-out tail per lane
+python3 proxy/build_quality_split.py # the quality-ranked Hindi pools used by E2b
 python3 proxy/run_experiments.py --tokens 30e6
-python3 proxy/report.py            # section 12
+python3 proxy/report.py              # section 12
 python3 proxy/plan_arithmetic.py   # sections 2 to 7
 ```
 
-`proxy/inventory.json` is the Session 5 dataset inventory, extracted from the
-session's inventory widget, and is the supply figure behind every table above.
-Corpus files and run outputs are not committed; the scripts regenerate them.
+14 runs, roughly 4 hours on one Apple M4 Pro. `proxy/inventory.json` is the Session 5
+dataset inventory, extracted from the session's inventory widget, and is the supply
+figure behind every table in sections 2 to 7. `proxy_results.txt` and
+`plan_arithmetic.txt` are the raw output of the two report scripts, committed so the
+tables above can be checked against them. Corpus files and run outputs are not
+committed; the scripts regenerate them.

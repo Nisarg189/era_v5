@@ -88,7 +88,7 @@ class GPT(nn.Module):
 class Pools:
     """Named token pools. 'indic' is split so a reserve can be held back."""
 
-    def __init__(self, reserve_frac=0.0, seed=0):
+    def __init__(self, reserve_frac=0.0, seed=0, extra_pools=()):
         self.train, self.val, self.meta = {}, {}, json.load(open(os.path.join(DATA, "token_meta.json")))
         for lane in LANES:
             self.train[lane] = np.load(os.path.join(DATA, f"{lane}.train.npy"), mmap_mode="r")
@@ -97,6 +97,10 @@ class Pools:
             a = self.train["indic"]
             cut = int(len(a) * (1 - reserve_frac))
             self.train["indic"], self.train["indic_reserve"] = a[:cut], a[cut:]
+        # pools built by build_quality_split.py, loaded on demand
+        for name in extra_pools:
+            if name not in self.train:
+                self.train[name] = np.load(os.path.join(DATA, f"{name}.train.npy"), mmap_mode="r")
         self.rng = np.random.default_rng(seed)
 
     def batch(self, mix, B, T, device):
@@ -244,7 +248,8 @@ def main():
                  for p in json.loads(a.schedule)] if a.schedule
                 else [{"until": 1.0, "mix": parse_mix(a.mix)}])
 
-    pools = Pools(reserve_frac=a.reserve_frac, seed=a.seed)
+    needed = {k for ph in schedule for k in ph["mix"]}
+    pools = Pools(reserve_frac=a.reserve_frac, seed=a.seed, extra_pools=needed)
     model = GPT(pools.meta["vocab_size"], a.d_model, a.n_layer, a.n_head, a.seq).to(device)
     opt = torch.optim.AdamW(model.parameters(), lr=a.lr, betas=(0.9, 0.95), weight_decay=0.1)
 

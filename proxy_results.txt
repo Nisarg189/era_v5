@@ -1,0 +1,79 @@
+runs present: 14
+['e1_indic0', 'e1_indic3', 'e1_indic30', 'e1_indic8', 'e1_indicplan', 'e2_anneal_s0', 'e2_anneal_s1', 'e2_spread_s0', 'e2_spread_s1', 'e2b_anneal_s0', 'e2b_spread_s0', 'e3_ref_en', 'e3_sel_floor', 'e3_sel_nofloor']
+
+E1  INDIC SHARE SWEEP — held-out bits per byte, 30M tokens, identical everything else
+
+indic share          web      code     indic      math  non-indic avg
+--------------------------------------------------------------------------
+0%                2.1298    2.7039    1.6159    1.6730         2.1689
+3%                2.1483    2.7331    1.1438    1.6964         2.1926
+8%                2.1518    2.7528    1.0494    1.7132         2.2059
+13% (plan)        2.1722    2.7790    1.0093    1.7372         2.2295
+30%               2.2002    2.8369    0.9588    1.7883         2.2752
+--------------------------------------------------------------------------
+
+indic share      indic bpb   gain vs 0%  cost to others
+0%                  1.6159        0.0%          0.00%
+3%                  1.1438       29.2%          1.09%
+8%                  1.0494       35.1%          1.71%
+13% (plan)          1.0093       37.5%          2.79%
+30%                 0.9588       40.7%          4.90%
+
+E2  ANNEAL ORDERING — identical tokens per pool, identical LR schedule, only the timing differs
+
+seed  arm                              web      code     indic      math
+----------------------------------------------------------------------------
+0     reserve spread evenly         2.1682    2.7781    1.0085    1.7329
+      reserve held for anneal       2.1690    2.7880    1.0112    1.7341
+1     reserve spread evenly         2.1724    2.7824    1.0038    1.7365
+      reserve held for anneal       2.1698    2.7836    1.0050    1.7304
+----------------------------------------------------------------------------
+
+seed    indic bpb spread      held   improvement
+0                 1.0085    1.0112       -0.27%
+1                 1.0038    1.0050       -0.12%
+mean                                     -0.20%
+
+tokens per pool (seed 0), confirming the arms are matched:
+  code              8,241,664   8,238,592   delta  -0.04%
+  indic             3,678,720   3,751,936   delta  +1.99%
+  indic_reserve       655,872     549,376   delta -16.24%
+  math              5,875,712   5,894,144   delta  +0.31%
+  web              11,543,040  11,560,960   delta  +0.16%
+
+E2b  ANNEAL WITH A HIGHER-QUALITY RESERVE — same test as E2, but the reserve is
+     the top 15% of Hindi by the Session 4 quality signal rather than an arbitrary slice
+
+arm                              web      code     indic      math
+------------------------------------------------------------------
+reserve spread evenly         2.1677    2.7737    1.0081    1.7328
+reserve held for anneal       2.1710    2.7856    1.0171    1.7386
+------------------------------------------------------------------
+
+indic improvement from holding the reserve back: -0.89%
+
+tokens per pool, confirming the arms are matched:
+  code              8,251,392   8,215,552   delta  -0.43%
+  indic_bulk        3,668,480   3,741,184   delta  +1.98%
+  indic_topq          659,456     633,344   delta  -3.96%
+  math              5,866,496   5,881,856   delta  +0.26%
+  web              11,549,184  11,523,072   delta  -0.23%
+
+E3  SELECTOR AND THE PROTECTED FLOOR — English-only proxy, keeps the top 40%
+
+pool         offered   kept (no floor)    rate   kept (floor)    rate
+------------------------------------------------------------------------
+web       28,956,160        27,545,600   95.1%     24,467,456   84.5%
+code      20,603,904         1,261,568    6.1%        334,848    1.6%
+indic     11,014,144           149,504    1.4%      4,971,008   45.1%
+math      14,413,312         1,038,336    7.2%        221,696    1.5%
+------------------------------------------------------------------------
+
+lane       bpb no floor   bpb with floor      change
+web              2.0080           2.0737      3.28%
+code             3.3206           3.8051     14.59%
+indic            1.3279           1.0093    -23.99%
+math             2.2703           2.7145     19.57%
+
+proxy scorer: web-only model, 12M tokens, indic bpb 1.9014 vs web bpb 2.3140
+

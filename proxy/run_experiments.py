@@ -109,6 +109,40 @@ def e2(tokens, seeds=(0, 1)):
             tokens)
 
 
+def e2b(tokens, seeds=(0,)):
+    """E2 again, but the reserve is genuinely better data rather than an arbitrary slice.
+
+    E2 holds the reserve's quality constant and varies only its timing. E2b varies
+    both, using the pools from build_quality_split.py. Comparing the two isolates
+    whether the anneal's value comes from ordering or from what is being ordered.
+    """
+    reserve_frac = 0.15
+    indic = PLAN_N["indic"]
+    anneal = 0.10
+    blend = 0.02
+    main_indic = indic * (1 - reserve_frac) / (1 - anneal)
+    # The reserve share is raised to pay for the blend band. Ramping linearly from
+    # zero to the target across `blend` costs the anneal arm half that band's worth
+    # of reserve tokens, which in E2 left it 16% short of the arm it is compared
+    # against. Compensating keeps the two arms matched on tokens per pool.
+    res_share_anneal = indic * reserve_frac / (anneal - blend / 2)
+
+    for seed in seeds:
+        mix_a = {k: OTHERS_W[k] * (1 - indic) for k in OTHERS}
+        mix_a["indic_bulk"] = indic * (1 - reserve_frac)
+        mix_a["indic_topq"] = indic * reserve_frac
+        run(f"e2b_spread_s{seed}", ["--mix", fmt(mix_a), "--seed", str(seed)], tokens)
+
+        main = {k: OTHERS_W[k] * (1 - main_indic) for k in OTHERS}
+        main["indic_bulk"] = main_indic
+        ann = {k: OTHERS_W[k] * (1 - res_share_anneal) for k in OTHERS}
+        ann["indic_topq"] = res_share_anneal
+        sched = json.dumps([{"until": 1 - anneal, "mix": fmt(main)},
+                            {"until": 1.0, "mix": fmt(ann)}])
+        run(f"e2b_anneal_s{seed}", ["--schedule", sched, "--blend", str(blend),
+                                    "--seed", str(seed)], tokens)
+
+
 def e3(tokens):
     """An English-only selector, with and without the always-on floor."""
     ref = os.path.join(RUNS, "e3_ref_en.pt")
@@ -124,14 +158,14 @@ def e3(tokens):
 def main():
     global DRY
     ap = argparse.ArgumentParser()
-    ap.add_argument("--only", default="", help="E1, E2 or E3")
+    ap.add_argument("--only", default="", help="E1, E2, E2B or E3")
     ap.add_argument("--tokens", type=float, default=20e6)
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
     DRY = a.dry_run
     os.makedirs(RUNS, exist_ok=True)
     print("plan mixture (4-lane projection):", {k: round(v, 4) for k, v in PLAN_N.items()})
-    for name, fn in [("E1", e1), ("E2", e2), ("E3", e3)]:
+    for name, fn in [("E1", e1), ("E2", e2), ("E2B", e2b), ("E3", e3)]:
         if a.only and a.only.upper() != name:
             continue
         print(f"\n########## {name} ##########")

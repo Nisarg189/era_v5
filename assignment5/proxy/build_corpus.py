@@ -26,11 +26,29 @@ import argparse, json, os, sys, time, hashlib
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 DATA = os.path.join(ROOT, "data")
+
+
+def find_assignment4():
+    """Locate assignment4_work by walking up from here.
+
+    It sits outside this repository, so the depth between the two is not fixed.
+    Searching upward keeps this working wherever the repository is placed.
+    """
+    d = HERE
+    for _ in range(6):
+        d = os.path.dirname(d)
+        cand = os.path.join(d, "assignment4_work")
+        if os.path.isdir(cand):
+            return cand
+    raise SystemExit("assignment4_work not found above " + HERE)
+
+
+A4 = find_assignment4()
 # reuse the Session 4 cleaner so the Hindi lane is the same cleaned text
-sys.path.insert(0, os.path.join(os.path.dirname(ROOT), "assignment4_work"))
+sys.path.insert(0, A4)
 from hi_clean import normalize_text  # noqa: E402
 
-SANGRAHA = os.path.join(os.path.dirname(ROOT), "assignment4_work", "data", "hin-0.parquet")
+SANGRAHA = os.path.join(A4, "data", "hin-0.parquet")
 FINEWEB = "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/main/sample/10BT/000_00000.parquet"
 NUMINA = "https://huggingface.co/datasets/AI-MO/NuminaMath-CoT/resolve/main/data/train-00000-of-00005.parquet"
 CODE = "https://huggingface.co/datasets/codeparrot/github-code-clean/resolve/main/data/train-00000-of-00880.parquet"

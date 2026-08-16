@@ -47,14 +47,18 @@ BUDGET_T = 15.0
 # mechanism. A lane whose demand exceeds inventory supply must either name one of
 # these or have its share cut. There is no third option.
 ADDED = {
-    "indic": [(0.20, "acquire", "licensed news archives, book and textbook digitisation, "
-                                "broadcast ASR, government and court records (Session 3 sourcing) "
-                                "-> lands in tier A, native text"),
-              (0.185, "generate", "verified machine translation into tier C and templated "
-                                  "or self-instruct text into tier D, both capped at 2 epochs")],
+    "indic": [(0.20, "harvest", "re-mine the full Common Crawl archive for Indian-language "
+                                "pages, plus openly licensed public-sector text: court "
+                                "judgments, Parliament and assembly proceedings, gazettes, "
+                                "NCERT and state textbooks, NPTEL and SWAYAM transcripts, "
+                                "Indian-language Wikipedia and Wikisource, National Digital "
+                                "Library public-domain scans -> tier A, native text"),
+              (0.185, "generate", "translation of curated English with IndicTrans2 into tier C, "
+                                  "templated and self-instruct text into tier D, both at 2 epochs")],
     "stem": [(0.25, "mine", "classifier-selected STEM already inside DCLM and FineWeb-Edu, "
                             "relabelled rather than re-sourced"),
-             (0.10, "acquire", "arXiv full text, PubMed, open textbooks")],
+             (0.10, "harvest", "arXiv bulk access, PubMed Central open-access subset, "
+                               "OpenStax and other open textbooks")],
     "longctx": [(0.60, "pack", "documents and repositories of 8K tokens or more already "
                                "inside the web and code lanes")],
     "reason": [(0.28, "generate", "teacher distillation filtered by verifiable rewards")],
@@ -172,8 +176,9 @@ def main():
     rule()
     for k, v in sorted(by_kind.items(), key=lambda x: -x[1]):
         print(f"  {'':<9}{v:>6.2f}T  {k}")
-    print(f"\n  Only {by_kind['generate']:.2f}T of the {tot_add:.2f}T is model-generated. "
-          f"The rest is acquired,\n  mined or repacked from data the programme already holds.")
+    print(f"\n  Only {by_kind['generate']:.2f}T of the {tot_add:.2f}T is model-generated. The rest is\n"
+          f"  harvested, mined or repacked. Every source is open, public-domain or already\n"
+          f"  held: no purchase, licence negotiation or outside vendor is required.")
 
     print(f"\n\nINDIC SLOT — {MAIN['indic']}% = {MAIN['indic']/100*BUDGET_T:.2f}T, "
           f"by provenance tier\n")

@@ -43,10 +43,10 @@ total      100%   15.00T    6.40T   1.75T      8.15T     1.8
 
 WHERE THE 1.75T OF NEW UNIQUE TOKENS COMES FROM
 
-  indic      0.20T  acquire  licensed news archives, book and textbook digitisation, broadcast ASR, government and court records (Session 3 sourcing) -> lands in tier A, native text
-  indic      0.18T  generate verified machine translation into tier C and templated or self-instruct text into tier D, both capped at 2 epochs
+  indic      0.20T  harvest  re-mine the full Common Crawl archive for Indian-language pages, plus openly licensed public-sector text: court judgments, Parliament and assembly proceedings, gazettes, NCERT and state textbooks, NPTEL and SWAYAM transcripts, Indian-language Wikipedia and Wikisource, National Digital Library public-domain scans -> tier A, native text
+  indic      0.18T  generate translation of curated English with IndicTrans2 into tier C, templated and self-instruct text into tier D, both at 2 epochs
   stem       0.25T  mine     classifier-selected STEM already inside DCLM and FineWeb-Edu, relabelled rather than re-sourced
-  stem       0.10T  acquire  arXiv full text, PubMed, open textbooks
+  stem       0.10T  harvest  arXiv bulk access, PubMed Central open-access subset, OpenStax and other open textbooks
   longctx    0.60T  pack     documents and repositories of 8K tokens or more already inside the web and code lanes
   reason     0.28T  generate teacher distillation filtered by verifiable rewards
   agentic    0.10T  mine     issue to pull-request to diff chains, CI logs, notebooks and shell sessions inside the code lane
@@ -55,10 +55,11 @@ WHERE THE 1.75T OF NEW UNIQUE TOKENS COMES FROM
              0.60T  pack
              0.49T  generate
              0.35T  mine
-             0.30T  acquire
+             0.30T  harvest
 
-  Only 0.49T of the 1.75T is model-generated. The rest is acquired,
-  mined or repacked from data the programme already holds.
+  Only 0.49T of the 1.75T is model-generated. The rest is
+  harvested, mined or repacked. Every source is open, public-domain or already
+  held: no purchase, licence negotiation or outside vendor is required.
 
 
 INDIC SLOT — 13% = 1.95T, by provenance tier

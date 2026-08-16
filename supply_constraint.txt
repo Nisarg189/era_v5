@@ -27,46 +27,24 @@ total        6401.6B        308B                    26515B
     agentic    15B  the-stack-github-issues
 
 
-WHAT BUDGET THIS SUPPORTS
+WHAT THAT SUPPLY SUPPORTS AT A 9T BUDGET
 
-  The ceiling for each scarce lane, expressed as the largest share of a run
-  of a given size that the lane can actually fill:
+lane        ceiling   as share of 9T   comment
+------------------------------------------------------------------
+web          19164B    unconstrained   2.1x the whole run
+code          4412B            49.0%   this is the hard limit on the lane
+indic         1260B            14.0%   this is the hard limit on the lane
+stem          1076B            12.0%   this is the hard limit on the lane
+reason         540B             6.0%   this is the hard limit on the lane
+agentic         63B             0.7%   this is the hard limit on the lane
+------------------------------------------------------------------
 
-  budget       web      code     indic      stem    reason   agentic
---------------------------------------------------------------------
-     15T   127.8%    29.4%     8.4%     7.2%     3.6%     0.4%
-     12T   159.7%    36.8%    10.5%     9.0%     4.5%     0.5%
-      9T   212.9%    49.0%    14.0%    12.0%     6.0%     0.7%
-      8T   239.6%    55.1%    15.7%    13.5%     6.8%     0.8%
---------------------------------------------------------------------
+  Web and code can supply more than an entire 9T run on their own, so they
+  never constrain the mixture. The four scarce lanes each have a real ceiling,
+  and those ceilings are what the mixture has to be built around.
 
-  Read the Indic column. At a 15T budget the Indic lane cannot exceed 8.4%
-  however it is arranged, because that is all the Indic text there is to
-  download. Everything the mixture cannot fill with a scarce lane it must
-  fill with general web, which is the one lane with room to spare. A 15T
-  budget therefore forces the web-heavy mixture this session warns against,
-  not by choice but by arithmetic.
+  The ceilings are fixed in tokens, so a larger budget would not raise them.
+  It would only lower each scarce lane's reachable share and push the freed
+  space into general web, which is the one lane with room to spare.
 
-  Shrinking the budget raises every scarce lane's reachable share, because
-  the ceiling is fixed in tokens while the denominator falls.
-
-
-RECOMMENDED PLAN — 9T budget
-
-lane       share    demand   ceiling  headroom  epochs  verdict
-----------------------------------------------------------------------------
-web          41%     3690B    19164B    80.7%     0.8  fits
-code         28%     2520B     4412B    42.9%     2.3  fits
-indic        13%     1170B     1260B     7.1%     3.0  fits
-stem         11%      990B     1076B     8.0%     3.7  fits
-reason        6%      540B      540B     0.1%     4.0  fits
-agentic       1%       90B       63B   -44.0%     5.8  OVER
-----------------------------------------------------------------------------
-
-  Lanes over their ceiling: ['agentic']
-  Indic reaches 13% with no crawling, no OCR and no new generation.
-  At 15T the same ceiling would cap it at 8.4%.
-
-  9T is 225 tokens per parameter for a 40B model, against Chinchilla's
-  compute-optimal 20 and Llama-3-70B's ~214. It stays inside the 10 to 30T
-  range Session 3 set for V5 only at its lower edge, and below it by 1T.
+  The plan checked against these ceilings is in plan_arithmetic.py.

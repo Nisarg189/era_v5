@@ -5,9 +5,8 @@ The programme has no budget for crawling or for optical character recognition, s
 every token must come from a dataset that has already been published and can simply
 be downloaded. This file works out what that constraint costs.
 
-It computes, for each lane, the ceiling on tokens available at the repetition caps,
-then asks what token budget that ceiling can actually support without the mixture
-collapsing into general web.
+It computes, for each lane, the ceiling on tokens available at the repetition caps.
+plan_arithmetic.py then checks the plan's shares against those ceilings.
 
     python3 supply_constraint.py
 """
@@ -89,45 +88,28 @@ def main():
         for name, t in items:
             print(f"    {l:<8}{t:>5}B  {name}")
 
-    print("\n\nWHAT BUDGET THIS SUPPORTS\n")
-    print("  The ceiling for each scarce lane, expressed as the largest share of a run")
-    print("  of a given size that the lane can actually fill:\n")
-    print(f"{'budget':>8}" + "".join(f"{l:>10}" for l in LANES))
-    rule(68)
-    for B in [15.0, 12.0, 9.0, 8.0]:
-        row = "".join(f"{ceiling[l]/1000/B:>9.1%}" for l in LANES)
-        print(f"{B:>7.0f}T{row}")
-    rule(68)
-    print("\n  Read the Indic column. At a 15T budget the Indic lane cannot exceed 8.4%")
-    print("  however it is arranged, because that is all the Indic text there is to")
-    print("  download. Everything the mixture cannot fill with a scarce lane it must")
-    print("  fill with general web, which is the one lane with room to spare. A 15T")
-    print("  budget therefore forces the web-heavy mixture this session warns against,")
-    print("  not by choice but by arithmetic.")
-    print("\n  Shrinking the budget raises every scarce lane's reachable share, because")
-    print("  the ceiling is fixed in tokens while the denominator falls.")
-
-    print("\n\nRECOMMENDED PLAN — 9T budget\n")
+    print("\n\nWHAT THAT SUPPLY SUPPORTS AT A 9T BUDGET\n")
     B = 9.0
-    PLAN = {"web": 41, "code": 28, "indic": 13, "stem": 11, "reason": 6, "agentic": 1}
-    assert sum(PLAN.values()) == 100
-    print(f"{'lane':<9}{'share':>7}{'demand':>10}{'ceiling':>10}{'headroom':>10}{'epochs':>8}  verdict")
-    rule()
+    print(f"{'lane':<9}{'ceiling':>10}{'as share of 9T':>17}   comment")
+    rule(66)
     for l in LANES:
-        d = PLAN[l] / 100 * B * 1000
-        c = ceiling[l]
-        uniq = nat[l] + extra[l] + syn[l]
-        ep = d / uniq
-        v = "fits" if d <= c else "OVER"
-        print(f"{l:<9}{PLAN[l]:>6}%{d:>9.0f}B{c:>9.0f}B{(c-d)/c:>9.1%}{ep:>8.1f}  {v}")
-    rule()
-    over = [l for l in LANES if PLAN[l] / 100 * B * 1000 > ceiling[l]]
-    print(f"\n  Lanes over their ceiling: {over if over else 'none'}")
-    print(f"  Indic reaches {PLAN['indic']}% with no crawling, no OCR and no new generation.")
-    print(f"  At 15T the same ceiling would cap it at {ceiling['indic']/1000/15:.1%}.")
-    print(f"\n  9T is {9e12/40e9:.0f} tokens per parameter for a 40B model, against Chinchilla's")
-    print(f"  compute-optimal 20 and Llama-3-70B's ~214. It stays inside the 10 to 30T")
-    print(f"  range Session 3 set for V5 only at its lower edge, and below it by 1T.")
+        share = ceiling[l] / 1000 / B
+        if share >= 1:
+            note = f"{share:.1f}x the whole run"
+            shown = "unconstrained"
+        else:
+            note = "this is the hard limit on the lane"
+            shown = f"{share:.1%}"
+        print(f"{l:<9}{ceiling[l]:>9.0f}B{shown:>17}   {note}")
+    rule(66)
+    print("\n  Web and code can supply more than an entire 9T run on their own, so they")
+    print("  never constrain the mixture. The four scarce lanes each have a real ceiling,")
+    print("  and those ceilings are what the mixture has to be built around.")
+    print("\n  The ceilings are fixed in tokens, so a larger budget would not raise them.")
+    print("  It would only lower each scarce lane's reachable share and push the freed")
+    print("  space into general web, which is the one lane with room to spare.")
+
+    print("\n  The plan checked against these ceilings is in plan_arithmetic.py.")
 
 
 if __name__ == "__main__":

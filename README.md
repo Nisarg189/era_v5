@@ -8,9 +8,8 @@ the end.
 It is written under one hard operating constraint. **The programme has no budget for
 crawling or for optical character recognition**, so every token must come from a
 dataset that has already been published and can simply be downloaded. No purchases, no
-licence negotiations, no outside vendors, no new collection of any kind. That
-constraint turns out to change the most important number in the plan, and section 02
-works through why.
+licence negotiations, no outside vendors, no new collection of any kind. Section 02
+works out what that leaves to train on, and sets the budget from it.
 
 Three of the plan's numbers were not argued for but tested, by training 14 small models
 from scratch. Two survived, one was refuted, and the plan changed because of it.
@@ -41,55 +40,43 @@ with something else.
 Two words recur below. A **lane** is one category of training data, such as code or
 Indic text. The **mixture** is the set of percentages assigned to those lanes.
 
-## 02 The token budget, and why it came down from 15 trillion to 9
+## 02 The token budget, and the ceilings that set it
 
-Session 3 set a target of roughly **15 trillion** pretraining tokens for this 40 billion
-parameter model, reasoning that 15T is about 375 tokens per parameter, far past
-Chinchilla's compute-optimal ratio of about 20, and that training past the optimum is a
+**The pretraining budget is 9 trillion tokens.** For a 40 billion parameter model that is
+225 tokens per parameter, in the same territory as Llama-3-70B at roughly 214, and about
+ten times past Chinchilla's compute-optimal ratio of 20. Training past the optimum is a
 deliberate trade: it costs more once, and produces a smaller model that is cheaper on
-every inference request afterwards. Session 3 showed the V5 target as a 10 to 30
-trillion range.
+every inference request afterwards.
 
-That figure does not survive the no-collection constraint, and the reason is worth
-following carefully because it is the central finding of this plan.
+The figure is set by supply rather than by preference, so it is worth showing the working.
 
-Adding up every published dataset that can be downloaded, including everything in the
-Session 5 inventory and the further corpora listed in section 03, the **ceiling** on
-each lane is fixed. It is the unique tokens available multiplied by how many times they
-can be repeated (four passes for natural text, two for machine-generated). Those
-ceilings are absolute: no arrangement of the mixture can exceed them.
+Adding up every downloadable dataset, each lane has a **ceiling**: the unique tokens
+available multiplied by how many times they may be repeated. Following Muennighoff et al.,
+*Scaling Data-Constrained Language Models* (NeurIPS 2023), natural text holds up to about
+four passes before returns decay sharply, and machine-generated text is held to two
+because its errors compound. Those ceilings are absolute. No arrangement of the mixture
+can exceed them.
 
-Expressed as the largest share of a run each lane could fill, at four candidate budgets:
+| Lane | Ceiling | As a share of a 9T run | |
+|---|---:|---:|---|
+| General web | 19,164B | unconstrained | 2.1x the whole run on its own |
+| Code | 4,412B | 49.0% | ample |
+| Indic | 1,260B | **14.0%** | this is the hard limit on the lane |
+| STEM | 1,076B | **12.0%** | this is the hard limit on the lane |
+| Reasoning | 540B | **6.0%** | this is the hard limit on the lane |
+| Agentic | 63B | **0.7%** | this is the hard limit on the lane |
 
-| Budget | web | code | Indic | STEM | reasoning | agentic |
-|---|---:|---:|---:|---:|---:|---:|
-| 15T | 128% | 29% | **8.4%** | 7.2% | 3.6% | 0.4% |
-| 12T | 160% | 37% | **10.5%** | 9.0% | 4.5% | 0.5% |
-| 9T | 213% | 49% | **14.0%** | 12.0% | 6.0% | 0.7% |
-| 8T | 240% | 55% | **15.7%** | 13.5% | 6.8% | 0.8% |
+Web and code can each supply more than an entire 9T run by themselves, which is why the
+first row reads "unconstrained" rather than a percentage: there is simply no limit worth
+quoting. The four scarce lanes are different. Their ceilings are real, and the mixture has
+to be built around them.
 
-Read the Indic column. **At 15 trillion tokens the Indic lane cannot exceed 8.4 percent
-however the mixture is arranged**, because that is all the Indian-language text there is
-to download. The same holds for STEM at 7.2 percent and reasoning at 3.6 percent.
-
-Whatever the scarce lanes cannot fill has to be filled with general web, the one lane
-with room to spare at any budget. So a 15T budget does not merely permit the web-heavy
-mixture this session warns against, **it forces it, by arithmetic rather than by
-choice**. Chasing a large token count with a fixed data supply is the same mistake as
-assigning a large share to a lane with no data behind it, arriving by a different route.
-
-Shrinking the budget raises every scarce lane's reachable share, because the ceiling is
-fixed in tokens while the denominator falls. **9 trillion tokens is the point at which
-the Indic lane can hold 13 percent, STEM 11 and reasoning 6, entirely from downloadable
-data.** That is 225 tokens per parameter, in the same territory as Llama-3-70B's roughly
-214, and still ten times past Chinchilla-optimal. It sits just below the 10 to 30T range
-Session 3 named, and this document argues Session 3's lower bound was set before the
-supply was counted.
-
-**The trade being made is explicit: fewer total tokens, in exchange for a mixture that
-still contains the capabilities the model exists for.** A 15T run under this constraint
-would be a larger, more general, more English model. A 9T run is a smaller, sharper,
-genuinely multilingual one.
+**Why the budget is not larger.** The ceilings are fixed in tokens, not in shares. Raising
+the budget cannot raise them; it can only lower each scarce lane's reachable share and push
+the freed space into general web, the one lane with room to spare. A budget large enough to
+need more web than this would be buying breadth at the direct cost of Indic, reasoning and
+STEM. 9T is the point at which the scarce lanes can still hold the shares the model needs,
+entirely from data that can be downloaded today.
 
 ## 03 What data actually exists
 
@@ -120,9 +107,9 @@ likely add hundreds of billions of tokens. It is excluded because it requires cr
 compute this programme does not have, and the plan is built to be executed rather than
 admired.
 
-For completeness, Session 3 cites Epoch AI's estimate of roughly 300 trillion tokens of
-public human text in existence. The gap between that and the 6.7 trillion reachable here
-is almost entirely a collection-budget gap, not a scarcity of writing.
+For scale, Session 3 cites Epoch AI's estimate of roughly 300 trillion tokens of public
+human text in existence. The gap between that and the 6.7 trillion reachable here is
+almost entirely a collection-budget gap, not a scarcity of writing.
 
 ## 04 Working backward from the benchmarks
 
@@ -235,14 +222,12 @@ from Sangraha's existing synthetic split.
 machine-generated 20 percent. No new generation is required at all**, and only 117B of
 the 162B of synthetic text already available is needed.
 
-This is a better outcome than the earlier 15T draft of this plan achieved, and it is
-worth being clear about why, because it is counter-intuitive. At 15T the Indic lane
-needed 1.95T tokens against the same fixed supply of native text, so the gap had to be
-filled with generated text until roughly 40 percent of the lane was machine-produced. At
-9T the lane needs 1.17T, which the native and existing synthetic supply covers
-comfortably. **Reducing the budget made the Indic data more authentic, not less.** For a
-model whose stated reason to exist is native fluency in Indian languages, that is the
-argument for 9T on its own.
+This is the direct payoff of sizing the budget to the supply. The Indic lane needs 1.17T
+tokens, and the native and existing synthetic supply covers that comfortably, so nothing
+has to be padded. A larger budget would need more Indic tokens against the same fixed
+supply of native text, and the difference could only be made up with generated text. For a
+model whose stated reason to exist is native fluency in Indian languages, keeping the lane
+authentic is worth more than keeping the token count high.
 
 Quality gates: tier C is accepted only above a fixed round-trip translation agreement
 threshold, which is an automatic check. Tier D is accepted only after native-speaker
@@ -250,44 +235,66 @@ sampling at one document in ten thousand, which the cohort can do itself. Tier A
 never diluted with either and stays separately addressable, so the anneal can draw on it
 alone.
 
-## 08 The agentic slot, which is genuinely short
-
-**Yes. The agentic lane is short, and it is the one place this plan cannot close the
-gap.** Stating that plainly is the point of this section.
+## 08 The agentic slot
 
 Agentic data means complete trajectories: a model planning a task, calling a tool,
 reading the result, recovering when a call fails, continuing until it finishes. It is
 the newest capability slot and the one V4 had almost none of.
 
-The arithmetic. The lane is 1 percent of 9T, which is 90 billion tokens. Everything
-downloadable amounts to **15.6 billion unique tokens**: 0.6B of real trajectories from
-SWE-Gym, SWE-smith, OpenHands, ToolBench and the rest, plus roughly 15B from
-the-stack-github-issues, where an issue, its discussion and the resulting fix form a
-naturally occurring multi-step trace with real observations and real failures.
+**The lane is funded and specified.** 1 percent of the main run, 90 billion tokens, rising
+to **8 percent during the anneal**, with a protected floor of 1 percent that the selector
+may never cross. It is pointed at these datasets:
 
-At four passes that supplies 63 billion tokens against a demand of 90. **The lane runs at
-5.8 epochs, 44 percent over its ceiling.**
+| Source | Unique tokens | What it contributes |
+|---|---:|---|
+| the-stack-github-issues | ~15B | an issue, its discussion and the resulting fix: a naturally occurring multi-step trace with real observations, dead ends and recoveries |
+| SWE-Gym | 0.15B | repository-level task instances with test harnesses |
+| SWE-smith | 0.12B | synthesised repository tasks, execution-validated |
+| OpenHands rollouts | 0.09B | recorded agent sessions end to end |
+| ToolBench | 0.08B | multi-step API use |
+| ToolACE | 0.06B | tool-call generation with verified arguments |
+| Glaive function-calling v2 | 0.05B | single and multi-turn function calls |
+| Nexus / NexusRaven | 0.03B | nested and composed tool calls |
+| xLAM / APIGen | 0.03B | verified function-calling data |
+| Hermes function-calling | 0.02B | conversational tool use |
+| **Total** | **15.6B** | |
 
-Three options existed and the third was chosen:
+Every one of these carries the masking rule from section 04: loss on the model's planning,
+tool calls and final answer, never on the tool's response.
 
-1. **Cut the lane to 0.7 percent** so it fits at four epochs. Rejected: agentic ability
-   is a headline goal, and 0.7 percent is below any plausible threshold for teaching it.
+**The honest weakness.** 90 billion tokens drawn from 15.6 billion unique means the lane
+runs at **5.8 epochs, 44 percent above its ceiling**. It is the only lane in the plan that
+does not fit, and no arrangement of downloadable data fixes it.
+
+Three options existed:
+
+1. **Cut the lane to 0.7 percent** so it fits at four passes. Rejected: that is below any
+   plausible threshold for teaching the behaviour, and it would mean abandoning a headline
+   capability to satisfy a guideline.
 2. **Generate the difference**, roughly 7 billion unique trajectory tokens from sandboxed
-   execution. Rejected under the operating constraint: generating validated trajectories
-   at that volume needs inference compute the programme cannot fund, and unvalidated
-   trajectories teach the model to hallucinate tool results.
-3. **Accept the overage and say so.** Chosen. The lane is 1 percent of the run, so the
-   cost of over-repeating it is bounded and small, and the alternative is a model with no
-   agentic capability at all.
+   execution. Rejected under the operating constraint: validated trajectories at that
+   volume need inference compute the programme cannot fund, and unvalidated ones teach the
+   model to hallucinate tool results, which is worse than having none.
+3. **Accept the overage and declare it.** Chosen.
 
-The honest position: **this plan does not fully fund agentic capability during
-pretraining, and it does not pretend to.** What pretraining buys here is familiarity with
-the *shape* of a trajectory. The capability itself is bought after pretraining, in
-supervised fine-tuning and reinforcement learning, where token counts are tiny and
-execution feedback does the teaching. That is also why the anneal raises this lane from
-1 percent to 8. If agentic performance has to improve within pretraining, the only
-honest lever is a collection budget, and section 17 records that as a decision point
-rather than hiding it inside a percentage.
+The reasoning for choosing the third. The lane is 1 percent of the run, so the waste from
+over-repeating it is bounded and small in absolute terms. Repetition decays gradually
+rather than falling off a cliff, so 5.8 passes is past the comfortable range but well short
+of the point where added passes are worthless. And the benchmarks this lane targets are not
+fed by it alone: SWE-bench performance depends heavily on code ability, which the 29 percent
+code lane supplies in full, so an under-supplied agentic lane is partly compensated rather
+than simply lost.
+
+**What this lane is and is not buying.** Pretraining here buys familiarity with the *shape*
+of a trajectory: that a task is planned, that a tool is called, that its output is read
+rather than invented, that a failure is recovered from. The capability itself is bought
+afterwards, in supervised fine-tuning and reinforcement learning, where token counts are
+tiny and execution feedback does the teaching. That is why the anneal raises this lane
+eightfold, spending the best trajectories on a model finally able to use them.
+
+If agentic performance has to improve within pretraining itself, the only honest lever is a
+collection budget for trajectory generation. Section 17 records that as an open decision
+for the programme rather than burying it inside a percentage.
 
 ## 09 Difficulty bands
 
@@ -654,16 +661,22 @@ if the refutation happens.
 That discipline produced the anneal result above: the threshold was fixed first, which is
 why a disappointing outcome became a finding rather than something to explain away.
 
-**None of the tests below have been run.** They are specified, not reported. The benchmarks
-named are public: MILU is AI4Bharat's multi-task Indic understanding benchmark, available
-on HuggingFace as `ai4bharat/MILU`, and IndicGenBench, LiveCodeBench and SWE-bench all ship
-public evaluation harnesses. The proxy in sections 14 and 15 could not run any of them,
-because a 9 million parameter model scores at chance on all of them; that is precisely why
-these tests need 1B and 3B scale.
+**None of the tests below have been run, and the last two columns are not predictions.**
+They are thresholds written down in advance: the result that *would* count as confirmation
+if it were observed, and the result that *would* count as refutation. Nothing in them is a
+claim about what will happen. A row reading "MILU still rising between 10 and 13 percent"
+means "if MILU is still rising there, the 13 percent share stands", not "MILU rises there".
 
-| Test | Scale | Metric | Confirms | Refutes |
+The benchmarks named are public. MILU is AI4Bharat's multi-task Indic understanding
+benchmark, on HuggingFace as `ai4bharat/MILU`; IndicGenBench, LiveCodeBench and SWE-bench
+all ship public evaluation harnesses. The proxy in sections 14 and 15 could not run any of
+them, because a 9 million parameter model scores at chance on all of them. That is exactly
+why these tests need 1B and 3B scale, and why the proxy had to fall back on held-out bits
+per byte instead.
+
+| Test | Scale | Metric | Result that would confirm | Result that would refute |
 |---|---|---|---|---|
-| Indic share sweep at 6 / 10 / 13 / 18% | 1B, 20B tokens | MILU, IndicGenBench | MILU still rising between 10% and 13%, other benchmarks down under 1% | MILU flat by 10%, or non-Indic cost above 1% |
+| Indic share sweep at 6 / 10 / 13 / 18% | 1B, 20B tokens | MILU, IndicGenBench | MILU still rising between 10% and 13%, with other benchmarks down by under 1% | MILU flat by 10%, or non-Indic cost above 1% |
 | Anneal reserve, matched tokens, **warmup-stable-decay schedule** so the decay coincides with the reserve | 3B, 60B tokens | MILU, LiveCodeBench | Reserve beats even spending by 1% or more | Under 0.3%, or reversed, as at proxy scale |
 | Selection inside lane budgets against selection across lanes with floors | 1B, 20B tokens | Kept-token rate per lane, MILU, LiveCodeBench | Per-lane selection holds every lane at its designed share and wins | Global selection with floors matches it on every lane |
 | **Deduplicated token count of the added corpora in section 03** | offline, no training | Unique tokens after dedup against the inventory | Indic yields 120B or more | Below 80B |
@@ -680,15 +693,17 @@ Pre-committed consequences:
   to about 7.5T, rather than the Indic share being cut. Section 02's logic runs in both
   directions: the budget is a function of the supply, so a smaller supply means a smaller
   budget, not a thinner mixture.
-- If agentic performance at 1B is unacceptable, the only remaining lever is a collection
-  budget for trajectory generation. That is recorded as a decision for the programme rather
-  than absorbed into a percentage.
+- **Agentic is an open decision, not a settled one.** The lane runs 44 percent over its
+  ceiling (section 08) and no arrangement of downloadable data fixes that. If agentic
+  benchmarks at 1B come back unacceptable, the only remaining levers are a collection budget
+  for trajectory generation or accepting that the capability is bought entirely after
+  pretraining. The plan does not pretend to have resolved this.
 
 ## 18 The plan, as numbers
 
 | Item | Value |
 |---|---|
-| Pretraining budget | **9T tokens**, reduced from 15T because supply caps the scarce lanes (section 02) |
+| Pretraining budget | **9T tokens**, set by the supply ceilings on the scarce lanes (section 02) |
 | Model | 40B dense, 225 tokens per parameter |
 | Headline mixture | web 40, code 29, Indic 13, STEM 11, reasoning 6, agentic 1 |
 | Stage S0, seed | 0 to 2%, 0.18T, web 60 / code 14 / Indic 14 / STEM 9 / reason 2 / agentic 1, seq 4K, bands B0 to B1 |

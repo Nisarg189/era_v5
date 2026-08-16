@@ -40,11 +40,23 @@ def e1():
             base = (bpb(r, "indic"), non)
         print(f"{lbl:<14}" + "".join(f"{bpb(r,l):>10.4f}" for l in LANES) + f"{non:>15.4f}")
     rule(74)
-    print(f"\n{'indic share':<14}{'indic bpb':>12}{'gain vs 0%':>13}{'cost to others':>16}")
+    print(f"\ncumulative, against the 0% model")
+    print(f"{'indic share':<14}{'indic bpb':>12}{'indic gain':>13}{'cost to others':>16}")
+    rows = []
     for lbl, r in rs:
         non = sum(bpb(r, l) for l in LANES if l != "indic") / 3
-        print(f"{lbl:<14}{bpb(r,'indic'):>12.4f}{(base[0]-bpb(r,'indic'))/base[0]:>12.1%}"
-              f"{(non-base[1])/base[1]:>15.2%}")
+        g = (base[0] - bpb(r, "indic")) / base[0] * 100
+        c = (non - base[1]) / base[1] * 100
+        rows.append((lbl, g, c))
+        print(f"{lbl:<14}{bpb(r,'indic'):>12.4f}{g:>12.1f}%{c:>15.2f}%")
+
+    print(f"\nmarginal, step by step: what each increment adds and what it costs")
+    print(f"{'step':<16}{'indic gain':>13}{'cost':>10}{'gain per unit cost':>21}")
+    for i in range(1, len(rows)):
+        dg = rows[i][1] - rows[i - 1][1]
+        dc = rows[i][2] - rows[i - 1][2]
+        step = f"{rows[i-1][0].split()[0]} to {rows[i][0].split()[0]}"
+        print(f"{step:<16}{dg:>12.1f}{dc:>10.2f}{dg/dc:>21.1f}")
     print()
 
 

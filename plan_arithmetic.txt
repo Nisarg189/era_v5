@@ -1,106 +1,77 @@
-CURRICULUM — six stages, each with its own mixture (percent of that stage)
+CURRICULUM — six stages, each with its own mixture, over 9.0T tokens
+percentages are of that stage's own tokens, so each row totals 100
 
-stage             span   tokens      web     code    indic     stem   reason  longctx  agentic
----------------------------------------------------------------------------------------
-S0 seed            2%    0.30T       52       14       15       10        3        2        4
-S1 general        32%    4.80T       46       20       14       11        4        2        3
-S2 capability     32%    4.80T       30       31       12       12        8        4        3
-S3 reasoning      18%    2.70T       22       26       12        9       17       11        3
-S4 long-ctx       13%    1.95T       18       24       12        6       11       26        3
-S5 anneal          3%    0.45T        8       16       26       10       18       10       12
----------------------------------------------------------------------------------------
-implied average  100%   15.00T     31.9     24.9     13.1     10.3      8.9      7.6      3.3
-headline mixture                      32       25       13       10        9        8        3
-
-  The headline mixture is not chosen separately. It is what the stages average to.
+stage              span of run   tokens      web     code    indic     stem   reason  agentic
+---------------------------------------------------------------------------------------------
+S0 seed               0% to 2%    0.18T       60       14       14        9        2        1
+S1 general           2% to 34%    2.88T       56       22       13        7        1        1
+S2 capability       34% to 66%    2.88T       36       33       12       15        3        1
+S3 reasoning        66% to 84%    1.62T       26       31       13       12       17        1
+S4 long context     84% to 97%    1.17T       31       35       14        9       10        1
+S5 anneal          97% to 100%    0.27T       10       20       28       12       22        8
+---------------------------------------------------------------------------------------------
+implied average           100%    9.00T     39.6     28.6     13.3     10.9      6.3      1.2
+headline mixture                              40       29       13       11        6        1
 
 
-MAIN PRETRAINING MIXTURE vs SUPPLY — 15.0T tokens, 4-epoch repetition cap
+DOES THE DATA EXIST? — ceilings from published datasets only
 
-lane      share   demand   invent   added  effective  epochs  verdict
+lane       share    demand   ceiling  headroom  epochs  verdict
 ------------------------------------------------------------------------------
-web         32%    4.80T    4.69T   0.00T      4.69T     1.0  repeat 1.0x
-code        25%    3.75T    1.10T   0.00T      1.10T     3.4  repeat 3.4x
-indic       13%    1.95T    0.28T   0.39T      0.66T     3.0  repeat 3.0x
-stem        10%    1.50T    0.15T   0.35T      0.50T     3.0  repeat 3.0x
-reason       9%    1.35T    0.09T   0.28T      0.37T     3.7  repeat 3.7x
-longctx      8%    1.20T    0.10T   0.60T      0.70T     1.7  repeat 1.7x
-agentic      3%    0.45T    0.00T   0.13T      0.13T     3.4  repeat 3.4x
+web          40%     3600B    19164B    81.2%     0.8  fits
+code         29%     2610B     4412B    40.8%     2.4  fits
+indic        13%     1170B     1260B     7.1%     3.0  fits
+stem         11%      990B     1076B     8.0%     3.7  fits
+reason        6%      540B      540B     0.1%     4.0  fits
+agentic       1%       90B       63B   -44.0%     5.8  OVER by 44%
 ------------------------------------------------------------------------------
-total      100%   15.00T    6.40T   1.75T      8.15T     1.8
 
-  The 6.40T column is the Session 5 inventory: 32 named, filtered,
-  licensed corpora. It is not the world's supply. Session 3 cites Epoch AI at
-  ~300T tokens of public human text, so the inventory is 2.1% of it.
-  That distinction decides which shortages are real:
-    web      abundant in the world, the inventory row is a quality-filtered slice
-    stem     abundant, mostly a labelling and extraction problem
-    longctx  not a shortage at all, it is a packing decision over other lanes
-    indic    genuinely scarce in the world, not merely uncollected
-    reason   genuinely scarce, and the most legitimately generatable
-    agentic  barely exists anywhere, must be mined and built
+  Over ceiling: ['agentic']. Every other lane fits with no new
+  collection of any kind. Long context is absent as a lane on purpose: it is a
+  sequence-length policy applied to the web and code lanes in S4, not a separate
+  pool of tokens, and counting it separately would double-count them.
 
 
-WHERE THE 1.75T OF NEW UNIQUE TOKENS COMES FROM
+INDIC SLOT — 13% = 1170B, by provenance tier
 
-  indic      0.20T  harvest  re-mine the full Common Crawl archive for Indian-language pages, plus openly licensed public-sector text: court judgments, Parliament and assembly proceedings, gazettes, NCERT and state textbooks, NPTEL and SWAYAM transcripts, Indian-language Wikipedia and Wikisource, National Digital Library public-domain scans -> tier A, native text
-  indic      0.18T  generate translation of curated English with IndicTrans2 into tier C, templated and self-instruct text into tier D, both at 2 epochs
-  stem       0.25T  mine     classifier-selected STEM already inside DCLM and FineWeb-Edu, relabelled rather than re-sourced
-  stem       0.10T  harvest  arXiv bulk access, PubMed Central open-access subset, OpenStax and other open textbooks
-  longctx    0.60T  pack     documents and repositories of 8K tokens or more already inside the web and code lanes
-  reason     0.28T  generate teacher distillation filtered by verifiable rewards
-  agentic    0.10T  mine     issue to pull-request to diff chains, CI logs, notebooks and shell sessions inside the code lane
-  agentic    0.03T  generate execution-verified trajectories in tool sandboxes
-------------------------------------------------------------------------------
-             0.60T  pack
-             0.49T  generate
-             0.35T  mine
-             0.30T  harvest
+tier                    unique   epochs    tokens  % of slot
+------------------------------------------------------------
+A verified native        72.0B       4x      288B     24.6%
+B unverified crawl      156.9B       4x      628B     53.6%
+C translated              5.0B       4x       20B      1.7%
+D synthetic             117.2B       2x      234B     20.0%
+------------------------------------------------------------
+total                                       1170B    100.0%
 
-  Only 0.49T of the 1.75T is model-generated. The rest is
-  harvested, mined or repacked. Every source is open, public-domain or already
-  held: no purchase, licence negotiation or outside vendor is required.
+  Native text (tiers A and B): 78% of the slot
+  Model-generated (tier D):    20%, using 117B of the 162B already available
+
+  No new generation is required. The synthetic tier is drawn entirely from
+  Sangraha's existing synthetic split, and not all of it is needed.
 
 
-INDIC SLOT — 13% = 1.95T, by provenance tier
-
-tier                  existing     new  epochs    tokens  % of slot
--------------------------------------------------------------------
-A verified native        64.0B    200B      4x     1056B     54.2%
-B unverified crawl       44.9B      0B      4x      180B      9.2%
-C translated              5.0B     60B      2x      130B      6.7%
-D synthetic             162.0B    125B      2x      574B     29.4%
--------------------------------------------------------------------
-total                   275.9B    385B             1940B     99.5%
-
-  Native text (tiers A and B):  63% of the slot
-  Model-generated (tier D):     29% of the slot
-
-  The lever is acquisition, not generation. 200B newly digitised native tokens
-  move tier A from 13% to 54% of the slot. No amount of synthetic text does that.
-
-
-AGENTIC SLOT — 3% = 450B against 0.63B natural trajectories
-  Natural supply covers 0.6% of the slot even at 4 epochs.
-  A trajectory runs 15-30K tokens, so the 30B generated portion is roughly 1.4M validated trajectories.
+AGENTIC SLOT — 1% = 90B against a 63B ceiling
+  The one lane the constraint cannot satisfy. It runs at 5.8 epochs, above
+  the 4-epoch guideline, and the overage is accepted deliberately: the lane is 1%
+  of the run, the alternative is no agentic capability at all, and buying it any
+  other way needs generation the programme cannot fund.
 
 
 PROTECTED FLOORS — the selector may not go below these in any batch
 
   indic     10%   (headline share 13%)
-  reason     5%   (headline share 9%)
-  agentic    2%   (headline share 3%)
-  total     17% of every batch is outside the selector's control
+  reason     4%   (headline share 6%)
+  agentic    1%   (headline share 1%)
+  total     15% of every batch is outside the selector's control
 
 
-ANNEAL — 3% of the budget = 0.45T held back for the cooldown
+ANNEAL — 3% of the budget = 270B held back for the cooldown
 
 lane        anneal  headline   change
 -------------------------------------
-indic          26%       13%     +13pp
-reason         18%        9%      +9pp
-code           16%       25%      -9pp
-agentic        12%        3%      +9pp
-stem           10%       10%      +0pp
-longctx        10%        8%      +2pp
-web             8%       32%     -24pp
+indic          28%       13%     +15pp
+reason         22%        6%     +16pp
+code           20%       29%      -9pp
+stem           12%       11%      +1pp
+web            10%       40%     -30pp
+agentic         8%        1%      +7pp

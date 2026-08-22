@@ -1,0 +1,55 @@
+{
+ "wall_seconds": 75.969,
+ "loader_seconds": 20.458,
+ "compute_seconds": 38.674,
+ "selector_scoring_seconds": 9.481,
+ "steps": 268,
+ "sequences": 4296,
+ "raw_token_positions": 715776,
+ "pad_positions": 7429,
+ "context_only_positions": 9245,
+ "loss_bearing_tokens": 699102,
+ "accepted_tokens_after_opus": 303793,
+ "offered_tokens_to_opus": 410363,
+ "raw_tokens_per_second": 9422.0,
+ "useful_loss_bearing_tokens_per_second": 9202.5,
+ "accepted_tokens_per_second": 3998.9,
+ "packing_occupancy": 0.989621,
+ "loss_coverage_of_positions": 0.976705,
+ "compute_idle_fraction": 0.49092,
+ "loader_wait_fraction": 0.269293,
+ "selector_overhead_fraction": 0.124807,
+ "seconds_per_step": 0.2835,
+ "phase_seconds": {
+  "corpus_seconds": 0.1549,
+  "reference_model_seconds": 3.4866,
+  "run_a_seconds": 28.176,
+  "resume_latency_seconds": 0.0063,
+  "replay_latency_seconds": 0.1772
+ },
+ "opus_rejection_rate_by_lane": {
+  "web": 0.2407,
+  "code": 0.5434,
+  "indic": 0.3646,
+  "stem": 0.5478,
+  "reasoning": 0.1053,
+  "agentic": 0.0
+ },
+ "opus_totals": {
+  "accepted": 281,
+  "rejected": 1639,
+  "deferred": 474,
+  "protected": 558,
+  "quota_topup": 1059
+ },
+ "opus_acceptance_rate": 0.740303,
+ "reconstruction_from_ledger": {
+  "ledger_raw_token_positions": 715776,
+  "report_raw_token_positions": 715776,
+  "ledger_loss_bearing_tokens": 699102,
+  "report_loss_bearing_tokens": 699102,
+  "raw_matches": true,
+  "loss_matches": true,
+  "ok": true
+ }
+}

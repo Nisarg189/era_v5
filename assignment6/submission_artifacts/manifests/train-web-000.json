@@ -1,0 +1,3433 @@
+{
+ "shard_id": "train-web-000",
+ "content_hash": "6b03625030a39ab7b3b0217c445e3ccf0782307140624114a783814d69b5840a",
+ "token_file": "train-web-000.npy",
+ "n_tokens": 226128,
+ "n_samples": 200,
+ "n_loss_tokens": 226128,
+ "samples": [
+  {
+   "sample_id": "web-00000",
+   "doc_id": "web-00000",
+   "source_row_id": "<urn:uuid:673b1bf6-2c30-40ae-992b-c387d00a836a>",
+   "kind": "pretrain",
+   "start": 0,
+   "end": 982,
+   "n_tokens": 982,
+   "n_loss_tokens": 982,
+   "spans": [
+    [
+     0,
+     982,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00001",
+   "doc_id": "web-00001",
+   "source_row_id": "<urn:uuid:e2300ad5-01dd-4e80-92b3-7ec88785cc9d>",
+   "kind": "pretrain",
+   "start": 982,
+   "end": 1258,
+   "n_tokens": 276,
+   "n_loss_tokens": 276,
+   "spans": [
+    [
+     982,
+     1258,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00002",
+   "doc_id": "web-00002",
+   "source_row_id": "<urn:uuid:e6ba92ad-ed0a-4cac-8e5d-204b78cdd250>",
+   "kind": "pretrain",
+   "start": 1258,
+   "end": 1368,
+   "n_tokens": 110,
+   "n_loss_tokens": 110,
+   "spans": [
+    [
+     1258,
+     1368,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00003",
+   "doc_id": "web-00003",
+   "source_row_id": "<urn:uuid:3b2c1a91-4f52-464d-ad69-49c1cbadaba8>",
+   "kind": "pretrain",
+   "start": 1368,
+   "end": 1802,
+   "n_tokens": 434,
+   "n_loss_tokens": 434,
+   "spans": [
+    [
+     1368,
+     1802,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00004",
+   "doc_id": "web-00004",
+   "source_row_id": "<urn:uuid:a69aabbc-f529-4d67-843a-a5c3cb4e8fe0>",
+   "kind": "pretrain",
+   "start": 1802,
+   "end": 3428,
+   "n_tokens": 1626,
+   "n_loss_tokens": 1626,
+   "spans": [
+    [
+     1802,
+     3428,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00005",
+   "doc_id": "web-00005",
+   "source_row_id": "<urn:uuid:f7082439-68e9-45b6-a427-4600dceaf5e3>",
+   "kind": "pretrain",
+   "start": 3428,
+   "end": 4583,
+   "n_tokens": 1155,
+   "n_loss_tokens": 1155,
+   "spans": [
+    [
+     3428,
+     4583,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00006",
+   "doc_id": "web-00006",
+   "source_row_id": "<urn:uuid:9c71b6db-6728-48b5-96b5-05fbc0b5bb4f>",
+   "kind": "pretrain",
+   "start": 4583,
+   "end": 5030,
+   "n_tokens": 447,
+   "n_loss_tokens": 447,
+   "spans": [
+    [
+     4583,
+     5030,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00007",
+   "doc_id": "web-00007",
+   "source_row_id": "<urn:uuid:f5c220a7-7276-4cf2-9208-33679d478b1f>",
+   "kind": "pretrain",
+   "start": 5030,
+   "end": 6777,
+   "n_tokens": 1747,
+   "n_loss_tokens": 1747,
+   "spans": [
+    [
+     5030,
+     6777,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00008",
+   "doc_id": "web-00008",
+   "source_row_id": "<urn:uuid:ff577d1a-83b8-467c-af1c-4c0aa2ead4fb>",
+   "kind": "pretrain",
+   "start": 6777,
+   "end": 9322,
+   "n_tokens": 2545,
+   "n_loss_tokens": 2545,
+   "spans": [
+    [
+     6777,
+     9322,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00009",
+   "doc_id": "web-00009",
+   "source_row_id": "<urn:uuid:69d15397-ebe5-4147-830d-84d945741e63>",
+   "kind": "pretrain",
+   "start": 9322,
+   "end": 10474,
+   "n_tokens": 1152,
+   "n_loss_tokens": 1152,
+   "spans": [
+    [
+     9322,
+     10474,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00010",
+   "doc_id": "web-00010",
+   "source_row_id": "<urn:uuid:e5ac96fc-a147-40c0-a0ba-bc1fa8515745>",
+   "kind": "pretrain",
+   "start": 10474,
+   "end": 10787,
+   "n_tokens": 313,
+   "n_loss_tokens": 313,
+   "spans": [
+    [
+     10474,
+     10787,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00011",
+   "doc_id": "web-00011",
+   "source_row_id": "<urn:uuid:2653877c-a97a-4524-a9e3-91af93f1f619>",
+   "kind": "pretrain",
+   "start": 10787,
+   "end": 14011,
+   "n_tokens": 3224,
+   "n_loss_tokens": 3224,
+   "spans": [
+    [
+     10787,
+     14011,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00012",
+   "doc_id": "web-00012",
+   "source_row_id": "<urn:uuid:17b26358-fba0-4434-86b5-ce1458abe71f>",
+   "kind": "pretrain",
+   "start": 14011,
+   "end": 14417,
+   "n_tokens": 406,
+   "n_loss_tokens": 406,
+   "spans": [
+    [
+     14011,
+     14417,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00013",
+   "doc_id": "web-00013",
+   "source_row_id": "<urn:uuid:37377bba-5d22-4f0b-91a9-cd45df72de7c>",
+   "kind": "pretrain",
+   "start": 14417,
+   "end": 14825,
+   "n_tokens": 408,
+   "n_loss_tokens": 408,
+   "spans": [
+    [
+     14417,
+     14825,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00014",
+   "doc_id": "web-00014",
+   "source_row_id": "<urn:uuid:4b29297a-7223-4dae-a9fc-a294677b62b3>",
+   "kind": "pretrain",
+   "start": 14825,
+   "end": 17437,
+   "n_tokens": 2612,
+   "n_loss_tokens": 2612,
+   "spans": [
+    [
+     14825,
+     17437,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00015",
+   "doc_id": "web-00015",
+   "source_row_id": "<urn:uuid:e7f0a003-07f1-4148-a77c-6e0cb215fc0e>",
+   "kind": "pretrain",
+   "start": 17437,
+   "end": 17969,
+   "n_tokens": 532,
+   "n_loss_tokens": 532,
+   "spans": [
+    [
+     17437,
+     17969,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00016",
+   "doc_id": "web-00016",
+   "source_row_id": "<urn:uuid:049ed48d-f01e-4fc9-846b-2e2c5e6c254d>",
+   "kind": "pretrain",
+   "start": 17969,
+   "end": 21334,
+   "n_tokens": 3365,
+   "n_loss_tokens": 3365,
+   "spans": [
+    [
+     17969,
+     21334,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00017",
+   "doc_id": "web-00017",
+   "source_row_id": "<urn:uuid:749f4f2e-01bf-42ab-ac03-1dfa84af34dc>",
+   "kind": "pretrain",
+   "start": 21334,
+   "end": 22849,
+   "n_tokens": 1515,
+   "n_loss_tokens": 1515,
+   "spans": [
+    [
+     21334,
+     22849,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00018",
+   "doc_id": "web-00018",
+   "source_row_id": "<urn:uuid:9b2b1d71-d1b0-4968-9420-c92bddd3e0ae>",
+   "kind": "pretrain",
+   "start": 22849,
+   "end": 23892,
+   "n_tokens": 1043,
+   "n_loss_tokens": 1043,
+   "spans": [
+    [
+     22849,
+     23892,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00019",
+   "doc_id": "web-00019",
+   "source_row_id": "<urn:uuid:5d156165-181a-4195-a926-d51850c7b599>",
+   "kind": "pretrain",
+   "start": 23892,
+   "end": 24683,
+   "n_tokens": 791,
+   "n_loss_tokens": 791,
+   "spans": [
+    [
+     23892,
+     24683,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00020",
+   "doc_id": "web-00020",
+   "source_row_id": "<urn:uuid:fb237ffb-9cc0-4077-99d5-56c6fce1ca5f>",
+   "kind": "pretrain",
+   "start": 24683,
+   "end": 26144,
+   "n_tokens": 1461,
+   "n_loss_tokens": 1461,
+   "spans": [
+    [
+     24683,
+     26144,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00021",
+   "doc_id": "web-00021",
+   "source_row_id": "<urn:uuid:04a92c65-e194-4b3c-ae6e-d4a7b6b1631d>",
+   "kind": "pretrain",
+   "start": 26144,
+   "end": 26702,
+   "n_tokens": 558,
+   "n_loss_tokens": 558,
+   "spans": [
+    [
+     26144,
+     26702,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00022",
+   "doc_id": "web-00022",
+   "source_row_id": "<urn:uuid:f673350f-8b06-4580-b54b-a3217aacfede>",
+   "kind": "pretrain",
+   "start": 26702,
+   "end": 28060,
+   "n_tokens": 1358,
+   "n_loss_tokens": 1358,
+   "spans": [
+    [
+     26702,
+     28060,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00023",
+   "doc_id": "web-00023",
+   "source_row_id": "<urn:uuid:9dc0e204-f56c-43cf-b426-74e04dd58130>",
+   "kind": "pretrain",
+   "start": 28060,
+   "end": 28471,
+   "n_tokens": 411,
+   "n_loss_tokens": 411,
+   "spans": [
+    [
+     28060,
+     28471,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00024",
+   "doc_id": "web-00024",
+   "source_row_id": "<urn:uuid:0d8a309d-25c5-405d-a08a-c11239f0d717>",
+   "kind": "pretrain",
+   "start": 28471,
+   "end": 29528,
+   "n_tokens": 1057,
+   "n_loss_tokens": 1057,
+   "spans": [
+    [
+     28471,
+     29528,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00025",
+   "doc_id": "web-00025",
+   "source_row_id": "<urn:uuid:ac6a19cf-dd31-4352-bb69-1c00f45050a7>",
+   "kind": "pretrain",
+   "start": 29528,
+   "end": 31262,
+   "n_tokens": 1734,
+   "n_loss_tokens": 1734,
+   "spans": [
+    [
+     29528,
+     31262,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00026",
+   "doc_id": "web-00026",
+   "source_row_id": "<urn:uuid:ee4268b8-d3ab-4049-a3ac-f695c938a3ca>",
+   "kind": "pretrain",
+   "start": 31262,
+   "end": 31557,
+   "n_tokens": 295,
+   "n_loss_tokens": 295,
+   "spans": [
+    [
+     31262,
+     31557,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00027",
+   "doc_id": "web-00027",
+   "source_row_id": "<urn:uuid:a51737a0-6a1a-4721-a739-791f50bfecba>",
+   "kind": "pretrain",
+   "start": 31557,
+   "end": 34331,
+   "n_tokens": 2774,
+   "n_loss_tokens": 2774,
+   "spans": [
+    [
+     31557,
+     34331,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00028",
+   "doc_id": "web-00028",
+   "source_row_id": "<urn:uuid:f03bdf02-ee92-4cf8-bf3e-b8881d16ad7a>",
+   "kind": "pretrain",
+   "start": 34331,
+   "end": 34621,
+   "n_tokens": 290,
+   "n_loss_tokens": 290,
+   "spans": [
+    [
+     34331,
+     34621,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00029",
+   "doc_id": "web-00029",
+   "source_row_id": "<urn:uuid:ea2a4a62-5765-4ec7-ba52-1a99029763a0>",
+   "kind": "pretrain",
+   "start": 34621,
+   "end": 36235,
+   "n_tokens": 1614,
+   "n_loss_tokens": 1614,
+   "spans": [
+    [
+     34621,
+     36235,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00030",
+   "doc_id": "web-00030",
+   "source_row_id": "<urn:uuid:34a18b86-5717-4716-8eed-650c970bbd9c>",
+   "kind": "pretrain",
+   "start": 36235,
+   "end": 36477,
+   "n_tokens": 242,
+   "n_loss_tokens": 242,
+   "spans": [
+    [
+     36235,
+     36477,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00031",
+   "doc_id": "web-00031",
+   "source_row_id": "<urn:uuid:a787fa6b-c56e-4652-88cc-84e18746f986>",
+   "kind": "pretrain",
+   "start": 36477,
+   "end": 36775,
+   "n_tokens": 298,
+   "n_loss_tokens": 298,
+   "spans": [
+    [
+     36477,
+     36775,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00032",
+   "doc_id": "web-00032",
+   "source_row_id": "<urn:uuid:87230adf-bb1f-4b4b-9c4e-ebaed1589758>",
+   "kind": "pretrain",
+   "start": 36775,
+   "end": 37336,
+   "n_tokens": 561,
+   "n_loss_tokens": 561,
+   "spans": [
+    [
+     36775,
+     37336,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00033",
+   "doc_id": "web-00033",
+   "source_row_id": "<urn:uuid:6ad66c1d-7e72-4ed4-889b-c4b7f1b988a7>",
+   "kind": "pretrain",
+   "start": 37336,
+   "end": 38903,
+   "n_tokens": 1567,
+   "n_loss_tokens": 1567,
+   "spans": [
+    [
+     37336,
+     38903,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00034",
+   "doc_id": "web-00034",
+   "source_row_id": "<urn:uuid:3d310cea-07c0-49a6-a372-5da020bfac96>",
+   "kind": "pretrain",
+   "start": 38903,
+   "end": 39598,
+   "n_tokens": 695,
+   "n_loss_tokens": 695,
+   "spans": [
+    [
+     38903,
+     39598,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00035",
+   "doc_id": "web-00035",
+   "source_row_id": "<urn:uuid:6d64f04d-9635-43ad-b483-874653a0280b>",
+   "kind": "pretrain",
+   "start": 39598,
+   "end": 39886,
+   "n_tokens": 288,
+   "n_loss_tokens": 288,
+   "spans": [
+    [
+     39598,
+     39886,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00036",
+   "doc_id": "web-00036",
+   "source_row_id": "<urn:uuid:549e680b-1e0f-40fd-b7f5-2a96abd000ee>",
+   "kind": "pretrain",
+   "start": 39886,
+   "end": 40248,
+   "n_tokens": 362,
+   "n_loss_tokens": 362,
+   "spans": [
+    [
+     39886,
+     40248,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00037",
+   "doc_id": "web-00037",
+   "source_row_id": "<urn:uuid:fc2b2237-bb58-4d64-ab60-655ff3250f48>",
+   "kind": "pretrain",
+   "start": 40248,
+   "end": 41103,
+   "n_tokens": 855,
+   "n_loss_tokens": 855,
+   "spans": [
+    [
+     40248,
+     41103,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00038",
+   "doc_id": "web-00038",
+   "source_row_id": "<urn:uuid:dbaccb35-1074-476c-9b46-8f3c424bfecd>",
+   "kind": "pretrain",
+   "start": 41103,
+   "end": 41516,
+   "n_tokens": 413,
+   "n_loss_tokens": 413,
+   "spans": [
+    [
+     41103,
+     41516,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00039",
+   "doc_id": "web-00039",
+   "source_row_id": "<urn:uuid:1dc7b057-7b64-4e02-98fa-2e3e2cfcf30c>",
+   "kind": "pretrain",
+   "start": 41516,
+   "end": 42052,
+   "n_tokens": 536,
+   "n_loss_tokens": 536,
+   "spans": [
+    [
+     41516,
+     42052,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00040",
+   "doc_id": "web-00040",
+   "source_row_id": "<urn:uuid:c23e3842-a002-4f6b-9554-bafecec0beed>",
+   "kind": "pretrain",
+   "start": 42052,
+   "end": 43070,
+   "n_tokens": 1018,
+   "n_loss_tokens": 1018,
+   "spans": [
+    [
+     42052,
+     43070,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00041",
+   "doc_id": "web-00041",
+   "source_row_id": "<urn:uuid:d904d662-9bf2-45c5-84ed-06cf69edb907>",
+   "kind": "pretrain",
+   "start": 43070,
+   "end": 44210,
+   "n_tokens": 1140,
+   "n_loss_tokens": 1140,
+   "spans": [
+    [
+     43070,
+     44210,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00042",
+   "doc_id": "web-00042",
+   "source_row_id": "<urn:uuid:ed02b25b-582c-477f-af77-6a012b479875>",
+   "kind": "pretrain",
+   "start": 44210,
+   "end": 44876,
+   "n_tokens": 666,
+   "n_loss_tokens": 666,
+   "spans": [
+    [
+     44210,
+     44876,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00043",
+   "doc_id": "web-00043",
+   "source_row_id": "<urn:uuid:8d4a15ce-d5a1-46a3-8559-fc86e518e7af>",
+   "kind": "pretrain",
+   "start": 44876,
+   "end": 45626,
+   "n_tokens": 750,
+   "n_loss_tokens": 750,
+   "spans": [
+    [
+     44876,
+     45626,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00044",
+   "doc_id": "web-00044",
+   "source_row_id": "<urn:uuid:4ce7de22-3c25-4bad-bc9d-a9c0f9bd5995>",
+   "kind": "pretrain",
+   "start": 45626,
+   "end": 45879,
+   "n_tokens": 253,
+   "n_loss_tokens": 253,
+   "spans": [
+    [
+     45626,
+     45879,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00045",
+   "doc_id": "web-00045",
+   "source_row_id": "<urn:uuid:1cc8b0a2-d46f-4902-a772-34d1eb6bb5dc>",
+   "kind": "pretrain",
+   "start": 45879,
+   "end": 46038,
+   "n_tokens": 159,
+   "n_loss_tokens": 159,
+   "spans": [
+    [
+     45879,
+     46038,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00046",
+   "doc_id": "web-00046",
+   "source_row_id": "<urn:uuid:ad0f0f8d-cdf1-4156-803c-c0f2786185b8>",
+   "kind": "pretrain",
+   "start": 46038,
+   "end": 46477,
+   "n_tokens": 439,
+   "n_loss_tokens": 439,
+   "spans": [
+    [
+     46038,
+     46477,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00047",
+   "doc_id": "web-00047",
+   "source_row_id": "<urn:uuid:c7c44bd1-3600-48a9-b33a-acfce3aaa2c0>",
+   "kind": "pretrain",
+   "start": 46477,
+   "end": 46793,
+   "n_tokens": 316,
+   "n_loss_tokens": 316,
+   "spans": [
+    [
+     46477,
+     46793,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00048",
+   "doc_id": "web-00048",
+   "source_row_id": "<urn:uuid:b9e39f19-3d77-443f-afd7-2074037cf996>",
+   "kind": "pretrain",
+   "start": 46793,
+   "end": 47185,
+   "n_tokens": 392,
+   "n_loss_tokens": 392,
+   "spans": [
+    [
+     46793,
+     47185,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00049",
+   "doc_id": "web-00049",
+   "source_row_id": "<urn:uuid:d836bf06-262b-4bca-8851-41ec64e31038>",
+   "kind": "pretrain",
+   "start": 47185,
+   "end": 48558,
+   "n_tokens": 1373,
+   "n_loss_tokens": 1373,
+   "spans": [
+    [
+     47185,
+     48558,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00050",
+   "doc_id": "web-00050",
+   "source_row_id": "<urn:uuid:61022017-5b85-4840-958f-d37f75698705>",
+   "kind": "pretrain",
+   "start": 48558,
+   "end": 51466,
+   "n_tokens": 2908,
+   "n_loss_tokens": 2908,
+   "spans": [
+    [
+     48558,
+     51466,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00051",
+   "doc_id": "web-00051",
+   "source_row_id": "<urn:uuid:1f81392d-3957-4ac5-9659-ed3112273a06>",
+   "kind": "pretrain",
+   "start": 51466,
+   "end": 52272,
+   "n_tokens": 806,
+   "n_loss_tokens": 806,
+   "spans": [
+    [
+     51466,
+     52272,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00052",
+   "doc_id": "web-00052",
+   "source_row_id": "<urn:uuid:d07cc3a6-5c93-4a54-aa41-e4364927c35f>",
+   "kind": "pretrain",
+   "start": 52272,
+   "end": 54355,
+   "n_tokens": 2083,
+   "n_loss_tokens": 2083,
+   "spans": [
+    [
+     52272,
+     54355,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00053",
+   "doc_id": "web-00053",
+   "source_row_id": "<urn:uuid:bf010e52-2673-4816-a6a6-269d9a7121ee>",
+   "kind": "pretrain",
+   "start": 54355,
+   "end": 55198,
+   "n_tokens": 843,
+   "n_loss_tokens": 843,
+   "spans": [
+    [
+     54355,
+     55198,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00054",
+   "doc_id": "web-00054",
+   "source_row_id": "<urn:uuid:57eddd85-d7cb-491b-bf06-f4c7e0f03a21>",
+   "kind": "pretrain",
+   "start": 55198,
+   "end": 55485,
+   "n_tokens": 287,
+   "n_loss_tokens": 287,
+   "spans": [
+    [
+     55198,
+     55485,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00055",
+   "doc_id": "web-00055",
+   "source_row_id": "<urn:uuid:7400301c-e625-46d5-be90-1020cf8d52f8>",
+   "kind": "pretrain",
+   "start": 55485,
+   "end": 56163,
+   "n_tokens": 678,
+   "n_loss_tokens": 678,
+   "spans": [
+    [
+     55485,
+     56163,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00056",
+   "doc_id": "web-00056",
+   "source_row_id": "<urn:uuid:f420729b-433d-4fa6-8cfe-c81ae093a2da>",
+   "kind": "pretrain",
+   "start": 56163,
+   "end": 57563,
+   "n_tokens": 1400,
+   "n_loss_tokens": 1400,
+   "spans": [
+    [
+     56163,
+     57563,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00057",
+   "doc_id": "web-00057",
+   "source_row_id": "<urn:uuid:1725cd67-7f79-4edd-9409-14c573c69b34>",
+   "kind": "pretrain",
+   "start": 57563,
+   "end": 58740,
+   "n_tokens": 1177,
+   "n_loss_tokens": 1177,
+   "spans": [
+    [
+     57563,
+     58740,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00058",
+   "doc_id": "web-00058",
+   "source_row_id": "<urn:uuid:c987a60d-9405-477a-954f-9eef8f82773e>",
+   "kind": "pretrain",
+   "start": 58740,
+   "end": 59321,
+   "n_tokens": 581,
+   "n_loss_tokens": 581,
+   "spans": [
+    [
+     58740,
+     59321,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00059",
+   "doc_id": "web-00059",
+   "source_row_id": "<urn:uuid:f166f15d-9976-40ed-8a49-8bed360001ff>",
+   "kind": "pretrain",
+   "start": 59321,
+   "end": 62363,
+   "n_tokens": 3042,
+   "n_loss_tokens": 3042,
+   "spans": [
+    [
+     59321,
+     62363,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00060",
+   "doc_id": "web-00060",
+   "source_row_id": "<urn:uuid:76f40811-a50d-47d5-8ae6-0aa2939070c6>",
+   "kind": "pretrain",
+   "start": 62363,
+   "end": 64517,
+   "n_tokens": 2154,
+   "n_loss_tokens": 2154,
+   "spans": [
+    [
+     62363,
+     64517,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00061",
+   "doc_id": "web-00061",
+   "source_row_id": "<urn:uuid:b734e3f1-e4a1-4955-b90e-301bdab160a3>",
+   "kind": "pretrain",
+   "start": 64517,
+   "end": 64847,
+   "n_tokens": 330,
+   "n_loss_tokens": 330,
+   "spans": [
+    [
+     64517,
+     64847,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00062",
+   "doc_id": "web-00062",
+   "source_row_id": "<urn:uuid:5a9c94b6-6e5d-4b70-bd29-dc2270e0c891>",
+   "kind": "pretrain",
+   "start": 64847,
+   "end": 65702,
+   "n_tokens": 855,
+   "n_loss_tokens": 855,
+   "spans": [
+    [
+     64847,
+     65702,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00063",
+   "doc_id": "web-00063",
+   "source_row_id": "<urn:uuid:2eca6211-a85f-472b-b3f3-ac4fa26c2e16>",
+   "kind": "pretrain",
+   "start": 65702,
+   "end": 66567,
+   "n_tokens": 865,
+   "n_loss_tokens": 865,
+   "spans": [
+    [
+     65702,
+     66567,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00064",
+   "doc_id": "web-00064",
+   "source_row_id": "<urn:uuid:bf061e3f-b581-4fd7-834d-39e9b10a5b97>",
+   "kind": "pretrain",
+   "start": 66567,
+   "end": 68009,
+   "n_tokens": 1442,
+   "n_loss_tokens": 1442,
+   "spans": [
+    [
+     66567,
+     68009,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00065",
+   "doc_id": "web-00065",
+   "source_row_id": "<urn:uuid:1a482eda-257a-44ed-9d36-645d7c2ae85a>",
+   "kind": "pretrain",
+   "start": 68009,
+   "end": 69022,
+   "n_tokens": 1013,
+   "n_loss_tokens": 1013,
+   "spans": [
+    [
+     68009,
+     69022,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00066",
+   "doc_id": "web-00066",
+   "source_row_id": "<urn:uuid:e9b2e40c-a8e4-4636-8dbc-6463e06784e5>",
+   "kind": "pretrain",
+   "start": 69022,
+   "end": 69156,
+   "n_tokens": 134,
+   "n_loss_tokens": 134,
+   "spans": [
+    [
+     69022,
+     69156,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00067",
+   "doc_id": "web-00067",
+   "source_row_id": "<urn:uuid:8e00f1e1-3630-4f06-8f90-d0e3dad74479>",
+   "kind": "pretrain",
+   "start": 69156,
+   "end": 69258,
+   "n_tokens": 102,
+   "n_loss_tokens": 102,
+   "spans": [
+    [
+     69156,
+     69258,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00068",
+   "doc_id": "web-00068",
+   "source_row_id": "<urn:uuid:ca387b2a-7df2-4bb1-8e2d-9e82dcdc8b5a>",
+   "kind": "pretrain",
+   "start": 69258,
+   "end": 72722,
+   "n_tokens": 3464,
+   "n_loss_tokens": 3464,
+   "spans": [
+    [
+     69258,
+     72722,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00069",
+   "doc_id": "web-00069",
+   "source_row_id": "<urn:uuid:af093004-a8aa-4f38-b0df-c09a73298010>",
+   "kind": "pretrain",
+   "start": 72722,
+   "end": 73085,
+   "n_tokens": 363,
+   "n_loss_tokens": 363,
+   "spans": [
+    [
+     72722,
+     73085,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00070",
+   "doc_id": "web-00070",
+   "source_row_id": "<urn:uuid:d2d88a75-c769-4548-aa0c-a3c3aafba348>",
+   "kind": "pretrain",
+   "start": 73085,
+   "end": 75403,
+   "n_tokens": 2318,
+   "n_loss_tokens": 2318,
+   "spans": [
+    [
+     73085,
+     75403,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00071",
+   "doc_id": "web-00071",
+   "source_row_id": "<urn:uuid:38e6d370-c6fd-4e73-85c6-089457add0bf>",
+   "kind": "pretrain",
+   "start": 75403,
+   "end": 75962,
+   "n_tokens": 559,
+   "n_loss_tokens": 559,
+   "spans": [
+    [
+     75403,
+     75962,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00072",
+   "doc_id": "web-00072",
+   "source_row_id": "<urn:uuid:5579e9d4-6e68-4bcf-87a3-ff20ed6954c4>",
+   "kind": "pretrain",
+   "start": 75962,
+   "end": 76147,
+   "n_tokens": 185,
+   "n_loss_tokens": 185,
+   "spans": [
+    [
+     75962,
+     76147,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00073",
+   "doc_id": "web-00073",
+   "source_row_id": "<urn:uuid:eeed63e4-ccb3-480f-bd77-7d8de8b6555e>",
+   "kind": "pretrain",
+   "start": 76147,
+   "end": 76466,
+   "n_tokens": 319,
+   "n_loss_tokens": 319,
+   "spans": [
+    [
+     76147,
+     76466,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00074",
+   "doc_id": "web-00074",
+   "source_row_id": "<urn:uuid:288bae5d-f267-40ac-bd2c-195909577617>",
+   "kind": "pretrain",
+   "start": 76466,
+   "end": 77151,
+   "n_tokens": 685,
+   "n_loss_tokens": 685,
+   "spans": [
+    [
+     76466,
+     77151,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00075",
+   "doc_id": "web-00075",
+   "source_row_id": "<urn:uuid:e56ea051-5aef-4db5-9c59-b878ee08ff32>",
+   "kind": "pretrain",
+   "start": 77151,
+   "end": 77485,
+   "n_tokens": 334,
+   "n_loss_tokens": 334,
+   "spans": [
+    [
+     77151,
+     77485,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00076",
+   "doc_id": "web-00076",
+   "source_row_id": "<urn:uuid:fae983e5-45da-44d4-86c0-5ccc7cb210d8>",
+   "kind": "pretrain",
+   "start": 77485,
+   "end": 79043,
+   "n_tokens": 1558,
+   "n_loss_tokens": 1558,
+   "spans": [
+    [
+     77485,
+     79043,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00077",
+   "doc_id": "web-00077",
+   "source_row_id": "<urn:uuid:6aba2b8d-0f86-4d64-b8af-a03c21e98c63>",
+   "kind": "pretrain",
+   "start": 79043,
+   "end": 79503,
+   "n_tokens": 460,
+   "n_loss_tokens": 460,
+   "spans": [
+    [
+     79043,
+     79503,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00078",
+   "doc_id": "web-00078",
+   "source_row_id": "<urn:uuid:d30effea-1f5f-4ff1-874d-1ea41dc97c53>",
+   "kind": "pretrain",
+   "start": 79503,
+   "end": 81293,
+   "n_tokens": 1790,
+   "n_loss_tokens": 1790,
+   "spans": [
+    [
+     79503,
+     81293,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00079",
+   "doc_id": "web-00079",
+   "source_row_id": "<urn:uuid:42e960c1-33b4-4f11-8d2f-5ec7df76d856>",
+   "kind": "pretrain",
+   "start": 81293,
+   "end": 81704,
+   "n_tokens": 411,
+   "n_loss_tokens": 411,
+   "spans": [
+    [
+     81293,
+     81704,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00080",
+   "doc_id": "web-00080",
+   "source_row_id": "<urn:uuid:81426048-4862-4bb7-9a74-922f76b4cc47>",
+   "kind": "pretrain",
+   "start": 81704,
+   "end": 82537,
+   "n_tokens": 833,
+   "n_loss_tokens": 833,
+   "spans": [
+    [
+     81704,
+     82537,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00081",
+   "doc_id": "web-00081",
+   "source_row_id": "<urn:uuid:5c0c1ba8-b765-4c27-8bb8-2a3fc0a82934>",
+   "kind": "pretrain",
+   "start": 82537,
+   "end": 83533,
+   "n_tokens": 996,
+   "n_loss_tokens": 996,
+   "spans": [
+    [
+     82537,
+     83533,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00082",
+   "doc_id": "web-00082",
+   "source_row_id": "<urn:uuid:802d6d3f-73ff-4476-973b-a3c618ed8f7a>",
+   "kind": "pretrain",
+   "start": 83533,
+   "end": 84008,
+   "n_tokens": 475,
+   "n_loss_tokens": 475,
+   "spans": [
+    [
+     83533,
+     84008,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00083",
+   "doc_id": "web-00083",
+   "source_row_id": "<urn:uuid:06a1d3e1-b436-41ec-b891-5dc64a3f53ac>",
+   "kind": "pretrain",
+   "start": 84008,
+   "end": 84775,
+   "n_tokens": 767,
+   "n_loss_tokens": 767,
+   "spans": [
+    [
+     84008,
+     84775,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00084",
+   "doc_id": "web-00084",
+   "source_row_id": "<urn:uuid:e36683d3-ded6-4e38-af4d-7bc73d1ec7e3>",
+   "kind": "pretrain",
+   "start": 84775,
+   "end": 85748,
+   "n_tokens": 973,
+   "n_loss_tokens": 973,
+   "spans": [
+    [
+     84775,
+     85748,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00085",
+   "doc_id": "web-00085",
+   "source_row_id": "<urn:uuid:5796c026-a8b2-4a00-ac9d-d935eecfa46f>",
+   "kind": "pretrain",
+   "start": 85748,
+   "end": 88433,
+   "n_tokens": 2685,
+   "n_loss_tokens": 2685,
+   "spans": [
+    [
+     85748,
+     88433,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00086",
+   "doc_id": "web-00086",
+   "source_row_id": "<urn:uuid:a8163fc2-135e-4fbf-970e-578b5b41f020>",
+   "kind": "pretrain",
+   "start": 88433,
+   "end": 89338,
+   "n_tokens": 905,
+   "n_loss_tokens": 905,
+   "spans": [
+    [
+     88433,
+     89338,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00087",
+   "doc_id": "web-00087",
+   "source_row_id": "<urn:uuid:25dbfda6-18d6-4e04-9bf5-fe7dcc73d69b>",
+   "kind": "pretrain",
+   "start": 89338,
+   "end": 90428,
+   "n_tokens": 1090,
+   "n_loss_tokens": 1090,
+   "spans": [
+    [
+     89338,
+     90428,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00088",
+   "doc_id": "web-00088",
+   "source_row_id": "<urn:uuid:45c61dcf-839e-455f-8328-f268b0b88767>",
+   "kind": "pretrain",
+   "start": 90428,
+   "end": 93814,
+   "n_tokens": 3386,
+   "n_loss_tokens": 3386,
+   "spans": [
+    [
+     90428,
+     93814,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00089",
+   "doc_id": "web-00089",
+   "source_row_id": "<urn:uuid:b98380f2-eaad-43d8-ae14-b78b1fa71c30>",
+   "kind": "pretrain",
+   "start": 93814,
+   "end": 96740,
+   "n_tokens": 2926,
+   "n_loss_tokens": 2926,
+   "spans": [
+    [
+     93814,
+     96740,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00090",
+   "doc_id": "web-00090",
+   "source_row_id": "<urn:uuid:4dcad241-2b6b-4970-9112-c67a47a29a2c>",
+   "kind": "pretrain",
+   "start": 96740,
+   "end": 97277,
+   "n_tokens": 537,
+   "n_loss_tokens": 537,
+   "spans": [
+    [
+     96740,
+     97277,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00091",
+   "doc_id": "web-00091",
+   "source_row_id": "<urn:uuid:ffdd6a00-bdf3-423d-9051-43a88190c162>",
+   "kind": "pretrain",
+   "start": 97277,
+   "end": 100047,
+   "n_tokens": 2770,
+   "n_loss_tokens": 2770,
+   "spans": [
+    [
+     97277,
+     100047,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00092",
+   "doc_id": "web-00092",
+   "source_row_id": "<urn:uuid:504f9d3a-3560-48e7-bc01-eb8716f7ea38>",
+   "kind": "pretrain",
+   "start": 100047,
+   "end": 103552,
+   "n_tokens": 3505,
+   "n_loss_tokens": 3505,
+   "spans": [
+    [
+     100047,
+     103552,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00093",
+   "doc_id": "web-00093",
+   "source_row_id": "<urn:uuid:fd8c3c6b-1566-43f8-9082-9fdb5d41b578>",
+   "kind": "pretrain",
+   "start": 103552,
+   "end": 107180,
+   "n_tokens": 3628,
+   "n_loss_tokens": 3628,
+   "spans": [
+    [
+     103552,
+     107180,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00094",
+   "doc_id": "web-00094",
+   "source_row_id": "<urn:uuid:776fac11-e4ff-47a1-9b1e-250fad8a24ea>",
+   "kind": "pretrain",
+   "start": 107180,
+   "end": 108548,
+   "n_tokens": 1368,
+   "n_loss_tokens": 1368,
+   "spans": [
+    [
+     107180,
+     108548,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00095",
+   "doc_id": "web-00095",
+   "source_row_id": "<urn:uuid:dc723fdf-5aaa-4004-8399-c611ce1936f0>",
+   "kind": "pretrain",
+   "start": 108548,
+   "end": 112069,
+   "n_tokens": 3521,
+   "n_loss_tokens": 3521,
+   "spans": [
+    [
+     108548,
+     112069,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00096",
+   "doc_id": "web-00096",
+   "source_row_id": "<urn:uuid:6c5322ef-413f-4a69-b643-e15509f4014a>",
+   "kind": "pretrain",
+   "start": 112069,
+   "end": 115335,
+   "n_tokens": 3266,
+   "n_loss_tokens": 3266,
+   "spans": [
+    [
+     112069,
+     115335,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00097",
+   "doc_id": "web-00097",
+   "source_row_id": "<urn:uuid:21efdf4c-01ca-41af-b9b9-59ca33377189>",
+   "kind": "pretrain",
+   "start": 115335,
+   "end": 118706,
+   "n_tokens": 3371,
+   "n_loss_tokens": 3371,
+   "spans": [
+    [
+     115335,
+     118706,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00098",
+   "doc_id": "web-00098",
+   "source_row_id": "<urn:uuid:8d7550a6-be12-4b4a-85f7-09f5a23b9afb>",
+   "kind": "pretrain",
+   "start": 118706,
+   "end": 121570,
+   "n_tokens": 2864,
+   "n_loss_tokens": 2864,
+   "spans": [
+    [
+     118706,
+     121570,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00099",
+   "doc_id": "web-00099",
+   "source_row_id": "<urn:uuid:33a84d84-31b8-48b1-b1fd-ec91710fe8fe>",
+   "kind": "pretrain",
+   "start": 121570,
+   "end": 124891,
+   "n_tokens": 3321,
+   "n_loss_tokens": 3321,
+   "spans": [
+    [
+     121570,
+     124891,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00100",
+   "doc_id": "web-00100",
+   "source_row_id": "<urn:uuid:dcf6578e-71df-4e20-904c-5952df38fb9c>",
+   "kind": "pretrain",
+   "start": 124891,
+   "end": 128054,
+   "n_tokens": 3163,
+   "n_loss_tokens": 3163,
+   "spans": [
+    [
+     124891,
+     128054,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00101",
+   "doc_id": "web-00101",
+   "source_row_id": "<urn:uuid:983e5733-551c-4c84-be58-6e25791db2ab>",
+   "kind": "pretrain",
+   "start": 128054,
+   "end": 128319,
+   "n_tokens": 265,
+   "n_loss_tokens": 265,
+   "spans": [
+    [
+     128054,
+     128319,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00102",
+   "doc_id": "web-00102",
+   "source_row_id": "<urn:uuid:41725194-2e7c-41a8-8ea3-9c894cad8d6f>",
+   "kind": "pretrain",
+   "start": 128319,
+   "end": 128555,
+   "n_tokens": 236,
+   "n_loss_tokens": 236,
+   "spans": [
+    [
+     128319,
+     128555,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00103",
+   "doc_id": "web-00103",
+   "source_row_id": "<urn:uuid:29ad99f8-17dd-4bf4-9973-88d9fa050e74>",
+   "kind": "pretrain",
+   "start": 128555,
+   "end": 129122,
+   "n_tokens": 567,
+   "n_loss_tokens": 567,
+   "spans": [
+    [
+     128555,
+     129122,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00104",
+   "doc_id": "web-00104",
+   "source_row_id": "<urn:uuid:1675929f-e225-4e5d-9afc-41f03f5044f6>",
+   "kind": "pretrain",
+   "start": 129122,
+   "end": 129690,
+   "n_tokens": 568,
+   "n_loss_tokens": 568,
+   "spans": [
+    [
+     129122,
+     129690,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00105",
+   "doc_id": "web-00105",
+   "source_row_id": "<urn:uuid:dad32c9e-d851-4b8f-98db-dcfb254b028c>",
+   "kind": "pretrain",
+   "start": 129690,
+   "end": 130264,
+   "n_tokens": 574,
+   "n_loss_tokens": 574,
+   "spans": [
+    [
+     129690,
+     130264,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00106",
+   "doc_id": "web-00106",
+   "source_row_id": "<urn:uuid:842792ff-9ed5-4959-9a6a-526b7eed61ac>",
+   "kind": "pretrain",
+   "start": 130264,
+   "end": 134075,
+   "n_tokens": 3811,
+   "n_loss_tokens": 3811,
+   "spans": [
+    [
+     130264,
+     134075,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00107",
+   "doc_id": "web-00107",
+   "source_row_id": "<urn:uuid:15cdf9a3-a020-4795-952f-d13530139bfe>",
+   "kind": "pretrain",
+   "start": 134075,
+   "end": 134257,
+   "n_tokens": 182,
+   "n_loss_tokens": 182,
+   "spans": [
+    [
+     134075,
+     134257,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00108",
+   "doc_id": "web-00108",
+   "source_row_id": "<urn:uuid:fa9d11c3-ad57-40a6-8915-a8b1cd687729>",
+   "kind": "pretrain",
+   "start": 134257,
+   "end": 134547,
+   "n_tokens": 290,
+   "n_loss_tokens": 290,
+   "spans": [
+    [
+     134257,
+     134547,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00109",
+   "doc_id": "web-00109",
+   "source_row_id": "<urn:uuid:807132bd-52a9-4301-8f7e-b6f3dda085f7>",
+   "kind": "pretrain",
+   "start": 134547,
+   "end": 135004,
+   "n_tokens": 457,
+   "n_loss_tokens": 457,
+   "spans": [
+    [
+     134547,
+     135004,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00110",
+   "doc_id": "web-00110",
+   "source_row_id": "<urn:uuid:33687e0d-90f9-4e53-ac31-257283325d4f>",
+   "kind": "pretrain",
+   "start": 135004,
+   "end": 135474,
+   "n_tokens": 470,
+   "n_loss_tokens": 470,
+   "spans": [
+    [
+     135004,
+     135474,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00111",
+   "doc_id": "web-00111",
+   "source_row_id": "<urn:uuid:dac82ba8-16eb-4709-8603-56b19c9bed20>",
+   "kind": "pretrain",
+   "start": 135474,
+   "end": 135920,
+   "n_tokens": 446,
+   "n_loss_tokens": 446,
+   "spans": [
+    [
+     135474,
+     135920,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00112",
+   "doc_id": "web-00112",
+   "source_row_id": "<urn:uuid:8f0610f8-d395-4afe-b949-4d2a764648b1>",
+   "kind": "pretrain",
+   "start": 135920,
+   "end": 136386,
+   "n_tokens": 466,
+   "n_loss_tokens": 466,
+   "spans": [
+    [
+     135920,
+     136386,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00113",
+   "doc_id": "web-00113",
+   "source_row_id": "<urn:uuid:eecdd55e-49d8-40e4-9834-6f3dce28fa4c>",
+   "kind": "pretrain",
+   "start": 136386,
+   "end": 136914,
+   "n_tokens": 528,
+   "n_loss_tokens": 528,
+   "spans": [
+    [
+     136386,
+     136914,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00114",
+   "doc_id": "web-00114",
+   "source_row_id": "<urn:uuid:8e7cb7c1-ff22-4b2a-8b76-a1a0ed11dec6>",
+   "kind": "pretrain",
+   "start": 136914,
+   "end": 137477,
+   "n_tokens": 563,
+   "n_loss_tokens": 563,
+   "spans": [
+    [
+     136914,
+     137477,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00115",
+   "doc_id": "web-00115",
+   "source_row_id": "<urn:uuid:e16b4240-d208-4ee2-8272-ce223fa2146e>",
+   "kind": "pretrain",
+   "start": 137477,
+   "end": 140325,
+   "n_tokens": 2848,
+   "n_loss_tokens": 2848,
+   "spans": [
+    [
+     137477,
+     140325,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00116",
+   "doc_id": "web-00116",
+   "source_row_id": "<urn:uuid:86849ab7-4070-40ee-9f28-f23c0e6d4e97>",
+   "kind": "pretrain",
+   "start": 140325,
+   "end": 140952,
+   "n_tokens": 627,
+   "n_loss_tokens": 627,
+   "spans": [
+    [
+     140325,
+     140952,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00117",
+   "doc_id": "web-00117",
+   "source_row_id": "<urn:uuid:0edf597f-76c6-41e5-8fb7-e496ac5b8117>",
+   "kind": "pretrain",
+   "start": 140952,
+   "end": 141217,
+   "n_tokens": 265,
+   "n_loss_tokens": 265,
+   "spans": [
+    [
+     140952,
+     141217,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00118",
+   "doc_id": "web-00118",
+   "source_row_id": "<urn:uuid:055624c0-62af-41df-8f11-60150520d344>",
+   "kind": "pretrain",
+   "start": 141217,
+   "end": 143046,
+   "n_tokens": 1829,
+   "n_loss_tokens": 1829,
+   "spans": [
+    [
+     141217,
+     143046,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00119",
+   "doc_id": "web-00119",
+   "source_row_id": "<urn:uuid:abb7b5c5-5b04-4436-963d-1fafce2546d7>",
+   "kind": "pretrain",
+   "start": 143046,
+   "end": 143774,
+   "n_tokens": 728,
+   "n_loss_tokens": 728,
+   "spans": [
+    [
+     143046,
+     143774,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00120",
+   "doc_id": "web-00120",
+   "source_row_id": "<urn:uuid:ae6ebdd8-4c80-4452-94bc-35a8c7fc9fa2>",
+   "kind": "pretrain",
+   "start": 143774,
+   "end": 144225,
+   "n_tokens": 451,
+   "n_loss_tokens": 451,
+   "spans": [
+    [
+     143774,
+     144225,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00121",
+   "doc_id": "web-00121",
+   "source_row_id": "<urn:uuid:4d48bee1-2f67-4bb2-97bc-a77c48682d50>",
+   "kind": "pretrain",
+   "start": 144225,
+   "end": 144466,
+   "n_tokens": 241,
+   "n_loss_tokens": 241,
+   "spans": [
+    [
+     144225,
+     144466,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00122",
+   "doc_id": "web-00122",
+   "source_row_id": "<urn:uuid:eb5b2054-dffc-4358-a10e-a6bb9602e291>",
+   "kind": "pretrain",
+   "start": 144466,
+   "end": 145219,
+   "n_tokens": 753,
+   "n_loss_tokens": 753,
+   "spans": [
+    [
+     144466,
+     145219,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00123",
+   "doc_id": "web-00123",
+   "source_row_id": "<urn:uuid:4b4eb0e1-7746-4f13-a3ba-67961d4c7971>",
+   "kind": "pretrain",
+   "start": 145219,
+   "end": 148192,
+   "n_tokens": 2973,
+   "n_loss_tokens": 2973,
+   "spans": [
+    [
+     145219,
+     148192,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00124",
+   "doc_id": "web-00124",
+   "source_row_id": "<urn:uuid:0811e322-860e-4f42-9263-ac9ca9ec229a>",
+   "kind": "pretrain",
+   "start": 148192,
+   "end": 149124,
+   "n_tokens": 932,
+   "n_loss_tokens": 932,
+   "spans": [
+    [
+     148192,
+     149124,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00125",
+   "doc_id": "web-00125",
+   "source_row_id": "<urn:uuid:294ae327-cc7d-4b2a-962f-3f40d8a01c9b>",
+   "kind": "pretrain",
+   "start": 149124,
+   "end": 151975,
+   "n_tokens": 2851,
+   "n_loss_tokens": 2851,
+   "spans": [
+    [
+     149124,
+     151975,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00126",
+   "doc_id": "web-00126",
+   "source_row_id": "<urn:uuid:aaa3980b-2afc-4ec3-8fb3-0574c7576493>",
+   "kind": "pretrain",
+   "start": 151975,
+   "end": 152116,
+   "n_tokens": 141,
+   "n_loss_tokens": 141,
+   "spans": [
+    [
+     151975,
+     152116,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00127",
+   "doc_id": "web-00127",
+   "source_row_id": "<urn:uuid:44003eee-ebd3-4cd3-ac60-d61ecb0354e6>",
+   "kind": "pretrain",
+   "start": 152116,
+   "end": 152677,
+   "n_tokens": 561,
+   "n_loss_tokens": 561,
+   "spans": [
+    [
+     152116,
+     152677,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00128",
+   "doc_id": "web-00128",
+   "source_row_id": "<urn:uuid:5a052ffe-8b89-4dfe-9c48-1877699b92fe>",
+   "kind": "pretrain",
+   "start": 152677,
+   "end": 153011,
+   "n_tokens": 334,
+   "n_loss_tokens": 334,
+   "spans": [
+    [
+     152677,
+     153011,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00129",
+   "doc_id": "web-00129",
+   "source_row_id": "<urn:uuid:de8aca1f-8787-4397-a590-18468f93dd4f>",
+   "kind": "pretrain",
+   "start": 153011,
+   "end": 153467,
+   "n_tokens": 456,
+   "n_loss_tokens": 456,
+   "spans": [
+    [
+     153011,
+     153467,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00130",
+   "doc_id": "web-00130",
+   "source_row_id": "<urn:uuid:e04e5806-0a3c-464e-b9b3-0390547ccd5b>",
+   "kind": "pretrain",
+   "start": 153467,
+   "end": 153923,
+   "n_tokens": 456,
+   "n_loss_tokens": 456,
+   "spans": [
+    [
+     153467,
+     153923,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00131",
+   "doc_id": "web-00131",
+   "source_row_id": "<urn:uuid:e37f32b6-0455-44bb-b719-a9e1ef06a7ff>",
+   "kind": "pretrain",
+   "start": 153923,
+   "end": 154204,
+   "n_tokens": 281,
+   "n_loss_tokens": 281,
+   "spans": [
+    [
+     153923,
+     154204,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00132",
+   "doc_id": "web-00132",
+   "source_row_id": "<urn:uuid:a1f038cb-890b-4c07-8d0a-10c8339ec271>",
+   "kind": "pretrain",
+   "start": 154204,
+   "end": 156038,
+   "n_tokens": 1834,
+   "n_loss_tokens": 1834,
+   "spans": [
+    [
+     154204,
+     156038,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00133",
+   "doc_id": "web-00133",
+   "source_row_id": "<urn:uuid:a3ee253d-4ba5-4daa-a3ab-576294344497>",
+   "kind": "pretrain",
+   "start": 156038,
+   "end": 158339,
+   "n_tokens": 2301,
+   "n_loss_tokens": 2301,
+   "spans": [
+    [
+     156038,
+     158339,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00134",
+   "doc_id": "web-00134",
+   "source_row_id": "<urn:uuid:4e061316-a722-4a96-8d1b-359431d138e8>",
+   "kind": "pretrain",
+   "start": 158339,
+   "end": 159122,
+   "n_tokens": 783,
+   "n_loss_tokens": 783,
+   "spans": [
+    [
+     158339,
+     159122,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00135",
+   "doc_id": "web-00135",
+   "source_row_id": "<urn:uuid:59aba203-f89c-4dfb-b105-96a2f515c170>",
+   "kind": "pretrain",
+   "start": 159122,
+   "end": 160416,
+   "n_tokens": 1294,
+   "n_loss_tokens": 1294,
+   "spans": [
+    [
+     159122,
+     160416,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00136",
+   "doc_id": "web-00136",
+   "source_row_id": "<urn:uuid:088eebf0-239d-4423-98cb-dfea79acfb27>",
+   "kind": "pretrain",
+   "start": 160416,
+   "end": 160663,
+   "n_tokens": 247,
+   "n_loss_tokens": 247,
+   "spans": [
+    [
+     160416,
+     160663,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00137",
+   "doc_id": "web-00137",
+   "source_row_id": "<urn:uuid:3b302593-d369-45ad-8e71-a345eaee64df>",
+   "kind": "pretrain",
+   "start": 160663,
+   "end": 160974,
+   "n_tokens": 311,
+   "n_loss_tokens": 311,
+   "spans": [
+    [
+     160663,
+     160974,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00138",
+   "doc_id": "web-00138",
+   "source_row_id": "<urn:uuid:19ce4a7d-7ae3-489c-8be3-7b90046f895d>",
+   "kind": "pretrain",
+   "start": 160974,
+   "end": 161153,
+   "n_tokens": 179,
+   "n_loss_tokens": 179,
+   "spans": [
+    [
+     160974,
+     161153,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00139",
+   "doc_id": "web-00139",
+   "source_row_id": "<urn:uuid:b7d63364-4020-4ab0-9c8c-3f97e616af1e>",
+   "kind": "pretrain",
+   "start": 161153,
+   "end": 161982,
+   "n_tokens": 829,
+   "n_loss_tokens": 829,
+   "spans": [
+    [
+     161153,
+     161982,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00140",
+   "doc_id": "web-00140",
+   "source_row_id": "<urn:uuid:c2edfd5f-7efa-4718-90fc-2492422d24c1>",
+   "kind": "pretrain",
+   "start": 161982,
+   "end": 164862,
+   "n_tokens": 2880,
+   "n_loss_tokens": 2880,
+   "spans": [
+    [
+     161982,
+     164862,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00141",
+   "doc_id": "web-00141",
+   "source_row_id": "<urn:uuid:c705459a-3198-4027-997b-597db9ccd8f1>",
+   "kind": "pretrain",
+   "start": 164862,
+   "end": 165477,
+   "n_tokens": 615,
+   "n_loss_tokens": 615,
+   "spans": [
+    [
+     164862,
+     165477,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00142",
+   "doc_id": "web-00142",
+   "source_row_id": "<urn:uuid:887ecaf4-8a3d-4ac9-8acf-e316daa5994e>",
+   "kind": "pretrain",
+   "start": 165477,
+   "end": 165679,
+   "n_tokens": 202,
+   "n_loss_tokens": 202,
+   "spans": [
+    [
+     165477,
+     165679,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00143",
+   "doc_id": "web-00143",
+   "source_row_id": "<urn:uuid:249ad1f9-cb8f-42dd-b955-c4814c5a2452>",
+   "kind": "pretrain",
+   "start": 165679,
+   "end": 167117,
+   "n_tokens": 1438,
+   "n_loss_tokens": 1438,
+   "spans": [
+    [
+     165679,
+     167117,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00144",
+   "doc_id": "web-00144",
+   "source_row_id": "<urn:uuid:9a374252-df3c-4004-8693-6678182914d9>",
+   "kind": "pretrain",
+   "start": 167117,
+   "end": 167564,
+   "n_tokens": 447,
+   "n_loss_tokens": 447,
+   "spans": [
+    [
+     167117,
+     167564,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00145",
+   "doc_id": "web-00145",
+   "source_row_id": "<urn:uuid:5eadff81-237b-449e-a190-3d2c04c3d0c6>",
+   "kind": "pretrain",
+   "start": 167564,
+   "end": 167831,
+   "n_tokens": 267,
+   "n_loss_tokens": 267,
+   "spans": [
+    [
+     167564,
+     167831,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00146",
+   "doc_id": "web-00146",
+   "source_row_id": "<urn:uuid:9026785e-3820-4a9d-ab2b-e056e36ce1ff>",
+   "kind": "pretrain",
+   "start": 167831,
+   "end": 169317,
+   "n_tokens": 1486,
+   "n_loss_tokens": 1486,
+   "spans": [
+    [
+     167831,
+     169317,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00147",
+   "doc_id": "web-00147",
+   "source_row_id": "<urn:uuid:2091854b-1b3b-428e-9a84-00e3f22edf16>",
+   "kind": "pretrain",
+   "start": 169317,
+   "end": 170146,
+   "n_tokens": 829,
+   "n_loss_tokens": 829,
+   "spans": [
+    [
+     169317,
+     170146,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00148",
+   "doc_id": "web-00148",
+   "source_row_id": "<urn:uuid:59068a6d-549f-44f0-aa53-e03d6ed54922>",
+   "kind": "pretrain",
+   "start": 170146,
+   "end": 171849,
+   "n_tokens": 1703,
+   "n_loss_tokens": 1703,
+   "spans": [
+    [
+     170146,
+     171849,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00149",
+   "doc_id": "web-00149",
+   "source_row_id": "<urn:uuid:7989e71c-c55d-4ab4-b972-24001740790f>",
+   "kind": "pretrain",
+   "start": 171849,
+   "end": 172436,
+   "n_tokens": 587,
+   "n_loss_tokens": 587,
+   "spans": [
+    [
+     171849,
+     172436,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00150",
+   "doc_id": "web-00150",
+   "source_row_id": "<urn:uuid:53e8bab9-3a15-4496-a8db-400a8f03146a>",
+   "kind": "pretrain",
+   "start": 172436,
+   "end": 175915,
+   "n_tokens": 3479,
+   "n_loss_tokens": 3479,
+   "spans": [
+    [
+     172436,
+     175915,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00151",
+   "doc_id": "web-00151",
+   "source_row_id": "<urn:uuid:9022b5f8-0239-4a69-bea8-89dd01d471fd>",
+   "kind": "pretrain",
+   "start": 175915,
+   "end": 176596,
+   "n_tokens": 681,
+   "n_loss_tokens": 681,
+   "spans": [
+    [
+     175915,
+     176596,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00152",
+   "doc_id": "web-00152",
+   "source_row_id": "<urn:uuid:d7bdcf2d-ea1c-4316-a4f7-13bbedd58cdc>",
+   "kind": "pretrain",
+   "start": 176596,
+   "end": 178600,
+   "n_tokens": 2004,
+   "n_loss_tokens": 2004,
+   "spans": [
+    [
+     176596,
+     178600,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00153",
+   "doc_id": "web-00153",
+   "source_row_id": "<urn:uuid:12d027d4-f1ad-47d0-baaa-eea0edc16cc9>",
+   "kind": "pretrain",
+   "start": 178600,
+   "end": 180063,
+   "n_tokens": 1463,
+   "n_loss_tokens": 1463,
+   "spans": [
+    [
+     178600,
+     180063,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00154",
+   "doc_id": "web-00154",
+   "source_row_id": "<urn:uuid:92a6d94d-bb11-4e8c-894b-145d81256465>",
+   "kind": "pretrain",
+   "start": 180063,
+   "end": 181021,
+   "n_tokens": 958,
+   "n_loss_tokens": 958,
+   "spans": [
+    [
+     180063,
+     181021,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00155",
+   "doc_id": "web-00155",
+   "source_row_id": "<urn:uuid:ebd8d085-e439-4183-b008-e3abccc3efd1>",
+   "kind": "pretrain",
+   "start": 181021,
+   "end": 181938,
+   "n_tokens": 917,
+   "n_loss_tokens": 917,
+   "spans": [
+    [
+     181021,
+     181938,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00156",
+   "doc_id": "web-00156",
+   "source_row_id": "<urn:uuid:954bdf7e-7951-42c2-a6f6-6f7912bad693>",
+   "kind": "pretrain",
+   "start": 181938,
+   "end": 182890,
+   "n_tokens": 952,
+   "n_loss_tokens": 952,
+   "spans": [
+    [
+     181938,
+     182890,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00157",
+   "doc_id": "web-00157",
+   "source_row_id": "<urn:uuid:b0368fa0-d959-46ef-bb6d-cf0b106734d1>",
+   "kind": "pretrain",
+   "start": 182890,
+   "end": 183212,
+   "n_tokens": 322,
+   "n_loss_tokens": 322,
+   "spans": [
+    [
+     182890,
+     183212,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00158",
+   "doc_id": "web-00158",
+   "source_row_id": "<urn:uuid:96f462cf-90d3-4dee-acd5-263d2ee58f50>",
+   "kind": "pretrain",
+   "start": 183212,
+   "end": 186272,
+   "n_tokens": 3060,
+   "n_loss_tokens": 3060,
+   "spans": [
+    [
+     183212,
+     186272,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00159",
+   "doc_id": "web-00159",
+   "source_row_id": "<urn:uuid:61fae3d9-96ed-4021-b56b-1a1cd193073d>",
+   "kind": "pretrain",
+   "start": 186272,
+   "end": 186903,
+   "n_tokens": 631,
+   "n_loss_tokens": 631,
+   "spans": [
+    [
+     186272,
+     186903,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00160",
+   "doc_id": "web-00160",
+   "source_row_id": "<urn:uuid:61b0ef59-2917-4404-a0f0-f46353e5a062>",
+   "kind": "pretrain",
+   "start": 186903,
+   "end": 187225,
+   "n_tokens": 322,
+   "n_loss_tokens": 322,
+   "spans": [
+    [
+     186903,
+     187225,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00161",
+   "doc_id": "web-00161",
+   "source_row_id": "<urn:uuid:429cf924-5712-4f80-a526-9d8fbe64f107>",
+   "kind": "pretrain",
+   "start": 187225,
+   "end": 190096,
+   "n_tokens": 2871,
+   "n_loss_tokens": 2871,
+   "spans": [
+    [
+     187225,
+     190096,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00162",
+   "doc_id": "web-00162",
+   "source_row_id": "<urn:uuid:0057e9c8-4a05-4d1f-9ef8-63a69171c58d>",
+   "kind": "pretrain",
+   "start": 190096,
+   "end": 190586,
+   "n_tokens": 490,
+   "n_loss_tokens": 490,
+   "spans": [
+    [
+     190096,
+     190586,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00163",
+   "doc_id": "web-00163",
+   "source_row_id": "<urn:uuid:21551b17-525a-4ee3-a648-637e7f0b7928>",
+   "kind": "pretrain",
+   "start": 190586,
+   "end": 190924,
+   "n_tokens": 338,
+   "n_loss_tokens": 338,
+   "spans": [
+    [
+     190586,
+     190924,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00164",
+   "doc_id": "web-00164",
+   "source_row_id": "<urn:uuid:677a2991-3cf1-4c15-8111-a72e57592df6>",
+   "kind": "pretrain",
+   "start": 190924,
+   "end": 191374,
+   "n_tokens": 450,
+   "n_loss_tokens": 450,
+   "spans": [
+    [
+     190924,
+     191374,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00165",
+   "doc_id": "web-00165",
+   "source_row_id": "<urn:uuid:7308a886-f8d1-4f71-a8ac-74e6e4712804>",
+   "kind": "pretrain",
+   "start": 191374,
+   "end": 193253,
+   "n_tokens": 1879,
+   "n_loss_tokens": 1879,
+   "spans": [
+    [
+     191374,
+     193253,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00166",
+   "doc_id": "web-00166",
+   "source_row_id": "<urn:uuid:57d92190-6ad1-4d8c-aca4-713307cec119>",
+   "kind": "pretrain",
+   "start": 193253,
+   "end": 194588,
+   "n_tokens": 1335,
+   "n_loss_tokens": 1335,
+   "spans": [
+    [
+     193253,
+     194588,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00167",
+   "doc_id": "web-00167",
+   "source_row_id": "<urn:uuid:45d70863-a448-45d6-8157-916b361cbcd3>",
+   "kind": "pretrain",
+   "start": 194588,
+   "end": 194879,
+   "n_tokens": 291,
+   "n_loss_tokens": 291,
+   "spans": [
+    [
+     194588,
+     194879,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00168",
+   "doc_id": "web-00168",
+   "source_row_id": "<urn:uuid:51ca50ec-be73-4d62-b6f9-64c6eb0ad47f>",
+   "kind": "pretrain",
+   "start": 194879,
+   "end": 197536,
+   "n_tokens": 2657,
+   "n_loss_tokens": 2657,
+   "spans": [
+    [
+     194879,
+     197536,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00169",
+   "doc_id": "web-00169",
+   "source_row_id": "<urn:uuid:39bb84af-9a63-43d7-b933-3bee4727c361>",
+   "kind": "pretrain",
+   "start": 197536,
+   "end": 198414,
+   "n_tokens": 878,
+   "n_loss_tokens": 878,
+   "spans": [
+    [
+     197536,
+     198414,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00170",
+   "doc_id": "web-00170",
+   "source_row_id": "<urn:uuid:3cdc115d-ed7c-46dc-bae1-ab6e1ae42215>",
+   "kind": "pretrain",
+   "start": 198414,
+   "end": 198680,
+   "n_tokens": 266,
+   "n_loss_tokens": 266,
+   "spans": [
+    [
+     198414,
+     198680,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00171",
+   "doc_id": "web-00171",
+   "source_row_id": "<urn:uuid:26e14fdc-9941-4f09-a1d7-7e7a78349e4e>",
+   "kind": "pretrain",
+   "start": 198680,
+   "end": 199993,
+   "n_tokens": 1313,
+   "n_loss_tokens": 1313,
+   "spans": [
+    [
+     198680,
+     199993,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00172",
+   "doc_id": "web-00172",
+   "source_row_id": "<urn:uuid:494a31b6-e8c3-42b2-bcba-79889bce2dfd>",
+   "kind": "pretrain",
+   "start": 199993,
+   "end": 202727,
+   "n_tokens": 2734,
+   "n_loss_tokens": 2734,
+   "spans": [
+    [
+     199993,
+     202727,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00173",
+   "doc_id": "web-00173",
+   "source_row_id": "<urn:uuid:a000566e-4a70-4760-87f7-1d99f604d6ae>",
+   "kind": "pretrain",
+   "start": 202727,
+   "end": 203112,
+   "n_tokens": 385,
+   "n_loss_tokens": 385,
+   "spans": [
+    [
+     202727,
+     203112,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00174",
+   "doc_id": "web-00174",
+   "source_row_id": "<urn:uuid:232a566f-fd11-4f6c-a2c2-97a9dce2484f>",
+   "kind": "pretrain",
+   "start": 203112,
+   "end": 203683,
+   "n_tokens": 571,
+   "n_loss_tokens": 571,
+   "spans": [
+    [
+     203112,
+     203683,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00175",
+   "doc_id": "web-00175",
+   "source_row_id": "<urn:uuid:79bc5d65-38cf-489f-b8c5-6800ff88c6f7>",
+   "kind": "pretrain",
+   "start": 203683,
+   "end": 204354,
+   "n_tokens": 671,
+   "n_loss_tokens": 671,
+   "spans": [
+    [
+     203683,
+     204354,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00176",
+   "doc_id": "web-00176",
+   "source_row_id": "<urn:uuid:678fe9bf-3c2f-442f-8e14-46356c50951b>",
+   "kind": "pretrain",
+   "start": 204354,
+   "end": 205461,
+   "n_tokens": 1107,
+   "n_loss_tokens": 1107,
+   "spans": [
+    [
+     204354,
+     205461,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00177",
+   "doc_id": "web-00177",
+   "source_row_id": "<urn:uuid:009329d8-16c6-4c7e-a12d-baaaa30bd1be>",
+   "kind": "pretrain",
+   "start": 205461,
+   "end": 205615,
+   "n_tokens": 154,
+   "n_loss_tokens": 154,
+   "spans": [
+    [
+     205461,
+     205615,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00178",
+   "doc_id": "web-00178",
+   "source_row_id": "<urn:uuid:a34828e1-9706-4e67-be65-8fb8a94ec846>",
+   "kind": "pretrain",
+   "start": 205615,
+   "end": 206710,
+   "n_tokens": 1095,
+   "n_loss_tokens": 1095,
+   "spans": [
+    [
+     205615,
+     206710,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00179",
+   "doc_id": "web-00179",
+   "source_row_id": "<urn:uuid:a4dee370-849c-4c50-bca2-fa569742a920>",
+   "kind": "pretrain",
+   "start": 206710,
+   "end": 207314,
+   "n_tokens": 604,
+   "n_loss_tokens": 604,
+   "spans": [
+    [
+     206710,
+     207314,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00180",
+   "doc_id": "web-00180",
+   "source_row_id": "<urn:uuid:700680b4-7ce1-472b-af82-33bd71cae337>",
+   "kind": "pretrain",
+   "start": 207314,
+   "end": 207542,
+   "n_tokens": 228,
+   "n_loss_tokens": 228,
+   "spans": [
+    [
+     207314,
+     207542,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00181",
+   "doc_id": "web-00181",
+   "source_row_id": "<urn:uuid:baf824b2-7e06-471a-8510-efd5abab1567>",
+   "kind": "pretrain",
+   "start": 207542,
+   "end": 207957,
+   "n_tokens": 415,
+   "n_loss_tokens": 415,
+   "spans": [
+    [
+     207542,
+     207957,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00182",
+   "doc_id": "web-00182",
+   "source_row_id": "<urn:uuid:8fedc1ae-d9da-4da5-9da7-31e4b337c8fc>",
+   "kind": "pretrain",
+   "start": 207957,
+   "end": 208353,
+   "n_tokens": 396,
+   "n_loss_tokens": 396,
+   "spans": [
+    [
+     207957,
+     208353,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00183",
+   "doc_id": "web-00183",
+   "source_row_id": "<urn:uuid:7989d2d3-3e6d-4a4d-ad8e-e7b19882a89a>",
+   "kind": "pretrain",
+   "start": 208353,
+   "end": 209201,
+   "n_tokens": 848,
+   "n_loss_tokens": 848,
+   "spans": [
+    [
+     208353,
+     209201,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00184",
+   "doc_id": "web-00184",
+   "source_row_id": "<urn:uuid:e3b68342-7f9a-4821-8e28-91910e265a4c>",
+   "kind": "pretrain",
+   "start": 209201,
+   "end": 210691,
+   "n_tokens": 1490,
+   "n_loss_tokens": 1490,
+   "spans": [
+    [
+     209201,
+     210691,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00185",
+   "doc_id": "web-00185",
+   "source_row_id": "<urn:uuid:d2b35c16-35c7-477e-80c7-8dded3739ec4>",
+   "kind": "pretrain",
+   "start": 210691,
+   "end": 211649,
+   "n_tokens": 958,
+   "n_loss_tokens": 958,
+   "spans": [
+    [
+     210691,
+     211649,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00186",
+   "doc_id": "web-00186",
+   "source_row_id": "<urn:uuid:2fc62870-a21f-42bb-90f1-0b5d5c8d75a5>",
+   "kind": "pretrain",
+   "start": 211649,
+   "end": 212150,
+   "n_tokens": 501,
+   "n_loss_tokens": 501,
+   "spans": [
+    [
+     211649,
+     212150,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00187",
+   "doc_id": "web-00187",
+   "source_row_id": "<urn:uuid:f1607610-8673-4722-9f25-b0d9f0cf0ce3>",
+   "kind": "pretrain",
+   "start": 212150,
+   "end": 214614,
+   "n_tokens": 2464,
+   "n_loss_tokens": 2464,
+   "spans": [
+    [
+     212150,
+     214614,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00188",
+   "doc_id": "web-00188",
+   "source_row_id": "<urn:uuid:37b3f4ba-840a-45fa-9518-c5f2098cf2d8>",
+   "kind": "pretrain",
+   "start": 214614,
+   "end": 214861,
+   "n_tokens": 247,
+   "n_loss_tokens": 247,
+   "spans": [
+    [
+     214614,
+     214861,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00189",
+   "doc_id": "web-00189",
+   "source_row_id": "<urn:uuid:6f2a750f-0c38-4b95-86ad-7af20a393eac>",
+   "kind": "pretrain",
+   "start": 214861,
+   "end": 215727,
+   "n_tokens": 866,
+   "n_loss_tokens": 866,
+   "spans": [
+    [
+     214861,
+     215727,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00190",
+   "doc_id": "web-00190",
+   "source_row_id": "<urn:uuid:f3984201-a44a-42d6-802f-de566b1e8a6e>",
+   "kind": "pretrain",
+   "start": 215727,
+   "end": 216041,
+   "n_tokens": 314,
+   "n_loss_tokens": 314,
+   "spans": [
+    [
+     215727,
+     216041,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00191",
+   "doc_id": "web-00191",
+   "source_row_id": "<urn:uuid:246f9a12-fd35-40fa-8257-b07bf8d92857>",
+   "kind": "pretrain",
+   "start": 216041,
+   "end": 218864,
+   "n_tokens": 2823,
+   "n_loss_tokens": 2823,
+   "spans": [
+    [
+     216041,
+     218864,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00192",
+   "doc_id": "web-00192",
+   "source_row_id": "<urn:uuid:356021a3-01be-42dc-ae50-e22e74e8edfd>",
+   "kind": "pretrain",
+   "start": 218864,
+   "end": 221716,
+   "n_tokens": 2852,
+   "n_loss_tokens": 2852,
+   "spans": [
+    [
+     218864,
+     221716,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00193",
+   "doc_id": "web-00193",
+   "source_row_id": "<urn:uuid:21328ea9-4f20-4eeb-8f36-e480bf4e97a9>",
+   "kind": "pretrain",
+   "start": 221716,
+   "end": 221859,
+   "n_tokens": 143,
+   "n_loss_tokens": 143,
+   "spans": [
+    [
+     221716,
+     221859,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00194",
+   "doc_id": "web-00194",
+   "source_row_id": "<urn:uuid:c5c501ef-b21d-4596-8ce1-840a1c35a0c8>",
+   "kind": "pretrain",
+   "start": 221859,
+   "end": 222088,
+   "n_tokens": 229,
+   "n_loss_tokens": 229,
+   "spans": [
+    [
+     221859,
+     222088,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00195",
+   "doc_id": "web-00195",
+   "source_row_id": "<urn:uuid:a5977d7b-04a6-459b-acfa-d68ac4c1eb22>",
+   "kind": "pretrain",
+   "start": 222088,
+   "end": 222335,
+   "n_tokens": 247,
+   "n_loss_tokens": 247,
+   "spans": [
+    [
+     222088,
+     222335,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00196",
+   "doc_id": "web-00196",
+   "source_row_id": "<urn:uuid:58173a97-2e2e-475a-a66c-15b07e6cedae>",
+   "kind": "pretrain",
+   "start": 222335,
+   "end": 222840,
+   "n_tokens": 505,
+   "n_loss_tokens": 505,
+   "spans": [
+    [
+     222335,
+     222840,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00197",
+   "doc_id": "web-00197",
+   "source_row_id": "<urn:uuid:13555330-9462-4be5-bb21-d21bfedac74b>",
+   "kind": "pretrain",
+   "start": 222840,
+   "end": 223167,
+   "n_tokens": 327,
+   "n_loss_tokens": 327,
+   "spans": [
+    [
+     222840,
+     223167,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00198",
+   "doc_id": "web-00198",
+   "source_row_id": "<urn:uuid:02670295-3a47-4d18-b098-38a53e1f91ab>",
+   "kind": "pretrain",
+   "start": 223167,
+   "end": 225139,
+   "n_tokens": 1972,
+   "n_loss_tokens": 1972,
+   "spans": [
+    [
+     223167,
+     225139,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "web-00199",
+   "doc_id": "web-00199",
+   "source_row_id": "<urn:uuid:da610566-65f7-4f92-a0b9-cbf818d8ece0>",
+   "kind": "pretrain",
+   "start": 225139,
+   "end": 226128,
+   "n_tokens": 989,
+   "n_loss_tokens": 989,
+   "spans": [
+    [
+     225139,
+     226128,
+     "text"
+    ]
+   ]
+  }
+ ],
+ "split": "train",
+ "never_train": false,
+ "capability_lane": "web",
+ "source": "HuggingFaceFW/fineweb-edu:default/train",
+ "language": "en",
+ "script": "Latn",
+ "license_tier": "A",
+ "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+ "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+ "dedup_status": "pass",
+ "dedup_report": {
+  "exact_duplicates_removed": 0,
+  "near_duplicates_removed": 0,
+  "jaccard_threshold": 0.8,
+  "samples_in": 200,
+  "samples_kept": 200
+ },
+ "contamination_status": "screened_clean",
+ "eval_overlap": false,
+ "provenance_tier": "published_dataset_downloadable",
+ "parent_shard_ids": [],
+ "data_kind": "pretrain",
+ "documents_screened_out": 0
+}

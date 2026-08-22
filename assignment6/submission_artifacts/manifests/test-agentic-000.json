@@ -1,0 +1,1850 @@
+{
+ "shard_id": "test-agentic-000",
+ "content_hash": "c952c3cfd037d763c79a9566d2448548b05152b3ac5d9d6b7995f76cf196de41",
+ "token_file": "test-agentic-000.npy",
+ "n_tokens": 77564,
+ "n_samples": 50,
+ "n_loss_tokens": 23890,
+ "samples": [
+  {
+   "sample_id": "held-agentic-00050",
+   "doc_id": "held-agentic-00050",
+   "source_row_id": "5c5700d8-d949-4e52-bb43-ac64c3d1bc93",
+   "kind": "agentic",
+   "start": 0,
+   "end": 494,
+   "n_tokens": 494,
+   "n_loss_tokens": 27,
+   "spans": [
+    [
+     0,
+     229,
+     "system"
+    ],
+    [
+     229,
+     394,
+     "user"
+    ],
+    [
+     394,
+     421,
+     "assistant"
+    ],
+    [
+     421,
+     494,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00051",
+   "doc_id": "held-agentic-00051",
+   "source_row_id": "fa90b03b-5872-4b94-9ad6-5c43c6abefbf",
+   "kind": "agentic",
+   "start": 494,
+   "end": 1047,
+   "n_tokens": 553,
+   "n_loss_tokens": 146,
+   "spans": [
+    [
+     494,
+     622,
+     "system"
+    ],
+    [
+     622,
+     798,
+     "user"
+    ],
+    [
+     798,
+     888,
+     "assistant"
+    ],
+    [
+     888,
+     991,
+     "tool"
+    ],
+    [
+     991,
+     1047,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00052",
+   "doc_id": "held-agentic-00052",
+   "source_row_id": "71e0dbdb-639f-465e-92e0-e049591201bf",
+   "kind": "agentic",
+   "start": 1047,
+   "end": 1901,
+   "n_tokens": 854,
+   "n_loss_tokens": 223,
+   "spans": [
+    [
+     1047,
+     1252,
+     "system"
+    ],
+    [
+     1252,
+     1484,
+     "user"
+    ],
+    [
+     1484,
+     1554,
+     "assistant"
+    ],
+    [
+     1554,
+     1748,
+     "tool"
+    ],
+    [
+     1748,
+     1901,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00053",
+   "doc_id": "held-agentic-00053",
+   "source_row_id": "815a9335-85fb-4aa5-b265-4d7edbea06d9",
+   "kind": "agentic",
+   "start": 1901,
+   "end": 2739,
+   "n_tokens": 838,
+   "n_loss_tokens": 243,
+   "spans": [
+    [
+     1901,
+     2206,
+     "system"
+    ],
+    [
+     2206,
+     2361,
+     "user"
+    ],
+    [
+     2361,
+     2460,
+     "assistant"
+    ],
+    [
+     2460,
+     2595,
+     "tool"
+    ],
+    [
+     2595,
+     2739,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00054",
+   "doc_id": "held-agentic-00054",
+   "source_row_id": "ad444196-6a30-4195-b966-359789faa074",
+   "kind": "agentic",
+   "start": 2739,
+   "end": 3605,
+   "n_tokens": 866,
+   "n_loss_tokens": 258,
+   "spans": [
+    [
+     2739,
+     2918,
+     "system"
+    ],
+    [
+     2918,
+     3206,
+     "user"
+    ],
+    [
+     3206,
+     3247,
+     "assistant"
+    ],
+    [
+     3247,
+     3388,
+     "tool"
+    ],
+    [
+     3388,
+     3605,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00055",
+   "doc_id": "held-agentic-00055",
+   "source_row_id": "c02fd91b-069b-4ccf-b7ba-e99cb2aca288",
+   "kind": "agentic",
+   "start": 3605,
+   "end": 4614,
+   "n_tokens": 1009,
+   "n_loss_tokens": 181,
+   "spans": [
+    [
+     3605,
+     4111,
+     "system"
+    ],
+    [
+     4111,
+     4292,
+     "user"
+    ],
+    [
+     4292,
+     4364,
+     "assistant"
+    ],
+    [
+     4364,
+     4505,
+     "tool"
+    ],
+    [
+     4505,
+     4614,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00056",
+   "doc_id": "held-agentic-00056",
+   "source_row_id": "4832d2c0-35fd-4280-becd-273fdfb5f9a4",
+   "kind": "agentic",
+   "start": 4614,
+   "end": 5489,
+   "n_tokens": 875,
+   "n_loss_tokens": 43,
+   "spans": [
+    [
+     4614,
+     4908,
+     "system"
+    ],
+    [
+     4908,
+     5178,
+     "user"
+    ],
+    [
+     5178,
+     5221,
+     "assistant"
+    ],
+    [
+     5221,
+     5489,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00057",
+   "doc_id": "held-agentic-00057",
+   "source_row_id": "38dc5ae7-ae9e-432c-8b31-6e8c46371dcd",
+   "kind": "agentic",
+   "start": 5489,
+   "end": 7457,
+   "n_tokens": 1968,
+   "n_loss_tokens": 672,
+   "spans": [
+    [
+     5489,
+     5984,
+     "system"
+    ],
+    [
+     5984,
+     6294,
+     "user"
+    ],
+    [
+     6294,
+     6482,
+     "assistant"
+    ],
+    [
+     6482,
+     6973,
+     "tool"
+    ],
+    [
+     6973,
+     7457,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00058",
+   "doc_id": "held-agentic-00058",
+   "source_row_id": "def4c106-58f7-496d-975b-822ba6b32f80",
+   "kind": "agentic",
+   "start": 7457,
+   "end": 9359,
+   "n_tokens": 1902,
+   "n_loss_tokens": 680,
+   "spans": [
+    [
+     7457,
+     7670,
+     "system"
+    ],
+    [
+     7670,
+     8205,
+     "user"
+    ],
+    [
+     8205,
+     8383,
+     "assistant"
+    ],
+    [
+     8383,
+     8857,
+     "tool"
+    ],
+    [
+     8857,
+     9359,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00059",
+   "doc_id": "held-agentic-00059",
+   "source_row_id": "3149e4d5-2936-4011-92ed-25566f7b1d0d",
+   "kind": "agentic",
+   "start": 9359,
+   "end": 10925,
+   "n_tokens": 1566,
+   "n_loss_tokens": 332,
+   "spans": [
+    [
+     9359,
+     9870,
+     "system"
+    ],
+    [
+     9870,
+     10294,
+     "user"
+    ],
+    [
+     10294,
+     10398,
+     "assistant"
+    ],
+    [
+     10398,
+     10697,
+     "tool"
+    ],
+    [
+     10697,
+     10925,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00060",
+   "doc_id": "held-agentic-00060",
+   "source_row_id": "11593631-17d3-41cf-8cde-0288f381c4a5",
+   "kind": "agentic",
+   "start": 10925,
+   "end": 12357,
+   "n_tokens": 1432,
+   "n_loss_tokens": 409,
+   "spans": [
+    [
+     10925,
+     11455,
+     "system"
+    ],
+    [
+     11455,
+     11657,
+     "user"
+    ],
+    [
+     11657,
+     11761,
+     "assistant"
+    ],
+    [
+     11761,
+     12052,
+     "tool"
+    ],
+    [
+     12052,
+     12357,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00061",
+   "doc_id": "held-agentic-00061",
+   "source_row_id": "d6138f90-d1f8-4965-a9f0-1262a45f0b9f",
+   "kind": "agentic",
+   "start": 12357,
+   "end": 13419,
+   "n_tokens": 1062,
+   "n_loss_tokens": 344,
+   "spans": [
+    [
+     12357,
+     12613,
+     "system"
+    ],
+    [
+     12613,
+     12885,
+     "user"
+    ],
+    [
+     12885,
+     12958,
+     "assistant"
+    ],
+    [
+     12958,
+     13148,
+     "tool"
+    ],
+    [
+     13148,
+     13419,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00062",
+   "doc_id": "held-agentic-00062",
+   "source_row_id": "b579a31b-cf4f-4cb0-9dc1-1f5fc8fcf303",
+   "kind": "agentic",
+   "start": 13419,
+   "end": 14632,
+   "n_tokens": 1213,
+   "n_loss_tokens": 364,
+   "spans": [
+    [
+     13419,
+     13607,
+     "system"
+    ],
+    [
+     13607,
+     13980,
+     "user"
+    ],
+    [
+     13980,
+     14039,
+     "assistant"
+    ],
+    [
+     14039,
+     14327,
+     "tool"
+    ],
+    [
+     14327,
+     14632,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00063",
+   "doc_id": "held-agentic-00063",
+   "source_row_id": "30f3dec6-fd8f-4ead-8748-809bedf0b4e9",
+   "kind": "agentic",
+   "start": 14632,
+   "end": 15804,
+   "n_tokens": 1172,
+   "n_loss_tokens": 282,
+   "spans": [
+    [
+     14632,
+     14864,
+     "system"
+    ],
+    [
+     14864,
+     15236,
+     "user"
+    ],
+    [
+     15236,
+     15271,
+     "assistant"
+    ],
+    [
+     15271,
+     15557,
+     "tool"
+    ],
+    [
+     15557,
+     15804,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00064",
+   "doc_id": "held-agentic-00064",
+   "source_row_id": "0e61a994-0893-4008-9330-386b9468d016",
+   "kind": "agentic",
+   "start": 15804,
+   "end": 17094,
+   "n_tokens": 1290,
+   "n_loss_tokens": 356,
+   "spans": [
+    [
+     15804,
+     16109,
+     "system"
+    ],
+    [
+     16109,
+     16477,
+     "user"
+    ],
+    [
+     16477,
+     16569,
+     "assistant"
+    ],
+    [
+     16569,
+     16830,
+     "tool"
+    ],
+    [
+     16830,
+     17094,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00065",
+   "doc_id": "held-agentic-00065",
+   "source_row_id": "42f7fe89-dcf6-4ac7-b0b9-6f8ac10bf03b",
+   "kind": "agentic",
+   "start": 17094,
+   "end": 18375,
+   "n_tokens": 1281,
+   "n_loss_tokens": 432,
+   "spans": [
+    [
+     17094,
+     17312,
+     "system"
+    ],
+    [
+     17312,
+     17685,
+     "user"
+    ],
+    [
+     17685,
+     17782,
+     "assistant"
+    ],
+    [
+     17782,
+     18040,
+     "tool"
+    ],
+    [
+     18040,
+     18375,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00066",
+   "doc_id": "held-agentic-00066",
+   "source_row_id": "dff31ba4-a372-430a-a281-2484ff608079",
+   "kind": "agentic",
+   "start": 18375,
+   "end": 20025,
+   "n_tokens": 1650,
+   "n_loss_tokens": 616,
+   "spans": [
+    [
+     18375,
+     18782,
+     "system"
+    ],
+    [
+     18782,
+     19027,
+     "user"
+    ],
+    [
+     19027,
+     19144,
+     "assistant"
+    ],
+    [
+     19144,
+     19526,
+     "tool"
+    ],
+    [
+     19526,
+     20025,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00067",
+   "doc_id": "held-agentic-00067",
+   "source_row_id": "1ad0d7b7-831b-43a2-add5-140137e135d8",
+   "kind": "agentic",
+   "start": 20025,
+   "end": 21537,
+   "n_tokens": 1512,
+   "n_loss_tokens": 99,
+   "spans": [
+    [
+     20025,
+     20599,
+     "system"
+    ],
+    [
+     20599,
+     20822,
+     "user"
+    ],
+    [
+     20822,
+     20921,
+     "assistant"
+    ],
+    [
+     20921,
+     21537,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00068",
+   "doc_id": "held-agentic-00068",
+   "source_row_id": "86a5be86-af3f-42b3-8090-9b2aa0d24bad",
+   "kind": "agentic",
+   "start": 21537,
+   "end": 23028,
+   "n_tokens": 1491,
+   "n_loss_tokens": 325,
+   "spans": [
+    [
+     21537,
+     21965,
+     "system"
+    ],
+    [
+     21965,
+     22134,
+     "user"
+    ],
+    [
+     22134,
+     22208,
+     "assistant"
+    ],
+    [
+     22208,
+     22777,
+     "tool"
+    ],
+    [
+     22777,
+     23028,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00069",
+   "doc_id": "held-agentic-00069",
+   "source_row_id": "46206515-e5a8-4ebb-862e-34da4c189052",
+   "kind": "agentic",
+   "start": 23028,
+   "end": 23967,
+   "n_tokens": 939,
+   "n_loss_tokens": 85,
+   "spans": [
+    [
+     23028,
+     23395,
+     "system"
+    ],
+    [
+     23395,
+     23685,
+     "user"
+    ],
+    [
+     23685,
+     23770,
+     "assistant"
+    ],
+    [
+     23770,
+     23967,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00070",
+   "doc_id": "held-agentic-00070",
+   "source_row_id": "2bfac309-4724-4253-9a06-6b2c940f6e8a",
+   "kind": "agentic",
+   "start": 23967,
+   "end": 26460,
+   "n_tokens": 2493,
+   "n_loss_tokens": 791,
+   "spans": [
+    [
+     23967,
+     24321,
+     "system"
+    ],
+    [
+     24321,
+     24967,
+     "user"
+    ],
+    [
+     24967,
+     25086,
+     "assistant"
+    ],
+    [
+     25086,
+     25788,
+     "tool"
+    ],
+    [
+     25788,
+     26460,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00071",
+   "doc_id": "held-agentic-00071",
+   "source_row_id": "bfc198a2-e5b1-4cc6-8b0d-dab17d5ebe12",
+   "kind": "agentic",
+   "start": 26460,
+   "end": 28303,
+   "n_tokens": 1843,
+   "n_loss_tokens": 803,
+   "spans": [
+    [
+     26460,
+     26668,
+     "system"
+    ],
+    [
+     26668,
+     26840,
+     "user"
+    ],
+    [
+     26840,
+     26907,
+     "assistant"
+    ],
+    [
+     26907,
+     27567,
+     "tool"
+    ],
+    [
+     27567,
+     28303,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00072",
+   "doc_id": "held-agentic-00072",
+   "source_row_id": "eb23d3b4-8023-4f4d-a91d-edc06644dde6",
+   "kind": "agentic",
+   "start": 28303,
+   "end": 29603,
+   "n_tokens": 1300,
+   "n_loss_tokens": 434,
+   "spans": [
+    [
+     28303,
+     28637,
+     "system"
+    ],
+    [
+     28637,
+     28915,
+     "user"
+    ],
+    [
+     28915,
+     29020,
+     "assistant"
+    ],
+    [
+     29020,
+     29274,
+     "tool"
+    ],
+    [
+     29274,
+     29603,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00073",
+   "doc_id": "held-agentic-00073",
+   "source_row_id": "67d73649-9f8e-40fd-bcf7-f399c185f5c9",
+   "kind": "agentic",
+   "start": 29603,
+   "end": 31144,
+   "n_tokens": 1541,
+   "n_loss_tokens": 495,
+   "spans": [
+    [
+     29603,
+     29938,
+     "system"
+    ],
+    [
+     29938,
+     30315,
+     "user"
+    ],
+    [
+     30315,
+     30481,
+     "assistant"
+    ],
+    [
+     30481,
+     30815,
+     "tool"
+    ],
+    [
+     30815,
+     31144,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00074",
+   "doc_id": "held-agentic-00074",
+   "source_row_id": "63343e7b-45fc-4795-b92b-c753fff05912",
+   "kind": "agentic",
+   "start": 31144,
+   "end": 33311,
+   "n_tokens": 2167,
+   "n_loss_tokens": 741,
+   "spans": [
+    [
+     31144,
+     31492,
+     "system"
+    ],
+    [
+     31492,
+     32014,
+     "user"
+    ],
+    [
+     32014,
+     32153,
+     "assistant"
+    ],
+    [
+     32153,
+     32709,
+     "tool"
+    ],
+    [
+     32709,
+     33311,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00075",
+   "doc_id": "held-agentic-00075",
+   "source_row_id": "569af20c-ae75-442b-b9df-18fe4af84318",
+   "kind": "agentic",
+   "start": 33311,
+   "end": 34760,
+   "n_tokens": 1449,
+   "n_loss_tokens": 609,
+   "spans": [
+    [
+     33311,
+     33536,
+     "system"
+    ],
+    [
+     33536,
+     33863,
+     "user"
+    ],
+    [
+     33863,
+     33939,
+     "assistant"
+    ],
+    [
+     33939,
+     34227,
+     "tool"
+    ],
+    [
+     34227,
+     34760,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00076",
+   "doc_id": "held-agentic-00076",
+   "source_row_id": "9223b989-f90c-40d2-ad25-96a846299ea6",
+   "kind": "agentic",
+   "start": 34760,
+   "end": 36176,
+   "n_tokens": 1416,
+   "n_loss_tokens": 473,
+   "spans": [
+    [
+     34760,
+     35059,
+     "system"
+    ],
+    [
+     35059,
+     35497,
+     "user"
+    ],
+    [
+     35497,
+     35626,
+     "assistant"
+    ],
+    [
+     35626,
+     35832,
+     "tool"
+    ],
+    [
+     35832,
+     36176,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00077",
+   "doc_id": "held-agentic-00077",
+   "source_row_id": "123582ea-1e0d-4ef4-8ef1-3f0a50817d85",
+   "kind": "agentic",
+   "start": 36176,
+   "end": 38068,
+   "n_tokens": 1892,
+   "n_loss_tokens": 668,
+   "spans": [
+    [
+     36176,
+     36591,
+     "system"
+    ],
+    [
+     36591,
+     36963,
+     "user"
+    ],
+    [
+     36963,
+     37074,
+     "assistant"
+    ],
+    [
+     37074,
+     37511,
+     "tool"
+    ],
+    [
+     37511,
+     38068,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00078",
+   "doc_id": "held-agentic-00078",
+   "source_row_id": "7a340e7e-7432-4791-b8ac-9774b81f102f",
+   "kind": "agentic",
+   "start": 38068,
+   "end": 40286,
+   "n_tokens": 2218,
+   "n_loss_tokens": 710,
+   "spans": [
+    [
+     38068,
+     38542,
+     "system"
+    ],
+    [
+     38542,
+     38884,
+     "user"
+    ],
+    [
+     38884,
+     39058,
+     "assistant"
+    ],
+    [
+     39058,
+     39750,
+     "tool"
+    ],
+    [
+     39750,
+     40286,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00079",
+   "doc_id": "held-agentic-00079",
+   "source_row_id": "59fb5d0f-d8df-4b8d-aa5c-2c9162e53919",
+   "kind": "agentic",
+   "start": 40286,
+   "end": 41593,
+   "n_tokens": 1307,
+   "n_loss_tokens": 300,
+   "spans": [
+    [
+     40286,
+     40780,
+     "system"
+    ],
+    [
+     40780,
+     41066,
+     "user"
+    ],
+    [
+     41066,
+     41117,
+     "assistant"
+    ],
+    [
+     41117,
+     41344,
+     "tool"
+    ],
+    [
+     41344,
+     41593,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00080",
+   "doc_id": "held-agentic-00080",
+   "source_row_id": "2bab17bb-c5e4-49ac-944f-265a06f83684",
+   "kind": "agentic",
+   "start": 41593,
+   "end": 42959,
+   "n_tokens": 1366,
+   "n_loss_tokens": 56,
+   "spans": [
+    [
+     41593,
+     41915,
+     "system"
+    ],
+    [
+     41915,
+     42311,
+     "user"
+    ],
+    [
+     42311,
+     42367,
+     "assistant"
+    ],
+    [
+     42367,
+     42959,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00081",
+   "doc_id": "held-agentic-00081",
+   "source_row_id": "680db1c9-fb22-4658-8711-cf7f0371e483",
+   "kind": "agentic",
+   "start": 42959,
+   "end": 44806,
+   "n_tokens": 1847,
+   "n_loss_tokens": 884,
+   "spans": [
+    [
+     42959,
+     43118,
+     "system"
+    ],
+    [
+     43118,
+     43381,
+     "user"
+    ],
+    [
+     43381,
+     43469,
+     "assistant"
+    ],
+    [
+     43469,
+     44010,
+     "tool"
+    ],
+    [
+     44010,
+     44806,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00082",
+   "doc_id": "held-agentic-00082",
+   "source_row_id": "ad05d6a9-14fd-43c7-9e8b-c681c69ef552",
+   "kind": "agentic",
+   "start": 44806,
+   "end": 46499,
+   "n_tokens": 1693,
+   "n_loss_tokens": 659,
+   "spans": [
+    [
+     44806,
+     45134,
+     "system"
+    ],
+    [
+     45134,
+     45427,
+     "user"
+    ],
+    [
+     45427,
+     45526,
+     "assistant"
+    ],
+    [
+     45526,
+     45939,
+     "tool"
+    ],
+    [
+     45939,
+     46499,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00083",
+   "doc_id": "held-agentic-00083",
+   "source_row_id": "fe721786-3e7b-48b9-ba5a-b199bc4956d6",
+   "kind": "agentic",
+   "start": 46499,
+   "end": 48430,
+   "n_tokens": 1931,
+   "n_loss_tokens": 593,
+   "spans": [
+    [
+     46499,
+     46819,
+     "system"
+    ],
+    [
+     46819,
+     47455,
+     "user"
+    ],
+    [
+     47455,
+     47593,
+     "assistant"
+    ],
+    [
+     47593,
+     47975,
+     "tool"
+    ],
+    [
+     47975,
+     48430,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00084",
+   "doc_id": "held-agentic-00084",
+   "source_row_id": "96bab44e-8ff3-4461-a76b-30bf5545f226",
+   "kind": "agentic",
+   "start": 48430,
+   "end": 49762,
+   "n_tokens": 1332,
+   "n_loss_tokens": 473,
+   "spans": [
+    [
+     48430,
+     48805,
+     "system"
+    ],
+    [
+     48805,
+     49029,
+     "user"
+    ],
+    [
+     49029,
+     49107,
+     "assistant"
+    ],
+    [
+     49107,
+     49367,
+     "tool"
+    ],
+    [
+     49367,
+     49762,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00085",
+   "doc_id": "held-agentic-00085",
+   "source_row_id": "5d23cf1f-04a9-44b6-81e2-2a5497981189",
+   "kind": "agentic",
+   "start": 49762,
+   "end": 50599,
+   "n_tokens": 837,
+   "n_loss_tokens": 109,
+   "spans": [
+    [
+     49762,
+     49988,
+     "system"
+    ],
+    [
+     49988,
+     50419,
+     "user"
+    ],
+    [
+     50419,
+     50528,
+     "assistant"
+    ],
+    [
+     50528,
+     50599,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00086",
+   "doc_id": "held-agentic-00086",
+   "source_row_id": "362a42ee-b452-412b-b0fa-415ae3a7723a",
+   "kind": "agentic",
+   "start": 50599,
+   "end": 52721,
+   "n_tokens": 2122,
+   "n_loss_tokens": 740,
+   "spans": [
+    [
+     50599,
+     50971,
+     "system"
+    ],
+    [
+     50971,
+     51409,
+     "user"
+    ],
+    [
+     51409,
+     51514,
+     "assistant"
+    ],
+    [
+     51514,
+     52086,
+     "tool"
+    ],
+    [
+     52086,
+     52721,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00087",
+   "doc_id": "held-agentic-00087",
+   "source_row_id": "b880deb0-b5ca-4da0-be3d-980ded0c4c87",
+   "kind": "agentic",
+   "start": 52721,
+   "end": 54402,
+   "n_tokens": 1681,
+   "n_loss_tokens": 499,
+   "spans": [
+    [
+     52721,
+     53021,
+     "system"
+    ],
+    [
+     53021,
+     53566,
+     "user"
+    ],
+    [
+     53566,
+     53668,
+     "assistant"
+    ],
+    [
+     53668,
+     54005,
+     "tool"
+    ],
+    [
+     54005,
+     54402,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00088",
+   "doc_id": "held-agentic-00088",
+   "source_row_id": "188610c2-5b40-4adb-a248-65344d947d58",
+   "kind": "agentic",
+   "start": 54402,
+   "end": 56375,
+   "n_tokens": 1973,
+   "n_loss_tokens": 728,
+   "spans": [
+    [
+     54402,
+     54698,
+     "system"
+    ],
+    [
+     54698,
+     55117,
+     "user"
+    ],
+    [
+     55117,
+     55250,
+     "assistant"
+    ],
+    [
+     55250,
+     55780,
+     "tool"
+    ],
+    [
+     55780,
+     56375,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00089",
+   "doc_id": "held-agentic-00089",
+   "source_row_id": "40f3b168-e344-4517-8b4f-cef32d42785f",
+   "kind": "agentic",
+   "start": 56375,
+   "end": 57653,
+   "n_tokens": 1278,
+   "n_loss_tokens": 431,
+   "spans": [
+    [
+     56375,
+     56674,
+     "system"
+    ],
+    [
+     56674,
+     56934,
+     "user"
+    ],
+    [
+     56934,
+     57025,
+     "assistant"
+    ],
+    [
+     57025,
+     57313,
+     "tool"
+    ],
+    [
+     57313,
+     57653,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00090",
+   "doc_id": "held-agentic-00090",
+   "source_row_id": "fa39a37d-2f44-4269-8213-6cbb2f49536a",
+   "kind": "agentic",
+   "start": 57653,
+   "end": 59166,
+   "n_tokens": 1513,
+   "n_loss_tokens": 338,
+   "spans": [
+    [
+     57653,
+     58010,
+     "system"
+    ],
+    [
+     58010,
+     58550,
+     "user"
+    ],
+    [
+     58550,
+     58653,
+     "assistant"
+    ],
+    [
+     58653,
+     58931,
+     "tool"
+    ],
+    [
+     58931,
+     59166,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00091",
+   "doc_id": "held-agentic-00091",
+   "source_row_id": "60bfb7be-436e-4807-ba38-5cacc3e25086",
+   "kind": "agentic",
+   "start": 59166,
+   "end": 60852,
+   "n_tokens": 1686,
+   "n_loss_tokens": 715,
+   "spans": [
+    [
+     59166,
+     59369,
+     "system"
+    ],
+    [
+     59369,
+     59671,
+     "user"
+    ],
+    [
+     59671,
+     59716,
+     "assistant"
+    ],
+    [
+     59716,
+     60182,
+     "tool"
+    ],
+    [
+     60182,
+     60852,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00092",
+   "doc_id": "held-agentic-00092",
+   "source_row_id": "b76c735d-c6f4-43bc-8b15-8c3d1ff57437",
+   "kind": "agentic",
+   "start": 60852,
+   "end": 62694,
+   "n_tokens": 1842,
+   "n_loss_tokens": 568,
+   "spans": [
+    [
+     60852,
+     61234,
+     "system"
+    ],
+    [
+     61234,
+     61754,
+     "user"
+    ],
+    [
+     61754,
+     61862,
+     "assistant"
+    ],
+    [
+     61862,
+     62234,
+     "tool"
+    ],
+    [
+     62234,
+     62694,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00093",
+   "doc_id": "held-agentic-00093",
+   "source_row_id": "09b73800-90c3-4db9-8ec9-f9fd11bef152",
+   "kind": "agentic",
+   "start": 62694,
+   "end": 64559,
+   "n_tokens": 1865,
+   "n_loss_tokens": 695,
+   "spans": [
+    [
+     62694,
+     63010,
+     "system"
+    ],
+    [
+     63010,
+     63329,
+     "user"
+    ],
+    [
+     63329,
+     63423,
+     "assistant"
+    ],
+    [
+     63423,
+     63958,
+     "tool"
+    ],
+    [
+     63958,
+     64559,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00094",
+   "doc_id": "held-agentic-00094",
+   "source_row_id": "353b539e-69ce-43ed-8c18-3b36ef5638b8",
+   "kind": "agentic",
+   "start": 64559,
+   "end": 66288,
+   "n_tokens": 1729,
+   "n_loss_tokens": 601,
+   "spans": [
+    [
+     64559,
+     64901,
+     "system"
+    ],
+    [
+     64901,
+     65291,
+     "user"
+    ],
+    [
+     65291,
+     65400,
+     "assistant"
+    ],
+    [
+     65400,
+     65796,
+     "tool"
+    ],
+    [
+     65796,
+     66288,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00095",
+   "doc_id": "held-agentic-00095",
+   "source_row_id": "0618ab89-49db-4255-9de6-94e98dacbdc1",
+   "kind": "agentic",
+   "start": 66288,
+   "end": 67183,
+   "n_tokens": 895,
+   "n_loss_tokens": 65,
+   "spans": [
+    [
+     66288,
+     66605,
+     "system"
+    ],
+    [
+     66605,
+     66977,
+     "user"
+    ],
+    [
+     66977,
+     67042,
+     "assistant"
+    ],
+    [
+     67042,
+     67183,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00096",
+   "doc_id": "held-agentic-00096",
+   "source_row_id": "eb36ddf8-a6cd-4039-ab83-110b8a29e31a",
+   "kind": "agentic",
+   "start": 67183,
+   "end": 69757,
+   "n_tokens": 2574,
+   "n_loss_tokens": 851,
+   "spans": [
+    [
+     67183,
+     67584,
+     "system"
+    ],
+    [
+     67584,
+     68434,
+     "user"
+    ],
+    [
+     68434,
+     68783,
+     "assistant"
+    ],
+    [
+     68783,
+     69255,
+     "tool"
+    ],
+    [
+     69255,
+     69757,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00097",
+   "doc_id": "held-agentic-00097",
+   "source_row_id": "c605c150-937f-4386-8e30-ab08f6fb3704",
+   "kind": "agentic",
+   "start": 69757,
+   "end": 72480,
+   "n_tokens": 2723,
+   "n_loss_tokens": 884,
+   "spans": [
+    [
+     69757,
+     70058,
+     "system"
+    ],
+    [
+     70058,
+     70848,
+     "user"
+    ],
+    [
+     70848,
+     70960,
+     "assistant"
+    ],
+    [
+     70960,
+     71708,
+     "tool"
+    ],
+    [
+     71708,
+     72480,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00098",
+   "doc_id": "held-agentic-00098",
+   "source_row_id": "89888cef-c749-4cbe-8938-2a794d9bc7b5",
+   "kind": "agentic",
+   "start": 72480,
+   "end": 74913,
+   "n_tokens": 2433,
+   "n_loss_tokens": 758,
+   "spans": [
+    [
+     72480,
+     72937,
+     "system"
+    ],
+    [
+     72937,
+     73475,
+     "user"
+    ],
+    [
+     73475,
+     73640,
+     "assistant"
+    ],
+    [
+     73640,
+     74320,
+     "tool"
+    ],
+    [
+     74320,
+     74913,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-agentic-00099",
+   "doc_id": "held-agentic-00099",
+   "source_row_id": "e08220ae-1894-484b-9b9c-e6e1973d6033",
+   "kind": "agentic",
+   "start": 74913,
+   "end": 77564,
+   "n_tokens": 2651,
+   "n_loss_tokens": 1102,
+   "spans": [
+    [
+     74913,
+     75256,
+     "system"
+    ],
+    [
+     75256,
+     75959,
+     "user"
+    ],
+    [
+     75959,
+     76419,
+     "assistant"
+    ],
+    [
+     76419,
+     76922,
+     "tool"
+    ],
+    [
+     76922,
+     77564,
+     "assistant"
+    ]
+   ]
+  }
+ ],
+ "split": "test",
+ "never_train": true,
+ "capability_lane": "agentic",
+ "source": "NousResearch/hermes-function-calling-v1:func_calling/train",
+ "language": "en",
+ "script": "Latn",
+ "license_tier": "A",
+ "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+ "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+ "dedup_status": "pass",
+ "dedup_report": {
+  "exact_duplicates_removed": 0,
+  "near_duplicates_removed": 0,
+  "jaccard_threshold": 0.8,
+  "samples_in": 50,
+  "samples_kept": 50
+ },
+ "contamination_status": "held_out",
+ "eval_overlap": false,
+ "provenance_tier": "published_dataset_downloadable",
+ "parent_shard_ids": [],
+ "data_kind": "agentic",
+ "benchmark_id": "era-v5-holdout-agentic",
+ "version_tag": "v1",
+ "access_log": []
+}

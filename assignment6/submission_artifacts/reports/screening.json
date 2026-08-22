@@ -1,0 +1,84 @@
+{
+ "web": {
+  "offered": 200,
+  "kept": 200,
+  "rejected": []
+ },
+ "code": {
+  "offered": 189,
+  "kept": 188,
+  "rejected": [
+   {
+    "sample_id": "code-00025",
+    "match": "ngram_fingerprint",
+    "held_out_sample": "held-code-00071"
+   }
+  ]
+ },
+ "indic": {
+  "offered": 399,
+  "kept": 390,
+  "rejected": [
+   {
+    "sample_id": "indic-00041",
+    "match": "exact_content_hash",
+    "held_out_sample": "held-indic-00052"
+   },
+   {
+    "sample_id": "indic-00102",
+    "match": "exact_content_hash",
+    "held_out_sample": "held-indic-00052"
+   },
+   {
+    "sample_id": "indic-00171",
+    "match": "exact_content_hash",
+    "held_out_sample": "held-indic-00052"
+   },
+   {
+    "sample_id": "indic-00204",
+    "match": "exact_content_hash",
+    "held_out_sample": "held-indic-00052"
+   },
+   {
+    "sample_id": "indic-00216",
+    "match": "exact_content_hash",
+    "held_out_sample": "held-indic-00052"
+   },
+   {
+    "sample_id": "indic-00242",
+    "match": "exact_content_hash",
+    "held_out_sample": "held-indic-00052"
+   },
+   {
+    "sample_id": "indic-00310",
+    "match": "exact_content_hash",
+    "held_out_sample": "held-indic-00052"
+   },
+   {
+    "sample_id": "indic-00347",
+    "match": "exact_content_hash",
+    "held_out_sample": "held-indic-00052"
+   },
+   {
+    "sample_id": "indic-00388",
+    "match": "exact_content_hash",
+    "held_out_sample": "held-indic-00052"
+   }
+  ]
+ },
+ "stem": {
+  "offered": 803,
+  "kept": 803,
+  "rejected": []
+ },
+ "reasoning": {
+  "offered": 336,
+  "kept": 336,
+  "rejected": []
+ },
+ "agentic": {
+  "offered": 200,
+  "kept": 200,
+  "rejected": []
+ }
+}

@@ -1,0 +1,3229 @@
+{
+ "shard_id": "train-code-000",
+ "content_hash": "faeec94b3d49e566d3f253ec07cc027e863c9de0db3756e9d2397753cff0eeaa",
+ "token_file": "train-code-000.npy",
+ "n_tokens": 288927,
+ "n_samples": 188,
+ "n_loss_tokens": 288927,
+ "samples": [
+  {
+   "sample_id": "code-00000",
+   "doc_id": "code-00000",
+   "source_row_id": "ithinksw/philo/philo/models/fields/__init__.py",
+   "kind": "pretrain",
+   "start": 0,
+   "end": 1398,
+   "n_tokens": 1398,
+   "n_loss_tokens": 1398,
+   "spans": [
+    [
+     0,
+     1398,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00001",
+   "doc_id": "code-00001",
+   "source_row_id": "nficano/python-lambda/aws_lambda/aws_lambda.py",
+   "kind": "pretrain",
+   "start": 1398,
+   "end": 5347,
+   "n_tokens": 3949,
+   "n_loss_tokens": 3949,
+   "spans": [
+    [
+     1398,
+     5347,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00002",
+   "doc_id": "code-00002",
+   "source_row_id": "mfil/getebook/getebook/epub.py",
+   "kind": "pretrain",
+   "start": 5347,
+   "end": 10809,
+   "n_tokens": 5462,
+   "n_loss_tokens": 5462,
+   "spans": [
+    [
+     5347,
+     10809,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00003",
+   "doc_id": "code-00003",
+   "source_row_id": "banacer/door-wiz/src/identification/Identifier.py",
+   "kind": "pretrain",
+   "start": 10809,
+   "end": 11325,
+   "n_tokens": 516,
+   "n_loss_tokens": 516,
+   "spans": [
+    [
+     10809,
+     11325,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00004",
+   "doc_id": "code-00004",
+   "source_row_id": "wanghuafeng/spider_tools/decorator.py",
+   "kind": "pretrain",
+   "start": 11325,
+   "end": 12039,
+   "n_tokens": 714,
+   "n_loss_tokens": 714,
+   "spans": [
+    [
+     11325,
+     12039,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00005",
+   "doc_id": "code-00005",
+   "source_row_id": "poliastro/poliastro/contrib/CR3BP/test_run_CR3BP.py",
+   "kind": "pretrain",
+   "start": 12039,
+   "end": 14538,
+   "n_tokens": 2499,
+   "n_loss_tokens": 2499,
+   "spans": [
+    [
+     12039,
+     14538,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00006",
+   "doc_id": "code-00006",
+   "source_row_id": "tzpBingo/github-trending/codespace/python/tencentcloud/scf/v20180416/errorcodes.py",
+   "kind": "pretrain",
+   "start": 14538,
+   "end": 20530,
+   "n_tokens": 5992,
+   "n_loss_tokens": 5992,
+   "spans": [
+    [
+     14538,
+     20530,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00007",
+   "doc_id": "code-00007",
+   "source_row_id": "bohdan7/python_koans/python3/koans/about_iteration.py",
+   "kind": "pretrain",
+   "start": 20530,
+   "end": 22088,
+   "n_tokens": 1558,
+   "n_loss_tokens": 1558,
+   "spans": [
+    [
+     20530,
+     22088,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00008",
+   "doc_id": "code-00008",
+   "source_row_id": "2Checkout/2checkout-python/twocheckout/sale.py",
+   "kind": "pretrain",
+   "start": 22088,
+   "end": 23641,
+   "n_tokens": 1553,
+   "n_loss_tokens": 1553,
+   "spans": [
+    [
+     22088,
+     23641,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00009",
+   "doc_id": "code-00009",
+   "source_row_id": "CenterForOpenScience/scinet/scinet/views.py",
+   "kind": "pretrain",
+   "start": 23641,
+   "end": 25308,
+   "n_tokens": 1667,
+   "n_loss_tokens": 1667,
+   "spans": [
+    [
+     23641,
+     25308,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00010",
+   "doc_id": "code-00010",
+   "source_row_id": "DanceCats/CoreCat/corecat/models/project.py",
+   "kind": "pretrain",
+   "start": 25308,
+   "end": 25947,
+   "n_tokens": 639,
+   "n_loss_tokens": 639,
+   "spans": [
+    [
+     25308,
+     25947,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00011",
+   "doc_id": "code-00011",
+   "source_row_id": "TerryHowe/ansible-modules-hashivault/ansible/modules/hashivault/hashivault_approle_role_get.py",
+   "kind": "pretrain",
+   "start": 25947,
+   "end": 26473,
+   "n_tokens": 526,
+   "n_loss_tokens": 526,
+   "spans": [
+    [
+     25947,
+     26473,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00012",
+   "doc_id": "code-00012",
+   "source_row_id": "HashirZahir/FIFA-Player-Ratings/FIFAscrape/spiders/fifa_spider.py",
+   "kind": "pretrain",
+   "start": 26473,
+   "end": 27843,
+   "n_tokens": 1370,
+   "n_loss_tokens": 1370,
+   "spans": [
+    [
+     26473,
+     27843,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00013",
+   "doc_id": "code-00013",
+   "source_row_id": "Azure/azure-sdk-for-python/sdk/sql/azure-mgmt-sqlvirtualmachine/azure/mgmt/sqlvirtualmachine/aio/_sql_virtual_machine_management_client.py",
+   "kind": "pretrain",
+   "start": 27843,
+   "end": 29361,
+   "n_tokens": 1518,
+   "n_loss_tokens": 1518,
+   "spans": [
+    [
+     27843,
+     29361,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00014",
+   "doc_id": "code-00014",
+   "source_row_id": "griimick/feature-mlsite/app/liner/views.py",
+   "kind": "pretrain",
+   "start": 29361,
+   "end": 29764,
+   "n_tokens": 403,
+   "n_loss_tokens": 403,
+   "spans": [
+    [
+     29361,
+     29764,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00015",
+   "doc_id": "code-00015",
+   "source_row_id": "lmazuel/azure-sdk-for-python/azure-mgmt-web/azure/mgmt/web/models/dimension.py",
+   "kind": "pretrain",
+   "start": 29764,
+   "end": 30198,
+   "n_tokens": 434,
+   "n_loss_tokens": 434,
+   "spans": [
+    [
+     29764,
+     30198,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00016",
+   "doc_id": "code-00016",
+   "source_row_id": "TheMasterGhost/CorpBot/Cogs/Time.py",
+   "kind": "pretrain",
+   "start": 30198,
+   "end": 33073,
+   "n_tokens": 2875,
+   "n_loss_tokens": 2875,
+   "spans": [
+    [
+     30198,
+     33073,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00017",
+   "doc_id": "code-00017",
+   "source_row_id": "the-zebulan/CodeWars/tests/beta_tests/test_what_color_is_your_name.py",
+   "kind": "pretrain",
+   "start": 33073,
+   "end": 33298,
+   "n_tokens": 225,
+   "n_loss_tokens": 225,
+   "spans": [
+    [
+     33073,
+     33298,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00018",
+   "doc_id": "code-00018",
+   "source_row_id": "michaelBenin/sqlalchemy/test/engine/test_execute.py",
+   "kind": "pretrain",
+   "start": 33298,
+   "end": 38792,
+   "n_tokens": 5494,
+   "n_loss_tokens": 5494,
+   "spans": [
+    [
+     33298,
+     38792,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00019",
+   "doc_id": "code-00019",
+   "source_row_id": "wiki-ai/editquality/editquality/utilities/generate_make.py",
+   "kind": "pretrain",
+   "start": 38792,
+   "end": 39741,
+   "n_tokens": 949,
+   "n_loss_tokens": 949,
+   "spans": [
+    [
+     38792,
+     39741,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00020",
+   "doc_id": "code-00020",
+   "source_row_id": "vulcansteel/autorest/AutoRest/Generators/Python/Python.Tests/Expected/AcceptanceTests/BodyArray/auto_rest_swagger_bat_array_service/models/product.py",
+   "kind": "pretrain",
+   "start": 39741,
+   "end": 39982,
+   "n_tokens": 241,
+   "n_loss_tokens": 241,
+   "spans": [
+    [
+     39741,
+     39982,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00021",
+   "doc_id": "code-00021",
+   "source_row_id": "guori12321/todo/todo/parser.py",
+   "kind": "pretrain",
+   "start": 39982,
+   "end": 41134,
+   "n_tokens": 1152,
+   "n_loss_tokens": 1152,
+   "spans": [
+    [
+     39982,
+     41134,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00022",
+   "doc_id": "code-00022",
+   "source_row_id": "alisaifee/limits/tests/storage/test_memcached.py",
+   "kind": "pretrain",
+   "start": 41134,
+   "end": 42248,
+   "n_tokens": 1114,
+   "n_loss_tokens": 1114,
+   "spans": [
+    [
+     41134,
+     42248,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00023",
+   "doc_id": "code-00023",
+   "source_row_id": "ff0000/red-fab-deploy/fab_deploy/joyent/postgres.py",
+   "kind": "pretrain",
+   "start": 42248,
+   "end": 44456,
+   "n_tokens": 2208,
+   "n_loss_tokens": 2208,
+   "spans": [
+    [
+     42248,
+     44456,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00024",
+   "doc_id": "code-00024",
+   "source_row_id": "chriso/gauged/gauged/drivers/__init__.py",
+   "kind": "pretrain",
+   "start": 44456,
+   "end": 45284,
+   "n_tokens": 828,
+   "n_loss_tokens": 828,
+   "spans": [
+    [
+     44456,
+     45284,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00026",
+   "doc_id": "code-00026",
+   "source_row_id": "laterpay/rubberjack-cli/tests/test_cli.py",
+   "kind": "pretrain",
+   "start": 45284,
+   "end": 48332,
+   "n_tokens": 3048,
+   "n_loss_tokens": 3048,
+   "spans": [
+    [
+     45284,
+     48332,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00027",
+   "doc_id": "code-00027",
+   "source_row_id": "tareqalayan/pytest/testing/test_capture.py",
+   "kind": "pretrain",
+   "start": 48332,
+   "end": 53418,
+   "n_tokens": 5086,
+   "n_loss_tokens": 5086,
+   "spans": [
+    [
+     48332,
+     53418,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00028",
+   "doc_id": "code-00028",
+   "source_row_id": "greencoder/hopefullysunny-django/registrations/management/commands/registration_worker.py",
+   "kind": "pretrain",
+   "start": 53418,
+   "end": 54056,
+   "n_tokens": 638,
+   "n_loss_tokens": 638,
+   "spans": [
+    [
+     53418,
+     54056,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00029",
+   "doc_id": "code-00029",
+   "source_row_id": "dustlab/noisemapper/scripts/nmcollector.py",
+   "kind": "pretrain",
+   "start": 54056,
+   "end": 54128,
+   "n_tokens": 72,
+   "n_loss_tokens": 72,
+   "spans": [
+    [
+     54056,
+     54128,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00030",
+   "doc_id": "code-00030",
+   "source_row_id": "dcorney/text-generation/core/dialogue.py",
+   "kind": "pretrain",
+   "start": 54128,
+   "end": 56742,
+   "n_tokens": 2614,
+   "n_loss_tokens": 2614,
+   "spans": [
+    [
+     54128,
+     56742,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00031",
+   "doc_id": "code-00031",
+   "source_row_id": "izimobil/djangocms-unitegallery/djangocms_unitegallery/admin.py",
+   "kind": "pretrain",
+   "start": 56742,
+   "end": 56844,
+   "n_tokens": 102,
+   "n_loss_tokens": 102,
+   "spans": [
+    [
+     56742,
+     56844,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00032",
+   "doc_id": "code-00032",
+   "source_row_id": "executablebooks/mdformat/src/mdformat/renderer/_context.py",
+   "kind": "pretrain",
+   "start": 56844,
+   "end": 60889,
+   "n_tokens": 4045,
+   "n_loss_tokens": 4045,
+   "spans": [
+    [
+     56844,
+     60889,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00033",
+   "doc_id": "code-00033",
+   "source_row_id": "alfateam123/Teca/tests/test_utils.py",
+   "kind": "pretrain",
+   "start": 60889,
+   "end": 61323,
+   "n_tokens": 434,
+   "n_loss_tokens": 434,
+   "spans": [
+    [
+     60889,
+     61323,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00034",
+   "doc_id": "code-00034",
+   "source_row_id": "DayGitH/Python-Challenges/DailyProgrammer/DP20150713A.py",
+   "kind": "pretrain",
+   "start": 61323,
+   "end": 61832,
+   "n_tokens": 509,
+   "n_loss_tokens": 509,
+   "spans": [
+    [
+     61323,
+     61832,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00035",
+   "doc_id": "code-00035",
+   "source_row_id": "redsolution/django-generic-ratings/ratings/forms/widgets.py",
+   "kind": "pretrain",
+   "start": 61832,
+   "end": 64605,
+   "n_tokens": 2773,
+   "n_loss_tokens": 2773,
+   "spans": [
+    [
+     61832,
+     64605,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00036",
+   "doc_id": "code-00036",
+   "source_row_id": "NESCent/phylocommons/tools/treebase_scraper/annotate_trees.py",
+   "kind": "pretrain",
+   "start": 64605,
+   "end": 64826,
+   "n_tokens": 221,
+   "n_loss_tokens": 221,
+   "spans": [
+    [
+     64605,
+     64826,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00037",
+   "doc_id": "code-00037",
+   "source_row_id": "IQSS/miniverse/dv_apps/metrics/stats_views_dataverses.py",
+   "kind": "pretrain",
+   "start": 64826,
+   "end": 66797,
+   "n_tokens": 1971,
+   "n_loss_tokens": 1971,
+   "spans": [
+    [
+     64826,
+     66797,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00038",
+   "doc_id": "code-00038",
+   "source_row_id": "masschallenge/django-accelerator/simpleuser/models.py",
+   "kind": "pretrain",
+   "start": 66797,
+   "end": 69255,
+   "n_tokens": 2458,
+   "n_loss_tokens": 2458,
+   "spans": [
+    [
+     66797,
+     69255,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00039",
+   "doc_id": "code-00039",
+   "source_row_id": "keithhamilton/transposer/setup.py",
+   "kind": "pretrain",
+   "start": 69255,
+   "end": 69737,
+   "n_tokens": 482,
+   "n_loss_tokens": 482,
+   "spans": [
+    [
+     69255,
+     69737,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00040",
+   "doc_id": "code-00040",
+   "source_row_id": "RobSpectre/garfield/garfield/phone_numbers/migrations/0002_phonenumber_related_sim.py",
+   "kind": "pretrain",
+   "start": 69737,
+   "end": 69958,
+   "n_tokens": 221,
+   "n_loss_tokens": 221,
+   "spans": [
+    [
+     69737,
+     69958,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00041",
+   "doc_id": "code-00041",
+   "source_row_id": "DestructHub/bcs-contest/2016/Main/L/Python/solution_1_wrong.py",
+   "kind": "pretrain",
+   "start": 69958,
+   "end": 70148,
+   "n_tokens": 190,
+   "n_loss_tokens": 190,
+   "spans": [
+    [
+     69958,
+     70148,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00042",
+   "doc_id": "code-00042",
+   "source_row_id": "jonasrauber/c2s/c2s/experiment.py",
+   "kind": "pretrain",
+   "start": 70148,
+   "end": 73220,
+   "n_tokens": 3072,
+   "n_loss_tokens": 3072,
+   "spans": [
+    [
+     70148,
+     73220,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00043",
+   "doc_id": "code-00043",
+   "source_row_id": "mikhtonyuk/rxpython/concurrent/futures/cooperative/ensure_exception_handled.py",
+   "kind": "pretrain",
+   "start": 73220,
+   "end": 74258,
+   "n_tokens": 1038,
+   "n_loss_tokens": 1038,
+   "spans": [
+    [
+     73220,
+     74258,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00044",
+   "doc_id": "code-00044",
+   "source_row_id": "KevinJMcGrath/Symphony-Ares/modules/plugins/PABot/logging.py",
+   "kind": "pretrain",
+   "start": 74258,
+   "end": 74501,
+   "n_tokens": 243,
+   "n_loss_tokens": 243,
+   "spans": [
+    [
+     74258,
+     74501,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00045",
+   "doc_id": "code-00045",
+   "source_row_id": "vdods/heisenberg/heisenberg/plot/__main__.py",
+   "kind": "pretrain",
+   "start": 74501,
+   "end": 75783,
+   "n_tokens": 1282,
+   "n_loss_tokens": 1282,
+   "spans": [
+    [
+     74501,
+     75783,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00046",
+   "doc_id": "code-00046",
+   "source_row_id": "nicorellius/pdxpixel/pdxpixel/core/mailgun.py",
+   "kind": "pretrain",
+   "start": 75783,
+   "end": 76242,
+   "n_tokens": 459,
+   "n_loss_tokens": 459,
+   "spans": [
+    [
+     75783,
+     76242,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00047",
+   "doc_id": "code-00047",
+   "source_row_id": "nhatbui/LebronCoin/lebroncoin/key_loader.py",
+   "kind": "pretrain",
+   "start": 76242,
+   "end": 76510,
+   "n_tokens": 268,
+   "n_loss_tokens": 268,
+   "spans": [
+    [
+     76242,
+     76510,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00048",
+   "doc_id": "code-00048",
+   "source_row_id": "snfactory/cubefit/cubefit/main.py",
+   "kind": "pretrain",
+   "start": 76510,
+   "end": 81677,
+   "n_tokens": 5167,
+   "n_loss_tokens": 5167,
+   "spans": [
+    [
+     76510,
+     81677,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00049",
+   "doc_id": "code-00049",
+   "source_row_id": "vicenteneto/online-judge-solutions/URI/1-Beginner/1021.py",
+   "kind": "pretrain",
+   "start": 81677,
+   "end": 82059,
+   "n_tokens": 382,
+   "n_loss_tokens": 382,
+   "spans": [
+    [
+     81677,
+     82059,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00050",
+   "doc_id": "code-00050",
+   "source_row_id": "slava-sh/NewsBlur/apps/reader/views.py",
+   "kind": "pretrain",
+   "start": 82059,
+   "end": 86396,
+   "n_tokens": 4337,
+   "n_loss_tokens": 4337,
+   "spans": [
+    [
+     82059,
+     86396,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00051",
+   "doc_id": "code-00051",
+   "source_row_id": "kif/freesas/freesas/average.py",
+   "kind": "pretrain",
+   "start": 86396,
+   "end": 90797,
+   "n_tokens": 4401,
+   "n_loss_tokens": 4401,
+   "spans": [
+    [
+     86396,
+     90797,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00052",
+   "doc_id": "code-00052",
+   "source_row_id": "18F/quotable/app_config.py",
+   "kind": "pretrain",
+   "start": 90797,
+   "end": 91606,
+   "n_tokens": 809,
+   "n_loss_tokens": 809,
+   "spans": [
+    [
+     90797,
+     91606,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00053",
+   "doc_id": "code-00053",
+   "source_row_id": "swcarpentry/amy/amy/workshops/management/commands/instructors_activity.py",
+   "kind": "pretrain",
+   "start": 91606,
+   "end": 93979,
+   "n_tokens": 2373,
+   "n_loss_tokens": 2373,
+   "spans": [
+    [
+     91606,
+     93979,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00054",
+   "doc_id": "code-00054",
+   "source_row_id": "Azure/azure-sdk-for-python/sdk/resources/azure-mgmt-resource/azure/mgmt/resource/policy/v2016_12_01/operations/_policy_assignments_operations.py",
+   "kind": "pretrain",
+   "start": 93979,
+   "end": 96997,
+   "n_tokens": 3018,
+   "n_loss_tokens": 3018,
+   "spans": [
+    [
+     93979,
+     96997,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00055",
+   "doc_id": "code-00055",
+   "source_row_id": "loretoparisi/docker/theano/rsc15/preprocess.py",
+   "kind": "pretrain",
+   "start": 96997,
+   "end": 98222,
+   "n_tokens": 1225,
+   "n_loss_tokens": 1225,
+   "spans": [
+    [
+     96997,
+     98222,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00056",
+   "doc_id": "code-00056",
+   "source_row_id": "JensTimmerman/radical.pilot/docs/architecture/api_draft/unit_manager.py",
+   "kind": "pretrain",
+   "start": 98222,
+   "end": 99254,
+   "n_tokens": 1032,
+   "n_loss_tokens": 1032,
+   "spans": [
+    [
+     98222,
+     99254,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00057",
+   "doc_id": "code-00057",
+   "source_row_id": "EssaAlshammri/django-by-example/bookmarks/bookmarks/actions/utils.py",
+   "kind": "pretrain",
+   "start": 99254,
+   "end": 99461,
+   "n_tokens": 207,
+   "n_loss_tokens": 207,
+   "spans": [
+    [
+     99254,
+     99461,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00058",
+   "doc_id": "code-00058",
+   "source_row_id": "72squared/redpipe/docs/conf.py",
+   "kind": "pretrain",
+   "start": 99461,
+   "end": 101113,
+   "n_tokens": 1652,
+   "n_loss_tokens": 1652,
+   "spans": [
+    [
+     99461,
+     101113,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00059",
+   "doc_id": "code-00059",
+   "source_row_id": "juanchodepisa/sbtk/SBTK_League_Helper/src/interfacing/servers.py",
+   "kind": "pretrain",
+   "start": 101113,
+   "end": 101829,
+   "n_tokens": 716,
+   "n_loss_tokens": 716,
+   "spans": [
+    [
+     101113,
+     101829,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00060",
+   "doc_id": "code-00060",
+   "source_row_id": "arnavd96/Cinemiezer/myvenv/lib/python3.4/site-packages/music21/ext/jsonpickle/__init__.py",
+   "kind": "pretrain",
+   "start": 101829,
+   "end": 103454,
+   "n_tokens": 1625,
+   "n_loss_tokens": 1625,
+   "spans": [
+    [
+     101829,
+     103454,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00061",
+   "doc_id": "code-00061",
+   "source_row_id": "marcus-nystrom/share-gaze/sync_clocks/test_clock_resolution.py",
+   "kind": "pretrain",
+   "start": 103454,
+   "end": 104341,
+   "n_tokens": 887,
+   "n_loss_tokens": 887,
+   "spans": [
+    [
+     103454,
+     104341,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00062",
+   "doc_id": "code-00062",
+   "source_row_id": "ValorNaram/isl/inputchangers/002.py",
+   "kind": "pretrain",
+   "start": 104341,
+   "end": 104672,
+   "n_tokens": 331,
+   "n_loss_tokens": 331,
+   "spans": [
+    [
+     104341,
+     104672,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00063",
+   "doc_id": "code-00063",
+   "source_row_id": "mrmrwat/pylsner/pylsner/gui.py",
+   "kind": "pretrain",
+   "start": 104672,
+   "end": 105879,
+   "n_tokens": 1207,
+   "n_loss_tokens": 1207,
+   "spans": [
+    [
+     104672,
+     105879,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00064",
+   "doc_id": "code-00064",
+   "source_row_id": "futurepr0n/Books-solutions/Python-For-Everyone-Horstmann/Chapter6-Lists/R6.1A.py",
+   "kind": "pretrain",
+   "start": 105879,
+   "end": 105956,
+   "n_tokens": 77,
+   "n_loss_tokens": 77,
+   "spans": [
+    [
+     105879,
+     105956,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00065",
+   "doc_id": "code-00065",
+   "source_row_id": "mrwsr/monotone/test/test_monotone.py",
+   "kind": "pretrain",
+   "start": 105956,
+   "end": 108826,
+   "n_tokens": 2870,
+   "n_loss_tokens": 2870,
+   "spans": [
+    [
+     105956,
+     108826,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00066",
+   "doc_id": "code-00066",
+   "source_row_id": "warmsea/tc-srm/srm147/CCipher.py",
+   "kind": "pretrain",
+   "start": 108826,
+   "end": 108987,
+   "n_tokens": 161,
+   "n_loss_tokens": 161,
+   "spans": [
+    [
+     108826,
+     108987,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00067",
+   "doc_id": "code-00067",
+   "source_row_id": "Nic30/HWToolkit/hwt/synthesizer/dummyPlatform.py",
+   "kind": "pretrain",
+   "start": 108987,
+   "end": 109300,
+   "n_tokens": 313,
+   "n_loss_tokens": 313,
+   "spans": [
+    [
+     108987,
+     109300,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00068",
+   "doc_id": "code-00068",
+   "source_row_id": "Bengt/AL-FanControl/python/fancontrol/ui/cli_util.py",
+   "kind": "pretrain",
+   "start": 109300,
+   "end": 110115,
+   "n_tokens": 815,
+   "n_loss_tokens": 815,
+   "spans": [
+    [
+     109300,
+     110115,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00069",
+   "doc_id": "code-00069",
+   "source_row_id": "toranb/django-bower-registry/api/migrations/0001_initial.py",
+   "kind": "pretrain",
+   "start": 110115,
+   "end": 110648,
+   "n_tokens": 533,
+   "n_loss_tokens": 533,
+   "spans": [
+    [
+     110115,
+     110648,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00070",
+   "doc_id": "code-00070",
+   "source_row_id": "ee-in/python-api/plotly/tests/test_optional/test_matplotlylib/test_annotations.py",
+   "kind": "pretrain",
+   "start": 110648,
+   "end": 111203,
+   "n_tokens": 555,
+   "n_loss_tokens": 555,
+   "spans": [
+    [
+     110648,
+     111203,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00071",
+   "doc_id": "code-00071",
+   "source_row_id": "aldialimucaj/Streaker/setup.py",
+   "kind": "pretrain",
+   "start": 111203,
+   "end": 111459,
+   "n_tokens": 256,
+   "n_loss_tokens": 256,
+   "spans": [
+    [
+     111203,
+     111459,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00072",
+   "doc_id": "code-00072",
+   "source_row_id": "smarkets/smk_python_sdk/smarkets/statsd.py",
+   "kind": "pretrain",
+   "start": 111459,
+   "end": 112612,
+   "n_tokens": 1153,
+   "n_loss_tokens": 1153,
+   "spans": [
+    [
+     111459,
+     112612,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00073",
+   "doc_id": "code-00073",
+   "source_row_id": "kjchalup/dtit/setup.py",
+   "kind": "pretrain",
+   "start": 112612,
+   "end": 113502,
+   "n_tokens": 890,
+   "n_loss_tokens": 890,
+   "spans": [
+    [
+     112612,
+     113502,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00074",
+   "doc_id": "code-00074",
+   "source_row_id": "PythonProgramming/Support-Vector-Machines---Basics-and-Fundamental-Investing-Project/p10.py",
+   "kind": "pretrain",
+   "start": 113502,
+   "end": 115838,
+   "n_tokens": 2336,
+   "n_loss_tokens": 2336,
+   "spans": [
+    [
+     113502,
+     115838,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00075",
+   "doc_id": "code-00075",
+   "source_row_id": "arvinddoraiswamy/LearnPython/17.py",
+   "kind": "pretrain",
+   "start": 115838,
+   "end": 116125,
+   "n_tokens": 287,
+   "n_loss_tokens": 287,
+   "spans": [
+    [
+     115838,
+     116125,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00076",
+   "doc_id": "code-00076",
+   "source_row_id": "jeremiedecock/tictactoe-py/jdhp/tictactoe/player/greedy.py",
+   "kind": "pretrain",
+   "start": 116125,
+   "end": 116844,
+   "n_tokens": 719,
+   "n_loss_tokens": 719,
+   "spans": [
+    [
+     116125,
+     116844,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00077",
+   "doc_id": "code-00077",
+   "source_row_id": "KeserOner/puissance4/bestaplayer.py",
+   "kind": "pretrain",
+   "start": 116844,
+   "end": 121625,
+   "n_tokens": 4781,
+   "n_loss_tokens": 4781,
+   "spans": [
+    [
+     116844,
+     121625,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00078",
+   "doc_id": "code-00078",
+   "source_row_id": "hfaran/slack-export-viewer/slackviewer/user.py",
+   "kind": "pretrain",
+   "start": 121625,
+   "end": 122478,
+   "n_tokens": 853,
+   "n_loss_tokens": 853,
+   "spans": [
+    [
+     121625,
+     122478,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00079",
+   "doc_id": "code-00079",
+   "source_row_id": "naumenko-sa/cre/cre.locate_sample.py",
+   "kind": "pretrain",
+   "start": 122478,
+   "end": 122823,
+   "n_tokens": 345,
+   "n_loss_tokens": 345,
+   "spans": [
+    [
+     122478,
+     122823,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00080",
+   "doc_id": "code-00080",
+   "source_row_id": "SatoshiNakamotoGeoscripting/SatoshiNakamotoGeoscripting/Final_assignment/main.py",
+   "kind": "pretrain",
+   "start": 122823,
+   "end": 124020,
+   "n_tokens": 1197,
+   "n_loss_tokens": 1197,
+   "spans": [
+    [
+     122823,
+     124020,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00081",
+   "doc_id": "code-00081",
+   "source_row_id": "xairy/mipt-schedule-parser/msp/test/schedule_tests.py",
+   "kind": "pretrain",
+   "start": 124020,
+   "end": 126985,
+   "n_tokens": 2965,
+   "n_loss_tokens": 2965,
+   "spans": [
+    [
+     124020,
+     126985,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00082",
+   "doc_id": "code-00082",
+   "source_row_id": "vervacity/ggr-project/scripts/data_qc/summarize_chipseq_qc.py",
+   "kind": "pretrain",
+   "start": 126985,
+   "end": 129060,
+   "n_tokens": 2075,
+   "n_loss_tokens": 2075,
+   "spans": [
+    [
+     126985,
+     129060,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00083",
+   "doc_id": "code-00083",
+   "source_row_id": "ajitghz582/PythonLearning/DAY_1_ASSIGNMENTS/1_name_phone_number.py",
+   "kind": "pretrain",
+   "start": 129060,
+   "end": 129396,
+   "n_tokens": 336,
+   "n_loss_tokens": 336,
+   "spans": [
+    [
+     129060,
+     129396,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00084",
+   "doc_id": "code-00084",
+   "source_row_id": "stevearc/dynamo3/tests/__init__.py",
+   "kind": "pretrain",
+   "start": 129396,
+   "end": 133729,
+   "n_tokens": 4333,
+   "n_loss_tokens": 4333,
+   "spans": [
+    [
+     129396,
+     133729,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00085",
+   "doc_id": "code-00085",
+   "source_row_id": "zdvresearch/fast15-paper-extras/ecfs_user_sessions/src/analyze_user_sessions.py",
+   "kind": "pretrain",
+   "start": 133729,
+   "end": 137051,
+   "n_tokens": 3322,
+   "n_loss_tokens": 3322,
+   "spans": [
+    [
+     133729,
+     137051,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00086",
+   "doc_id": "code-00086",
+   "source_row_id": "reiths/ros_spinnaker_interface/examples/example_ros_spinnaker_interface.py",
+   "kind": "pretrain",
+   "start": 137051,
+   "end": 138080,
+   "n_tokens": 1029,
+   "n_loss_tokens": 1029,
+   "spans": [
+    [
+     137051,
+     138080,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00087",
+   "doc_id": "code-00087",
+   "source_row_id": "ashwyn/eden-message_parser/modules/s3/s3import.py",
+   "kind": "pretrain",
+   "start": 138080,
+   "end": 142695,
+   "n_tokens": 4615,
+   "n_loss_tokens": 4615,
+   "spans": [
+    [
+     138080,
+     142695,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00088",
+   "doc_id": "code-00088",
+   "source_row_id": "VulcanTechnologies/oauth2lib/oauth2lib/utils.py",
+   "kind": "pretrain",
+   "start": 142695,
+   "end": 143730,
+   "n_tokens": 1035,
+   "n_loss_tokens": 1035,
+   "spans": [
+    [
+     142695,
+     143730,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00089",
+   "doc_id": "code-00089",
+   "source_row_id": "ksmit799/Toontown-Source/toontown/classicchars/DistributedGoofySpeedwayAI.py",
+   "kind": "pretrain",
+   "start": 143730,
+   "end": 145957,
+   "n_tokens": 2227,
+   "n_loss_tokens": 2227,
+   "spans": [
+    [
+     143730,
+     145957,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00090",
+   "doc_id": "code-00090",
+   "source_row_id": "dcondrey/scrapy-spiders/dist/spiders/newenglandfilm.py",
+   "kind": "pretrain",
+   "start": 145957,
+   "end": 146592,
+   "n_tokens": 635,
+   "n_loss_tokens": 635,
+   "spans": [
+    [
+     145957,
+     146592,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00091",
+   "doc_id": "code-00091",
+   "source_row_id": "isaac-philip/loolu/common/django/contrib/admin/views/decorators.py",
+   "kind": "pretrain",
+   "start": 146592,
+   "end": 147833,
+   "n_tokens": 1241,
+   "n_loss_tokens": 1241,
+   "spans": [
+    [
+     146592,
+     147833,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00092",
+   "doc_id": "code-00092",
+   "source_row_id": "coders-creed/botathon/src/info/fetch_info.py",
+   "kind": "pretrain",
+   "start": 147833,
+   "end": 148746,
+   "n_tokens": 913,
+   "n_loss_tokens": 913,
+   "spans": [
+    [
+     147833,
+     148746,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00093",
+   "doc_id": "code-00093",
+   "source_row_id": "pisskidney/leetcode/medium/16.py",
+   "kind": "pretrain",
+   "start": 148746,
+   "end": 149177,
+   "n_tokens": 431,
+   "n_loss_tokens": 431,
+   "spans": [
+    [
+     148746,
+     149177,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00094",
+   "doc_id": "code-00094",
+   "source_row_id": "Jayin/practice_on_py/Process&Thread/PoolTest.py",
+   "kind": "pretrain",
+   "start": 149177,
+   "end": 149561,
+   "n_tokens": 384,
+   "n_loss_tokens": 384,
+   "spans": [
+    [
+     149177,
+     149561,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00095",
+   "doc_id": "code-00095",
+   "source_row_id": "Azure/azure-sdk-for-python/sdk/storage/azure-storage-blob/tests/test_large_block_blob.py",
+   "kind": "pretrain",
+   "start": 149561,
+   "end": 154167,
+   "n_tokens": 4606,
+   "n_loss_tokens": 4606,
+   "spans": [
+    [
+     149561,
+     154167,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00096",
+   "doc_id": "code-00096",
+   "source_row_id": "ThiefMaster/indico/bin/maintenance/update_header.py",
+   "kind": "pretrain",
+   "start": 154167,
+   "end": 157496,
+   "n_tokens": 3329,
+   "n_loss_tokens": 3329,
+   "spans": [
+    [
+     154167,
+     157496,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00097",
+   "doc_id": "code-00097",
+   "source_row_id": "spezifanta/Paste-It/api/v01/views.py",
+   "kind": "pretrain",
+   "start": 157496,
+   "end": 157784,
+   "n_tokens": 288,
+   "n_loss_tokens": 288,
+   "spans": [
+    [
+     157496,
+     157784,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00098",
+   "doc_id": "code-00098",
+   "source_row_id": "ushatil/wellness-tracker/ws/manage.py",
+   "kind": "pretrain",
+   "start": 157784,
+   "end": 157855,
+   "n_tokens": 71,
+   "n_loss_tokens": 71,
+   "spans": [
+    [
+     157784,
+     157855,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00099",
+   "doc_id": "code-00099",
+   "source_row_id": "kantel/processingpy/sketches/Apple_Invaders/sprites.py",
+   "kind": "pretrain",
+   "start": 157855,
+   "end": 159217,
+   "n_tokens": 1362,
+   "n_loss_tokens": 1362,
+   "spans": [
+    [
+     157855,
+     159217,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00100",
+   "doc_id": "code-00100",
+   "source_row_id": "ssut/py-hanspell/tests.py",
+   "kind": "pretrain",
+   "start": 159217,
+   "end": 160330,
+   "n_tokens": 1113,
+   "n_loss_tokens": 1113,
+   "spans": [
+    [
+     159217,
+     160330,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00101",
+   "doc_id": "code-00101",
+   "source_row_id": "Twangist/log_calls/tests/set_reset_defaults/global_defaults.py",
+   "kind": "pretrain",
+   "start": 160330,
+   "end": 160399,
+   "n_tokens": 69,
+   "n_loss_tokens": 69,
+   "spans": [
+    [
+     160330,
+     160399,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00102",
+   "doc_id": "code-00102",
+   "source_row_id": "algorhythms/LeetCode/282 Expression Add Operators.py",
+   "kind": "pretrain",
+   "start": 160399,
+   "end": 161210,
+   "n_tokens": 811,
+   "n_loss_tokens": 811,
+   "spans": [
+    [
+     160399,
+     161210,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00103",
+   "doc_id": "code-00103",
+   "source_row_id": "odeke-em/restAssured/auth/urls.py",
+   "kind": "pretrain",
+   "start": 161210,
+   "end": 161345,
+   "n_tokens": 135,
+   "n_loss_tokens": 135,
+   "spans": [
+    [
+     161210,
+     161345,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00104",
+   "doc_id": "code-00104",
+   "source_row_id": "uber-common/opentracing-python-instrumentation/tests/opentracing_instrumentation/test_mysqldb.py",
+   "kind": "pretrain",
+   "start": 161345,
+   "end": 162141,
+   "n_tokens": 796,
+   "n_loss_tokens": 796,
+   "spans": [
+    [
+     161345,
+     162141,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00105",
+   "doc_id": "code-00105",
+   "source_row_id": "Mathew/psychoanalysis/psychoanalysis/apps/pa/migrations/0002_auto__del_participant.py",
+   "kind": "pretrain",
+   "start": 162141,
+   "end": 164332,
+   "n_tokens": 2191,
+   "n_loss_tokens": 2191,
+   "spans": [
+    [
+     162141,
+     164332,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00106",
+   "doc_id": "code-00106",
+   "source_row_id": "JDSWalker/AdventOfCode/2015/Day05/advent_of_code_2015_day_05.py",
+   "kind": "pretrain",
+   "start": 164332,
+   "end": 167070,
+   "n_tokens": 2738,
+   "n_loss_tokens": 2738,
+   "spans": [
+    [
+     164332,
+     167070,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00107",
+   "doc_id": "code-00107",
+   "source_row_id": "peepall/FancyLogger/FancyLogger/__init__.py",
+   "kind": "pretrain",
+   "start": 167070,
+   "end": 172227,
+   "n_tokens": 5157,
+   "n_loss_tokens": 5157,
+   "spans": [
+    [
+     167070,
+     172227,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00108",
+   "doc_id": "code-00108",
+   "source_row_id": "mlund/pyha/pyha/openmm.py",
+   "kind": "pretrain",
+   "start": 172227,
+   "end": 173022,
+   "n_tokens": 795,
+   "n_loss_tokens": 795,
+   "spans": [
+    [
+     172227,
+     173022,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00109",
+   "doc_id": "code-00109",
+   "source_row_id": "yuraic/koza4ok/skTMVA/sci_bdt_electron_DecisionTree.py",
+   "kind": "pretrain",
+   "start": 173022,
+   "end": 173798,
+   "n_tokens": 776,
+   "n_loss_tokens": 776,
+   "spans": [
+    [
+     173022,
+     173798,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00110",
+   "doc_id": "code-00110",
+   "source_row_id": "J216/gimp_be/gimp_be/draw/draw.py",
+   "kind": "pretrain",
+   "start": 173798,
+   "end": 179032,
+   "n_tokens": 5234,
+   "n_loss_tokens": 5234,
+   "spans": [
+    [
+     173798,
+     179032,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00111",
+   "doc_id": "code-00111",
+   "source_row_id": "boisde/Greed_Island/business_logic/order_collector/transwarp/orm.py",
+   "kind": "pretrain",
+   "start": 179032,
+   "end": 183809,
+   "n_tokens": 4777,
+   "n_loss_tokens": 4777,
+   "spans": [
+    [
+     179032,
+     183809,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00112",
+   "doc_id": "code-00112",
+   "source_row_id": "marshmallow-code/marshmallow-jsonapi/tests/conftest.py",
+   "kind": "pretrain",
+   "start": 183809,
+   "end": 184341,
+   "n_tokens": 532,
+   "n_loss_tokens": 532,
+   "spans": [
+    [
+     183809,
+     184341,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00113",
+   "doc_id": "code-00113",
+   "source_row_id": "jabhij/MITx-6.00.1x-Python-/Week-3/L5/Prob3.py",
+   "kind": "pretrain",
+   "start": 184341,
+   "end": 184447,
+   "n_tokens": 106,
+   "n_loss_tokens": 106,
+   "spans": [
+    [
+     184341,
+     184447,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00114",
+   "doc_id": "code-00114",
+   "source_row_id": "petterip/exam-archive/test/rest_api_test_course.py",
+   "kind": "pretrain",
+   "start": 184447,
+   "end": 189218,
+   "n_tokens": 4771,
+   "n_loss_tokens": 4771,
+   "spans": [
+    [
+     184447,
+     189218,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00115",
+   "doc_id": "code-00115",
+   "source_row_id": "samvartaka/keyak-python/utils.py",
+   "kind": "pretrain",
+   "start": 189218,
+   "end": 189800,
+   "n_tokens": 582,
+   "n_loss_tokens": 582,
+   "spans": [
+    [
+     189218,
+     189800,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00116",
+   "doc_id": "code-00116",
+   "source_row_id": "plotly/plotly.py/packages/python/plotly/plotly/validators/sankey/hoverlabel/_bordercolor.py",
+   "kind": "pretrain",
+   "start": 189800,
+   "end": 189990,
+   "n_tokens": 190,
+   "n_loss_tokens": 190,
+   "spans": [
+    [
+     189800,
+     189990,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00117",
+   "doc_id": "code-00117",
+   "source_row_id": "slundberg/shap/shap/explainers/_deep/deep_pytorch.py",
+   "kind": "pretrain",
+   "start": 189990,
+   "end": 195539,
+   "n_tokens": 5549,
+   "n_loss_tokens": 5549,
+   "spans": [
+    [
+     189990,
+     195539,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00118",
+   "doc_id": "code-00118",
+   "source_row_id": "shaggytwodope/rtv/rtv/submission_page.py",
+   "kind": "pretrain",
+   "start": 195539,
+   "end": 199952,
+   "n_tokens": 4413,
+   "n_loss_tokens": 4413,
+   "spans": [
+    [
+     195539,
+     199952,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00119",
+   "doc_id": "code-00119",
+   "source_row_id": "timkrentz/SunTracker/IMU/VTK-6.2.0/IO/MINC/Testing/Python/TestMNITagPoints.py",
+   "kind": "pretrain",
+   "start": 199952,
+   "end": 201165,
+   "n_tokens": 1213,
+   "n_loss_tokens": 1213,
+   "spans": [
+    [
+     199952,
+     201165,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00120",
+   "doc_id": "code-00120",
+   "source_row_id": "Pulgama/supriya/supriya/patterns/EventPattern.py",
+   "kind": "pretrain",
+   "start": 201165,
+   "end": 201824,
+   "n_tokens": 659,
+   "n_loss_tokens": 659,
+   "spans": [
+    [
+     201165,
+     201824,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00121",
+   "doc_id": "code-00121",
+   "source_row_id": "F5Networks/f5-ansible-modules/ansible_collections/f5networks/f5_modules/plugins/modules/bigiq_regkey_license_assignment.py",
+   "kind": "pretrain",
+   "start": 201824,
+   "end": 206193,
+   "n_tokens": 4369,
+   "n_loss_tokens": 4369,
+   "spans": [
+    [
+     201824,
+     206193,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00122",
+   "doc_id": "code-00122",
+   "source_row_id": "johnnoone/salt-targeting/src/salt/utils/__init__.py",
+   "kind": "pretrain",
+   "start": 206193,
+   "end": 206395,
+   "n_tokens": 202,
+   "n_loss_tokens": 202,
+   "spans": [
+    [
+     206193,
+     206395,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00123",
+   "doc_id": "code-00123",
+   "source_row_id": "tgbugs/pyontutils/librdflib/setup.py",
+   "kind": "pretrain",
+   "start": 206395,
+   "end": 206953,
+   "n_tokens": 558,
+   "n_loss_tokens": 558,
+   "spans": [
+    [
+     206395,
+     206953,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00124",
+   "doc_id": "code-00124",
+   "source_row_id": "zatricion/Streams/ExamplesElementaryOperations/ExamplesOpNoState.py",
+   "kind": "pretrain",
+   "start": 206953,
+   "end": 208469,
+   "n_tokens": 1516,
+   "n_loss_tokens": 1516,
+   "spans": [
+    [
+     206953,
+     208469,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00125",
+   "doc_id": "code-00125",
+   "source_row_id": "jacksarick/My-Code/Python/python challenges/euler/012_divisable_tri_nums.py",
+   "kind": "pretrain",
+   "start": 208469,
+   "end": 208540,
+   "n_tokens": 71,
+   "n_loss_tokens": 71,
+   "spans": [
+    [
+     208469,
+     208540,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00126",
+   "doc_id": "code-00126",
+   "source_row_id": "ndt93/tetris/scripts/agent3.py",
+   "kind": "pretrain",
+   "start": 208540,
+   "end": 210953,
+   "n_tokens": 2413,
+   "n_loss_tokens": 2413,
+   "spans": [
+    [
+     208540,
+     210953,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00127",
+   "doc_id": "code-00127",
+   "source_row_id": "chrisenytc/pydemi/api/controllers/users.py",
+   "kind": "pretrain",
+   "start": 210953,
+   "end": 211340,
+   "n_tokens": 387,
+   "n_loss_tokens": 387,
+   "spans": [
+    [
+     210953,
+     211340,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00128",
+   "doc_id": "code-00128",
+   "source_row_id": "bairdj/beveridge/src/scrapy/afltables/afltables/common.py",
+   "kind": "pretrain",
+   "start": 211340,
+   "end": 211995,
+   "n_tokens": 655,
+   "n_loss_tokens": 655,
+   "spans": [
+    [
+     211340,
+     211995,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00129",
+   "doc_id": "code-00129",
+   "source_row_id": "SlipknotTN/Dogs-Vs-Cats-Playground/deep_learning/keras/lib/preprocess/preprocess.py",
+   "kind": "pretrain",
+   "start": 211995,
+   "end": 212171,
+   "n_tokens": 176,
+   "n_loss_tokens": 176,
+   "spans": [
+    [
+     211995,
+     212171,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00130",
+   "doc_id": "code-00130",
+   "source_row_id": "SummaLabs/DLS/app/backend/core/models-keras-2x-api/lightweight_layers/layers_pooling.py",
+   "kind": "pretrain",
+   "start": 212171,
+   "end": 214100,
+   "n_tokens": 1929,
+   "n_loss_tokens": 1929,
+   "spans": [
+    [
+     212171,
+     214100,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00131",
+   "doc_id": "code-00131",
+   "source_row_id": "yamaguchiyuto/icwsm15/tag_follow_disagreement.py",
+   "kind": "pretrain",
+   "start": 214100,
+   "end": 214455,
+   "n_tokens": 355,
+   "n_loss_tokens": 355,
+   "spans": [
+    [
+     214100,
+     214455,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00132",
+   "doc_id": "code-00132",
+   "source_row_id": "Agnishom/ascii-art-007/facebook.py",
+   "kind": "pretrain",
+   "start": 214455,
+   "end": 218766,
+   "n_tokens": 4311,
+   "n_loss_tokens": 4311,
+   "spans": [
+    [
+     214455,
+     218766,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00133",
+   "doc_id": "code-00133",
+   "source_row_id": "jleni/QRL/src/qrl/core/ChainManager.py",
+   "kind": "pretrain",
+   "start": 218766,
+   "end": 223116,
+   "n_tokens": 4350,
+   "n_loss_tokens": 4350,
+   "spans": [
+    [
+     218766,
+     223116,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00134",
+   "doc_id": "code-00134",
+   "source_row_id": "yenliangl/bitcoin/test/functional/test_framework/blocktools.py",
+   "kind": "pretrain",
+   "start": 223116,
+   "end": 226943,
+   "n_tokens": 3827,
+   "n_loss_tokens": 3827,
+   "spans": [
+    [
+     223116,
+     226943,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00135",
+   "doc_id": "code-00135",
+   "source_row_id": "alphagov/govuk-puppet/modules/collectd/files/usr/lib/collectd/python/redis_queues.py",
+   "kind": "pretrain",
+   "start": 226943,
+   "end": 228598,
+   "n_tokens": 1655,
+   "n_loss_tokens": 1655,
+   "spans": [
+    [
+     226943,
+     228598,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00136",
+   "doc_id": "code-00136",
+   "source_row_id": "khalibartan/pgmpy/pgmpy/factors/discrete/__init__.py",
+   "kind": "pretrain",
+   "start": 228598,
+   "end": 228698,
+   "n_tokens": 100,
+   "n_loss_tokens": 100,
+   "spans": [
+    [
+     228598,
+     228698,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00137",
+   "doc_id": "code-00137",
+   "source_row_id": "eduardoedson/scp/usuarios/forms.py",
+   "kind": "pretrain",
+   "start": 228698,
+   "end": 232070,
+   "n_tokens": 3372,
+   "n_loss_tokens": 3372,
+   "spans": [
+    [
+     228698,
+     232070,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00138",
+   "doc_id": "code-00138",
+   "source_row_id": "MrLeeh/jsonwatchqt/jsonwatchqt/mainwindow.py",
+   "kind": "pretrain",
+   "start": 232070,
+   "end": 237210,
+   "n_tokens": 5140,
+   "n_loss_tokens": 5140,
+   "spans": [
+    [
+     232070,
+     237210,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00139",
+   "doc_id": "code-00139",
+   "source_row_id": "YoApp/yo-water-tracker/server.py",
+   "kind": "pretrain",
+   "start": 237210,
+   "end": 237962,
+   "n_tokens": 752,
+   "n_loss_tokens": 752,
+   "spans": [
+    [
+     237210,
+     237962,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00140",
+   "doc_id": "code-00140",
+   "source_row_id": "ctames/conference-host/webApp/urls.py",
+   "kind": "pretrain",
+   "start": 237962,
+   "end": 238588,
+   "n_tokens": 626,
+   "n_loss_tokens": 626,
+   "spans": [
+    [
+     237962,
+     238588,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00141",
+   "doc_id": "code-00141",
+   "source_row_id": "jsargiot/restman/tests/steps/share.py",
+   "kind": "pretrain",
+   "start": 238588,
+   "end": 239616,
+   "n_tokens": 1028,
+   "n_loss_tokens": 1028,
+   "spans": [
+    [
+     238588,
+     239616,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00142",
+   "doc_id": "code-00142",
+   "source_row_id": "bitmazk/django-libs/runtests.py",
+   "kind": "pretrain",
+   "start": 239616,
+   "end": 240038,
+   "n_tokens": 422,
+   "n_loss_tokens": 422,
+   "spans": [
+    [
+     239616,
+     240038,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00143",
+   "doc_id": "code-00143",
+   "source_row_id": "baroquehq/baroque/baroque/datastructures/counters.py",
+   "kind": "pretrain",
+   "start": 240038,
+   "end": 240490,
+   "n_tokens": 452,
+   "n_loss_tokens": 452,
+   "spans": [
+    [
+     240038,
+     240490,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00144",
+   "doc_id": "code-00144",
+   "source_row_id": "yangshun/cs4243-project/app/surface.py",
+   "kind": "pretrain",
+   "start": 240490,
+   "end": 241662,
+   "n_tokens": 1172,
+   "n_loss_tokens": 1172,
+   "spans": [
+    [
+     240490,
+     241662,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00145",
+   "doc_id": "code-00145",
+   "source_row_id": "Royal-Society-of-New-Zealand/NZ-ORCID-Hub/orcid_api/models/contributor_orcid.py",
+   "kind": "pretrain",
+   "start": 241662,
+   "end": 243428,
+   "n_tokens": 1766,
+   "n_loss_tokens": 1766,
+   "spans": [
+    [
+     241662,
+     243428,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00146",
+   "doc_id": "code-00146",
+   "source_row_id": "vollov/i18n-django-api/page/migrations/0001_initial.py",
+   "kind": "pretrain",
+   "start": 243428,
+   "end": 243721,
+   "n_tokens": 293,
+   "n_loss_tokens": 293,
+   "spans": [
+    [
+     243428,
+     243721,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00147",
+   "doc_id": "code-00147",
+   "source_row_id": "jonrf93/genos/dbservices/tests/functional_tests/steps/user_service_steps.py",
+   "kind": "pretrain",
+   "start": 243721,
+   "end": 244227,
+   "n_tokens": 506,
+   "n_loss_tokens": 506,
+   "spans": [
+    [
+     243721,
+     244227,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00148",
+   "doc_id": "code-00148",
+   "source_row_id": "alcemirsantos/algorithms-py/tests/data_stuctures/test_mockdata.py",
+   "kind": "pretrain",
+   "start": 244227,
+   "end": 244365,
+   "n_tokens": 138,
+   "n_loss_tokens": 138,
+   "spans": [
+    [
+     244227,
+     244365,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00149",
+   "doc_id": "code-00149",
+   "source_row_id": "nkoech/trialscompendium/trialscompendium/trials/api/treatment/filters.py",
+   "kind": "pretrain",
+   "start": 244365,
+   "end": 244791,
+   "n_tokens": 426,
+   "n_loss_tokens": 426,
+   "spans": [
+    [
+     244365,
+     244791,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00150",
+   "doc_id": "code-00150",
+   "source_row_id": "LeeYiFang/Carkinos/src/Carkinos/wsgi.py",
+   "kind": "pretrain",
+   "start": 244791,
+   "end": 244911,
+   "n_tokens": 120,
+   "n_loss_tokens": 120,
+   "spans": [
+    [
+     244791,
+     244911,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00151",
+   "doc_id": "code-00151",
+   "source_row_id": "mooja/ssip3/app/members/views.py",
+   "kind": "pretrain",
+   "start": 244911,
+   "end": 246690,
+   "n_tokens": 1779,
+   "n_loss_tokens": 1779,
+   "spans": [
+    [
+     244911,
+     246690,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00152",
+   "doc_id": "code-00152",
+   "source_row_id": "wikomega/wikodemo/test.py",
+   "kind": "pretrain",
+   "start": 246690,
+   "end": 247052,
+   "n_tokens": 362,
+   "n_loss_tokens": 362,
+   "spans": [
+    [
+     246690,
+     247052,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00153",
+   "doc_id": "code-00153",
+   "source_row_id": "CooperLuan/devops.notes/taobao/top/api/rest/SubusersGetRequest.py",
+   "kind": "pretrain",
+   "start": 247052,
+   "end": 247156,
+   "n_tokens": 104,
+   "n_loss_tokens": 104,
+   "spans": [
+    [
+     247052,
+     247156,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00154",
+   "doc_id": "code-00154",
+   "source_row_id": "orangain/jenkins-docker-sample/tests.py",
+   "kind": "pretrain",
+   "start": 247156,
+   "end": 247496,
+   "n_tokens": 340,
+   "n_loss_tokens": 340,
+   "spans": [
+    [
+     247156,
+     247496,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00155",
+   "doc_id": "code-00155",
+   "source_row_id": "realpython/flask-skeleton/{{cookiecutter.app_slug}}/project/tests/test_user.py",
+   "kind": "pretrain",
+   "start": 247496,
+   "end": 249389,
+   "n_tokens": 1893,
+   "n_loss_tokens": 1893,
+   "spans": [
+    [
+     247496,
+     249389,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00156",
+   "doc_id": "code-00156",
+   "source_row_id": "jokkebk/euler/p144.py",
+   "kind": "pretrain",
+   "start": 249389,
+   "end": 249661,
+   "n_tokens": 272,
+   "n_loss_tokens": 272,
+   "spans": [
+    [
+     249389,
+     249661,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00157",
+   "doc_id": "code-00157",
+   "source_row_id": "t-mertz/slurmCompanion/django-web/webcmd/cmdtext.py",
+   "kind": "pretrain",
+   "start": 249661,
+   "end": 251633,
+   "n_tokens": 1972,
+   "n_loss_tokens": 1972,
+   "spans": [
+    [
+     249661,
+     251633,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00158",
+   "doc_id": "code-00158",
+   "source_row_id": "cwahbong/onirim-py/tests/test_door.py",
+   "kind": "pretrain",
+   "start": 251633,
+   "end": 252420,
+   "n_tokens": 787,
+   "n_loss_tokens": 787,
+   "spans": [
+    [
+     251633,
+     252420,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00159",
+   "doc_id": "code-00159",
+   "source_row_id": "alvaroribas/modeling_TDs/Herschel_mapmaking/scanamorphos/PACS/general_script_L1_PACS.py",
+   "kind": "pretrain",
+   "start": 252420,
+   "end": 253162,
+   "n_tokens": 742,
+   "n_loss_tokens": 742,
+   "spans": [
+    [
+     252420,
+     253162,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00160",
+   "doc_id": "code-00160",
+   "source_row_id": "lasote/conan/conans/client/generators/visualstudio_multi.py",
+   "kind": "pretrain",
+   "start": 253162,
+   "end": 254041,
+   "n_tokens": 879,
+   "n_loss_tokens": 879,
+   "spans": [
+    [
+     253162,
+     254041,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00161",
+   "doc_id": "code-00161",
+   "source_row_id": "orangain/helloscrapy/helloscrapy/settings.py",
+   "kind": "pretrain",
+   "start": 254041,
+   "end": 254220,
+   "n_tokens": 179,
+   "n_loss_tokens": 179,
+   "spans": [
+    [
+     254041,
+     254220,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00162",
+   "doc_id": "code-00162",
+   "source_row_id": "reggieroby/devpack/frameworks/djangoApp/djangoApp/settings.py",
+   "kind": "pretrain",
+   "start": 254220,
+   "end": 255291,
+   "n_tokens": 1071,
+   "n_loss_tokens": 1071,
+   "spans": [
+    [
+     254220,
+     255291,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00163",
+   "doc_id": "code-00163",
+   "source_row_id": "seccom-ufsc/hertz/hertz/settings.py",
+   "kind": "pretrain",
+   "start": 255291,
+   "end": 256541,
+   "n_tokens": 1250,
+   "n_loss_tokens": 1250,
+   "spans": [
+    [
+     255291,
+     256541,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00164",
+   "doc_id": "code-00164",
+   "source_row_id": "zillow/ctds/tests/test_tds_parameter.py",
+   "kind": "pretrain",
+   "start": 256541,
+   "end": 260854,
+   "n_tokens": 4313,
+   "n_loss_tokens": 4313,
+   "spans": [
+    [
+     256541,
+     260854,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00165",
+   "doc_id": "code-00165",
+   "source_row_id": "purrcat259/peek/tests/unit/test_line.py",
+   "kind": "pretrain",
+   "start": 260854,
+   "end": 261440,
+   "n_tokens": 586,
+   "n_loss_tokens": 586,
+   "spans": [
+    [
+     260854,
+     261440,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00166",
+   "doc_id": "code-00166",
+   "source_row_id": "phildini/logtacts/invitations/consumers.py",
+   "kind": "pretrain",
+   "start": 261440,
+   "end": 262114,
+   "n_tokens": 674,
+   "n_loss_tokens": 674,
+   "spans": [
+    [
+     261440,
+     262114,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00167",
+   "doc_id": "code-00167",
+   "source_row_id": "alneberg/sillymap/sillymap/burrows_wheeler.py",
+   "kind": "pretrain",
+   "start": 262114,
+   "end": 262333,
+   "n_tokens": 219,
+   "n_loss_tokens": 219,
+   "spans": [
+    [
+     262114,
+     262333,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00168",
+   "doc_id": "code-00168",
+   "source_row_id": "PierreMarchand20/htool/interface/htool/multihmatrix.py",
+   "kind": "pretrain",
+   "start": 262333,
+   "end": 266206,
+   "n_tokens": 3873,
+   "n_loss_tokens": 3873,
+   "spans": [
+    [
+     262333,
+     266206,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00169",
+   "doc_id": "code-00169",
+   "source_row_id": "ioguntol/NumTy/numty/congruences.py",
+   "kind": "pretrain",
+   "start": 266206,
+   "end": 267831,
+   "n_tokens": 1625,
+   "n_loss_tokens": 1625,
+   "spans": [
+    [
+     266206,
+     267831,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00170",
+   "doc_id": "code-00170",
+   "source_row_id": "kmod/icbd/icbd/type_analyzer/tests/basic.py",
+   "kind": "pretrain",
+   "start": 267831,
+   "end": 268618,
+   "n_tokens": 787,
+   "n_loss_tokens": 787,
+   "spans": [
+    [
+     267831,
+     268618,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00171",
+   "doc_id": "code-00171",
+   "source_row_id": "nVentiveUX/mystartupmanager/mystartupmanager/showcase/apps.py",
+   "kind": "pretrain",
+   "start": 268618,
+   "end": 269026,
+   "n_tokens": 408,
+   "n_loss_tokens": 408,
+   "spans": [
+    [
+     268618,
+     269026,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00172",
+   "doc_id": "code-00172",
+   "source_row_id": "lixxu/sanic/sanic/request.py",
+   "kind": "pretrain",
+   "start": 269026,
+   "end": 273767,
+   "n_tokens": 4741,
+   "n_loss_tokens": 4741,
+   "spans": [
+    [
+     269026,
+     273767,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00173",
+   "doc_id": "code-00173",
+   "source_row_id": "tailhook/tilenol/tilenol/layout/examples.py",
+   "kind": "pretrain",
+   "start": 273767,
+   "end": 274049,
+   "n_tokens": 282,
+   "n_loss_tokens": 282,
+   "spans": [
+    [
+     273767,
+     274049,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00174",
+   "doc_id": "code-00174",
+   "source_row_id": "garr741/mr_meeseeks/rtmbot/plugins/hmm.py",
+   "kind": "pretrain",
+   "start": 274049,
+   "end": 274206,
+   "n_tokens": 157,
+   "n_loss_tokens": 157,
+   "spans": [
+    [
+     274049,
+     274206,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00175",
+   "doc_id": "code-00175",
+   "source_row_id": "reviewboard/reviewboard/reviewboard/hostingsvcs/bugtracker.py",
+   "kind": "pretrain",
+   "start": 274206,
+   "end": 274862,
+   "n_tokens": 656,
+   "n_loss_tokens": 656,
+   "spans": [
+    [
+     274206,
+     274862,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00176",
+   "doc_id": "code-00176",
+   "source_row_id": "tylerprete/evaluate-math/postfix.py",
+   "kind": "pretrain",
+   "start": 274862,
+   "end": 275141,
+   "n_tokens": 279,
+   "n_loss_tokens": 279,
+   "spans": [
+    [
+     274862,
+     275141,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00177",
+   "doc_id": "code-00177",
+   "source_row_id": "lncwwn/woniu/routers/mainHandler.py",
+   "kind": "pretrain",
+   "start": 275141,
+   "end": 275211,
+   "n_tokens": 70,
+   "n_loss_tokens": 70,
+   "spans": [
+    [
+     275141,
+     275211,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00178",
+   "doc_id": "code-00178",
+   "source_row_id": "penzance/ab-testing-tool/ab_tool/tests/test_experiment_pages.py",
+   "kind": "pretrain",
+   "start": 275211,
+   "end": 278807,
+   "n_tokens": 3596,
+   "n_loss_tokens": 3596,
+   "spans": [
+    [
+     275211,
+     278807,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00179",
+   "doc_id": "code-00179",
+   "source_row_id": "moremorefor/Logpot/logpot/admin/setting.py",
+   "kind": "pretrain",
+   "start": 278807,
+   "end": 280038,
+   "n_tokens": 1231,
+   "n_loss_tokens": 1231,
+   "spans": [
+    [
+     278807,
+     280038,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00180",
+   "doc_id": "code-00180",
+   "source_row_id": "leifos/ifind/ifind/search/exceptions.py",
+   "kind": "pretrain",
+   "start": 280038,
+   "end": 280840,
+   "n_tokens": 802,
+   "n_loss_tokens": 802,
+   "spans": [
+    [
+     280038,
+     280840,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00181",
+   "doc_id": "code-00181",
+   "source_row_id": "ddm/pcbmode/pcbmode/utils/excellon.py",
+   "kind": "pretrain",
+   "start": 280840,
+   "end": 282847,
+   "n_tokens": 2007,
+   "n_loss_tokens": 2007,
+   "spans": [
+    [
+     280840,
+     282847,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00182",
+   "doc_id": "code-00182",
+   "source_row_id": "moradology/kmeans/tests/testkmeans.py",
+   "kind": "pretrain",
+   "start": 282847,
+   "end": 283382,
+   "n_tokens": 535,
+   "n_loss_tokens": 535,
+   "spans": [
+    [
+     282847,
+     283382,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00183",
+   "doc_id": "code-00183",
+   "source_row_id": "rossplt/ross-django-utils/ross/settings.py",
+   "kind": "pretrain",
+   "start": 283382,
+   "end": 284452,
+   "n_tokens": 1070,
+   "n_loss_tokens": 1070,
+   "spans": [
+    [
+     283382,
+     284452,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00184",
+   "doc_id": "code-00184",
+   "source_row_id": "algorithmiaio/algorithmia-python/Algorithmia/util.py",
+   "kind": "pretrain",
+   "start": 284452,
+   "end": 285072,
+   "n_tokens": 620,
+   "n_loss_tokens": 620,
+   "spans": [
+    [
+     284452,
+     285072,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00185",
+   "doc_id": "code-00185",
+   "source_row_id": "eifuentes/kaggle_whats_cooking/train_word2vec_rf.py",
+   "kind": "pretrain",
+   "start": 285072,
+   "end": 285750,
+   "n_tokens": 678,
+   "n_loss_tokens": 678,
+   "spans": [
+    [
+     285072,
+     285750,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00186",
+   "doc_id": "code-00186",
+   "source_row_id": "inveniosoftware/invenio-search/invenio_search/config.py",
+   "kind": "pretrain",
+   "start": 285750,
+   "end": 286823,
+   "n_tokens": 1073,
+   "n_loss_tokens": 1073,
+   "spans": [
+    [
+     285750,
+     286823,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00187",
+   "doc_id": "code-00187",
+   "source_row_id": "adamatan/polycircles/polycircles/test/test_different_outputs.py",
+   "kind": "pretrain",
+   "start": 286823,
+   "end": 287526,
+   "n_tokens": 703,
+   "n_loss_tokens": 703,
+   "spans": [
+    [
+     286823,
+     287526,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "code-00188",
+   "doc_id": "code-00188",
+   "source_row_id": "abonaca/gary/gary/util.py",
+   "kind": "pretrain",
+   "start": 287526,
+   "end": 288927,
+   "n_tokens": 1401,
+   "n_loss_tokens": 1401,
+   "spans": [
+    [
+     287526,
+     288927,
+     "text"
+    ]
+   ]
+  }
+ ],
+ "split": "train",
+ "never_train": false,
+ "capability_lane": "code",
+ "source": "codeparrot/github-code-clean:Python-all/train",
+ "language": "en",
+ "script": "Latn",
+ "license_tier": "A",
+ "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+ "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+ "dedup_status": "pass",
+ "dedup_report": {
+  "exact_duplicates_removed": 0,
+  "near_duplicates_removed": 0,
+  "jaccard_threshold": 0.8,
+  "samples_in": 188,
+  "samples_kept": 188
+ },
+ "contamination_status": "screened_clean",
+ "eval_overlap": false,
+ "provenance_tier": "published_dataset_downloadable",
+ "parent_shard_ids": [],
+ "data_kind": "pretrain",
+ "documents_screened_out": 1
+}

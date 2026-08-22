@@ -1,0 +1,199 @@
+[   0.00s] ERA V5 Session 6: training data execution system
+[   0.00s] run_id=v5-s6-demo steps=256 crash_at=140 seed=1234 threads=7 torch=2.13.0
+
+[   0.00s] ===== 01 source documents ========================================
+[   0.03s]     web          200 docs       850 KB  from HuggingFaceFW/fineweb-edu:default/train
+[   0.05s]     web          100 docs       355 KB  from HuggingFaceFW/fineweb-edu:default/train
+[   0.05s]     code         189 docs       748 KB  from codeparrot/github-code-clean:Python-all/train
+[   0.05s]     code          97 docs       329 KB  from codeparrot/github-code-clean:Python-all/train
+[   0.12s]     indic        399 docs       873 KB  from ai4bharat/sangraha:verified/hin
+[   0.13s]     indic        100 docs       198 KB  from ai4bharat/sangraha:verified/hin
+[   0.14s]     stem         803 docs       729 KB  from AI-MO/NuminaMath-CoT:default/train
+[   0.14s]     stem         172 docs       156 KB  from AI-MO/NuminaMath-CoT:default/train
+[   0.15s]     reasoning    336 docs       711 KB  from AI-MO/NuminaMath-CoT:default/train
+[   0.15s]     reasoning     87 docs       191 KB  from AI-MO/NuminaMath-CoT:default/train
+[   0.15s]     agentic      200 docs      1122 KB  from NousResearch/hermes-function-calling-v1:func_calling/train
+[   0.15s]     agentic      100 docs       611 KB  from NousResearch/hermes-function-calling-v1:func_calling/train
+[   0.18s]   2127 training documents, 656 held out, 0.2s (cached after the first run)
+[   0.18s]   >> documents fetched
+
+[   0.18s] ===== 02 tokenizer, frozen and hashed ============================
+[   0.18s]     vocabulary sample: 1184 documents, 2.8 MB, Indic weight 2.6x
+[   1.62s]     web        fertility 1.627 tok/word   bytes/token 3.82   unk 1.40e-04
+[   1.62s]     code       fertility 4.705 tok/word   bytes/token 2.35   unk 1.54e-03
+[   1.62s]     indic      fertility 1.444 tok/word   bytes/token 9.01   unk 5.34e-05
+[   1.62s]     stem       fertility 1.504 tok/word   bytes/token 3.77   unk 6.26e-04
+[   1.62s]     reasoning  fertility 1.698 tok/word   bytes/token 3.42   unk 3.39e-04
+[   1.62s]     agentic    fertility 1.936 tok/word   bytes/token 4.29   unk 0.00e+00
+[   1.62s]   tokenizer hash 48e9fa5d02090d90166890124b3e317f  vocabulary 16384
+[   1.62s]   >> [PASS] tokenizer_hash_verified
+[   1.62s]   >> [PASS] indic_fertility_within_ceiling
+
+[   1.62s] ===== 03 immutable tokenised shards and manifests ================
+[   2.06s]   held out registered: 6 validation, 6 test (never_train), 327 never-train documents indexed
+[   2.96s]   code: 1 document(s) screened out before sharding (ngram_fingerprint)
+[   3.73s]   indic: 9 document(s) screened out before sharding (exact_content_hash, exact_content_hash, exact_content_hash)
+[   6.40s]   18 shards, 1,914,249 tokens, 0 duplicates removed inside shards
+[   6.40s]   >> shards created
+[   6.40s]   content hash verification: 18/18 shards match their manifest
+[   6.40s]   >> manifests validated
+[   6.40s]   >> [PASS] shard_content_hashes_verified
+[   6.40s]   tamper probe on train-web-000: single token altered, verification detected the change
+
+[   6.40s] ===== 04 registry, admission gate and evaluation firewall ========
+[   8.28s]   admitted 6 training shards, 0 rebuilt after quarantine
+[   8.29s]   firewall probe: candidate carrying 6 held-out documents -> blocked
+[   8.29s]     hit held-stem-00086 matched held-stem-00086 by exact_content_hash
+[   8.29s]     hit held-stem-00087 matched held-stem-00087 by exact_content_hash
+[   8.29s]     hit held-stem-00088 matched held-stem-00088 by exact_content_hash
+[   8.29s]   >> evaluation data blocked
+[   8.29s]   >> [PASS] eval_shard_blocked
+[   8.30s]   quarantined 6 sample(s) and rewrote as candidate-contaminated-001 (parent candidate-contaminated-000) -> admitted
+[   8.32s]   control probe: clean candidate -> admitted
+[   8.32s]   document screening before sharding removed 10 document(s) across 2 lane(s)
+[   8.32s]     lineage: candidate-contaminated-001 parent candidate-contaminated-000, hash 5384c055cfe8 -> 2197cac5331e
+
+[   8.32s] ===== 05 mixture timeline compiled to per-step quotas ============
+[   8.32s]     S0-seed          tokens        0-20971    seq  128  web 60 code 14 indi 14 stem  9 reas  2 agen  1
+[   8.32s]     S1-general       tokens    20971-356515   seq  128  web 56 code 22 indi 13 stem  7 reas  1 agen  1
+[   8.32s]     S2-capability    tokens   356515-692060   seq  256  web 36 code 33 indi 12 stem 15 reas  3 agen  1
+[   8.32s]     S3-reasoning     tokens   692060-880803   seq  256  web 26 code 31 indi 13 stem 12 reas 17 agen  1
+[   8.32s]     S4-long-context  tokens   880803-1017118  seq  512  web 31 code 35 indi 14 stem  9 reas 10 agen  1
+[   8.32s]     S5-anneal        tokens  1017118-1048576  seq  256  web 10 code 20 indi 28 stem 12 reas 22 agen  8
+[   8.32s]   protected floors {'indic': 0.1, 'reasoning': 0.04, 'agentic': 0.01}, anneal reserve 31,457 tokens
+[   8.32s]   >> mixture compiled
+
+[   8.32s] ===== 06 OPUS proxy: reference model trained on English web only =
+[  12.27s]   reference model: 60 steps on the web lane only, final loss 7.381, 3.5s
+
+[  12.28s] ===== 07 run A: the main training run ============================
+[  12.36s]   model 5,023,872 parameters, vocabulary 16384, max sequence 512
+[  12.54s]   item pool: web=200, code=188, indic=390, stem=803, reasoning=336, agentic=200
+[  12.59s] [PASS] checkpoint_saved ckpt-main-00000 step=0 ledger_offset=0 tokens=0
+[  19.25s] [PASS] checkpoint_saved ckpt-main-00032 step=32 ledger_offset=128 tokens=65536
+[  25.96s] [PASS] checkpoint_saved ckpt-main-00064 step=64 ledger_offset=256 tokens=131072
+[  32.32s] [PASS] checkpoint_saved ckpt-main-00096 step=96 ledger_offset=384 tokens=196608
+[  38.34s] [PASS] checkpoint_saved ckpt-main-00128 step=128 ledger_offset=512 tokens=262144
+[  40.72s]   !! injected failure during step 140 after microbatch s00140-r1-a0
+[  40.72s]   >> batches packed
+[  40.72s]   >> OPUS decisions recorded
+[  40.72s]   >> crash simulated
+[  40.72s]   run A stopped at step 141, ledger offset 562, 28.2s
+[  40.73s]   last checkpoint ckpt-main-00128 at step 128, ledger offset 512
+[  40.73s]   50 microbatch records were written after that checkpoint and their gradients were lost in the crash
+
+[  40.73s] ===== 08 resume from the checkpoint, and prove the next batch ====
+[  40.74s]   restored ckpt-main-00128: step 128, tokens 262144, ledger offset 512
+[  40.84s]   expected next batch: step 128 s00128-r0-a0 hash 086893d78eba83ef
+[  40.84s]   resumed  next batch: step 128 s00128-r0-a0 hash 086893d78eba83ef
+[  40.84s]   compared 50 microbatches: identical
+[  40.84s]   >> run resumed
+[  40.84s]   >> [PASS] resume_next_batch_matched
+[  40.98s]   naive resume (model restored, dataloader not): first batch is step 0 against expected 128, a different batch, as it should be
+
+[  40.98s] ===== 09 continue the resumed run to the end =====================
+[  46.27s] [PASS] checkpoint_saved ckpt-main-00160 step=160 ledger_offset=690 tokens=327680
+[  54.62s] [PASS] checkpoint_saved ckpt-main-00192 step=192 ledger_offset=818 tokens=428032
+[  64.91s] [PASS] checkpoint_saved ckpt-main-00224 step=224 ledger_offset=946 tokens=559104
+[  75.45s] [PASS] checkpoint_saved ckpt-main-00256 step=256 ledger_offset=1074 tokens=690176
+[  75.48s]   resumed run reached step 256 in 34.5s
+[  75.49s]   consumption ledger: 1074 records, segment 0 = 562, segment 1 = 512
+[  75.49s]   steps 0 to 255, gaps none, duplicate microbatches within a segment none
+
+[  75.49s] ===== 10 replay an earlier interval from the ledger ==============
+[  75.77s]   replayed steps 96 to 99 from ckpt-main-00096
+[  75.77s]   compared 16 microbatches: hashes and spans identical
+[  75.77s]   >> historical stream replayed
+[  75.77s]   >> [PASS] replay_hash_matched
+
+[  75.77s] ===== 11 fork a new branch from the same checkpoint ==============
+[  75.87s]   branch exp-indic-heavy forked from ckpt-main-00096 at step 96, ledger offset 384
+[  75.87s]   Indic share: main 0.125 -> fork 0.219
+[  75.87s]   the two streams differ from the divergence point: yes
+[  75.87s]   >> branch forked
+
+[  75.87s] ===== 12 mixture compliance, floors and the OPUS audit ===========
+[  75.87s]     web        planned 0.469  actual 0.470  error 0.001
+[  75.87s]     code       planned 0.268  actual 0.254  error 0.015
+[  75.87s]     indic      planned 0.126  actual 0.127  error 0.001  floor 0.10 held
+[  75.87s]     stem       planned 0.108  actual 0.100  error 0.008
+[  75.87s]     reasoning  planned 0.020  actual 0.040  error 0.020  floor 0.04 held
+[  75.87s]     agentic    planned 0.010  actual 0.010  error 0.000  floor 0.01 held
+[  75.87s]   worst lane error 0.0205; protected floors all held
+[  75.91s]   OPUS: {'accepted': 281, 'rejected': 1639, 'deferred': 474, 'protected': 558, 'quota_topup': 1059} over 4011 candidates, proxy ref-en-web-v1
+[  75.91s]     agentic    offered   47  accepted   47  rejected    0  deferred    0  floor rescued   43
+[  75.91s]     code       offered  911  accepted  386  rejected  495  deferred   30  floor rescued    0
+[  75.91s]     indic      offered  576  accepted  366  rejected  210  deferred    0  floor rescued  336
+[  75.91s]     reasoning  offered  209  accepted  187  rejected   22  deferred    0  floor rescued  179
+[  75.91s]     stem       offered 1192  accepted  472  rejected  653  deferred   67  floor rescued    0
+[  75.91s]     web        offered 1076  accepted  440  rejected  259  deferred  377  floor rescued    0
+[  75.91s]   proxy bias: mean OPUS score web +0.041 against Indic -5.330; 336 Indic candidates were retained by the protected floor
+[  75.91s]   >> OPUS decisions recorded
+
+[  75.91s] ===== 13 packing policies compared on the real corpus ============
+[  75.91s]     web (pretraining)        pad_only               occupancy 0.977  loss coverage 0.977  sequences  120  crossings    0  truncated 111
+[  75.91s]     web (pretraining)        concat_chop            occupancy 0.999  loss coverage 0.999  sequences  562  crossings  119  truncated 561
+[  75.91s]     web (pretraining)        greedy                 occupancy 0.985  loss coverage 0.985  sequences  119  crossings    0  truncated 111
+[  75.92s]     web (pretraining)        best_fit               occupancy 0.985  loss coverage 0.985  sequences  119  crossings    0  truncated 111
+[  75.92s]     web (pretraining)        structure_preserving   occupancy 0.985  loss coverage 0.985  sequences  119  crossings    0  truncated 111
+[  75.92s]     web (pretraining)        long_context           occupancy 0.985  loss coverage 0.985  sequences  119  crossings    0  truncated 111
+[  75.92s]     agentic (trajectories)   pad_only               occupancy 1.000  loss coverage 0.749  sequences  120  crossings    0  truncated  80
+[  75.92s]     agentic (trajectories)   concat_chop            occupancy 0.998  loss coverage 0.461  sequences  369  crossings  102  truncated 368
+[  75.93s]     agentic (trajectories)   greedy                 occupancy 1.000  loss coverage 0.749  sequences  120  crossings    0  truncated  80
+[  75.93s]     agentic (trajectories)   best_fit               occupancy 1.000  loss coverage 0.749  sequences  120  crossings    0  truncated  80
+[  75.93s]     agentic (trajectories)   structure_preserving   occupancy 1.000  loss coverage 0.749  sequences  120  crossings    0  truncated  80
+[  75.93s]     agentic (trajectories)   long_context           occupancy 1.000  loss coverage 0.749  sequences  120  crossings    0  truncated  80
+[  75.94s]   mask invariants: 0 violations; cross-segment attention permitted in 0 position pairs
+[  75.94s]   >> batches packed
+
+[  75.94s] ===== 14 learning ledger: what came back from each shard =========
+[  75.97s]     train-agentic-000      lane agentic    tokens    5608  loss 8.329  delta -1.542  opus -0.92529  useful
+[  75.97s]     train-code-000         lane code       tokens  180519  loss 6.205  delta -3.417  opus -2.82241  useful
+[  75.97s]     train-indic-000        lane indic      tokens   89858  loss 8.041  delta -2.123  opus -5.32971  useful
+[  75.97s]     train-reasoning-000    lane reasoning  tokens   28500  loss 7.664  delta -2.051  opus -1.88103  useful
+[  75.97s]     train-stem-000         lane stem       tokens   56973  loss 7.647  delta -1.781  opus -1.74088  useful
+[  75.97s]     train-web-000          lane web        tokens  333555  loss 7.496  delta -2.887  opus 0.04075  useful
+[  75.97s]   hardest tokens overall: "conn.execute('insert"@12566192, '[Optional]'@12238134, "'values"@11318896, '{"name":'@8189800, "kw['"@7879517
+[  75.97s]   hardest tokens in the Indic lane: 'सुरोविकिन'@223327, '.\n.\n'@177463, 'केदार'@120823, 'भू-'@103367, 'विमान'@83711
+[  75.97s]   full token traces kept for ['train-agentic-000', 'train-indic-000']: 4000 rows
+[  75.97s]   passes completed over each lane: web=4, code=3, indic=2, stem=1, reasoning=1, agentic=1
+
+[  75.97s] ===== 15 audit: which data trained a token interval ==============
+[  75.97s]   tokens 286,310 to 393,676: steps [133, 177], 804 packed samples
+[  75.97s]   shards involved: ['train-web-000', 'train-code-000', 'train-indic-000', 'train-stem-000', 'train-reasoning-000', 'train-agentic-000']
+[  75.97s]   >> audit completed
+[  75.97s]   never-train documents that reached a loss-bearing batch: 0
+
+[  75.97s] ===== 16 throughput and packing efficiency =======================
+[  75.97s]   raw 9,422 tok/s   useful 9,202 tok/s   accepted 3,999 tok/s
+[  75.97s]   packing occupancy 0.9896   loss coverage 0.9767   loader wait 0.2693
+[  75.97s]   reconstruction from the ledger: raw 715,776 against 715,776, matches
+[  75.97s]   >> performance measured
+
+[  75.97s] ===== 17 invariant tests =========================================
+[  76.71s]   Ran 69 tests in 0.640s in 0.7s -> OK
+[  76.71s]   checkpoints: 9 written, 4 kept on disk (201 MB), all indexed with weight digests
+
+[  76.71s] ===== 18 evidence bundle =========================================
+[  76.71s]   [PASS] Tokenizer integrity
+[  76.71s]   [PASS] Indic fertility
+[  76.71s]   [PASS] Shard immutability and manifests
+[  76.71s]   [PASS] Contamination screened before sharding
+[  76.71s]   [PASS] Blocked shard rebuilt rather than edited
+[  76.71s]   [PASS] Evaluation firewall
+[  76.71s]   [PASS] Crash recovery
+[  76.71s]   [PASS] No skipped or repeated batches
+[  76.71s]   [PASS] Replay
+[  76.71s]   [PASS] Fork with recorded divergence
+[  76.71s]   [PASS] Mixture compliance and protected floors
+[  76.71s]   [PASS] OPUS audit trail
+[  76.71s]   [PASS] Packing correctness
+[  76.71s]   [PASS] Learning trace linked to source data
+[  76.71s]   [PASS] Validation and test data never trained
+[  76.71s]   [PASS] Throughput reconstructable from the ledger
+[  76.71s]   [PASS] End to end execution
+[  76.71s]   [PASS] Invariant tests
+[  76.71s]   [PASS] Checkpoints bound to ledger offsets
+
+[  76.71s] 19 of 19 checks passed in 76.0s
+[  76.71s]   >> [PASS] evidence_bundle_generated

@@ -1,0 +1,146 @@
+{
+ "total_tokens": 1048576,
+ "max_sequence_length": 512,
+ "warmup_fraction": 0.3,
+ "anneal_reserve_fraction": 0.03,
+ "anneal_reserve_tokens": 31457,
+ "protected_floors": {
+  "indic": 0.1,
+  "reasoning": 0.04,
+  "agentic": 0.01
+ },
+ "stages": [
+  {
+   "stage": "S0-seed",
+   "token_start": 0,
+   "token_end": 20971,
+   "tokens": 20971,
+   "sequence_length": 128,
+   "mixture": {
+    "web": 0.6,
+    "code": 0.14,
+    "indic": 0.14,
+    "stem": 0.09,
+    "reasoning": 0.02,
+    "agentic": 0.01
+   },
+   "protected_floors": {
+    "indic": 0.1,
+    "reasoning": 0.04,
+    "agentic": 0.01
+   },
+   "warmup_tokens": 6291,
+   "index": 0
+  },
+  {
+   "stage": "S1-general",
+   "token_start": 20971,
+   "token_end": 356515,
+   "tokens": 335544,
+   "sequence_length": 128,
+   "mixture": {
+    "web": 0.56,
+    "code": 0.22,
+    "indic": 0.13,
+    "stem": 0.07,
+    "reasoning": 0.01,
+    "agentic": 0.01
+   },
+   "protected_floors": {
+    "indic": 0.1,
+    "reasoning": 0.04,
+    "agentic": 0.01
+   },
+   "warmup_tokens": 100663,
+   "index": 1
+  },
+  {
+   "stage": "S2-capability",
+   "token_start": 356515,
+   "token_end": 692060,
+   "tokens": 335545,
+   "sequence_length": 256,
+   "mixture": {
+    "web": 0.36,
+    "code": 0.33,
+    "indic": 0.12,
+    "stem": 0.15,
+    "reasoning": 0.03,
+    "agentic": 0.01
+   },
+   "protected_floors": {
+    "indic": 0.1,
+    "reasoning": 0.04,
+    "agentic": 0.01
+   },
+   "warmup_tokens": 100663,
+   "index": 2
+  },
+  {
+   "stage": "S3-reasoning",
+   "token_start": 692060,
+   "token_end": 880803,
+   "tokens": 188743,
+   "sequence_length": 256,
+   "mixture": {
+    "web": 0.26,
+    "code": 0.31,
+    "indic": 0.13,
+    "stem": 0.12,
+    "reasoning": 0.17,
+    "agentic": 0.01
+   },
+   "protected_floors": {
+    "indic": 0.1,
+    "reasoning": 0.04,
+    "agentic": 0.01
+   },
+   "warmup_tokens": 56622,
+   "index": 3
+  },
+  {
+   "stage": "S4-long-context",
+   "token_start": 880803,
+   "token_end": 1017118,
+   "tokens": 136315,
+   "sequence_length": 512,
+   "mixture": {
+    "web": 0.31,
+    "code": 0.35,
+    "indic": 0.14,
+    "stem": 0.09,
+    "reasoning": 0.1,
+    "agentic": 0.01
+   },
+   "protected_floors": {
+    "indic": 0.1,
+    "reasoning": 0.04,
+    "agentic": 0.01
+   },
+   "warmup_tokens": 40894,
+   "index": 4
+  },
+  {
+   "stage": "S5-anneal",
+   "token_start": 1017118,
+   "token_end": 1048576,
+   "tokens": 31458,
+   "sequence_length": 256,
+   "mixture": {
+    "web": 0.1,
+    "code": 0.2,
+    "indic": 0.28,
+    "stem": 0.12,
+    "reasoning": 0.22,
+    "agentic": 0.08
+   },
+   "protected_floors": {
+    "indic": 0.1,
+    "reasoning": 0.04,
+    "agentic": 0.01
+   },
+   "warmup_tokens": 9437,
+   "index": 5
+  }
+ ]
+}

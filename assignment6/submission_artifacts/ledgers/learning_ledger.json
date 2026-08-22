@@ -1,0 +1,417 @@
+{
+ "storage_tiers": {
+  "full_token_trace": [
+   "train-agentic-000",
+   "train-indic-000"
+  ],
+  "aggregates": "every shard",
+  "note": "full traces are kept only for the shards named above, which is the tiering Session 6 section 11 describes"
+ },
+ "lane_summary": {
+  "agentic": {
+   "avg_token_loss": 8.32877,
+   "avg_token_perplexity": 4141.332,
+   "loss_bearing_tokens": 5608
+  },
+  "code": {
+   "avg_token_loss": 6.20514,
+   "avg_token_perplexity": 495.289,
+   "loss_bearing_tokens": 180519
+  },
+  "indic": {
+   "avg_token_loss": 8.04059,
+   "avg_token_perplexity": 3104.448,
+   "loss_bearing_tokens": 89858
+  },
+  "reasoning": {
+   "avg_token_loss": 7.6644,
+   "avg_token_perplexity": 2131.123,
+   "loss_bearing_tokens": 28500
+  },
+  "stem": {
+   "avg_token_loss": 7.64667,
+   "avg_token_perplexity": 2093.653,
+   "loss_bearing_tokens": 56973
+  },
+  "web": {
+   "avg_token_loss": 7.49633,
+   "avg_token_perplexity": 1801.426,
+   "loss_bearing_tokens": 333555
+  }
+ },
+ "shard_report_cards": [
+  {
+   "shard_id": "train-agentic-000",
+   "capability_lane": "agentic",
+   "phase": "early",
+   "loss_bearing_tokens_seen": 5608,
+   "avg_token_loss": 8.32877,
+   "avg_token_perplexity": 4141.332,
+   "loss_at_first_exposure": 9.61026,
+   "loss_at_last_exposure": 8.06815,
+   "loss_delta_after_exposure": -1.54211,
+   "mean_grad_norm_of_steps_seen": 0.81894,
+   "opus_mean_score": -0.92529,
+   "loss_by_repeated_pass": {
+    "1": 8.32877
+   },
+   "repeated_pass_effect": null,
+   "first_seen_at_tokens": 8192,
+   "steps_seen": 41,
+   "classification": "useful"
+  },
+  {
+   "shard_id": "train-code-000",
+   "capability_lane": "code",
+   "phase": "early",
+   "loss_bearing_tokens_seen": 180519,
+   "avg_token_loss": 6.20514,
+   "avg_token_perplexity": 495.289,
+   "loss_at_first_exposure": 9.62988,
+   "loss_at_last_exposure": 6.21315,
+   "loss_delta_after_exposure": -3.41673,
+   "mean_grad_norm_of_steps_seen": 0.83861,
+   "opus_mean_score": -2.82241,
+   "loss_by_repeated_pass": {
+    "1": 7.13235,
+    "2": 5.94582,
+    "3": 5.69491
+   },
+   "repeated_pass_effect": -1.43744,
+   "first_seen_at_tokens": 2048,
+   "steps_seen": 256,
+   "classification": "useful"
+  },
+  {
+   "shard_id": "train-indic-000",
+   "capability_lane": "indic",
+   "phase": "early",
+   "loss_bearing_tokens_seen": 89858,
+   "avg_token_loss": 8.04059,
+   "avg_token_perplexity": 3104.448,
+   "loss_at_first_exposure": 9.76005,
+   "loss_at_last_exposure": 7.63722,
+   "loss_delta_after_exposure": -2.12283,
+   "mean_grad_norm_of_steps_seen": 0.83861,
+   "opus_mean_score": -5.32971,
+   "loss_by_repeated_pass": {
+    "1": 8.15635,
+    "2": 7.63957
+   },
+   "repeated_pass_effect": -0.51678,
+   "first_seen_at_tokens": 2048,
+   "steps_seen": 256,
+   "classification": "useful"
+  },
+  {
+   "shard_id": "train-reasoning-000",
+   "capability_lane": "reasoning",
+   "phase": "early",
+   "loss_bearing_tokens_seen": 28500,
+   "avg_token_loss": 7.6644,
+   "avg_token_perplexity": 2131.123,
+   "loss_at_first_exposure": 9.7034,
+   "loss_at_last_exposure": 7.65238,
+   "loss_delta_after_exposure": -2.05102,
+   "mean_grad_norm_of_steps_seen": 0.84864,
+   "opus_mean_score": -1.88103,
+   "loss_by_repeated_pass": {
+    "1": 7.6644
+   },
+   "repeated_pass_effect": null,
+   "first_seen_at_tokens": 2048,
+   "steps_seen": 164,
+   "classification": "useful"
+  },
+  {
+   "shard_id": "train-stem-000",
+   "capability_lane": "stem",
+   "phase": "early",
+   "loss_bearing_tokens_seen": 56973,
+   "avg_token_loss": 7.64667,
+   "avg_token_perplexity": 2093.653,
+   "loss_at_first_exposure": 9.71549,
+   "loss_at_last_exposure": 7.93425,
+   "loss_delta_after_exposure": -1.78124,
+   "mean_grad_norm_of_steps_seen": 0.84095,
+   "opus_mean_score": -1.74088,
+   "loss_by_repeated_pass": {
+    "1": 7.64667
+   },
+   "repeated_pass_effect": null,
+   "first_seen_at_tokens": 2048,
+   "steps_seen": 254,
+   "classification": "useful"
+  },
+  {
+   "shard_id": "train-web-000",
+   "capability_lane": "web",
+   "phase": "early",
+   "loss_bearing_tokens_seen": 333555,
+   "avg_token_loss": 7.49633,
+   "avg_token_perplexity": 1801.426,
+   "loss_at_first_exposure": 9.74717,
+   "loss_at_last_exposure": 6.86048,
+   "loss_delta_after_exposure": -2.88669,
+   "mean_grad_norm_of_steps_seen": 0.83861,
+   "opus_mean_score": 0.04075,
+   "loss_by_repeated_pass": {
+    "1": 8.02062,
+    "2": 7.52977,
+    "3": 7.29138,
+    "4": 7.14107
+   },
+   "repeated_pass_effect": -0.87955,
+   "first_seen_at_tokens": 2048,
+   "steps_seen": 256,
+   "classification": "useful"
+  }
+ ],
+ "hardest_token_clusters": [
+  {
+   "token_id": 11567,
+   "decoded": "conn.execute('insert",
+   "scope": "all lanes",
+   "count": 10,
+   "mean_loss": 16.34652,
+   "mean_perplexity": 12566192.295,
+   "dominant_lane": "code"
+  },
+  {
+   "token_id": 10996,
+   "decoded": "[Optional]",
+   "scope": "all lanes",
+   "count": 11,
+   "mean_loss": 16.32007,
+   "mean_perplexity": 12238134.407,
+   "dominant_lane": "code"
+  },
+  {
+   "token_id": 11216,
+   "decoded": "'values",
+   "scope": "all lanes",
+   "count": 10,
+   "mean_loss": 16.24198,
+   "mean_perplexity": 11318895.794,
+   "dominant_lane": "code"
+  },
+  {
+   "token_id": 1537,
+   "decoded": "{\"name\":",
+   "scope": "all lanes",
+   "count": 8,
+   "mean_loss": 15.9184,
+   "mean_perplexity": 8189800.112,
+   "dominant_lane": "code"
+  },
+  {
+   "token_id": 11453,
+   "decoded": "kw['",
+   "scope": "all lanes",
+   "count": 30,
+   "mean_loss": 15.87978,
+   "mean_perplexity": 7879517.342,
+   "dominant_lane": "code"
+  },
+  {
+   "token_id": 6285,
+   "decoded": "},\n",
+   "scope": "all lanes",
+   "count": 8,
+   "mean_loss": 15.74088,
+   "mean_perplexity": 6857674.442,
+   "dominant_lane": "code"
+  },
+  {
+   "token_id": 15827,
+   "decoded": "=\\{x\\mid",
+   "scope": "all lanes",
+   "count": 14,
+   "mean_loss": 15.19747,
+   "mean_perplexity": 3982678.797,
+   "dominant_lane": "stem"
+  },
+  {
+   "token_id": 3150,
+   "decoded": "self.assert",
+   "scope": "all lanes",
+   "count": 16,
+   "mean_loss": 15.09846,
+   "mean_perplexity": 3607254.717,
+   "dominant_lane": "code"
+  },
+  {
+   "token_id": 12259,
+   "decoded": "AA",
+   "scope": "all lanes",
+   "count": 10,
+   "mean_loss": 14.58705,
+   "mean_perplexity": 2163094.184,
+   "dominant_lane": "web"
+  },
+  {
+   "token_id": 15615,
+   "decoded": "description:\n",
+   "scope": "all lanes",
+   "count": 9,
+   "mean_loss": 14.56861,
+   "mean_perplexity": 2123573.021,
+   "dominant_lane": "code"
+  },
+  {
+   "token_id": 10982,
+   "decoded": "postcards",
+   "scope": "all lanes",
+   "count": 10,
+   "mean_loss": 14.26536,
+   "mean_perplexity": 1568071.554,
+   "dominant_lane": "stem"
+  },
+  {
+   "token_id": 12224,
+   "decoded": "testing.db",
+   "scope": "all lanes",
+   "count": 8,
+   "mean_loss": 14.26488,
+   "mean_perplexity": 1567326.11,
+   "dominant_lane": "code"
+  }
+ ],
+ "hardest_token_clusters_indic": [
+  {
+   "token_id": 9139,
+   "decoded": "सुरोविकिन",
+   "scope": "indic",
+   "count": 28,
+   "mean_loss": 12.31639,
+   "mean_perplexity": 223326.926,
+   "dominant_lane": "indic"
+  },
+  {
+   "token_id": 8681,
+   "decoded": ".\n.\n",
+   "scope": "indic",
+   "count": 22,
+   "mean_loss": 12.08652,
+   "mean_perplexity": 177462.97,
+   "dominant_lane": "indic"
+  },
+  {
+   "token_id": 15150,
+   "decoded": "केदार",
+   "scope": "indic",
+   "count": 18,
+   "mean_loss": 11.70208,
+   "mean_perplexity": 120823.147,
+   "dominant_lane": "indic"
+  },
+  {
+   "token_id": 10920,
+   "decoded": "भू-",
+   "scope": "indic",
+   "count": 18,
+   "mean_loss": 11.54604,
+   "mean_perplexity": 103366.521,
+   "dominant_lane": "indic"
+  },
+  {
+   "token_id": 11820,
+   "decoded": "विमान",
+   "scope": "indic",
+   "count": 16,
+   "mean_loss": 11.33513,
+   "mean_perplexity": 83711.086,
+   "dominant_lane": "indic"
+  },
+  {
+   "token_id": 11666,
+   "decoded": "ंशी",
+   "scope": "indic",
+   "count": 17,
+   "mean_loss": 11.2286,
+   "mean_perplexity": 75252.071,
+   "dominant_lane": "indic"
+  },
+  {
+   "token_id": 11924,
+   "decoded": "उपन्यास",
+   "scope": "indic",
+   "count": 16,
+   "mean_loss": 11.12377,
+   "mean_perplexity": 67762.79,
+   "dominant_lane": "indic"
+  },
+  {
+   "token_id": 8444,
+   "decoded": "ऐप",
+   "scope": "indic",
+   "count": 19,
+   "mean_loss": 11.05565,
+   "mean_perplexity": 63300.906,
+   "dominant_lane": "indic"
+  },
+  {
+   "token_id": 6484,
+   "decoded": "नदारद",
+   "scope": "indic",
+   "count": 22,
+   "mean_loss": 10.87168,
+   "mean_perplexity": 52663.387,
+   "dominant_lane": "indic"
+  },
+  {
+   "token_id": 15288,
+   "decoded": "गेई",
+   "scope": "indic",
+   "count": 16,
+   "mean_loss": 10.76443,
+   "mean_perplexity": 47307.78,
+   "dominant_lane": "indic"
+  },
+  {
+   "token_id": 1053,
+   "decoded": "7",
+   "scope": "indic",
+   "count": 25,
+   "mean_loss": 10.75883,
+   "mean_perplexity": 47043.55,
+   "dominant_lane": "stem"
+  },
+  {
+   "token_id": 7125,
+   "decoded": "जनजाति",
+   "scope": "indic",
+   "count": 15,
+   "mean_loss": 10.72745,
+   "mean_perplexity": 45590.41,
+   "dominant_lane": "indic"
+  }
+ ],
+ "token_trace_rows": 4000,
+ "passes_per_lane": {
+  "web": 4,
+  "code": 3,
+  "indic": 2,
+  "stem": 1,
+  "reasoning": 1,
+  "agentic": 1
+ },
+ "cursor_state": {
+  "cursors": {
+   "web": 156,
+   "code": 111,
+   "indic": 99,
+   "stem": 678,
+   "reasoning": 186,
+   "agentic": 41
+  },
+  "epochs": {
+   "web": 3,
+   "code": 2,
+   "indic": 1,
+   "stem": 0,
+   "reasoning": 0,
+   "agentic": 0
+  }
+ }
+}

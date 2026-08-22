@@ -1,0 +1,82 @@
+{
+ "tokenizer_path": "tokenizer.json",
+ "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+ "vocab_size": 16384,
+ "level": "character",
+ "specials": [
+  "<unk>",
+  "<eos>",
+  "<pad>",
+  "<bos>"
+ ],
+ "vocab_sample_weights": {
+  "web": 1.0,
+  "code": 1.0,
+  "indic": 2.6,
+  "stem": 0.7,
+  "reasoning": 0.7,
+  "agentic": 1.0
+ },
+ "fertility": {
+  "agentic": {
+   "chars": 611616,
+   "bytes": 611666,
+   "words": 73645,
+   "tokens": 142608,
+   "fertility_tokens_per_word": 1.9364,
+   "bytes_per_token": 4.2891,
+   "unk_rate": 0.0
+  },
+  "code": {
+   "chars": 329376,
+   "bytes": 330248,
+   "words": 29893,
+   "tokens": 140661,
+   "fertility_tokens_per_word": 4.7055,
+   "bytes_per_token": 2.3478,
+   "unk_rate": 0.00153561
+  },
+  "indic": {
+   "chars": 198635,
+   "bytes": 506375,
+   "words": 38917,
+   "tokens": 56216,
+   "fertility_tokens_per_word": 1.4445,
+   "bytes_per_token": 9.0077,
+   "unk_rate": 5.337e-05
+  },
+  "reasoning": {
+   "chars": 191526,
+   "bytes": 191646,
+   "words": 33006,
+   "tokens": 56051,
+   "fertility_tokens_per_word": 1.6982,
+   "bytes_per_token": 3.4191,
+   "unk_rate": 0.00033898
+  },
+  "stem": {
+   "chars": 156215,
+   "bytes": 156396,
+   "words": 27599,
+   "tokens": 41509,
+   "fertility_tokens_per_word": 1.504,
+   "bytes_per_token": 3.7678,
+   "unk_rate": 0.00062637
+  },
+  "web": {
+   "chars": 354720,
+   "bytes": 355709,
+   "words": 57186,
+   "tokens": 93062,
+   "fertility_tokens_per_word": 1.6274,
+   "bytes_per_token": 3.8223,
+   "unk_rate": 0.00013969
+  }
+ },
+ "fertility_ceiling": {
+  "indic": 1.65
+ },
+ "fertility_must_not_exceed": {
+  "indic": "web"
+ }
+}

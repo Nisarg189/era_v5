@@ -1,0 +1,868 @@
+{
+ "shard_id": "test-code-000",
+ "content_hash": "26c8b05658bf6abbbc670f70eb7ccf7e514dde4b264868b4bec9d89fd86c9a42",
+ "token_file": "test-code-000.npy",
+ "n_tokens": 68694,
+ "n_samples": 49,
+ "n_loss_tokens": 68694,
+ "samples": [
+  {
+   "sample_id": "held-code-00048",
+   "doc_id": "held-code-00048",
+   "source_row_id": "onejgordon/action-potential/actionpotential.py",
+   "kind": "pretrain",
+   "start": 0,
+   "end": 549,
+   "n_tokens": 549,
+   "n_loss_tokens": 549,
+   "spans": [
+    [
+     0,
+     549,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00049",
+   "doc_id": "held-code-00049",
+   "source_row_id": "jdthorpe/archiver/__main__.py",
+   "kind": "pretrain",
+   "start": 549,
+   "end": 5269,
+   "n_tokens": 4720,
+   "n_loss_tokens": 4720,
+   "spans": [
+    [
+     549,
+     5269,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00050",
+   "doc_id": "held-code-00050",
+   "source_row_id": "evenmarbles/mlpy/mlpy/auxiliary/datastructs.py",
+   "kind": "pretrain",
+   "start": 5269,
+   "end": 9727,
+   "n_tokens": 4458,
+   "n_loss_tokens": 4458,
+   "spans": [
+    [
+     5269,
+     9727,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00051",
+   "doc_id": "held-code-00051",
+   "source_row_id": "ctgk/BayesianNetwork/test/image/test_util.py",
+   "kind": "pretrain",
+   "start": 9727,
+   "end": 10579,
+   "n_tokens": 852,
+   "n_loss_tokens": 852,
+   "spans": [
+    [
+     9727,
+     10579,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00052",
+   "doc_id": "held-code-00052",
+   "source_row_id": "Kbman99/NetSecShare/app/logger_setup.py",
+   "kind": "pretrain",
+   "start": 10579,
+   "end": 11613,
+   "n_tokens": 1034,
+   "n_loss_tokens": 1034,
+   "spans": [
+    [
+     10579,
+     11613,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00053",
+   "doc_id": "held-code-00053",
+   "source_row_id": "plotly/plotly.py/packages/python/plotly/plotly/validators/scattersmith/_textfont.py",
+   "kind": "pretrain",
+   "start": 11613,
+   "end": 12521,
+   "n_tokens": 908,
+   "n_loss_tokens": 908,
+   "spans": [
+    [
+     11613,
+     12521,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00054",
+   "doc_id": "held-code-00054",
+   "source_row_id": "our-iot-project-org/pingow-web-service/src/posts/views.py",
+   "kind": "pretrain",
+   "start": 12521,
+   "end": 14347,
+   "n_tokens": 1826,
+   "n_loss_tokens": 1826,
+   "spans": [
+    [
+     12521,
+     14347,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00055",
+   "doc_id": "held-code-00055",
+   "source_row_id": "joshuamsmith/ConnectPyse/sales/order.py",
+   "kind": "pretrain",
+   "start": 14347,
+   "end": 15166,
+   "n_tokens": 819,
+   "n_loss_tokens": 819,
+   "spans": [
+    [
+     14347,
+     15166,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00056",
+   "doc_id": "held-code-00056",
+   "source_row_id": "coinbox/coinbox-mod-base/cbmod/base/views/window.py",
+   "kind": "pretrain",
+   "start": 15166,
+   "end": 18544,
+   "n_tokens": 3378,
+   "n_loss_tokens": 3378,
+   "spans": [
+    [
+     15166,
+     18544,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00057",
+   "doc_id": "held-code-00057",
+   "source_row_id": "DailyActie/Surrogate-Model/01-codes/scipy-master/scipy/odr/setup.py",
+   "kind": "pretrain",
+   "start": 18544,
+   "end": 19171,
+   "n_tokens": 627,
+   "n_loss_tokens": 627,
+   "spans": [
+    [
+     18544,
+     19171,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00058",
+   "doc_id": "held-code-00058",
+   "source_row_id": "HelsinkiHacklab/urpobotti/python/motorctrl.py",
+   "kind": "pretrain",
+   "start": 19171,
+   "end": 20527,
+   "n_tokens": 1356,
+   "n_loss_tokens": 1356,
+   "spans": [
+    [
+     19171,
+     20527,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00059",
+   "doc_id": "held-code-00059",
+   "source_row_id": "linovia/microinvoices/microinvoices/invoices/serializers.py",
+   "kind": "pretrain",
+   "start": 20527,
+   "end": 20646,
+   "n_tokens": 119,
+   "n_loss_tokens": 119,
+   "spans": [
+    [
+     20527,
+     20646,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00060",
+   "doc_id": "held-code-00060",
+   "source_row_id": "JamesJeffryes/MINE-Database/minedatabase/thermodynamics.py",
+   "kind": "pretrain",
+   "start": 20646,
+   "end": 25629,
+   "n_tokens": 4983,
+   "n_loss_tokens": 4983,
+   "spans": [
+    [
+     20646,
+     25629,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00061",
+   "doc_id": "held-code-00061",
+   "source_row_id": "Yadnyawalkya/hackRIT/hackRIT.py",
+   "kind": "pretrain",
+   "start": 25629,
+   "end": 26982,
+   "n_tokens": 1353,
+   "n_loss_tokens": 1353,
+   "spans": [
+    [
+     25629,
+     26982,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00062",
+   "doc_id": "held-code-00062",
+   "source_row_id": "thedemz/python-gems/bitten.py",
+   "kind": "pretrain",
+   "start": 26982,
+   "end": 27332,
+   "n_tokens": 350,
+   "n_loss_tokens": 350,
+   "spans": [
+    [
+     26982,
+     27332,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00063",
+   "doc_id": "held-code-00063",
+   "source_row_id": "scikit-learn-contrib/imbalanced-learn/imblearn/over_sampling/_random_over_sampler.py",
+   "kind": "pretrain",
+   "start": 27332,
+   "end": 31482,
+   "n_tokens": 4150,
+   "n_loss_tokens": 4150,
+   "spans": [
+    [
+     27332,
+     31482,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00064",
+   "doc_id": "held-code-00064",
+   "source_row_id": "phatblat/AbletonLiveMIDIRemoteScripts/Push2/session_recording.py",
+   "kind": "pretrain",
+   "start": 31482,
+   "end": 31771,
+   "n_tokens": 289,
+   "n_loss_tokens": 289,
+   "spans": [
+    [
+     31482,
+     31771,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00065",
+   "doc_id": "held-code-00065",
+   "source_row_id": "victor-o-silva/db_file_storage/demo_and_tests/model_filefields_example/migrations/0002_auto_20180826_0054.py",
+   "kind": "pretrain",
+   "start": 31771,
+   "end": 32246,
+   "n_tokens": 475,
+   "n_loss_tokens": 475,
+   "spans": [
+    [
+     31771,
+     32246,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00066",
+   "doc_id": "held-code-00066",
+   "source_row_id": "jhazelwo/python-awscli/python2awscli/model/securitygroup.py",
+   "kind": "pretrain",
+   "start": 32246,
+   "end": 35072,
+   "n_tokens": 2826,
+   "n_loss_tokens": 2826,
+   "spans": [
+    [
+     32246,
+     35072,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00067",
+   "doc_id": "held-code-00067",
+   "source_row_id": "AliLozano/django-messages-extends/messages_extends/urls.py",
+   "kind": "pretrain",
+   "start": 35072,
+   "end": 35176,
+   "n_tokens": 104,
+   "n_loss_tokens": 104,
+   "spans": [
+    [
+     35072,
+     35176,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00068",
+   "doc_id": "held-code-00068",
+   "source_row_id": "kanboard/kanboard-cli/kanboard_cli/shell.py",
+   "kind": "pretrain",
+   "start": 35176,
+   "end": 36416,
+   "n_tokens": 1240,
+   "n_loss_tokens": 1240,
+   "spans": [
+    [
+     35176,
+     36416,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00069",
+   "doc_id": "held-code-00069",
+   "source_row_id": "operepo/ope/laptop_credential/winsys/tests/test_fs/test_fs.py",
+   "kind": "pretrain",
+   "start": 36416,
+   "end": 36766,
+   "n_tokens": 350,
+   "n_loss_tokens": 350,
+   "spans": [
+    [
+     36416,
+     36766,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00070",
+   "doc_id": "held-code-00070",
+   "source_row_id": "fierval/KaggleMalware/Learning/1dlbp_tests.py",
+   "kind": "pretrain",
+   "start": 36766,
+   "end": 39004,
+   "n_tokens": 2238,
+   "n_loss_tokens": 2238,
+   "spans": [
+    [
+     36766,
+     39004,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00071",
+   "doc_id": "held-code-00071",
+   "source_row_id": "hhalmeida/corponovo/manage.py",
+   "kind": "pretrain",
+   "start": 39004,
+   "end": 39311,
+   "n_tokens": 307,
+   "n_loss_tokens": 307,
+   "spans": [
+    [
+     39004,
+     39311,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00072",
+   "doc_id": "held-code-00072",
+   "source_row_id": "andresgomezvidal/autokey_scripts/data/General/file manager/asignaturas_actuales.py",
+   "kind": "pretrain",
+   "start": 39311,
+   "end": 39392,
+   "n_tokens": 81,
+   "n_loss_tokens": 81,
+   "spans": [
+    [
+     39311,
+     39392,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00073",
+   "doc_id": "held-code-00073",
+   "source_row_id": "jiasir/openstack-trove/lib/charmhelpers/contrib/openstack/ip.py",
+   "kind": "pretrain",
+   "start": 39392,
+   "end": 40317,
+   "n_tokens": 925,
+   "n_loss_tokens": 925,
+   "spans": [
+    [
+     39392,
+     40317,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00074",
+   "doc_id": "held-code-00074",
+   "source_row_id": "mylokin/servy/servy/utils/dsntool.py",
+   "kind": "pretrain",
+   "start": 40317,
+   "end": 42225,
+   "n_tokens": 1908,
+   "n_loss_tokens": 1908,
+   "spans": [
+    [
+     40317,
+     42225,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00075",
+   "doc_id": "held-code-00075",
+   "source_row_id": "Fusion-Data-Platform/fdp/fdp/lib/datasources.py",
+   "kind": "pretrain",
+   "start": 42225,
+   "end": 42905,
+   "n_tokens": 680,
+   "n_loss_tokens": 680,
+   "spans": [
+    [
+     42225,
+     42905,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00076",
+   "doc_id": "held-code-00076",
+   "source_row_id": "sakura-internet/saklient.python/saklient/cloud/models/model_licenseinfo.py",
+   "kind": "pretrain",
+   "start": 42905,
+   "end": 44591,
+   "n_tokens": 1686,
+   "n_loss_tokens": 1686,
+   "spans": [
+    [
+     42905,
+     44591,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00077",
+   "doc_id": "held-code-00077",
+   "source_row_id": "jsubpy/jsub/jsub/operation/submit.py",
+   "kind": "pretrain",
+   "start": 44591,
+   "end": 46095,
+   "n_tokens": 1504,
+   "n_loss_tokens": 1504,
+   "spans": [
+    [
+     44591,
+     46095,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00078",
+   "doc_id": "held-code-00078",
+   "source_row_id": "hackaugusto/raiden/raiden/tests/utils/smartcontracts.py",
+   "kind": "pretrain",
+   "start": 46095,
+   "end": 47818,
+   "n_tokens": 1723,
+   "n_loss_tokens": 1723,
+   "spans": [
+    [
+     46095,
+     47818,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00079",
+   "doc_id": "held-code-00079",
+   "source_row_id": "indico/indico/indico/core/oauth/__init__.py",
+   "kind": "pretrain",
+   "start": 47818,
+   "end": 48288,
+   "n_tokens": 470,
+   "n_loss_tokens": 470,
+   "spans": [
+    [
+     47818,
+     48288,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00080",
+   "doc_id": "held-code-00080",
+   "source_row_id": "daicang/Leetcode-solutions/382-linked-list-random-node.py",
+   "kind": "pretrain",
+   "start": 48288,
+   "end": 48936,
+   "n_tokens": 648,
+   "n_loss_tokens": 648,
+   "spans": [
+    [
+     48288,
+     48936,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00081",
+   "doc_id": "held-code-00081",
+   "source_row_id": "tainstr/misura.canon/misura/canon/option/tests/test_sqlstore.py",
+   "kind": "pretrain",
+   "start": 48936,
+   "end": 50285,
+   "n_tokens": 1349,
+   "n_loss_tokens": 1349,
+   "spans": [
+    [
+     48936,
+     50285,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00082",
+   "doc_id": "held-code-00082",
+   "source_row_id": "NiloFreitas/Deep-Reinforcement-Learning/reinforcement/players/player_reinforce_rnn_2.py",
+   "kind": "pretrain",
+   "start": 50285,
+   "end": 52429,
+   "n_tokens": 2144,
+   "n_loss_tokens": 2144,
+   "spans": [
+    [
+     50285,
+     52429,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00083",
+   "doc_id": "held-code-00083",
+   "source_row_id": "dmccloskey/SBaaS_rnasequencing/SBaaS_rnasequencing/stage01_rnasequencing_analysis_postgresql_models.py",
+   "kind": "pretrain",
+   "start": 52429,
+   "end": 53499,
+   "n_tokens": 1070,
+   "n_loss_tokens": 1070,
+   "spans": [
+    [
+     52429,
+     53499,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00084",
+   "doc_id": "held-code-00084",
+   "source_row_id": "endarthur/autti/auttitude/math.py",
+   "kind": "pretrain",
+   "start": 53499,
+   "end": 55418,
+   "n_tokens": 1919,
+   "n_loss_tokens": 1919,
+   "spans": [
+    [
+     53499,
+     55418,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00085",
+   "doc_id": "held-code-00085",
+   "source_row_id": "ADKosm/Recipes/Recipes/rcps/admin.py",
+   "kind": "pretrain",
+   "start": 55418,
+   "end": 56015,
+   "n_tokens": 597,
+   "n_loss_tokens": 597,
+   "spans": [
+    [
+     55418,
+     56015,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00086",
+   "doc_id": "held-code-00086",
+   "source_row_id": "jiangtyd/crewviewer/project/config.py",
+   "kind": "pretrain",
+   "start": 56015,
+   "end": 56168,
+   "n_tokens": 153,
+   "n_loss_tokens": 153,
+   "spans": [
+    [
+     56015,
+     56168,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00087",
+   "doc_id": "held-code-00087",
+   "source_row_id": "geographika/mappyfile/docs/scripts/class_diagrams.py",
+   "kind": "pretrain",
+   "start": 56168,
+   "end": 57620,
+   "n_tokens": 1452,
+   "n_loss_tokens": 1452,
+   "spans": [
+    [
+     56168,
+     57620,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00088",
+   "doc_id": "held-code-00088",
+   "source_row_id": "soulfx/gmusic-playlist/ExportLists.py",
+   "kind": "pretrain",
+   "start": 57620,
+   "end": 59010,
+   "n_tokens": 1390,
+   "n_loss_tokens": 1390,
+   "spans": [
+    [
+     57620,
+     59010,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00089",
+   "doc_id": "held-code-00089",
+   "source_row_id": "plotly/plotly.py/packages/python/plotly/plotly/validators/scatterpolar/marker/colorbar/_showexponent.py",
+   "kind": "pretrain",
+   "start": 59010,
+   "end": 59237,
+   "n_tokens": 227,
+   "n_loss_tokens": 227,
+   "spans": [
+    [
+     59010,
+     59237,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00090",
+   "doc_id": "held-code-00090",
+   "source_row_id": "FSI-HochschuleTrier/hacker-jeopardy/de/hochschuletrier/jpy/states/GameState.py",
+   "kind": "pretrain",
+   "start": 59237,
+   "end": 59327,
+   "n_tokens": 90,
+   "n_loss_tokens": 90,
+   "spans": [
+    [
+     59237,
+     59327,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00091",
+   "doc_id": "held-code-00091",
+   "source_row_id": "nkoech/csacompendium/csacompendium/csa_practice/api/practicelevel/practicelevelviews.py",
+   "kind": "pretrain",
+   "start": 59327,
+   "end": 60069,
+   "n_tokens": 742,
+   "n_loss_tokens": 742,
+   "spans": [
+    [
+     59327,
+     60069,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00092",
+   "doc_id": "held-code-00092",
+   "source_row_id": "beetbox/beets/beets/dbcore/query.py",
+   "kind": "pretrain",
+   "start": 60069,
+   "end": 64575,
+   "n_tokens": 4506,
+   "n_loss_tokens": 4506,
+   "spans": [
+    [
+     60069,
+     64575,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00093",
+   "doc_id": "held-code-00093",
+   "source_row_id": "foobarbazblarg/stayclean/stayclean-2018-march/serve-signups-with-flask.py",
+   "kind": "pretrain",
+   "start": 64575,
+   "end": 67881,
+   "n_tokens": 3306,
+   "n_loss_tokens": 3306,
+   "spans": [
+    [
+     64575,
+     67881,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00094",
+   "doc_id": "held-code-00094",
+   "source_row_id": "viniciuschiele/flask-webapi/tests/test_status.py",
+   "kind": "pretrain",
+   "start": 67881,
+   "end": 68315,
+   "n_tokens": 434,
+   "n_loss_tokens": 434,
+   "spans": [
+    [
+     67881,
+     68315,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00095",
+   "doc_id": "held-code-00095",
+   "source_row_id": "Alex-Just/gymlog/gymlog/main/tests/test_models.py",
+   "kind": "pretrain",
+   "start": 68315,
+   "end": 68522,
+   "n_tokens": 207,
+   "n_loss_tokens": 207,
+   "spans": [
+    [
+     68315,
+     68522,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00096",
+   "doc_id": "held-code-00096",
+   "source_row_id": "jminuscula/dixit-online/server/src/dixit/api/auth/serializers/user.py",
+   "kind": "pretrain",
+   "start": 68522,
+   "end": 68694,
+   "n_tokens": 172,
+   "n_loss_tokens": 172,
+   "spans": [
+    [
+     68522,
+     68694,
+     "text"
+    ]
+   ]
+  }
+ ],
+ "split": "test",
+ "never_train": true,
+ "capability_lane": "code",
+ "source": "codeparrot/github-code-clean:Python-all/train",
+ "language": "en",
+ "script": "Latn",
+ "license_tier": "A",
+ "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+ "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+ "dedup_status": "pass",
+ "dedup_report": {
+  "exact_duplicates_removed": 0,
+  "near_duplicates_removed": 0,
+  "jaccard_threshold": 0.8,
+  "samples_in": 49,
+  "samples_kept": 49
+ },
+ "contamination_status": "held_out",
+ "eval_overlap": false,
+ "provenance_tier": "published_dataset_downloadable",
+ "parent_shard_ids": [],
+ "data_kind": "pretrain",
+ "benchmark_id": "era-v5-holdout-code",
+ "version_tag": "v1",
+ "access_log": []
+}

@@ -1,0 +1,978 @@
+{
+ "shard_id": "val-reasoning-000",
+ "content_hash": "6ad70f3a5125cac5e1e2f5a15fe818c1784b224b8ff16bf70917016b282ec900",
+ "token_file": "val-reasoning-000.npy",
+ "n_tokens": 27295,
+ "n_samples": 43,
+ "n_loss_tokens": 23803,
+ "samples": [
+  {
+   "sample_id": "held-reasoning-00000",
+   "doc_id": "held-reasoning-00000",
+   "source_row_id": "olympiads:e7b9c0d0fb7d",
+   "kind": "sft",
+   "start": 0,
+   "end": 902,
+   "n_tokens": 902,
+   "n_loss_tokens": 854,
+   "spans": [
+    [
+     0,
+     48,
+     "prompt"
+    ],
+    [
+     48,
+     902,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00001",
+   "doc_id": "held-reasoning-00001",
+   "source_row_id": "cn_k12:3cda9ef9aa5c",
+   "kind": "sft",
+   "start": 902,
+   "end": 1374,
+   "n_tokens": 472,
+   "n_loss_tokens": 337,
+   "spans": [
+    [
+     902,
+     1037,
+     "prompt"
+    ],
+    [
+     1037,
+     1374,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00002",
+   "doc_id": "held-reasoning-00002",
+   "source_row_id": "synthetic_amc:815431ce1cea",
+   "kind": "sft",
+   "start": 1374,
+   "end": 1788,
+   "n_tokens": 414,
+   "n_loss_tokens": 378,
+   "spans": [
+    [
+     1374,
+     1410,
+     "prompt"
+    ],
+    [
+     1410,
+     1788,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00003",
+   "doc_id": "held-reasoning-00003",
+   "source_row_id": "olympiads:f16ca76f9c22",
+   "kind": "sft",
+   "start": 1788,
+   "end": 2416,
+   "n_tokens": 628,
+   "n_loss_tokens": 500,
+   "spans": [
+    [
+     1788,
+     1916,
+     "prompt"
+    ],
+    [
+     1916,
+     2416,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00004",
+   "doc_id": "held-reasoning-00004",
+   "source_row_id": "synthetic_amc:c33604dafa7c",
+   "kind": "sft",
+   "start": 2416,
+   "end": 2964,
+   "n_tokens": 548,
+   "n_loss_tokens": 453,
+   "spans": [
+    [
+     2416,
+     2511,
+     "prompt"
+    ],
+    [
+     2511,
+     2964,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00005",
+   "doc_id": "held-reasoning-00005",
+   "source_row_id": "olympiads:3363c2bf85c8",
+   "kind": "sft",
+   "start": 2964,
+   "end": 3398,
+   "n_tokens": 434,
+   "n_loss_tokens": 390,
+   "spans": [
+    [
+     2964,
+     3008,
+     "prompt"
+    ],
+    [
+     3008,
+     3398,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00006",
+   "doc_id": "held-reasoning-00006",
+   "source_row_id": "cn_k12:370f24fc1830",
+   "kind": "sft",
+   "start": 3398,
+   "end": 3867,
+   "n_tokens": 469,
+   "n_loss_tokens": 384,
+   "spans": [
+    [
+     3398,
+     3483,
+     "prompt"
+    ],
+    [
+     3483,
+     3867,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00007",
+   "doc_id": "held-reasoning-00007",
+   "source_row_id": "olympiads:55d72e419143",
+   "kind": "sft",
+   "start": 3867,
+   "end": 4405,
+   "n_tokens": 538,
+   "n_loss_tokens": 451,
+   "spans": [
+    [
+     3867,
+     3954,
+     "prompt"
+    ],
+    [
+     3954,
+     4405,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00008",
+   "doc_id": "held-reasoning-00008",
+   "source_row_id": "cn_k12:d3a445a82423",
+   "kind": "sft",
+   "start": 4405,
+   "end": 5008,
+   "n_tokens": 603,
+   "n_loss_tokens": 514,
+   "spans": [
+    [
+     4405,
+     4494,
+     "prompt"
+    ],
+    [
+     4494,
+     5008,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00009",
+   "doc_id": "held-reasoning-00009",
+   "source_row_id": "cn_k12:f9428af58367",
+   "kind": "sft",
+   "start": 5008,
+   "end": 5362,
+   "n_tokens": 354,
+   "n_loss_tokens": 312,
+   "spans": [
+    [
+     5008,
+     5050,
+     "prompt"
+    ],
+    [
+     5050,
+     5362,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00010",
+   "doc_id": "held-reasoning-00010",
+   "source_row_id": "cn_k12:50d1f53bf59a",
+   "kind": "sft",
+   "start": 5362,
+   "end": 5675,
+   "n_tokens": 313,
+   "n_loss_tokens": 244,
+   "spans": [
+    [
+     5362,
+     5431,
+     "prompt"
+    ],
+    [
+     5431,
+     5675,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00011",
+   "doc_id": "held-reasoning-00011",
+   "source_row_id": "olympiads:d553e4345297",
+   "kind": "sft",
+   "start": 5675,
+   "end": 6911,
+   "n_tokens": 1236,
+   "n_loss_tokens": 1159,
+   "spans": [
+    [
+     5675,
+     5752,
+     "prompt"
+    ],
+    [
+     5752,
+     6911,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00012",
+   "doc_id": "held-reasoning-00012",
+   "source_row_id": "synthetic_amc:ce1c852f4aad",
+   "kind": "sft",
+   "start": 6911,
+   "end": 7326,
+   "n_tokens": 415,
+   "n_loss_tokens": 313,
+   "spans": [
+    [
+     6911,
+     7013,
+     "prompt"
+    ],
+    [
+     7013,
+     7326,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00013",
+   "doc_id": "held-reasoning-00013",
+   "source_row_id": "orca_math:14b865d52376",
+   "kind": "sft",
+   "start": 7326,
+   "end": 7715,
+   "n_tokens": 389,
+   "n_loss_tokens": 347,
+   "spans": [
+    [
+     7326,
+     7368,
+     "prompt"
+    ],
+    [
+     7368,
+     7715,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00014",
+   "doc_id": "held-reasoning-00014",
+   "source_row_id": "olympiads:365eb54025a8",
+   "kind": "sft",
+   "start": 7715,
+   "end": 8492,
+   "n_tokens": 777,
+   "n_loss_tokens": 629,
+   "spans": [
+    [
+     7715,
+     7863,
+     "prompt"
+    ],
+    [
+     7863,
+     8492,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00015",
+   "doc_id": "held-reasoning-00015",
+   "source_row_id": "olympiads:64069ac37960",
+   "kind": "sft",
+   "start": 8492,
+   "end": 9362,
+   "n_tokens": 870,
+   "n_loss_tokens": 807,
+   "spans": [
+    [
+     8492,
+     8555,
+     "prompt"
+    ],
+    [
+     8555,
+     9362,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00016",
+   "doc_id": "held-reasoning-00016",
+   "source_row_id": "synthetic_math:b52695b095bf",
+   "kind": "sft",
+   "start": 9362,
+   "end": 9701,
+   "n_tokens": 339,
+   "n_loss_tokens": 315,
+   "spans": [
+    [
+     9362,
+     9386,
+     "prompt"
+    ],
+    [
+     9386,
+     9701,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00017",
+   "doc_id": "held-reasoning-00017",
+   "source_row_id": "cn_k12:b85410ae561e",
+   "kind": "sft",
+   "start": 9701,
+   "end": 10093,
+   "n_tokens": 392,
+   "n_loss_tokens": 348,
+   "spans": [
+    [
+     9701,
+     9745,
+     "prompt"
+    ],
+    [
+     9745,
+     10093,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00018",
+   "doc_id": "held-reasoning-00018",
+   "source_row_id": "cn_k12:1d18f5651df8",
+   "kind": "sft",
+   "start": 10093,
+   "end": 10596,
+   "n_tokens": 503,
+   "n_loss_tokens": 454,
+   "spans": [
+    [
+     10093,
+     10142,
+     "prompt"
+    ],
+    [
+     10142,
+     10596,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00019",
+   "doc_id": "held-reasoning-00019",
+   "source_row_id": "orca_math:323f4f764275",
+   "kind": "sft",
+   "start": 10596,
+   "end": 11080,
+   "n_tokens": 484,
+   "n_loss_tokens": 327,
+   "spans": [
+    [
+     10596,
+     10753,
+     "prompt"
+    ],
+    [
+     10753,
+     11080,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00020",
+   "doc_id": "held-reasoning-00020",
+   "source_row_id": "orca_math:71bdc2cf433c",
+   "kind": "sft",
+   "start": 11080,
+   "end": 11589,
+   "n_tokens": 509,
+   "n_loss_tokens": 457,
+   "spans": [
+    [
+     11080,
+     11132,
+     "prompt"
+    ],
+    [
+     11132,
+     11589,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00021",
+   "doc_id": "held-reasoning-00021",
+   "source_row_id": "cn_k12:78bf5a838fb4",
+   "kind": "sft",
+   "start": 11589,
+   "end": 11898,
+   "n_tokens": 309,
+   "n_loss_tokens": 271,
+   "spans": [
+    [
+     11589,
+     11627,
+     "prompt"
+    ],
+    [
+     11627,
+     11898,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00022",
+   "doc_id": "held-reasoning-00022",
+   "source_row_id": "olympiads:9e8273b30491",
+   "kind": "sft",
+   "start": 11898,
+   "end": 12592,
+   "n_tokens": 694,
+   "n_loss_tokens": 611,
+   "spans": [
+    [
+     11898,
+     11981,
+     "prompt"
+    ],
+    [
+     11981,
+     12592,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00023",
+   "doc_id": "held-reasoning-00023",
+   "source_row_id": "olympiads:d36aaec419a8",
+   "kind": "sft",
+   "start": 12592,
+   "end": 13429,
+   "n_tokens": 837,
+   "n_loss_tokens": 773,
+   "spans": [
+    [
+     12592,
+     12656,
+     "prompt"
+    ],
+    [
+     12656,
+     13429,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00024",
+   "doc_id": "held-reasoning-00024",
+   "source_row_id": "orca_math:b5a8bf704e59",
+   "kind": "sft",
+   "start": 13429,
+   "end": 13897,
+   "n_tokens": 468,
+   "n_loss_tokens": 373,
+   "spans": [
+    [
+     13429,
+     13524,
+     "prompt"
+    ],
+    [
+     13524,
+     13897,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00025",
+   "doc_id": "held-reasoning-00025",
+   "source_row_id": "synthetic_math:31ce5a5a8905",
+   "kind": "sft",
+   "start": 13897,
+   "end": 14442,
+   "n_tokens": 545,
+   "n_loss_tokens": 299,
+   "spans": [
+    [
+     13897,
+     14143,
+     "prompt"
+    ],
+    [
+     14143,
+     14442,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00026",
+   "doc_id": "held-reasoning-00026",
+   "source_row_id": "cn_k12:c2f83ce8cc84",
+   "kind": "sft",
+   "start": 14442,
+   "end": 15221,
+   "n_tokens": 779,
+   "n_loss_tokens": 601,
+   "spans": [
+    [
+     14442,
+     14620,
+     "prompt"
+    ],
+    [
+     14620,
+     15221,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00027",
+   "doc_id": "held-reasoning-00027",
+   "source_row_id": "aops_forum:e2b2478437fd",
+   "kind": "sft",
+   "start": 15221,
+   "end": 16589,
+   "n_tokens": 1368,
+   "n_loss_tokens": 1188,
+   "spans": [
+    [
+     15221,
+     15401,
+     "prompt"
+    ],
+    [
+     15401,
+     16589,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00028",
+   "doc_id": "held-reasoning-00028",
+   "source_row_id": "cn_k12:9cb900643c92",
+   "kind": "sft",
+   "start": 16589,
+   "end": 17106,
+   "n_tokens": 517,
+   "n_loss_tokens": 444,
+   "spans": [
+    [
+     16589,
+     16662,
+     "prompt"
+    ],
+    [
+     16662,
+     17106,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00029",
+   "doc_id": "held-reasoning-00029",
+   "source_row_id": "synthetic_amc:7f4fc285731b",
+   "kind": "sft",
+   "start": 17106,
+   "end": 17672,
+   "n_tokens": 566,
+   "n_loss_tokens": 460,
+   "spans": [
+    [
+     17106,
+     17212,
+     "prompt"
+    ],
+    [
+     17212,
+     17672,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00030",
+   "doc_id": "held-reasoning-00030",
+   "source_row_id": "olympiads:735f7f13d860",
+   "kind": "sft",
+   "start": 17672,
+   "end": 18197,
+   "n_tokens": 525,
+   "n_loss_tokens": 493,
+   "spans": [
+    [
+     17672,
+     17704,
+     "prompt"
+    ],
+    [
+     17704,
+     18197,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00031",
+   "doc_id": "held-reasoning-00031",
+   "source_row_id": "olympiads:cd1dd94eb95b",
+   "kind": "sft",
+   "start": 18197,
+   "end": 18765,
+   "n_tokens": 568,
+   "n_loss_tokens": 534,
+   "spans": [
+    [
+     18197,
+     18231,
+     "prompt"
+    ],
+    [
+     18231,
+     18765,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00032",
+   "doc_id": "held-reasoning-00032",
+   "source_row_id": "olympiads:3190fb1ea5c2",
+   "kind": "sft",
+   "start": 18765,
+   "end": 19371,
+   "n_tokens": 606,
+   "n_loss_tokens": 561,
+   "spans": [
+    [
+     18765,
+     18810,
+     "prompt"
+    ],
+    [
+     18810,
+     19371,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00033",
+   "doc_id": "held-reasoning-00033",
+   "source_row_id": "olympiads:e12c00376e1b",
+   "kind": "sft",
+   "start": 19371,
+   "end": 20016,
+   "n_tokens": 645,
+   "n_loss_tokens": 600,
+   "spans": [
+    [
+     19371,
+     19416,
+     "prompt"
+    ],
+    [
+     19416,
+     20016,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00034",
+   "doc_id": "held-reasoning-00034",
+   "source_row_id": "olympiads:e76efddf23a1",
+   "kind": "sft",
+   "start": 20016,
+   "end": 21207,
+   "n_tokens": 1191,
+   "n_loss_tokens": 1061,
+   "spans": [
+    [
+     20016,
+     20146,
+     "prompt"
+    ],
+    [
+     20146,
+     21207,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00035",
+   "doc_id": "held-reasoning-00035",
+   "source_row_id": "synthetic_math:ffcd739a5a0b",
+   "kind": "sft",
+   "start": 21207,
+   "end": 21735,
+   "n_tokens": 528,
+   "n_loss_tokens": 418,
+   "spans": [
+    [
+     21207,
+     21317,
+     "prompt"
+    ],
+    [
+     21317,
+     21735,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00036",
+   "doc_id": "held-reasoning-00036",
+   "source_row_id": "aops_forum:afd347cf79e8",
+   "kind": "sft",
+   "start": 21735,
+   "end": 23223,
+   "n_tokens": 1488,
+   "n_loss_tokens": 1429,
+   "spans": [
+    [
+     21735,
+     21794,
+     "prompt"
+    ],
+    [
+     21794,
+     23223,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00037",
+   "doc_id": "held-reasoning-00037",
+   "source_row_id": "olympiads:8dee755cc621",
+   "kind": "sft",
+   "start": 23223,
+   "end": 23859,
+   "n_tokens": 636,
+   "n_loss_tokens": 587,
+   "spans": [
+    [
+     23223,
+     23272,
+     "prompt"
+    ],
+    [
+     23272,
+     23859,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00038",
+   "doc_id": "held-reasoning-00038",
+   "source_row_id": "synthetic_math:7026997ce269",
+   "kind": "sft",
+   "start": 23859,
+   "end": 24316,
+   "n_tokens": 457,
+   "n_loss_tokens": 426,
+   "spans": [
+    [
+     23859,
+     23890,
+     "prompt"
+    ],
+    [
+     23890,
+     24316,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00039",
+   "doc_id": "held-reasoning-00039",
+   "source_row_id": "synthetic_amc:f79737b3c948",
+   "kind": "sft",
+   "start": 24316,
+   "end": 24917,
+   "n_tokens": 601,
+   "n_loss_tokens": 510,
+   "spans": [
+    [
+     24316,
+     24407,
+     "prompt"
+    ],
+    [
+     24407,
+     24917,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00040",
+   "doc_id": "held-reasoning-00040",
+   "source_row_id": "olympiads:64e55e8c4517",
+   "kind": "sft",
+   "start": 24917,
+   "end": 25579,
+   "n_tokens": 662,
+   "n_loss_tokens": 599,
+   "spans": [
+    [
+     24917,
+     24980,
+     "prompt"
+    ],
+    [
+     24980,
+     25579,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00041",
+   "doc_id": "held-reasoning-00041",
+   "source_row_id": "olympiads:b8d46b366c0d",
+   "kind": "sft",
+   "start": 25579,
+   "end": 26628,
+   "n_tokens": 1049,
+   "n_loss_tokens": 1013,
+   "spans": [
+    [
+     25579,
+     25615,
+     "prompt"
+    ],
+    [
+     25615,
+     26628,
+     "response"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-reasoning-00042",
+   "doc_id": "held-reasoning-00042",
+   "source_row_id": "olympiads:cc8692f53fd2",
+   "kind": "sft",
+   "start": 26628,
+   "end": 27295,
+   "n_tokens": 667,
+   "n_loss_tokens": 579,
+   "spans": [
+    [
+     26628,
+     26716,
+     "prompt"
+    ],
+    [
+     26716,
+     27295,
+     "response"
+    ]
+   ]
+  }
+ ],
+ "split": "validation",
+ "never_train": false,
+ "capability_lane": "reasoning",
+ "source": "AI-MO/NuminaMath-CoT:default/train",
+ "language": "en",
+ "script": "Latn",
+ "license_tier": "A",
+ "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+ "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+ "dedup_status": "pass",
+ "dedup_report": {
+  "exact_duplicates_removed": 0,
+  "near_duplicates_removed": 0,
+  "jaccard_threshold": 0.8,
+  "samples_in": 43,
+  "samples_kept": 43
+ },
+ "contamination_status": "held_out",
+ "eval_overlap": false,
+ "provenance_tier": "published_dataset_downloadable",
+ "parent_shard_ids": [],
+ "data_kind": "sft"
+}

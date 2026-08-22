@@ -1,0 +1,938 @@
+{
+ "schema": "era-v5-session6-evidence/1",
+ "generated_by": "run_demo.py",
+ "all_passed": true,
+ "n_checks": 19,
+ "n_failed": 0,
+ "checks": [
+  {
+   "requirement": "Tokenizer integrity",
+   "result": "PASS",
+   "evidence": [
+    "manifests/tokenizer.json"
+   ],
+   "detail": "hash recorded in the manifest recomputed from the tokenizer file on disk",
+   "values": {
+    "manifest_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+    "recomputed_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+    "vocab_size": 16384,
+    "level": "character"
+   }
+  },
+  {
+   "requirement": "Indic fertility",
+   "result": "PASS",
+   "evidence": [
+    "manifests/tokenizer.json"
+   ],
+   "detail": "measured tokens per word on held-out text, against the ceiling and against the web lane",
+   "values": {
+    "fertility": {
+     "web": 1.6274,
+     "code": 4.7055,
+     "indic": 1.4445,
+     "stem": 1.504,
+     "reasoning": 1.6982,
+     "agentic": 1.9364
+    },
+    "ceiling": {
+     "indic": 1.65
+    },
+    "failures": [],
+    "indic_beats_web": true
+   }
+  },
+  {
+   "requirement": "Shard immutability and manifests",
+   "result": "PASS",
+   "evidence": [
+    "manifests/train-web-000.json"
+   ],
+   "detail": "every shard hash recomputed from disk, plus a tamper probe that alters one token",
+   "values": {
+    "shards_verified": 18,
+    "shards_total": 18,
+    "tamper_probe_shard": "train-web-000",
+    "tamper_probe_detected": true,
+    "tamper_probe_detail": "content hash 4f90ba55ad652016 does not match manifest 6b03625030a39ab7",
+    "duplicates_removed": {
+     "train-web-000": 0,
+     "train-code-000": 0,
+     "train-indic-000": 0,
+     "train-stem-000": 0,
+     "train-reasoning-000": 0,
+     "train-agentic-000": 0
+    }
+   }
+  },
+  {
+   "requirement": "Contamination screened before sharding",
+   "result": "PASS",
+   "evidence": [
+    "reports/screening.json"
+   ],
+   "detail": "every training document checked against the held-out index before any shard was written",
+   "values": {
+    "per_lane": {
+     "web": {
+      "offered": 200,
+      "kept": 200,
+      "screened_out": 0,
+      "examples": []
+     },
+     "code": {
+      "offered": 189,
+      "kept": 188,
+      "screened_out": 1,
+      "examples": [
+       {
+        "sample_id": "code-00025",
+        "match": "ngram_fingerprint",
+        "held_out_sample": "held-code-00071"
+       }
+      ]
+     },
+     "indic": {
+      "offered": 399,
+      "kept": 390,
+      "screened_out": 9,
+      "examples": [
+       {
+        "sample_id": "indic-00041",
+        "match": "exact_content_hash",
+        "held_out_sample": "held-indic-00052"
+       },
+       {
+        "sample_id": "indic-00102",
+        "match": "exact_content_hash",
+        "held_out_sample": "held-indic-00052"
+       },
+       {
+        "sample_id": "indic-00171",
+        "match": "exact_content_hash",
+        "held_out_sample": "held-indic-00052"
+       }
+      ]
+     },
+     "stem": {
+      "offered": 803,
+      "kept": 803,
+      "screened_out": 0,
+      "examples": []
+     },
+     "reasoning": {
+      "offered": 336,
+      "kept": 336,
+      "screened_out": 0,
+      "examples": []
+     },
+     "agentic": {
+      "offered": 200,
+      "kept": 200,
+      "screened_out": 0,
+      "examples": []
+     }
+    },
+    "total_screened_out": 10,
+    "training_shards_admitted": 6,
+    "training_lanes": 6
+   }
+  },
+  {
+   "requirement": "Blocked shard rebuilt rather than edited",
+   "result": "PASS",
+   "evidence": [
+    "reports/registry.json"
+   ],
+   "detail": "shards the firewall blocked were quarantined and rewritten as new shards naming the blocked one as parent",
+   "values": {
+    "rebuilds": [
+     {
+      "blocked_shard": "candidate-contaminated-000",
+      "final_shard": "candidate-contaminated-001",
+      "rounds": 1,
+      "quarantined_samples": [
+       "held-stem-00086",
+       "held-stem-00087",
+       "held-stem-00088",
+       "held-stem-00089",
+       "held-stem-00090",
+       "held-stem-00091"
+      ],
+      "n_quarantined": 6,
+      "parent_content_hash": "5384c055cfe8a8f539f8b2c94c23200de06eb3d82158486d3dfd862a44af3f7e",
+      "child_content_hash": "2197cac5331ef3d3db25e0e426b90d69659b4b0c480b742d463db492d49ef305",
+      "child_admitted": true,
+      "hits": [
+       {
+        "sample_id": "held-stem-00086",
+        "match": "exact_content_hash",
+        "held_out_shard": "test-stem-000",
+        "held_out_sample": "held-stem-00086"
+       },
+       {
+        "sample_id": "held-stem-00087",
+        "match": "exact_content_hash",
+        "held_out_shard": "test-stem-000",
+        "held_out_sample": "held-stem-00087"
+       },
+       {
+        "sample_id": "held-stem-00088",
+        "match": "exact_content_hash",
+        "held_out_shard": "test-stem-000",
+        "held_out_sample": "held-stem-00088"
+       },
+       {
+        "sample_id": "held-stem-00089",
+        "match": "exact_content_hash",
+        "held_out_shard": "test-stem-000",
+        "held_out_sample": "held-stem-00089"
+       }
+      ]
+     }
+    ],
+    "note": ""
+   }
+  },
+  {
+   "requirement": "Evaluation firewall",
+   "result": "PASS",
+   "evidence": [
+    "reports/registry.json",
+    "manifests/candidate-contaminated-000.json"
+   ],
+   "detail": "a candidate shard really containing held-out documents was offered, and a clean control was offered",
+   "values": {
+    "contaminated_candidate_blocked": true,
+    "firewall_hits": [
+     {
+      "sample_id": "held-stem-00086",
+      "match": "exact_content_hash",
+      "held_out_shard": "test-stem-000",
+      "held_out_sample": "held-stem-00086"
+     },
+     {
+      "sample_id": "held-stem-00087",
+      "match": "exact_content_hash",
+      "held_out_shard": "test-stem-000",
+      "held_out_sample": "held-stem-00087"
+     },
+     {
+      "sample_id": "held-stem-00088",
+      "match": "exact_content_hash",
+      "held_out_shard": "test-stem-000",
+      "held_out_sample": "held-stem-00088"
+     },
+     {
+      "sample_id": "held-stem-00089",
+      "match": "exact_content_hash",
+      "held_out_shard": "test-stem-000",
+      "held_out_sample": "held-stem-00089"
+     },
+     {
+      "sample_id": "held-stem-00090",
+      "match": "exact_content_hash",
+      "held_out_shard": "test-stem-000",
+      "held_out_sample": "held-stem-00090"
+     },
+     {
+      "sample_id": "held-stem-00091",
+      "match": "exact_content_hash",
+      "held_out_shard": "test-stem-000",
+      "held_out_sample": "held-stem-00091"
+     }
+    ],
+    "n_hits": 6,
+    "block_reasons": [
+     "evaluation overlap on 6 sample(s)"
+    ],
+    "clean_control_admitted": true,
+    "never_train_documents_indexed": 327
+   }
+  },
+  {
+   "requirement": "Crash recovery",
+   "result": "PASS",
+   "evidence": [
+    "ledgers/consumption.main.jsonl",
+    "checkpoints/index.json"
+   ],
+   "detail": "batches rebuilt after restoring the checkpoint, compared to the batches the pre-crash run recorded",
+   "values": {
+    "crash_injected_at_step": 140,
+    "crash_raised": true,
+    "restored_checkpoint": "ckpt-main-00128",
+    "restored_ledger_offset": 512,
+    "expected_next_batch": {
+     "global_step": 128,
+     "microbatch_id": "s00128-r0-a0",
+     "rank": 0,
+     "batch_hash": "086893d78eba83efd5c91391a41ff749360b62ad70e339462fba676969415244",
+     "token_span_ids": [
+      "train-code-000:code-00182#256:0-128",
+      "train-web-000:web-00131#128:0-128",
+      "train-indic-000:indic-00250#0:0-128",
+      "train-code-000:code-00182#128:0-128"
+     ],
+     "packed_sample_ids": [
+      "code-00182#256",
+      "web-00131#128",
+      "indic-00250#0",
+      "code-00182#128"
+     ]
+    },
+    "resumed_next_batch": {
+     "global_step": 128,
+     "microbatch_id": "s00128-r0-a0",
+     "rank": 0,
+     "batch_hash": "086893d78eba83efd5c91391a41ff749360b62ad70e339462fba676969415244",
+     "token_span_ids": [
+      "train-code-000:code-00182#256:0-128",
+      "train-web-000:web-00131#128:0-128",
+      "train-indic-000:indic-00250#0:0-128",
+      "train-code-000:code-00182#128:0-128"
+     ],
+     "packed_sample_ids": [
+      "code-00182#256",
+      "web-00131#128",
+      "indic-00250#0",
+      "code-00182#128"
+     ]
+    },
+    "microbatches_compared": 50,
+    "differences": [],
+    "records_lost_to_crash": 50,
+    "naive_resume_produces_same_batch": false,
+    "naive_resume_first_step": 0
+   }
+  },
+  {
+   "requirement": "No skipped or repeated batches",
+   "result": "PASS",
+   "evidence": [
+    "ledgers/consumption.main.jsonl"
+   ],
+   "detail": "every microbatch key checked for repeats within a segment and every global step for gaps",
+   "values": {
+    "records": 1074,
+    "segment_0_records": 562,
+    "segment_1_records": 512,
+    "step_range": [
+     0,
+     255
+    ],
+    "step_gaps": [],
+    "duplicate_problems": []
+   }
+  },
+  {
+   "requirement": "Replay",
+   "result": "PASS",
+   "evidence": [
+    "ledgers/consumption.main.jsonl",
+    "checkpoints/index.json"
+   ],
+   "detail": "an earlier interval rebuilt from an older checkpoint, compared to the original records",
+   "values": {
+    "replayed_from": "ckpt-main-00096",
+    "steps": [
+     96,
+     99
+    ],
+    "microbatches_compared": 16,
+    "original_hashes": [
+     "c16d1cbc4e59ee44",
+     "a8fad12b02d1a24e",
+     "0edb08a66e838bed",
+     "0be61346bae3b96c"
+    ],
+    "replay_hashes": [
+     "c16d1cbc4e59ee44",
+     "a8fad12b02d1a24e",
+     "0edb08a66e838bed",
+     "0be61346bae3b96c"
+    ],
+    "differences": []
+   }
+  },
+  {
+   "requirement": "Fork with recorded divergence",
+   "result": "PASS",
+   "evidence": [
+    "ledgers/branches.json",
+    "ledgers/consumption.exp-indic-heavy.jsonl"
+   ],
+   "detail": "a new branch from the same checkpoint, its divergence point recorded and its stream compared to the parent",
+   "values": {
+    "branch": {
+     "branch_id": "exp-indic-heavy",
+     "parent_branch": "main",
+     "forked_at_step": 96,
+     "forked_at_offset": 384,
+     "forked_from_checkpoint": "ckpt-main-00096",
+     "reason": "Indic share raised by 10 points, taken from web"
+    },
+    "parent_indic_share": 0.125,
+    "fork_indic_share": 0.21875,
+    "streams_differ": true,
+    "n_differences": 20
+   }
+  },
+  {
+   "requirement": "Mixture compliance and protected floors",
+   "result": "PASS",
+   "evidence": [
+    "manifests/mixture_schedule.json",
+    "ledgers/consumption.main.jsonl"
+   ],
+   "detail": "planned share from the compiled schedule against the share actually recorded in the ledger",
+   "values": {
+    "per_lane": {
+     "web": {
+      "planned_share": 0.46856,
+      "actual_share": 0.4696,
+      "planned_tokens": 335380,
+      "actual_tokens": 336128,
+      "abs_error": 0.00104
+     },
+     "code": {
+      "planned_share": 0.26847,
+      "actual_share": 0.25393,
+      "planned_tokens": 192163,
+      "actual_tokens": 181760,
+      "abs_error": 0.01454
+     },
+     "indic": {
+      "planned_share": 0.12568,
+      "actual_share": 0.12661,
+      "planned_tokens": 89958,
+      "actual_tokens": 90624,
+      "abs_error": 0.00093
+     },
+     "stem": {
+      "planned_share": 0.10771,
+      "actual_share": 0.09979,
+      "planned_tokens": 77096,
+      "actual_tokens": 71424,
+      "abs_error": 0.00792
+     },
+     "reasoning": {
+      "planned_share": 0.01958,
+      "actual_share": 0.04006,
+      "planned_tokens": 14018,
+      "actual_tokens": 28672,
+      "abs_error": 0.02047
+     },
+     "agentic": {
+      "planned_share": 0.01,
+      "actual_share": 0.01001,
+      "planned_tokens": 7157,
+      "actual_tokens": 7168,
+      "abs_error": 2e-05
+     }
+    },
+    "worst_absolute_error": 0.02047,
+    "protected_floors": {
+     "indic": 0.1,
+     "reasoning": 0.04,
+     "agentic": 0.01
+    },
+    "floors_held": true
+   }
+  },
+  {
+   "requirement": "OPUS audit trail",
+   "result": "PASS",
+   "evidence": [
+    "reports/opus_decisions.json"
+   ],
+   "detail": "every candidate carries a score, a status, a reason and whether a floor overrode it",
+   "values": {
+    "totals": {
+     "accepted": 281,
+     "rejected": 1639,
+     "deferred": 474,
+     "protected": 558,
+     "quota_topup": 1059
+    },
+    "by_lane": {
+     "web": {
+      "offered": 1076,
+      "accepted": 440,
+      "rejected": 259,
+      "deferred": 377,
+      "floor_rescued": 0,
+      "quota_topup": 211
+     },
+     "code": {
+      "offered": 911,
+      "accepted": 386,
+      "rejected": 495,
+      "deferred": 30,
+      "floor_rescued": 0,
+      "quota_topup": 370
+     },
+     "indic": {
+      "offered": 576,
+      "accepted": 366,
+      "rejected": 210,
+      "deferred": 0,
+      "floor_rescued": 336,
+      "quota_topup": 30
+     },
+     "stem": {
+      "offered": 1192,
+      "accepted": 472,
+      "rejected": 653,
+      "deferred": 67,
+      "floor_rescued": 0,
+      "quota_topup": 448
+     },
+     "reasoning": {
+      "offered": 209,
+      "accepted": 187,
+      "rejected": 22,
+      "deferred": 0,
+      "floor_rescued": 179,
+      "quota_topup": 0
+     },
+     "agentic": {
+      "offered": 47,
+      "accepted": 47,
+      "rejected": 0,
+      "deferred": 0,
+      "floor_rescued": 43,
+      "quota_topup": 0
+     }
+    },
+    "rejection_reasons": {
+     "quota_pressure": 468,
+     "low_proxy_utility_for_this_phase": 474,
+     "lane_underfilled_after_selection": 1059,
+     "below threshold, retained by protected floor": 558,
+     "low_proxy_utility": 1171
+    },
+    "mean_score_web": 0.04075,
+    "mean_score_indic": -5.32971,
+    "indic_rescued_by_floor": 336,
+    "proxy_version": "ref-en-web-v1"
+   }
+  },
+  {
+   "requirement": "Packing correctness",
+   "result": "PASS",
+   "evidence": [
+    "reports/packing.json"
+   ],
+   "detail": "loss masks, position id restarts and segment isolation checked on every packed sequence",
+   "values": {
+    "mask_violations": [],
+    "cross_segment_attention_pairs": 0,
+    "policies_compared": 12,
+    "best_occupancy": 1.0,
+    "worst_occupancy": 0.977181,
+    "policy_table": [
+     {
+      "data": "web (pretraining)",
+      "policy": "pad_only",
+      "occupancy": 0.977181,
+      "loss_coverage": 0.977181,
+      "n_sequences": 120,
+      "boundary_crossings": 0,
+      "truncated_samples": 111
+     },
+     {
+      "data": "web (pretraining)",
+      "policy": "concat_chop",
+      "occupancy": 0.999319,
+      "loss_coverage": 0.999319,
+      "n_sequences": 562,
+      "boundary_crossings": 119,
+      "truncated_samples": 561
+     },
+     {
+      "data": "web (pretraining)",
+      "policy": "greedy",
+      "occupancy": 0.985393,
+      "loss_coverage": 0.985393,
+      "n_sequences": 119,
+      "boundary_crossings": 0,
+      "truncated_samples": 111
+     },
+     {
+      "data": "web (pretraining)",
+      "policy": "best_fit",
+      "occupancy": 0.985393,
+      "loss_coverage": 0.985393,
+      "n_sequences": 119,
+      "boundary_crossings": 0,
+      "truncated_samples": 111
+     },
+     {
+      "data": "web (pretraining)",
+      "policy": "structure_preserving",
+      "occupancy": 0.985393,
+      "loss_coverage": 0.985393,
+      "n_sequences": 119,
+      "boundary_crossings": 0,
+      "truncated_samples": 111
+     },
+     {
+      "data": "web (pretraining)",
+      "policy": "long_context",
+      "occupancy": 0.985393,
+      "loss_coverage": 0.985393,
+      "n_sequences": 119,
+      "boundary_crossings": 0,
+      "truncated_samples": 111
+     },
+     {
+      "data": "agentic (trajectories)",
+      "policy": "pad_only",
+      "occupancy": 1.0,
+      "loss_coverage": 0.748763,
+      "n_sequences": 120,
+      "boundary_crossings": 0,
+      "truncated_samples": 80
+     },
+     {
+      "data": "agentic (trajectories)",
+      "policy": "concat_chop",
+      "occupancy": 0.998147,
+      "loss_coverage": 0.460567,
+      "n_sequences": 369,
+      "boundary_crossings": 102,
+      "truncated_samples": 368
+     },
+     {
+      "data": "agentic (trajectories)",
+      "policy": "greedy",
+      "occupancy": 1.0,
+      "loss_coverage": 0.748763,
+      "n_sequences": 120,
+      "boundary_crossings": 0,
+      "truncated_samples": 80
+     },
+     {
+      "data": "agentic (trajectories)",
+      "policy": "best_fit",
+      "occupancy": 1.0,
+      "loss_coverage": 0.748763,
+      "n_sequences": 120,
+      "boundary_crossings": 0,
+      "truncated_samples": 80
+     },
+     {
+      "data": "agentic (trajectories)",
+      "policy": "structure_preserving",
+      "occupancy": 1.0,
+      "loss_coverage": 0.748763,
+      "n_sequences": 120,
+      "boundary_crossings": 0,
+      "truncated_samples": 80
+     },
+     {
+      "data": "agentic (trajectories)",
+      "policy": "long_context",
+      "occupancy": 1.0,
+      "loss_coverage": 0.748763,
+      "n_sequences": 120,
+      "boundary_crossings": 0,
+      "truncated_samples": 80
+     }
+    ]
+   }
+  },
+  {
+   "requirement": "Learning trace linked to source data",
+   "result": "PASS",
+   "evidence": [
+    "ledgers/learning_ledger.json",
+    "ledgers/token_trace.jsonl"
+   ],
+   "detail": "per-token cross entropy attributed back to shard, document, lane and token id",
+   "values": {
+    "shards_with_report_cards": 6,
+    "token_trace_rows": 4000,
+    "lane_summary": {
+     "agentic": {
+      "avg_token_loss": 8.32877,
+      "avg_token_perplexity": 4141.332,
+      "loss_bearing_tokens": 5608
+     },
+     "code": {
+      "avg_token_loss": 6.20514,
+      "avg_token_perplexity": 495.289,
+      "loss_bearing_tokens": 180519
+     },
+     "indic": {
+      "avg_token_loss": 8.04059,
+      "avg_token_perplexity": 3104.448,
+      "loss_bearing_tokens": 89858
+     },
+     "reasoning": {
+      "avg_token_loss": 7.6644,
+      "avg_token_perplexity": 2131.123,
+      "loss_bearing_tokens": 28500
+     },
+     "stem": {
+      "avg_token_loss": 7.64667,
+      "avg_token_perplexity": 2093.653,
+      "loss_bearing_tokens": 56973
+     },
+     "web": {
+      "avg_token_loss": 7.49633,
+      "avg_token_perplexity": 1801.426,
+      "loss_bearing_tokens": 333555
+     }
+    },
+    "example_report_card": {
+     "shard_id": "train-agentic-000",
+     "capability_lane": "agentic",
+     "phase": "early",
+     "loss_bearing_tokens_seen": 5608,
+     "avg_token_loss": 8.32877,
+     "avg_token_perplexity": 4141.332,
+     "loss_at_first_exposure": 9.61026,
+     "loss_at_last_exposure": 8.06815,
+     "loss_delta_after_exposure": -1.54211,
+     "mean_grad_norm_of_steps_seen": 0.81894,
+     "opus_mean_score": -0.92529,
+     "loss_by_repeated_pass": {
+      "1": 8.32877
+     },
+     "repeated_pass_effect": null,
+     "first_seen_at_tokens": 8192,
+     "steps_seen": 41,
+     "classification": "useful"
+    },
+    "hardest_indic_tokens": [
+     {
+      "token_id": 9139,
+      "decoded": "सुरोविकिन",
+      "scope": "indic",
+      "count": 28,
+      "mean_loss": 12.31639,
+      "mean_perplexity": 223326.926,
+      "dominant_lane": "indic"
+     },
+     {
+      "token_id": 8681,
+      "decoded": ".\n.\n",
+      "scope": "indic",
+      "count": 22,
+      "mean_loss": 12.08652,
+      "mean_perplexity": 177462.97,
+      "dominant_lane": "indic"
+     },
+     {
+      "token_id": 15150,
+      "decoded": "केदार",
+      "scope": "indic",
+      "count": 18,
+      "mean_loss": 11.70208,
+      "mean_perplexity": 120823.147,
+      "dominant_lane": "indic"
+     },
+     {
+      "token_id": 10920,
+      "decoded": "भू-",
+      "scope": "indic",
+      "count": 18,
+      "mean_loss": 11.54604,
+      "mean_perplexity": 103366.521,
+      "dominant_lane": "indic"
+     },
+     {
+      "token_id": 11820,
+      "decoded": "विमान",
+      "scope": "indic",
+      "count": 16,
+      "mean_loss": 11.33513,
+      "mean_perplexity": 83711.086,
+      "dominant_lane": "indic"
+     },
+     {
+      "token_id": 11666,
+      "decoded": "ंशी",
+      "scope": "indic",
+      "count": 17,
+      "mean_loss": 11.2286,
+      "mean_perplexity": 75252.071,
+      "dominant_lane": "indic"
+     }
+    ]
+   }
+  },
+  {
+   "requirement": "Validation and test data never trained",
+   "result": "PASS",
+   "evidence": [
+    "reports/audit.json",
+    "ledgers/consumption.main.jsonl"
+   ],
+   "detail": "every document id in every consumed batch checked against the never-train registry",
+   "values": {
+    "never_train_documents": 327,
+    "leaked_documents": [],
+    "batches_checked": 1074,
+    "audit_example": {
+     "token_range": [
+      286310,
+      393676
+     ],
+     "global_steps": [
+      133,
+      177
+     ],
+     "n_microbatches": 201,
+     "n_packed_samples": 804,
+     "shards_involved": {
+      "train-web-000": 192,
+      "train-code-000": 131,
+      "train-indic-000": 89,
+      "train-stem-000": 54,
+      "train-reasoning-000": 31,
+      "train-agentic-000": 9
+     },
+     "tokens_by_lane": {
+      "web": 58496,
+      "code": 22656,
+      "indic": 14080,
+      "stem": 7552,
+      "reasoning": 4096,
+      "agentic": 1152
+     }
+    }
+   }
+  },
+  {
+   "requirement": "Throughput reconstructable from the ledger",
+   "result": "PASS",
+   "evidence": [
+    "performance.json",
+    "ledgers/consumption.main.jsonl"
+   ],
+   "detail": "headline token counts recounted from the consumption ledger and compared to the report",
+   "values": {
+    "ledger_raw_token_positions": 715776,
+    "report_raw_token_positions": 715776,
+    "ledger_loss_bearing_tokens": 699102,
+    "report_loss_bearing_tokens": 699102,
+    "raw_matches": true,
+    "loss_matches": true,
+    "ok": true,
+    "raw_tokens_per_second": 9422.0,
+    "useful_loss_bearing_tokens_per_second": 9202.5,
+    "accepted_tokens_per_second": 3998.9,
+    "packing_occupancy": 0.989621
+   }
+  },
+  {
+   "requirement": "End to end execution",
+   "result": "PASS",
+   "evidence": [
+    "run.log"
+   ],
+   "detail": "all phases ran in one command without manual intervention",
+   "values": {
+    "phases": 18,
+    "wall_seconds": 75.97,
+    "steps_trained": 256,
+    "checkpoints": 9,
+    "ledger_records": 1074
+   }
+  },
+  {
+   "requirement": "Invariant tests",
+   "result": "PASS",
+   "evidence": [
+    "reports/tests.txt"
+   ],
+   "detail": "the unit test suite was executed by this run, not quoted from a previous one",
+   "values": {
+    "tests_run": 69,
+    "exit_code": 0,
+    "verdict": "OK",
+    "command": "python -m unittest discover -s tests"
+   }
+  },
+  {
+   "requirement": "Checkpoints bound to ledger offsets",
+   "result": "PASS",
+   "evidence": [
+    "checkpoints/index.json"
+   ],
+   "detail": "every checkpoint records the ledger offset, token count and weight digest it was written at",
+   "values": {
+    "n_checkpoints": 9,
+    "retained_on_disk": [
+     "ckpt-main-00000",
+     "ckpt-main-00096",
+     "ckpt-main-00128",
+     "ckpt-main-00256"
+    ],
+    "resume_checkpoint": "ckpt-main-00128",
+    "replay_checkpoint": "ckpt-main-00096",
+    "examples": [
+     {
+      "checkpoint_id": "ckpt-main-00000",
+      "global_step": 0,
+      "ledger_offset": 0,
+      "tokens_seen": 0,
+      "branch_id": "main",
+      "segment": 0,
+      "model_state_digest": "80fe84a72ee236cc55e597123e46fef889822fe8e6e4c93bd50a7566a467af00",
+      "bytes": 20127708,
+      "has_optimizer": false,
+      "retained": true
+     },
+     {
+      "checkpoint_id": "ckpt-main-00032",
+      "global_step": 32,
+      "ledger_offset": 128,
+      "tokens_seen": 65536,
+      "branch_id": "main",
+      "segment": 0,
+      "model_state_digest": "6d286a20f9d26f98697311a8ad91f6ae0f6d3caf5b0d7a26b0f1ae441db235de",
+      "bytes": 20127708,
+      "has_optimizer": false,
+      "retained": false
+     },
+     {
+      "checkpoint_id": "ckpt-main-00064",
+      "global_step": 64,
+      "ledger_offset": 256,
+      "tokens_seen": 131072,
+      "branch_id": "main",
+      "segment": 0,
+      "model_state_digest": "0b6217b6778df37a6b5d10322be25fd21a35262df059f5dee07c2db5f6a8b79c",
+      "bytes": 20127708,
+      "has_optimizer": false,
+      "retained": false
+     },
+     {
+      "checkpoint_id": "ckpt-main-00096",
+      "global_step": 96,
+      "ledger_offset": 384,
+      "tokens_seen": 196608,
+      "branch_id": "main",
+      "segment": 0,
+      "model_state_digest": "73812768fcac714e2df528bfb57232ca3cfb677ae79c7921a88344a870e790f3",
+      "bytes": 60362069,
+      "has_optimizer": true,
+      "retained": true
+     }
+    ]
+   }
+  }
+ ],
+ "run": {
+  "run_id": "v5-s6-demo",
+  "parameters": 5023872,
+  "vocab_size": 16384,
+  "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+  "steps": 256,
+  "token_positions": 715776
+ }
+}

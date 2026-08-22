@@ -1,0 +1,28 @@
+{
+ "token_range": [
+  286310,
+  393676
+ ],
+ "global_steps": [
+  133,
+  177
+ ],
+ "n_microbatches": 201,
+ "n_packed_samples": 804,
+ "shards_involved": {
+  "train-web-000": 192,
+  "train-code-000": 131,
+  "train-indic-000": 89,
+  "train-stem-000": 54,
+  "train-reasoning-000": 31,
+  "train-agentic-000": 9
+ },
+ "tokens_by_lane": {
+  "web": 58496,
+  "code": 22656,
+  "indic": 14080,
+  "stem": 7552,
+  "reasoning": 4096,
+  "agentic": 1152
+ }
+}

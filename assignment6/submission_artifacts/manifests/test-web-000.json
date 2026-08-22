@@ -1,0 +1,885 @@
+{
+ "shard_id": "test-web-000",
+ "content_hash": "3f0dc0bf5ff4c9e014f49fa65e25e72e07ef46ba3d54a69fe9ff2179ea03364d",
+ "token_file": "test-web-000.npy",
+ "n_tokens": 49912,
+ "n_samples": 50,
+ "n_loss_tokens": 49912,
+ "samples": [
+  {
+   "sample_id": "held-web-00050",
+   "doc_id": "held-web-00050",
+   "source_row_id": "<urn:uuid:73cae941-2fef-484a-8887-1a20cde01d2f>",
+   "kind": "pretrain",
+   "start": 0,
+   "end": 260,
+   "n_tokens": 260,
+   "n_loss_tokens": 260,
+   "spans": [
+    [
+     0,
+     260,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00051",
+   "doc_id": "held-web-00051",
+   "source_row_id": "<urn:uuid:7da5e687-07e2-4c8f-9fac-fe3f58c7017a>",
+   "kind": "pretrain",
+   "start": 260,
+   "end": 1778,
+   "n_tokens": 1518,
+   "n_loss_tokens": 1518,
+   "spans": [
+    [
+     260,
+     1778,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00052",
+   "doc_id": "held-web-00052",
+   "source_row_id": "<urn:uuid:ab6efc59-895c-4b89-90f1-13b1d77a46de>",
+   "kind": "pretrain",
+   "start": 1778,
+   "end": 2222,
+   "n_tokens": 444,
+   "n_loss_tokens": 444,
+   "spans": [
+    [
+     1778,
+     2222,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00053",
+   "doc_id": "held-web-00053",
+   "source_row_id": "<urn:uuid:1c1ea546-62ba-4fed-b94c-3c8787377d6e>",
+   "kind": "pretrain",
+   "start": 2222,
+   "end": 2478,
+   "n_tokens": 256,
+   "n_loss_tokens": 256,
+   "spans": [
+    [
+     2222,
+     2478,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00054",
+   "doc_id": "held-web-00054",
+   "source_row_id": "<urn:uuid:3cb858ec-4357-48a5-9912-c7929ec225af>",
+   "kind": "pretrain",
+   "start": 2478,
+   "end": 2987,
+   "n_tokens": 509,
+   "n_loss_tokens": 509,
+   "spans": [
+    [
+     2478,
+     2987,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00055",
+   "doc_id": "held-web-00055",
+   "source_row_id": "<urn:uuid:9adf6dc2-8439-48ef-addd-49274751b0af>",
+   "kind": "pretrain",
+   "start": 2987,
+   "end": 4261,
+   "n_tokens": 1274,
+   "n_loss_tokens": 1274,
+   "spans": [
+    [
+     2987,
+     4261,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00056",
+   "doc_id": "held-web-00056",
+   "source_row_id": "<urn:uuid:9318ce26-85fd-4349-bf3d-da8b89c27837>",
+   "kind": "pretrain",
+   "start": 4261,
+   "end": 4826,
+   "n_tokens": 565,
+   "n_loss_tokens": 565,
+   "spans": [
+    [
+     4261,
+     4826,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00057",
+   "doc_id": "held-web-00057",
+   "source_row_id": "<urn:uuid:7947504d-63b5-4a37-bd58-19d265d90077>",
+   "kind": "pretrain",
+   "start": 4826,
+   "end": 8043,
+   "n_tokens": 3217,
+   "n_loss_tokens": 3217,
+   "spans": [
+    [
+     4826,
+     8043,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00058",
+   "doc_id": "held-web-00058",
+   "source_row_id": "<urn:uuid:cc8f8d73-112d-4456-ae20-1bdc4072b3b4>",
+   "kind": "pretrain",
+   "start": 8043,
+   "end": 8641,
+   "n_tokens": 598,
+   "n_loss_tokens": 598,
+   "spans": [
+    [
+     8043,
+     8641,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00059",
+   "doc_id": "held-web-00059",
+   "source_row_id": "<urn:uuid:a789fd8d-b873-45cf-b01d-af6eca242a5d>",
+   "kind": "pretrain",
+   "start": 8641,
+   "end": 8813,
+   "n_tokens": 172,
+   "n_loss_tokens": 172,
+   "spans": [
+    [
+     8641,
+     8813,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00060",
+   "doc_id": "held-web-00060",
+   "source_row_id": "<urn:uuid:c55bd2af-b611-49c7-a047-f008d4bbc8b3>",
+   "kind": "pretrain",
+   "start": 8813,
+   "end": 10138,
+   "n_tokens": 1325,
+   "n_loss_tokens": 1325,
+   "spans": [
+    [
+     8813,
+     10138,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00061",
+   "doc_id": "held-web-00061",
+   "source_row_id": "<urn:uuid:f01a8af6-2422-47f6-a2f8-477c864a7d08>",
+   "kind": "pretrain",
+   "start": 10138,
+   "end": 10542,
+   "n_tokens": 404,
+   "n_loss_tokens": 404,
+   "spans": [
+    [
+     10138,
+     10542,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00062",
+   "doc_id": "held-web-00062",
+   "source_row_id": "<urn:uuid:841e4baa-add2-400d-b3cc-719e93276b6c>",
+   "kind": "pretrain",
+   "start": 10542,
+   "end": 11032,
+   "n_tokens": 490,
+   "n_loss_tokens": 490,
+   "spans": [
+    [
+     10542,
+     11032,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00063",
+   "doc_id": "held-web-00063",
+   "source_row_id": "<urn:uuid:3bf09a24-c60d-45a0-b8e6-cc02ddac7ed6>",
+   "kind": "pretrain",
+   "start": 11032,
+   "end": 11693,
+   "n_tokens": 661,
+   "n_loss_tokens": 661,
+   "spans": [
+    [
+     11032,
+     11693,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00064",
+   "doc_id": "held-web-00064",
+   "source_row_id": "<urn:uuid:4a2ad899-7ba0-4bfc-9276-c5c5c0845fe6>",
+   "kind": "pretrain",
+   "start": 11693,
+   "end": 12152,
+   "n_tokens": 459,
+   "n_loss_tokens": 459,
+   "spans": [
+    [
+     11693,
+     12152,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00065",
+   "doc_id": "held-web-00065",
+   "source_row_id": "<urn:uuid:7ba4236f-2dbb-4dce-b113-18fc0fa8af10>",
+   "kind": "pretrain",
+   "start": 12152,
+   "end": 13051,
+   "n_tokens": 899,
+   "n_loss_tokens": 899,
+   "spans": [
+    [
+     12152,
+     13051,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00066",
+   "doc_id": "held-web-00066",
+   "source_row_id": "<urn:uuid:ca8c9151-949c-43e8-9c9b-d2e43029f3ed>",
+   "kind": "pretrain",
+   "start": 13051,
+   "end": 14289,
+   "n_tokens": 1238,
+   "n_loss_tokens": 1238,
+   "spans": [
+    [
+     13051,
+     14289,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00067",
+   "doc_id": "held-web-00067",
+   "source_row_id": "<urn:uuid:c058ae56-08dd-48a3-bf10-e5d80e3b6477>",
+   "kind": "pretrain",
+   "start": 14289,
+   "end": 14642,
+   "n_tokens": 353,
+   "n_loss_tokens": 353,
+   "spans": [
+    [
+     14289,
+     14642,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00068",
+   "doc_id": "held-web-00068",
+   "source_row_id": "<urn:uuid:ee290d5b-d6ca-45b4-9106-2c14f262df50>",
+   "kind": "pretrain",
+   "start": 14642,
+   "end": 15691,
+   "n_tokens": 1049,
+   "n_loss_tokens": 1049,
+   "spans": [
+    [
+     14642,
+     15691,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00069",
+   "doc_id": "held-web-00069",
+   "source_row_id": "<urn:uuid:d53f9812-f42b-4039-a509-209a2d5aac9b>",
+   "kind": "pretrain",
+   "start": 15691,
+   "end": 16662,
+   "n_tokens": 971,
+   "n_loss_tokens": 971,
+   "spans": [
+    [
+     15691,
+     16662,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00070",
+   "doc_id": "held-web-00070",
+   "source_row_id": "<urn:uuid:b366d573-5d03-4927-bd6a-353a5c4ca06f>",
+   "kind": "pretrain",
+   "start": 16662,
+   "end": 18291,
+   "n_tokens": 1629,
+   "n_loss_tokens": 1629,
+   "spans": [
+    [
+     16662,
+     18291,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00071",
+   "doc_id": "held-web-00071",
+   "source_row_id": "<urn:uuid:eb7c4ed1-acfb-48af-a77a-40cd6a725c8e>",
+   "kind": "pretrain",
+   "start": 18291,
+   "end": 18728,
+   "n_tokens": 437,
+   "n_loss_tokens": 437,
+   "spans": [
+    [
+     18291,
+     18728,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00072",
+   "doc_id": "held-web-00072",
+   "source_row_id": "<urn:uuid:113e3986-b949-4542-97da-d6842557b2f6>",
+   "kind": "pretrain",
+   "start": 18728,
+   "end": 19249,
+   "n_tokens": 521,
+   "n_loss_tokens": 521,
+   "spans": [
+    [
+     18728,
+     19249,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00073",
+   "doc_id": "held-web-00073",
+   "source_row_id": "<urn:uuid:3ffdac17-ada1-42bf-b987-66bc26ca97f6>",
+   "kind": "pretrain",
+   "start": 19249,
+   "end": 19788,
+   "n_tokens": 539,
+   "n_loss_tokens": 539,
+   "spans": [
+    [
+     19249,
+     19788,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00074",
+   "doc_id": "held-web-00074",
+   "source_row_id": "<urn:uuid:40292269-3406-46cf-84aa-4c4efc553ecc>",
+   "kind": "pretrain",
+   "start": 19788,
+   "end": 20018,
+   "n_tokens": 230,
+   "n_loss_tokens": 230,
+   "spans": [
+    [
+     19788,
+     20018,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00075",
+   "doc_id": "held-web-00075",
+   "source_row_id": "<urn:uuid:8e3ce5d6-a76b-4e22-8892-e1280e29f3f7>",
+   "kind": "pretrain",
+   "start": 20018,
+   "end": 23272,
+   "n_tokens": 3254,
+   "n_loss_tokens": 3254,
+   "spans": [
+    [
+     20018,
+     23272,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00076",
+   "doc_id": "held-web-00076",
+   "source_row_id": "<urn:uuid:367a0525-d005-4467-93f1-a7ac123614d1>",
+   "kind": "pretrain",
+   "start": 23272,
+   "end": 23692,
+   "n_tokens": 420,
+   "n_loss_tokens": 420,
+   "spans": [
+    [
+     23272,
+     23692,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00077",
+   "doc_id": "held-web-00077",
+   "source_row_id": "<urn:uuid:415cd5cc-0228-4449-a777-4a0bb2194449>",
+   "kind": "pretrain",
+   "start": 23692,
+   "end": 24338,
+   "n_tokens": 646,
+   "n_loss_tokens": 646,
+   "spans": [
+    [
+     23692,
+     24338,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00078",
+   "doc_id": "held-web-00078",
+   "source_row_id": "<urn:uuid:40aae48c-b422-4ff3-a8dc-88f9431d1a4e>",
+   "kind": "pretrain",
+   "start": 24338,
+   "end": 26004,
+   "n_tokens": 1666,
+   "n_loss_tokens": 1666,
+   "spans": [
+    [
+     24338,
+     26004,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00079",
+   "doc_id": "held-web-00079",
+   "source_row_id": "<urn:uuid:fa576bb7-fea9-461f-8ee3-962a8a33a7f9>",
+   "kind": "pretrain",
+   "start": 26004,
+   "end": 26479,
+   "n_tokens": 475,
+   "n_loss_tokens": 475,
+   "spans": [
+    [
+     26004,
+     26479,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00080",
+   "doc_id": "held-web-00080",
+   "source_row_id": "<urn:uuid:3a4ac59c-d59d-470b-adad-88e5e1c8a45a>",
+   "kind": "pretrain",
+   "start": 26479,
+   "end": 27764,
+   "n_tokens": 1285,
+   "n_loss_tokens": 1285,
+   "spans": [
+    [
+     26479,
+     27764,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00081",
+   "doc_id": "held-web-00081",
+   "source_row_id": "<urn:uuid:e617c5fd-d556-4d43-be1f-042e7e7f2c60>",
+   "kind": "pretrain",
+   "start": 27764,
+   "end": 28505,
+   "n_tokens": 741,
+   "n_loss_tokens": 741,
+   "spans": [
+    [
+     27764,
+     28505,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00082",
+   "doc_id": "held-web-00082",
+   "source_row_id": "<urn:uuid:85a979cb-9571-4e06-b38a-2f79912abb44>",
+   "kind": "pretrain",
+   "start": 28505,
+   "end": 29289,
+   "n_tokens": 784,
+   "n_loss_tokens": 784,
+   "spans": [
+    [
+     28505,
+     29289,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00083",
+   "doc_id": "held-web-00083",
+   "source_row_id": "<urn:uuid:1e42f564-b487-459a-9400-a0404ff31bff>",
+   "kind": "pretrain",
+   "start": 29289,
+   "end": 30010,
+   "n_tokens": 721,
+   "n_loss_tokens": 721,
+   "spans": [
+    [
+     29289,
+     30010,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00084",
+   "doc_id": "held-web-00084",
+   "source_row_id": "<urn:uuid:417be69e-3827-4c17-971c-f3410cf2c856>",
+   "kind": "pretrain",
+   "start": 30010,
+   "end": 31995,
+   "n_tokens": 1985,
+   "n_loss_tokens": 1985,
+   "spans": [
+    [
+     30010,
+     31995,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00085",
+   "doc_id": "held-web-00085",
+   "source_row_id": "<urn:uuid:cbe1a6ba-f0ca-4f88-86c8-7605d31dcf07>",
+   "kind": "pretrain",
+   "start": 31995,
+   "end": 32455,
+   "n_tokens": 460,
+   "n_loss_tokens": 460,
+   "spans": [
+    [
+     31995,
+     32455,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00086",
+   "doc_id": "held-web-00086",
+   "source_row_id": "<urn:uuid:73055da5-4336-4490-8edc-b8121ae20961>",
+   "kind": "pretrain",
+   "start": 32455,
+   "end": 33117,
+   "n_tokens": 662,
+   "n_loss_tokens": 662,
+   "spans": [
+    [
+     32455,
+     33117,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00087",
+   "doc_id": "held-web-00087",
+   "source_row_id": "<urn:uuid:08c12af3-3a0e-45eb-852d-5a9c514658cb>",
+   "kind": "pretrain",
+   "start": 33117,
+   "end": 34211,
+   "n_tokens": 1094,
+   "n_loss_tokens": 1094,
+   "spans": [
+    [
+     33117,
+     34211,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00088",
+   "doc_id": "held-web-00088",
+   "source_row_id": "<urn:uuid:fa1546c3-bbdd-441b-a8ad-eb263ea80d04>",
+   "kind": "pretrain",
+   "start": 34211,
+   "end": 35034,
+   "n_tokens": 823,
+   "n_loss_tokens": 823,
+   "spans": [
+    [
+     34211,
+     35034,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00089",
+   "doc_id": "held-web-00089",
+   "source_row_id": "<urn:uuid:77e4b735-9163-48f4-84c1-c755c8c2ff0e>",
+   "kind": "pretrain",
+   "start": 35034,
+   "end": 35459,
+   "n_tokens": 425,
+   "n_loss_tokens": 425,
+   "spans": [
+    [
+     35034,
+     35459,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00090",
+   "doc_id": "held-web-00090",
+   "source_row_id": "<urn:uuid:2ca2992e-4394-4461-91b7-99387774cf64>",
+   "kind": "pretrain",
+   "start": 35459,
+   "end": 35717,
+   "n_tokens": 258,
+   "n_loss_tokens": 258,
+   "spans": [
+    [
+     35459,
+     35717,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00091",
+   "doc_id": "held-web-00091",
+   "source_row_id": "<urn:uuid:fc291606-3625-4033-97fb-f0d3e531c2bc>",
+   "kind": "pretrain",
+   "start": 35717,
+   "end": 36663,
+   "n_tokens": 946,
+   "n_loss_tokens": 946,
+   "spans": [
+    [
+     35717,
+     36663,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00092",
+   "doc_id": "held-web-00092",
+   "source_row_id": "<urn:uuid:285c3b9d-ca3c-48fd-8ece-77b958f31b4b>",
+   "kind": "pretrain",
+   "start": 36663,
+   "end": 37073,
+   "n_tokens": 410,
+   "n_loss_tokens": 410,
+   "spans": [
+    [
+     36663,
+     37073,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00093",
+   "doc_id": "held-web-00093",
+   "source_row_id": "<urn:uuid:4e76b8fd-c479-45d7-8ee7-faf61495aecb>",
+   "kind": "pretrain",
+   "start": 37073,
+   "end": 37490,
+   "n_tokens": 417,
+   "n_loss_tokens": 417,
+   "spans": [
+    [
+     37073,
+     37490,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00094",
+   "doc_id": "held-web-00094",
+   "source_row_id": "<urn:uuid:a466a758-3d7d-477a-8ae7-30c1404a9da8>",
+   "kind": "pretrain",
+   "start": 37490,
+   "end": 38427,
+   "n_tokens": 937,
+   "n_loss_tokens": 937,
+   "spans": [
+    [
+     37490,
+     38427,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00095",
+   "doc_id": "held-web-00095",
+   "source_row_id": "<urn:uuid:62414080-4b8a-49db-816c-5a3eca396b17>",
+   "kind": "pretrain",
+   "start": 38427,
+   "end": 38619,
+   "n_tokens": 192,
+   "n_loss_tokens": 192,
+   "spans": [
+    [
+     38427,
+     38619,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00096",
+   "doc_id": "held-web-00096",
+   "source_row_id": "<urn:uuid:f684139c-4f94-4f1f-821a-2847edc6ba5b>",
+   "kind": "pretrain",
+   "start": 38619,
+   "end": 41787,
+   "n_tokens": 3168,
+   "n_loss_tokens": 3168,
+   "spans": [
+    [
+     38619,
+     41787,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00097",
+   "doc_id": "held-web-00097",
+   "source_row_id": "<urn:uuid:9d3f2101-f19c-4a5e-a7b4-dcd94a6d33f1>",
+   "kind": "pretrain",
+   "start": 41787,
+   "end": 44629,
+   "n_tokens": 2842,
+   "n_loss_tokens": 2842,
+   "spans": [
+    [
+     41787,
+     44629,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00098",
+   "doc_id": "held-web-00098",
+   "source_row_id": "<urn:uuid:ca6ee1dd-37e5-4f09-89d9-c924539ff0e6>",
+   "kind": "pretrain",
+   "start": 44629,
+   "end": 47171,
+   "n_tokens": 2542,
+   "n_loss_tokens": 2542,
+   "spans": [
+    [
+     44629,
+     47171,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-web-00099",
+   "doc_id": "held-web-00099",
+   "source_row_id": "<urn:uuid:62210bfc-b709-4c59-93ac-36ec9784506d>",
+   "kind": "pretrain",
+   "start": 47171,
+   "end": 49912,
+   "n_tokens": 2741,
+   "n_loss_tokens": 2741,
+   "spans": [
+    [
+     47171,
+     49912,
+     "text"
+    ]
+   ]
+  }
+ ],
+ "split": "test",
+ "never_train": true,
+ "capability_lane": "web",
+ "source": "HuggingFaceFW/fineweb-edu:default/train",
+ "language": "en",
+ "script": "Latn",
+ "license_tier": "A",
+ "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+ "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+ "dedup_status": "pass",
+ "dedup_report": {
+  "exact_duplicates_removed": 0,
+  "near_duplicates_removed": 0,
+  "jaccard_threshold": 0.8,
+  "samples_in": 50,
+  "samples_kept": 50
+ },
+ "contamination_status": "held_out",
+ "eval_overlap": false,
+ "provenance_tier": "published_dataset_downloadable",
+ "parent_shard_ids": [],
+ "data_kind": "pretrain",
+ "benchmark_id": "era-v5-holdout-web",
+ "version_tag": "v1",
+ "access_log": []
+}

@@ -1,0 +1,7278 @@
+{
+ "shard_id": "train-agentic-000",
+ "content_hash": "a8bb08398c2cc3c64c466d9d22b1764530702e1a49cb947099615c428b2cf715",
+ "token_file": "train-agentic-000.npy",
+ "n_tokens": 242104,
+ "n_samples": 200,
+ "n_loss_tokens": 67398,
+ "samples": [
+  {
+   "sample_id": "agentic-00000",
+   "doc_id": "agentic-00000",
+   "source_row_id": "82088305-310b-45cb-ac76-ab273503b5cd",
+   "kind": "agentic",
+   "start": 0,
+   "end": 1520,
+   "n_tokens": 1520,
+   "n_loss_tokens": 398,
+   "spans": [
+    [
+     0,
+     534,
+     "system"
+    ],
+    [
+     534,
+     936,
+     "user"
+    ],
+    [
+     936,
+     1021,
+     "assistant"
+    ],
+    [
+     1021,
+     1207,
+     "tool"
+    ],
+    [
+     1207,
+     1520,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00001",
+   "doc_id": "agentic-00001",
+   "source_row_id": "bd48c5c1-186a-4120-be4a-61974d22fc8b",
+   "kind": "agentic",
+   "start": 1520,
+   "end": 2537,
+   "n_tokens": 1017,
+   "n_loss_tokens": 322,
+   "spans": [
+    [
+     1520,
+     1708,
+     "system"
+    ],
+    [
+     1708,
+     1911,
+     "user"
+    ],
+    [
+     1911,
+     2001,
+     "assistant"
+    ],
+    [
+     2001,
+     2305,
+     "tool"
+    ],
+    [
+     2305,
+     2537,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00002",
+   "doc_id": "agentic-00002",
+   "source_row_id": "b099e2c1-8459-4848-bd4f-0385e0d45d59",
+   "kind": "agentic",
+   "start": 2537,
+   "end": 3557,
+   "n_tokens": 1020,
+   "n_loss_tokens": 393,
+   "spans": [
+    [
+     2537,
+     2734,
+     "system"
+    ],
+    [
+     2734,
+     2899,
+     "user"
+    ],
+    [
+     2899,
+     3159,
+     "assistant"
+    ],
+    [
+     3159,
+     3424,
+     "tool"
+    ],
+    [
+     3424,
+     3557,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00003",
+   "doc_id": "agentic-00003",
+   "source_row_id": "7e9e8641-217a-4ed9-97db-f645aa5f0ef2",
+   "kind": "agentic",
+   "start": 3557,
+   "end": 4466,
+   "n_tokens": 909,
+   "n_loss_tokens": 195,
+   "spans": [
+    [
+     3557,
+     3866,
+     "system"
+    ],
+    [
+     3866,
+     4134,
+     "user"
+    ],
+    [
+     4134,
+     4225,
+     "assistant"
+    ],
+    [
+     4225,
+     4362,
+     "tool"
+    ],
+    [
+     4362,
+     4466,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00004",
+   "doc_id": "agentic-00004",
+   "source_row_id": "73f31055-ec38-4035-b082-678e220dd7e6",
+   "kind": "agentic",
+   "start": 4466,
+   "end": 5039,
+   "n_tokens": 573,
+   "n_loss_tokens": 117,
+   "spans": [
+    [
+     4466,
+     4681,
+     "system"
+    ],
+    [
+     4681,
+     4804,
+     "user"
+    ],
+    [
+     4804,
+     4848,
+     "assistant"
+    ],
+    [
+     4848,
+     4966,
+     "tool"
+    ],
+    [
+     4966,
+     5039,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00005",
+   "doc_id": "agentic-00005",
+   "source_row_id": "dc191a0e-d742-4f66-8c09-4e6b1d5a999f",
+   "kind": "agentic",
+   "start": 5039,
+   "end": 5859,
+   "n_tokens": 820,
+   "n_loss_tokens": 129,
+   "spans": [
+    [
+     5039,
+     5507,
+     "system"
+    ],
+    [
+     5507,
+     5675,
+     "user"
+    ],
+    [
+     5675,
+     5716,
+     "assistant"
+    ],
+    [
+     5716,
+     5771,
+     "tool"
+    ],
+    [
+     5771,
+     5859,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00006",
+   "doc_id": "agentic-00006",
+   "source_row_id": "f9974589-497b-4e59-b819-12f936bbb1a1",
+   "kind": "agentic",
+   "start": 5859,
+   "end": 6943,
+   "n_tokens": 1084,
+   "n_loss_tokens": 297,
+   "spans": [
+    [
+     5859,
+     6127,
+     "system"
+    ],
+    [
+     6127,
+     6451,
+     "user"
+    ],
+    [
+     6451,
+     6508,
+     "assistant"
+    ],
+    [
+     6508,
+     6703,
+     "tool"
+    ],
+    [
+     6703,
+     6943,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00007",
+   "doc_id": "agentic-00007",
+   "source_row_id": "42424b94-a3f8-472c-be2f-18f73807a0a5",
+   "kind": "agentic",
+   "start": 6943,
+   "end": 7678,
+   "n_tokens": 735,
+   "n_loss_tokens": 130,
+   "spans": [
+    [
+     6943,
+     7204,
+     "system"
+    ],
+    [
+     7204,
+     7433,
+     "user"
+    ],
+    [
+     7433,
+     7483,
+     "assistant"
+    ],
+    [
+     7483,
+     7598,
+     "tool"
+    ],
+    [
+     7598,
+     7678,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00008",
+   "doc_id": "agentic-00008",
+   "source_row_id": "10b0568b-5f76-4bc5-808e-145bd4ca5578",
+   "kind": "agentic",
+   "start": 7678,
+   "end": 8739,
+   "n_tokens": 1061,
+   "n_loss_tokens": 235,
+   "spans": [
+    [
+     7678,
+     8046,
+     "system"
+    ],
+    [
+     8046,
+     8268,
+     "user"
+    ],
+    [
+     8268,
+     8348,
+     "assistant"
+    ],
+    [
+     8348,
+     8584,
+     "tool"
+    ],
+    [
+     8584,
+     8739,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00009",
+   "doc_id": "agentic-00009",
+   "source_row_id": "58049090-0a85-497b-b9e0-cd63f63ce739",
+   "kind": "agentic",
+   "start": 8739,
+   "end": 9321,
+   "n_tokens": 582,
+   "n_loss_tokens": 81,
+   "spans": [
+    [
+     8739,
+     9111,
+     "system"
+    ],
+    [
+     9111,
+     9188,
+     "user"
+    ],
+    [
+     9188,
+     9210,
+     "assistant"
+    ],
+    [
+     9210,
+     9262,
+     "tool"
+    ],
+    [
+     9262,
+     9321,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00010",
+   "doc_id": "agentic-00010",
+   "source_row_id": "76e00a09-a5ad-4a4c-99ed-dfe3f9f44b0f",
+   "kind": "agentic",
+   "start": 9321,
+   "end": 10310,
+   "n_tokens": 989,
+   "n_loss_tokens": 196,
+   "spans": [
+    [
+     9321,
+     9698,
+     "system"
+    ],
+    [
+     9698,
+     9917,
+     "user"
+    ],
+    [
+     9917,
+     10004,
+     "assistant"
+    ],
+    [
+     10004,
+     10201,
+     "tool"
+    ],
+    [
+     10201,
+     10310,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00011",
+   "doc_id": "agentic-00011",
+   "source_row_id": "0c0ead3e-d215-46a7-ada8-327b6acdd7a8",
+   "kind": "agentic",
+   "start": 10310,
+   "end": 10999,
+   "n_tokens": 689,
+   "n_loss_tokens": 107,
+   "spans": [
+    [
+     10310,
+     10628,
+     "system"
+    ],
+    [
+     10628,
+     10786,
+     "user"
+    ],
+    [
+     10786,
+     10805,
+     "assistant"
+    ],
+    [
+     10805,
+     10911,
+     "tool"
+    ],
+    [
+     10911,
+     10999,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00012",
+   "doc_id": "agentic-00012",
+   "source_row_id": "35a6f647-d9ff-45c5-a548-ff0dfde0cbb1",
+   "kind": "agentic",
+   "start": 10999,
+   "end": 12060,
+   "n_tokens": 1061,
+   "n_loss_tokens": 264,
+   "spans": [
+    [
+     10999,
+     11315,
+     "system"
+    ],
+    [
+     11315,
+     11556,
+     "user"
+    ],
+    [
+     11556,
+     11653,
+     "assistant"
+    ],
+    [
+     11653,
+     11893,
+     "tool"
+    ],
+    [
+     11893,
+     12060,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00013",
+   "doc_id": "agentic-00013",
+   "source_row_id": "7c0f152d-d7d6-4f2a-ad0a-a92e5e463af3",
+   "kind": "agentic",
+   "start": 12060,
+   "end": 12760,
+   "n_tokens": 700,
+   "n_loss_tokens": 158,
+   "spans": [
+    [
+     12060,
+     12249,
+     "system"
+    ],
+    [
+     12249,
+     12444,
+     "user"
+    ],
+    [
+     12444,
+     12492,
+     "assistant"
+    ],
+    [
+     12492,
+     12650,
+     "tool"
+    ],
+    [
+     12650,
+     12760,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00014",
+   "doc_id": "agentic-00014",
+   "source_row_id": "65999bbe-bcfb-49da-ae59-c7ab48224602",
+   "kind": "agentic",
+   "start": 12760,
+   "end": 13602,
+   "n_tokens": 842,
+   "n_loss_tokens": 138,
+   "spans": [
+    [
+     12760,
+     13209,
+     "system"
+    ],
+    [
+     13209,
+     13362,
+     "user"
+    ],
+    [
+     13362,
+     13394,
+     "assistant"
+    ],
+    [
+     13394,
+     13496,
+     "tool"
+    ],
+    [
+     13496,
+     13602,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00015",
+   "doc_id": "agentic-00015",
+   "source_row_id": "58d25240-8837-4045-a326-8b803b3d7419",
+   "kind": "agentic",
+   "start": 13602,
+   "end": 14769,
+   "n_tokens": 1167,
+   "n_loss_tokens": 355,
+   "spans": [
+    [
+     13602,
+     13875,
+     "system"
+    ],
+    [
+     13875,
+     14125,
+     "user"
+    ],
+    [
+     14125,
+     14182,
+     "assistant"
+    ],
+    [
+     14182,
+     14471,
+     "tool"
+    ],
+    [
+     14471,
+     14769,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00016",
+   "doc_id": "agentic-00016",
+   "source_row_id": "d760e830-abed-4ca1-b7fc-99db8219e18d",
+   "kind": "agentic",
+   "start": 14769,
+   "end": 15978,
+   "n_tokens": 1209,
+   "n_loss_tokens": 324,
+   "spans": [
+    [
+     14769,
+     15145,
+     "system"
+    ],
+    [
+     15145,
+     15320,
+     "user"
+    ],
+    [
+     15320,
+     15419,
+     "assistant"
+    ],
+    [
+     15419,
+     15753,
+     "tool"
+    ],
+    [
+     15753,
+     15978,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00017",
+   "doc_id": "agentic-00017",
+   "source_row_id": "ab67dce0-1807-4e57-8486-edf12432f992",
+   "kind": "agentic",
+   "start": 15978,
+   "end": 16984,
+   "n_tokens": 1006,
+   "n_loss_tokens": 58,
+   "spans": [
+    [
+     15978,
+     16331,
+     "system"
+    ],
+    [
+     16331,
+     16677,
+     "user"
+    ],
+    [
+     16677,
+     16735,
+     "assistant"
+    ],
+    [
+     16735,
+     16984,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00018",
+   "doc_id": "agentic-00018",
+   "source_row_id": "568b9cb4-d783-4d16-94da-be755a7ab1a5",
+   "kind": "agentic",
+   "start": 16984,
+   "end": 18307,
+   "n_tokens": 1323,
+   "n_loss_tokens": 452,
+   "spans": [
+    [
+     16984,
+     17312,
+     "system"
+    ],
+    [
+     17312,
+     17534,
+     "user"
+    ],
+    [
+     17534,
+     17616,
+     "assistant"
+    ],
+    [
+     17616,
+     17937,
+     "tool"
+    ],
+    [
+     17937,
+     18307,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00019",
+   "doc_id": "agentic-00019",
+   "source_row_id": "a860526b-8baa-4bcc-a557-fc568bdb6ee0",
+   "kind": "agentic",
+   "start": 18307,
+   "end": 19348,
+   "n_tokens": 1041,
+   "n_loss_tokens": 321,
+   "spans": [
+    [
+     18307,
+     18649,
+     "system"
+    ],
+    [
+     18649,
+     18890,
+     "user"
+    ],
+    [
+     18890,
+     18930,
+     "assistant"
+    ],
+    [
+     18930,
+     19067,
+     "tool"
+    ],
+    [
+     19067,
+     19348,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00020",
+   "doc_id": "agentic-00020",
+   "source_row_id": "c40392bb-236a-4afd-94e5-780aeca6bbc6",
+   "kind": "agentic",
+   "start": 19348,
+   "end": 21461,
+   "n_tokens": 2113,
+   "n_loss_tokens": 898,
+   "spans": [
+    [
+     19348,
+     19537,
+     "system"
+    ],
+    [
+     19537,
+     19716,
+     "user"
+    ],
+    [
+     19716,
+     19773,
+     "assistant"
+    ],
+    [
+     19773,
+     20620,
+     "tool"
+    ],
+    [
+     20620,
+     21461,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00021",
+   "doc_id": "agentic-00021",
+   "source_row_id": "62ec9603-85c4-402f-b620-bc589b2c7ee9",
+   "kind": "agentic",
+   "start": 21461,
+   "end": 22886,
+   "n_tokens": 1425,
+   "n_loss_tokens": 512,
+   "spans": [
+    [
+     21461,
+     21920,
+     "system"
+    ],
+    [
+     21920,
+     22089,
+     "user"
+    ],
+    [
+     22089,
+     22124,
+     "assistant"
+    ],
+    [
+     22124,
+     22409,
+     "tool"
+    ],
+    [
+     22409,
+     22886,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00022",
+   "doc_id": "agentic-00022",
+   "source_row_id": "cec0c783-2249-4c53-8f19-b380b55c3f5f",
+   "kind": "agentic",
+   "start": 22886,
+   "end": 25067,
+   "n_tokens": 2181,
+   "n_loss_tokens": 852,
+   "spans": [
+    [
+     22886,
+     23125,
+     "system"
+    ],
+    [
+     23125,
+     23482,
+     "user"
+    ],
+    [
+     23482,
+     23604,
+     "assistant"
+    ],
+    [
+     23604,
+     24337,
+     "tool"
+    ],
+    [
+     24337,
+     25067,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00023",
+   "doc_id": "agentic-00023",
+   "source_row_id": "1e25cf28-a10a-4bec-bf51-a0c7f3e079b1",
+   "kind": "agentic",
+   "start": 25067,
+   "end": 25846,
+   "n_tokens": 779,
+   "n_loss_tokens": 223,
+   "spans": [
+    [
+     25067,
+     25315,
+     "system"
+    ],
+    [
+     25315,
+     25509,
+     "user"
+    ],
+    [
+     25509,
+     25575,
+     "assistant"
+    ],
+    [
+     25575,
+     25689,
+     "tool"
+    ],
+    [
+     25689,
+     25846,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00024",
+   "doc_id": "agentic-00024",
+   "source_row_id": "f2348c7b-702e-43b0-83f3-71ec4f71d553",
+   "kind": "agentic",
+   "start": 25846,
+   "end": 26613,
+   "n_tokens": 767,
+   "n_loss_tokens": 36,
+   "spans": [
+    [
+     25846,
+     26335,
+     "system"
+    ],
+    [
+     26335,
+     26452,
+     "user"
+    ],
+    [
+     26452,
+     26488,
+     "assistant"
+    ],
+    [
+     26488,
+     26613,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00025",
+   "doc_id": "agentic-00025",
+   "source_row_id": "9fbdc452-a821-43ec-9d84-c7b42a4986eb",
+   "kind": "agentic",
+   "start": 26613,
+   "end": 28431,
+   "n_tokens": 1818,
+   "n_loss_tokens": 430,
+   "spans": [
+    [
+     26613,
+     27098,
+     "system"
+    ],
+    [
+     27098,
+     27646,
+     "user"
+    ],
+    [
+     27646,
+     27943,
+     "assistant"
+    ],
+    [
+     27943,
+     28298,
+     "tool"
+    ],
+    [
+     28298,
+     28431,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00026",
+   "doc_id": "agentic-00026",
+   "source_row_id": "f68bd90c-9ca3-41fc-88c2-6a8e4ba896aa",
+   "kind": "agentic",
+   "start": 28431,
+   "end": 30363,
+   "n_tokens": 1932,
+   "n_loss_tokens": 642,
+   "spans": [
+    [
+     28431,
+     28775,
+     "system"
+    ],
+    [
+     28775,
+     29361,
+     "user"
+    ],
+    [
+     29361,
+     29616,
+     "assistant"
+    ],
+    [
+     29616,
+     29976,
+     "tool"
+    ],
+    [
+     29976,
+     30363,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00027",
+   "doc_id": "agentic-00027",
+   "source_row_id": "68d4688c-e404-4607-9f0a-be43bf85f132",
+   "kind": "agentic",
+   "start": 30363,
+   "end": 31544,
+   "n_tokens": 1181,
+   "n_loss_tokens": 47,
+   "spans": [
+    [
+     30363,
+     30748,
+     "system"
+    ],
+    [
+     30748,
+     31239,
+     "user"
+    ],
+    [
+     31239,
+     31286,
+     "assistant"
+    ],
+    [
+     31286,
+     31544,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00028",
+   "doc_id": "agentic-00028",
+   "source_row_id": "08123a4d-9b61-4a63-97bc-c5bd21c7ce2b",
+   "kind": "agentic",
+   "start": 31544,
+   "end": 33190,
+   "n_tokens": 1646,
+   "n_loss_tokens": 665,
+   "spans": [
+    [
+     31544,
+     31805,
+     "system"
+    ],
+    [
+     31805,
+     32039,
+     "user"
+    ],
+    [
+     32039,
+     32115,
+     "assistant"
+    ],
+    [
+     32115,
+     32601,
+     "tool"
+    ],
+    [
+     32601,
+     33190,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00029",
+   "doc_id": "agentic-00029",
+   "source_row_id": "78300d30-7ae3-426b-b5c6-a47ca57fd1d6",
+   "kind": "agentic",
+   "start": 33190,
+   "end": 34393,
+   "n_tokens": 1203,
+   "n_loss_tokens": 392,
+   "spans": [
+    [
+     33190,
+     33488,
+     "system"
+    ],
+    [
+     33488,
+     33783,
+     "user"
+    ],
+    [
+     33783,
+     33900,
+     "assistant"
+    ],
+    [
+     33900,
+     34118,
+     "tool"
+    ],
+    [
+     34118,
+     34393,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00030",
+   "doc_id": "agentic-00030",
+   "source_row_id": "00a5a3ac-9999-4549-bdc0-206c2f8b84a9",
+   "kind": "agentic",
+   "start": 34393,
+   "end": 36147,
+   "n_tokens": 1754,
+   "n_loss_tokens": 695,
+   "spans": [
+    [
+     34393,
+     34826,
+     "system"
+    ],
+    [
+     34826,
+     35005,
+     "user"
+    ],
+    [
+     35005,
+     35130,
+     "assistant"
+    ],
+    [
+     35130,
+     35577,
+     "tool"
+    ],
+    [
+     35577,
+     36147,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00031",
+   "doc_id": "agentic-00031",
+   "source_row_id": "ca5d28ed-2669-4ce8-968a-f3b0c5fc0c53",
+   "kind": "agentic",
+   "start": 36147,
+   "end": 37402,
+   "n_tokens": 1255,
+   "n_loss_tokens": 110,
+   "spans": [
+    [
+     36147,
+     36532,
+     "system"
+    ],
+    [
+     36532,
+     36910,
+     "user"
+    ],
+    [
+     36910,
+     37020,
+     "assistant"
+    ],
+    [
+     37020,
+     37402,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00032",
+   "doc_id": "agentic-00032",
+   "source_row_id": "7d7134b6-a111-4229-b76b-5e048e0aedc8",
+   "kind": "agentic",
+   "start": 37402,
+   "end": 38447,
+   "n_tokens": 1045,
+   "n_loss_tokens": 313,
+   "spans": [
+    [
+     37402,
+     37767,
+     "system"
+    ],
+    [
+     37767,
+     37907,
+     "user"
+    ],
+    [
+     37907,
+     37953,
+     "assistant"
+    ],
+    [
+     37953,
+     38180,
+     "tool"
+    ],
+    [
+     38180,
+     38447,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00033",
+   "doc_id": "agentic-00033",
+   "source_row_id": "a77d7bb1-6d72-478e-89fe-2e836fb906b1",
+   "kind": "agentic",
+   "start": 38447,
+   "end": 39687,
+   "n_tokens": 1240,
+   "n_loss_tokens": 333,
+   "spans": [
+    [
+     38447,
+     38719,
+     "system"
+    ],
+    [
+     38719,
+     39012,
+     "user"
+    ],
+    [
+     39012,
+     39094,
+     "assistant"
+    ],
+    [
+     39094,
+     39436,
+     "tool"
+    ],
+    [
+     39436,
+     39687,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00034",
+   "doc_id": "agentic-00034",
+   "source_row_id": "4df60415-bc53-4982-8fe1-94d59bf649f0",
+   "kind": "agentic",
+   "start": 39687,
+   "end": 40618,
+   "n_tokens": 931,
+   "n_loss_tokens": 223,
+   "spans": [
+    [
+     39687,
+     39918,
+     "system"
+    ],
+    [
+     39918,
+     40200,
+     "user"
+    ],
+    [
+     40200,
+     40278,
+     "assistant"
+    ],
+    [
+     40278,
+     40473,
+     "tool"
+    ],
+    [
+     40473,
+     40618,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00035",
+   "doc_id": "agentic-00035",
+   "source_row_id": "925dd0ac-e9fa-46df-87ce-0039893752a7",
+   "kind": "agentic",
+   "start": 40618,
+   "end": 42049,
+   "n_tokens": 1431,
+   "n_loss_tokens": 498,
+   "spans": [
+    [
+     40618,
+     40833,
+     "system"
+    ],
+    [
+     40833,
+     41158,
+     "user"
+    ],
+    [
+     41158,
+     41246,
+     "assistant"
+    ],
+    [
+     41246,
+     41639,
+     "tool"
+    ],
+    [
+     41639,
+     42049,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00036",
+   "doc_id": "agentic-00036",
+   "source_row_id": "9d1b780c-27ec-42d2-83c1-fde5f25c3059",
+   "kind": "agentic",
+   "start": 42049,
+   "end": 43212,
+   "n_tokens": 1163,
+   "n_loss_tokens": 365,
+   "spans": [
+    [
+     42049,
+     42327,
+     "system"
+    ],
+    [
+     42327,
+     42622,
+     "user"
+    ],
+    [
+     42622,
+     42719,
+     "assistant"
+    ],
+    [
+     42719,
+     42944,
+     "tool"
+    ],
+    [
+     42944,
+     43212,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00037",
+   "doc_id": "agentic-00037",
+   "source_row_id": "e4be1eb3-a005-4a10-a0c6-e706ad33d5ed",
+   "kind": "agentic",
+   "start": 43212,
+   "end": 44759,
+   "n_tokens": 1547,
+   "n_loss_tokens": 671,
+   "spans": [
+    [
+     43212,
+     43617,
+     "system"
+    ],
+    [
+     43617,
+     43872,
+     "user"
+    ],
+    [
+     43872,
+     44023,
+     "assistant"
+    ],
+    [
+     44023,
+     44239,
+     "tool"
+    ],
+    [
+     44239,
+     44759,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00038",
+   "doc_id": "agentic-00038",
+   "source_row_id": "9ce5d02c-50ee-43e3-9c6d-2e1c08a0183b",
+   "kind": "agentic",
+   "start": 44759,
+   "end": 46291,
+   "n_tokens": 1532,
+   "n_loss_tokens": 627,
+   "spans": [
+    [
+     44759,
+     45031,
+     "system"
+    ],
+    [
+     45031,
+     45264,
+     "user"
+    ],
+    [
+     45264,
+     45463,
+     "assistant"
+    ],
+    [
+     45463,
+     45863,
+     "tool"
+    ],
+    [
+     45863,
+     46291,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00039",
+   "doc_id": "agentic-00039",
+   "source_row_id": "c18fb3b3-e5d0-4328-b52f-cddf461c2ac4",
+   "kind": "agentic",
+   "start": 46291,
+   "end": 48987,
+   "n_tokens": 2696,
+   "n_loss_tokens": 901,
+   "spans": [
+    [
+     46291,
+     46793,
+     "system"
+    ],
+    [
+     46793,
+     47411,
+     "user"
+    ],
+    [
+     47411,
+     47628,
+     "assistant"
+    ],
+    [
+     47628,
+     48303,
+     "tool"
+    ],
+    [
+     48303,
+     48987,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00040",
+   "doc_id": "agentic-00040",
+   "source_row_id": "23e83f72-7914-4ba8-bc22-f396bc0fe7b7",
+   "kind": "agentic",
+   "start": 48987,
+   "end": 50149,
+   "n_tokens": 1162,
+   "n_loss_tokens": 392,
+   "spans": [
+    [
+     48987,
+     49294,
+     "system"
+    ],
+    [
+     49294,
+     49539,
+     "user"
+    ],
+    [
+     49539,
+     49604,
+     "assistant"
+    ],
+    [
+     49604,
+     49822,
+     "tool"
+    ],
+    [
+     49822,
+     50149,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00041",
+   "doc_id": "agentic-00041",
+   "source_row_id": "f38afd87-eb85-44f0-8e31-9f40cccb733d",
+   "kind": "agentic",
+   "start": 50149,
+   "end": 51333,
+   "n_tokens": 1184,
+   "n_loss_tokens": 402,
+   "spans": [
+    [
+     50149,
+     50556,
+     "system"
+    ],
+    [
+     50556,
+     50669,
+     "user"
+    ],
+    [
+     50669,
+     50691,
+     "assistant"
+    ],
+    [
+     50691,
+     50953,
+     "tool"
+    ],
+    [
+     50953,
+     51333,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00042",
+   "doc_id": "agentic-00042",
+   "source_row_id": "d9ce9a36-cc54-4400-aa1b-a68557a9c553",
+   "kind": "agentic",
+   "start": 51333,
+   "end": 52382,
+   "n_tokens": 1049,
+   "n_loss_tokens": 218,
+   "spans": [
+    [
+     51333,
+     51727,
+     "system"
+    ],
+    [
+     51727,
+     51995,
+     "user"
+    ],
+    [
+     51995,
+     52107,
+     "assistant"
+    ],
+    [
+     52107,
+     52276,
+     "tool"
+    ],
+    [
+     52276,
+     52382,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00043",
+   "doc_id": "agentic-00043",
+   "source_row_id": "a95e1a01-1045-4d18-8ac1-a767f1ec8236",
+   "kind": "agentic",
+   "start": 52382,
+   "end": 53463,
+   "n_tokens": 1081,
+   "n_loss_tokens": 313,
+   "spans": [
+    [
+     52382,
+     52649,
+     "system"
+    ],
+    [
+     52649,
+     52862,
+     "user"
+    ],
+    [
+     52862,
+     52929,
+     "assistant"
+    ],
+    [
+     52929,
+     53217,
+     "tool"
+    ],
+    [
+     53217,
+     53463,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00044",
+   "doc_id": "agentic-00044",
+   "source_row_id": "689b0bcf-84f6-4015-ba6b-d9e92a713e3e",
+   "kind": "agentic",
+   "start": 53463,
+   "end": 56385,
+   "n_tokens": 2922,
+   "n_loss_tokens": 1124,
+   "spans": [
+    [
+     53463,
+     53795,
+     "system"
+    ],
+    [
+     53795,
+     54131,
+     "user"
+    ],
+    [
+     54131,
+     54685,
+     "assistant"
+    ],
+    [
+     54685,
+     55815,
+     "tool"
+    ],
+    [
+     55815,
+     56385,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00045",
+   "doc_id": "agentic-00045",
+   "source_row_id": "5bc24ddc-0fce-402c-95e2-9197883ddf10",
+   "kind": "agentic",
+   "start": 56385,
+   "end": 57221,
+   "n_tokens": 836,
+   "n_loss_tokens": 215,
+   "spans": [
+    [
+     56385,
+     56587,
+     "system"
+    ],
+    [
+     56587,
+     56837,
+     "user"
+    ],
+    [
+     56837,
+     56884,
+     "assistant"
+    ],
+    [
+     56884,
+     57053,
+     "tool"
+    ],
+    [
+     57053,
+     57221,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00046",
+   "doc_id": "agentic-00046",
+   "source_row_id": "94b75d4b-b605-436d-9479-9443b060c238",
+   "kind": "agentic",
+   "start": 57221,
+   "end": 58215,
+   "n_tokens": 994,
+   "n_loss_tokens": 238,
+   "spans": [
+    [
+     57221,
+     57604,
+     "system"
+    ],
+    [
+     57604,
+     57772,
+     "user"
+    ],
+    [
+     57772,
+     57867,
+     "assistant"
+    ],
+    [
+     57867,
+     58072,
+     "tool"
+    ],
+    [
+     58072,
+     58215,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00047",
+   "doc_id": "agentic-00047",
+   "source_row_id": "ed5c393a-9887-429f-a737-ef2b754bfa59",
+   "kind": "agentic",
+   "start": 58215,
+   "end": 59221,
+   "n_tokens": 1006,
+   "n_loss_tokens": 251,
+   "spans": [
+    [
+     58215,
+     58459,
+     "system"
+    ],
+    [
+     58459,
+     58816,
+     "user"
+    ],
+    [
+     58816,
+     58883,
+     "assistant"
+    ],
+    [
+     58883,
+     59037,
+     "tool"
+    ],
+    [
+     59037,
+     59221,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00048",
+   "doc_id": "agentic-00048",
+   "source_row_id": "de36f5e2-c72b-4161-8cf7-bb616bc4facd",
+   "kind": "agentic",
+   "start": 59221,
+   "end": 60698,
+   "n_tokens": 1477,
+   "n_loss_tokens": 516,
+   "spans": [
+    [
+     59221,
+     59521,
+     "system"
+    ],
+    [
+     59521,
+     59927,
+     "user"
+    ],
+    [
+     59927,
+     60158,
+     "assistant"
+    ],
+    [
+     60158,
+     60413,
+     "tool"
+    ],
+    [
+     60413,
+     60698,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00049",
+   "doc_id": "agentic-00049",
+   "source_row_id": "ad5d8b06-05ba-4b21-bfa2-9c8fffed3e57",
+   "kind": "agentic",
+   "start": 60698,
+   "end": 62150,
+   "n_tokens": 1452,
+   "n_loss_tokens": 611,
+   "spans": [
+    [
+     60698,
+     60987,
+     "system"
+    ],
+    [
+     60987,
+     61342,
+     "user"
+    ],
+    [
+     61342,
+     61425,
+     "assistant"
+    ],
+    [
+     61425,
+     61622,
+     "tool"
+    ],
+    [
+     61622,
+     62150,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00050",
+   "doc_id": "agentic-00050",
+   "source_row_id": "c83983f7-5868-46f0-aa32-f3d756b4571a",
+   "kind": "agentic",
+   "start": 62150,
+   "end": 63692,
+   "n_tokens": 1542,
+   "n_loss_tokens": 429,
+   "spans": [
+    [
+     62150,
+     62634,
+     "system"
+    ],
+    [
+     62634,
+     63051,
+     "user"
+    ],
+    [
+     63051,
+     63208,
+     "assistant"
+    ],
+    [
+     63208,
+     63420,
+     "tool"
+    ],
+    [
+     63420,
+     63692,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00051",
+   "doc_id": "agentic-00051",
+   "source_row_id": "c62cd1ab-fe2c-448f-81c8-7dc214d7243e",
+   "kind": "agentic",
+   "start": 63692,
+   "end": 64625,
+   "n_tokens": 933,
+   "n_loss_tokens": 244,
+   "spans": [
+    [
+     63692,
+     64011,
+     "system"
+    ],
+    [
+     64011,
+     64143,
+     "user"
+    ],
+    [
+     64143,
+     64233,
+     "assistant"
+    ],
+    [
+     64233,
+     64471,
+     "tool"
+    ],
+    [
+     64471,
+     64625,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00052",
+   "doc_id": "agentic-00052",
+   "source_row_id": "c32047ed-8264-4155-bf1d-d657f668a8ed",
+   "kind": "agentic",
+   "start": 64625,
+   "end": 65975,
+   "n_tokens": 1350,
+   "n_loss_tokens": 565,
+   "spans": [
+    [
+     64625,
+     64853,
+     "system"
+    ],
+    [
+     64853,
+     65055,
+     "user"
+    ],
+    [
+     65055,
+     65105,
+     "assistant"
+    ],
+    [
+     65105,
+     65460,
+     "tool"
+    ],
+    [
+     65460,
+     65975,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00053",
+   "doc_id": "agentic-00053",
+   "source_row_id": "90ce3d89-42fa-4fc9-b631-36b6b94293ad",
+   "kind": "agentic",
+   "start": 65975,
+   "end": 66871,
+   "n_tokens": 896,
+   "n_loss_tokens": 247,
+   "spans": [
+    [
+     65975,
+     66219,
+     "system"
+    ],
+    [
+     66219,
+     66427,
+     "user"
+    ],
+    [
+     66427,
+     66475,
+     "assistant"
+    ],
+    [
+     66475,
+     66672,
+     "tool"
+    ],
+    [
+     66672,
+     66871,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00054",
+   "doc_id": "agentic-00054",
+   "source_row_id": "9ced2884-4b24-4e34-8bbc-8e6183083207",
+   "kind": "agentic",
+   "start": 66871,
+   "end": 68309,
+   "n_tokens": 1438,
+   "n_loss_tokens": 378,
+   "spans": [
+    [
+     66871,
+     67254,
+     "system"
+    ],
+    [
+     67254,
+     67587,
+     "user"
+    ],
+    [
+     67587,
+     67680,
+     "assistant"
+    ],
+    [
+     67680,
+     68024,
+     "tool"
+    ],
+    [
+     68024,
+     68309,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00055",
+   "doc_id": "agentic-00055",
+   "source_row_id": "2d748039-8708-4f5a-8b38-d5b796efa6ae",
+   "kind": "agentic",
+   "start": 68309,
+   "end": 70245,
+   "n_tokens": 1936,
+   "n_loss_tokens": 630,
+   "spans": [
+    [
+     68309,
+     68842,
+     "system"
+    ],
+    [
+     68842,
+     69126,
+     "user"
+    ],
+    [
+     69126,
+     69331,
+     "assistant"
+    ],
+    [
+     69331,
+     69820,
+     "tool"
+    ],
+    [
+     69820,
+     70245,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00056",
+   "doc_id": "agentic-00056",
+   "source_row_id": "18aec6ff-050d-4ac6-8af7-8532c3de454b",
+   "kind": "agentic",
+   "start": 70245,
+   "end": 71314,
+   "n_tokens": 1069,
+   "n_loss_tokens": 296,
+   "spans": [
+    [
+     70245,
+     70545,
+     "system"
+    ],
+    [
+     70545,
+     70776,
+     "user"
+    ],
+    [
+     70776,
+     70908,
+     "assistant"
+    ],
+    [
+     70908,
+     71150,
+     "tool"
+    ],
+    [
+     71150,
+     71314,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00057",
+   "doc_id": "agentic-00057",
+   "source_row_id": "8ccdf931-ee64-458d-ad6b-401c39a97402",
+   "kind": "agentic",
+   "start": 71314,
+   "end": 72595,
+   "n_tokens": 1281,
+   "n_loss_tokens": 407,
+   "spans": [
+    [
+     71314,
+     71596,
+     "system"
+    ],
+    [
+     71596,
+     71821,
+     "user"
+    ],
+    [
+     71821,
+     71895,
+     "assistant"
+    ],
+    [
+     71895,
+     72262,
+     "tool"
+    ],
+    [
+     72262,
+     72595,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00058",
+   "doc_id": "agentic-00058",
+   "source_row_id": "3822870c-2c81-49b6-abd0-35876c7bade9",
+   "kind": "agentic",
+   "start": 72595,
+   "end": 73217,
+   "n_tokens": 622,
+   "n_loss_tokens": 31,
+   "spans": [
+    [
+     72595,
+     72838,
+     "system"
+    ],
+    [
+     72838,
+     73051,
+     "user"
+    ],
+    [
+     73051,
+     73082,
+     "assistant"
+    ],
+    [
+     73082,
+     73217,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00059",
+   "doc_id": "agentic-00059",
+   "source_row_id": "f1458808-0ab0-4b3c-a14d-f9dfac975733",
+   "kind": "agentic",
+   "start": 73217,
+   "end": 75477,
+   "n_tokens": 2260,
+   "n_loss_tokens": 736,
+   "spans": [
+    [
+     73217,
+     73668,
+     "system"
+    ],
+    [
+     73668,
+     74197,
+     "user"
+    ],
+    [
+     74197,
+     74520,
+     "assistant"
+    ],
+    [
+     74520,
+     75064,
+     "tool"
+    ],
+    [
+     75064,
+     75477,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00060",
+   "doc_id": "agentic-00060",
+   "source_row_id": "dec20637-3642-4253-a1e4-69a1819d4b04",
+   "kind": "agentic",
+   "start": 75477,
+   "end": 76579,
+   "n_tokens": 1102,
+   "n_loss_tokens": 290,
+   "spans": [
+    [
+     75477,
+     75820,
+     "system"
+    ],
+    [
+     75820,
+     76061,
+     "user"
+    ],
+    [
+     76061,
+     76175,
+     "assistant"
+    ],
+    [
+     76175,
+     76403,
+     "tool"
+    ],
+    [
+     76403,
+     76579,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00061",
+   "doc_id": "agentic-00061",
+   "source_row_id": "df5f5d21-7a24-4eec-8dc3-8b5ae10c394b",
+   "kind": "agentic",
+   "start": 76579,
+   "end": 77628,
+   "n_tokens": 1049,
+   "n_loss_tokens": 370,
+   "spans": [
+    [
+     76579,
+     76914,
+     "system"
+    ],
+    [
+     76914,
+     77064,
+     "user"
+    ],
+    [
+     77064,
+     77131,
+     "assistant"
+    ],
+    [
+     77131,
+     77325,
+     "tool"
+    ],
+    [
+     77325,
+     77628,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00062",
+   "doc_id": "agentic-00062",
+   "source_row_id": "cb650458-ac11-44f3-bf00-d34f3c9a45c9",
+   "kind": "agentic",
+   "start": 77628,
+   "end": 78587,
+   "n_tokens": 959,
+   "n_loss_tokens": 51,
+   "spans": [
+    [
+     77628,
+     77920,
+     "system"
+    ],
+    [
+     77920,
+     78275,
+     "user"
+    ],
+    [
+     78275,
+     78326,
+     "assistant"
+    ],
+    [
+     78326,
+     78587,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00063",
+   "doc_id": "agentic-00063",
+   "source_row_id": "480b27d2-3ee9-44fb-be1b-e60f7562f4eb",
+   "kind": "agentic",
+   "start": 78587,
+   "end": 79980,
+   "n_tokens": 1393,
+   "n_loss_tokens": 259,
+   "spans": [
+    [
+     78587,
+     79077,
+     "system"
+    ],
+    [
+     79077,
+     79463,
+     "user"
+    ],
+    [
+     79463,
+     79591,
+     "assistant"
+    ],
+    [
+     79591,
+     79849,
+     "tool"
+    ],
+    [
+     79849,
+     79980,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00064",
+   "doc_id": "agentic-00064",
+   "source_row_id": "927201c6-e8c6-46cf-bfac-f3f78261fb32",
+   "kind": "agentic",
+   "start": 79980,
+   "end": 82227,
+   "n_tokens": 2247,
+   "n_loss_tokens": 941,
+   "spans": [
+    [
+     79980,
+     80365,
+     "system"
+    ],
+    [
+     80365,
+     80750,
+     "user"
+    ],
+    [
+     80750,
+     80904,
+     "assistant"
+    ],
+    [
+     80904,
+     81440,
+     "tool"
+    ],
+    [
+     81440,
+     82227,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00065",
+   "doc_id": "agentic-00065",
+   "source_row_id": "16e1310b-de4b-4c85-9017-f5bb0e001d66",
+   "kind": "agentic",
+   "start": 82227,
+   "end": 83096,
+   "n_tokens": 869,
+   "n_loss_tokens": 49,
+   "spans": [
+    [
+     82227,
+     82569,
+     "system"
+    ],
+    [
+     82569,
+     82755,
+     "user"
+    ],
+    [
+     82755,
+     82804,
+     "assistant"
+    ],
+    [
+     82804,
+     83096,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00066",
+   "doc_id": "agentic-00066",
+   "source_row_id": "ebe4cd17-ab53-414a-80b4-824b4215cb54",
+   "kind": "agentic",
+   "start": 83096,
+   "end": 84691,
+   "n_tokens": 1595,
+   "n_loss_tokens": 475,
+   "spans": [
+    [
+     83096,
+     83560,
+     "system"
+    ],
+    [
+     83560,
+     83899,
+     "user"
+    ],
+    [
+     83899,
+     84081,
+     "assistant"
+    ],
+    [
+     84081,
+     84398,
+     "tool"
+    ],
+    [
+     84398,
+     84691,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00067",
+   "doc_id": "agentic-00067",
+   "source_row_id": "f2dda22c-c341-4993-af7b-533e99d2b827",
+   "kind": "agentic",
+   "start": 84691,
+   "end": 85329,
+   "n_tokens": 638,
+   "n_loss_tokens": 59,
+   "spans": [
+    [
+     84691,
+     84957,
+     "system"
+    ],
+    [
+     84957,
+     85171,
+     "user"
+    ],
+    [
+     85171,
+     85230,
+     "assistant"
+    ],
+    [
+     85230,
+     85329,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00068",
+   "doc_id": "agentic-00068",
+   "source_row_id": "d59757dd-ccd8-45a3-be19-b66362548e3a",
+   "kind": "agentic",
+   "start": 85329,
+   "end": 86461,
+   "n_tokens": 1132,
+   "n_loss_tokens": 292,
+   "spans": [
+    [
+     85329,
+     85697,
+     "system"
+    ],
+    [
+     85697,
+     86019,
+     "user"
+    ],
+    [
+     86019,
+     86137,
+     "assistant"
+    ],
+    [
+     86137,
+     86287,
+     "tool"
+    ],
+    [
+     86287,
+     86461,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00069",
+   "doc_id": "agentic-00069",
+   "source_row_id": "636c9322-e313-45b9-bb74-a34ee8573c59",
+   "kind": "agentic",
+   "start": 86461,
+   "end": 87671,
+   "n_tokens": 1210,
+   "n_loss_tokens": 130,
+   "spans": [
+    [
+     86461,
+     86926,
+     "system"
+    ],
+    [
+     86926,
+     87265,
+     "user"
+    ],
+    [
+     87265,
+     87395,
+     "assistant"
+    ],
+    [
+     87395,
+     87671,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00070",
+   "doc_id": "agentic-00070",
+   "source_row_id": "e204ca8e-d0c7-4479-bffe-ade85135ff2b",
+   "kind": "agentic",
+   "start": 87671,
+   "end": 89192,
+   "n_tokens": 1521,
+   "n_loss_tokens": 590,
+   "spans": [
+    [
+     87671,
+     87939,
+     "system"
+    ],
+    [
+     87939,
+     88214,
+     "user"
+    ],
+    [
+     88214,
+     88265,
+     "assistant"
+    ],
+    [
+     88265,
+     88653,
+     "tool"
+    ],
+    [
+     88653,
+     89192,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00071",
+   "doc_id": "agentic-00071",
+   "source_row_id": "219632d2-7d89-46f6-9478-f23941954fed",
+   "kind": "agentic",
+   "start": 89192,
+   "end": 90134,
+   "n_tokens": 942,
+   "n_loss_tokens": 271,
+   "spans": [
+    [
+     89192,
+     89436,
+     "system"
+    ],
+    [
+     89436,
+     89671,
+     "user"
+    ],
+    [
+     89671,
+     89760,
+     "assistant"
+    ],
+    [
+     89760,
+     89952,
+     "tool"
+    ],
+    [
+     89952,
+     90134,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00072",
+   "doc_id": "agentic-00072",
+   "source_row_id": "03703ad2-e03b-49ed-a947-84000674b000",
+   "kind": "agentic",
+   "start": 90134,
+   "end": 92023,
+   "n_tokens": 1889,
+   "n_loss_tokens": 786,
+   "spans": [
+    [
+     90134,
+     90388,
+     "system"
+    ],
+    [
+     90388,
+     90602,
+     "user"
+    ],
+    [
+     90602,
+     90665,
+     "assistant"
+    ],
+    [
+     90665,
+     91300,
+     "tool"
+    ],
+    [
+     91300,
+     92023,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00073",
+   "doc_id": "agentic-00073",
+   "source_row_id": "d0d06348-6380-4f81-ac14-34bdd9bc120f",
+   "kind": "agentic",
+   "start": 92023,
+   "end": 93558,
+   "n_tokens": 1535,
+   "n_loss_tokens": 527,
+   "spans": [
+    [
+     92023,
+     92339,
+     "system"
+    ],
+    [
+     92339,
+     92628,
+     "user"
+    ],
+    [
+     92628,
+     92763,
+     "assistant"
+    ],
+    [
+     92763,
+     93166,
+     "tool"
+    ],
+    [
+     93166,
+     93558,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00074",
+   "doc_id": "agentic-00074",
+   "source_row_id": "a7972fee-5633-4832-a61e-9ba5553c1aaa",
+   "kind": "agentic",
+   "start": 93558,
+   "end": 94566,
+   "n_tokens": 1008,
+   "n_loss_tokens": 39,
+   "spans": [
+    [
+     93558,
+     93822,
+     "system"
+    ],
+    [
+     93822,
+     94137,
+     "user"
+    ],
+    [
+     94137,
+     94176,
+     "assistant"
+    ],
+    [
+     94176,
+     94566,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00075",
+   "doc_id": "agentic-00075",
+   "source_row_id": "bf9d1901-7e17-43a1-bd6e-e546c017ad1f",
+   "kind": "agentic",
+   "start": 94566,
+   "end": 96085,
+   "n_tokens": 1519,
+   "n_loss_tokens": 53,
+   "spans": [
+    [
+     94566,
+     95058,
+     "system"
+    ],
+    [
+     95058,
+     95392,
+     "user"
+    ],
+    [
+     95392,
+     95445,
+     "assistant"
+    ],
+    [
+     95445,
+     96085,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00076",
+   "doc_id": "agentic-00076",
+   "source_row_id": "360544a2-cf34-4db3-ad98-c34e7e5c70ce",
+   "kind": "agentic",
+   "start": 96085,
+   "end": 96696,
+   "n_tokens": 611,
+   "n_loss_tokens": 177,
+   "spans": [
+    [
+     96085,
+     96279,
+     "system"
+    ],
+    [
+     96279,
+     96453,
+     "user"
+    ],
+    [
+     96453,
+     96502,
+     "assistant"
+    ],
+    [
+     96502,
+     96568,
+     "tool"
+    ],
+    [
+     96568,
+     96696,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00077",
+   "doc_id": "agentic-00077",
+   "source_row_id": "661e524c-0c4c-4650-bc73-49c74af6e8e5",
+   "kind": "agentic",
+   "start": 96696,
+   "end": 98115,
+   "n_tokens": 1419,
+   "n_loss_tokens": 422,
+   "spans": [
+    [
+     96696,
+     96964,
+     "system"
+    ],
+    [
+     96964,
+     97264,
+     "user"
+    ],
+    [
+     97264,
+     97406,
+     "assistant"
+    ],
+    [
+     97406,
+     97835,
+     "tool"
+    ],
+    [
+     97835,
+     98115,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00078",
+   "doc_id": "agentic-00078",
+   "source_row_id": "f0cf4ed4-7a30-48dd-8f0a-24b1487ad6c8",
+   "kind": "agentic",
+   "start": 98115,
+   "end": 99311,
+   "n_tokens": 1196,
+   "n_loss_tokens": 90,
+   "spans": [
+    [
+     98115,
+     98450,
+     "system"
+    ],
+    [
+     98450,
+     98752,
+     "user"
+    ],
+    [
+     98752,
+     98842,
+     "assistant"
+    ],
+    [
+     98842,
+     99311,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00079",
+   "doc_id": "agentic-00079",
+   "source_row_id": "be5d760e-e755-4317-b31d-8d2ed58d265a",
+   "kind": "agentic",
+   "start": 99311,
+   "end": 100076,
+   "n_tokens": 765,
+   "n_loss_tokens": 206,
+   "spans": [
+    [
+     99311,
+     99552,
+     "system"
+    ],
+    [
+     99552,
+     99671,
+     "user"
+    ],
+    [
+     99671,
+     99765,
+     "assistant"
+    ],
+    [
+     99765,
+     99964,
+     "tool"
+    ],
+    [
+     99964,
+     100076,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00080",
+   "doc_id": "agentic-00080",
+   "source_row_id": "9400fd20-3f11-4e97-8182-f2bdfc82a08a",
+   "kind": "agentic",
+   "start": 100076,
+   "end": 101331,
+   "n_tokens": 1255,
+   "n_loss_tokens": 358,
+   "spans": [
+    [
+     100076,
+     100494,
+     "system"
+    ],
+    [
+     100494,
+     100743,
+     "user"
+    ],
+    [
+     100743,
+     100907,
+     "assistant"
+    ],
+    [
+     100907,
+     101137,
+     "tool"
+    ],
+    [
+     101137,
+     101331,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00081",
+   "doc_id": "agentic-00081",
+   "source_row_id": "6fe33c37-ee02-48b7-9d03-8a60e89e2b16",
+   "kind": "agentic",
+   "start": 101331,
+   "end": 103469,
+   "n_tokens": 2138,
+   "n_loss_tokens": 761,
+   "spans": [
+    [
+     101331,
+     101842,
+     "system"
+    ],
+    [
+     101842,
+     102044,
+     "user"
+    ],
+    [
+     102044,
+     102254,
+     "assistant"
+    ],
+    [
+     102254,
+     102918,
+     "tool"
+    ],
+    [
+     102918,
+     103469,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00082",
+   "doc_id": "agentic-00082",
+   "source_row_id": "936d9929-3978-4699-bf22-fc72c903e5ba",
+   "kind": "agentic",
+   "start": 103469,
+   "end": 105603,
+   "n_tokens": 2134,
+   "n_loss_tokens": 744,
+   "spans": [
+    [
+     103469,
+     103892,
+     "system"
+    ],
+    [
+     103892,
+     104302,
+     "user"
+    ],
+    [
+     104302,
+     104551,
+     "assistant"
+    ],
+    [
+     104551,
+     105108,
+     "tool"
+    ],
+    [
+     105108,
+     105603,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00083",
+   "doc_id": "agentic-00083",
+   "source_row_id": "0eeb771b-a921-40b6-ab3e-6e5eee1b5984",
+   "kind": "agentic",
+   "start": 105603,
+   "end": 106350,
+   "n_tokens": 747,
+   "n_loss_tokens": 47,
+   "spans": [
+    [
+     105603,
+     105847,
+     "system"
+    ],
+    [
+     105847,
+     106104,
+     "user"
+    ],
+    [
+     106104,
+     106151,
+     "assistant"
+    ],
+    [
+     106151,
+     106350,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00084",
+   "doc_id": "agentic-00084",
+   "source_row_id": "f7b5437a-bad8-496e-ae1f-51a1bf72a744",
+   "kind": "agentic",
+   "start": 106350,
+   "end": 107845,
+   "n_tokens": 1495,
+   "n_loss_tokens": 515,
+   "spans": [
+    [
+     106350,
+     106665,
+     "system"
+    ],
+    [
+     106665,
+     107021,
+     "user"
+    ],
+    [
+     107021,
+     107123,
+     "assistant"
+    ],
+    [
+     107123,
+     107432,
+     "tool"
+    ],
+    [
+     107432,
+     107845,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00085",
+   "doc_id": "agentic-00085",
+   "source_row_id": "72786065-f677-44b4-a2e8-6fe352b988ca",
+   "kind": "agentic",
+   "start": 107845,
+   "end": 109500,
+   "n_tokens": 1655,
+   "n_loss_tokens": 593,
+   "spans": [
+    [
+     107845,
+     108146,
+     "system"
+    ],
+    [
+     108146,
+     108473,
+     "user"
+    ],
+    [
+     108473,
+     108563,
+     "assistant"
+    ],
+    [
+     108563,
+     108997,
+     "tool"
+    ],
+    [
+     108997,
+     109500,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00086",
+   "doc_id": "agentic-00086",
+   "source_row_id": "68448794-ad71-49e5-a8bb-34c033ab4028",
+   "kind": "agentic",
+   "start": 109500,
+   "end": 112422,
+   "n_tokens": 2922,
+   "n_loss_tokens": 1019,
+   "spans": [
+    [
+     109500,
+     109754,
+     "system"
+    ],
+    [
+     109754,
+     110798,
+     "user"
+    ],
+    [
+     110798,
+     111128,
+     "assistant"
+    ],
+    [
+     111128,
+     111733,
+     "tool"
+    ],
+    [
+     111733,
+     112422,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00087",
+   "doc_id": "agentic-00087",
+   "source_row_id": "51fc35d8-673a-41b1-86e7-dfa2fb8d280c",
+   "kind": "agentic",
+   "start": 112422,
+   "end": 114016,
+   "n_tokens": 1594,
+   "n_loss_tokens": 580,
+   "spans": [
+    [
+     112422,
+     112823,
+     "system"
+    ],
+    [
+     112823,
+     113190,
+     "user"
+    ],
+    [
+     113190,
+     113506,
+     "assistant"
+    ],
+    [
+     113506,
+     113752,
+     "tool"
+    ],
+    [
+     113752,
+     114016,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00088",
+   "doc_id": "agentic-00088",
+   "source_row_id": "374e015e-549a-42bc-ac43-49c7df8ce1e5",
+   "kind": "agentic",
+   "start": 114016,
+   "end": 116064,
+   "n_tokens": 2048,
+   "n_loss_tokens": 780,
+   "spans": [
+    [
+     114016,
+     114279,
+     "system"
+    ],
+    [
+     114279,
+     114761,
+     "user"
+    ],
+    [
+     114761,
+     115057,
+     "assistant"
+    ],
+    [
+     115057,
+     115580,
+     "tool"
+    ],
+    [
+     115580,
+     116064,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00089",
+   "doc_id": "agentic-00089",
+   "source_row_id": "f33060bb-ac88-4767-816e-de6215a60b86",
+   "kind": "agentic",
+   "start": 116064,
+   "end": 118392,
+   "n_tokens": 2328,
+   "n_loss_tokens": 808,
+   "spans": [
+    [
+     116064,
+     116384,
+     "system"
+    ],
+    [
+     116384,
+     116744,
+     "user"
+    ],
+    [
+     116744,
+     116853,
+     "assistant"
+    ],
+    [
+     116853,
+     117693,
+     "tool"
+    ],
+    [
+     117693,
+     118392,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00090",
+   "doc_id": "agentic-00090",
+   "source_row_id": "4c8692d2-083e-4768-99d9-b99cd554057b",
+   "kind": "agentic",
+   "start": 118392,
+   "end": 119470,
+   "n_tokens": 1078,
+   "n_loss_tokens": 151,
+   "spans": [
+    [
+     118392,
+     118746,
+     "system"
+    ],
+    [
+     118746,
+     119139,
+     "user"
+    ],
+    [
+     119139,
+     119190,
+     "assistant"
+    ],
+    [
+     119190,
+     119370,
+     "tool"
+    ],
+    [
+     119370,
+     119470,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00091",
+   "doc_id": "agentic-00091",
+   "source_row_id": "7262e9f1-4f61-48b6-a491-15125b270a39",
+   "kind": "agentic",
+   "start": 119470,
+   "end": 121624,
+   "n_tokens": 2154,
+   "n_loss_tokens": 766,
+   "spans": [
+    [
+     119470,
+     119752,
+     "system"
+    ],
+    [
+     119752,
+     120410,
+     "user"
+    ],
+    [
+     120410,
+     120663,
+     "assistant"
+    ],
+    [
+     120663,
+     121111,
+     "tool"
+    ],
+    [
+     121111,
+     121624,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00092",
+   "doc_id": "agentic-00092",
+   "source_row_id": "526edad9-2aa6-4583-81e5-0d96abe35573",
+   "kind": "agentic",
+   "start": 121624,
+   "end": 123140,
+   "n_tokens": 1516,
+   "n_loss_tokens": 59,
+   "spans": [
+    [
+     121624,
+     122080,
+     "system"
+    ],
+    [
+     122080,
+     122456,
+     "user"
+    ],
+    [
+     122456,
+     122515,
+     "assistant"
+    ],
+    [
+     122515,
+     123140,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00093",
+   "doc_id": "agentic-00093",
+   "source_row_id": "4d5d9142-7801-413e-b204-26801ab3f027",
+   "kind": "agentic",
+   "start": 123140,
+   "end": 124933,
+   "n_tokens": 1793,
+   "n_loss_tokens": 554,
+   "spans": [
+    [
+     123140,
+     123458,
+     "system"
+    ],
+    [
+     123458,
+     123873,
+     "user"
+    ],
+    [
+     123873,
+     123930,
+     "assistant"
+    ],
+    [
+     123930,
+     124436,
+     "tool"
+    ],
+    [
+     124436,
+     124933,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00094",
+   "doc_id": "agentic-00094",
+   "source_row_id": "11b0efbc-1e0a-4216-ad8c-b40ff56e46b0",
+   "kind": "agentic",
+   "start": 124933,
+   "end": 125630,
+   "n_tokens": 697,
+   "n_loss_tokens": 121,
+   "spans": [
+    [
+     124933,
+     125341,
+     "system"
+    ],
+    [
+     125341,
+     125453,
+     "user"
+    ],
+    [
+     125453,
+     125495,
+     "assistant"
+    ],
+    [
+     125495,
+     125551,
+     "tool"
+    ],
+    [
+     125551,
+     125630,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00095",
+   "doc_id": "agentic-00095",
+   "source_row_id": "2f21e84e-5706-468f-a69c-434bc9639087",
+   "kind": "agentic",
+   "start": 125630,
+   "end": 127217,
+   "n_tokens": 1587,
+   "n_loss_tokens": 588,
+   "spans": [
+    [
+     125630,
+     125945,
+     "system"
+    ],
+    [
+     125945,
+     126158,
+     "user"
+    ],
+    [
+     126158,
+     126226,
+     "assistant"
+    ],
+    [
+     126226,
+     126697,
+     "tool"
+    ],
+    [
+     126697,
+     127217,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00096",
+   "doc_id": "agentic-00096",
+   "source_row_id": "ed13e3e7-6922-4e93-a87b-eaecc1bd6efe",
+   "kind": "agentic",
+   "start": 127217,
+   "end": 128923,
+   "n_tokens": 1706,
+   "n_loss_tokens": 451,
+   "spans": [
+    [
+     127217,
+     127724,
+     "system"
+    ],
+    [
+     127724,
+     128166,
+     "user"
+    ],
+    [
+     128166,
+     128368,
+     "assistant"
+    ],
+    [
+     128368,
+     128674,
+     "tool"
+    ],
+    [
+     128674,
+     128923,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00097",
+   "doc_id": "agentic-00097",
+   "source_row_id": "d716e954-012d-477d-9143-b47840844e59",
+   "kind": "agentic",
+   "start": 128923,
+   "end": 130074,
+   "n_tokens": 1151,
+   "n_loss_tokens": 84,
+   "spans": [
+    [
+     128923,
+     129325,
+     "system"
+    ],
+    [
+     129325,
+     129542,
+     "user"
+    ],
+    [
+     129542,
+     129626,
+     "assistant"
+    ],
+    [
+     129626,
+     130074,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00098",
+   "doc_id": "agentic-00098",
+   "source_row_id": "00b19bef-0c15-4488-baf7-d67556b1651f",
+   "kind": "agentic",
+   "start": 130074,
+   "end": 131183,
+   "n_tokens": 1109,
+   "n_loss_tokens": 381,
+   "spans": [
+    [
+     130074,
+     130362,
+     "system"
+    ],
+    [
+     130362,
+     130532,
+     "user"
+    ],
+    [
+     130532,
+     130604,
+     "assistant"
+    ],
+    [
+     130604,
+     130874,
+     "tool"
+    ],
+    [
+     130874,
+     131183,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00099",
+   "doc_id": "agentic-00099",
+   "source_row_id": "20cccc06-9947-4950-a494-6f0d69d2de73",
+   "kind": "agentic",
+   "start": 131183,
+   "end": 132052,
+   "n_tokens": 869,
+   "n_loss_tokens": 120,
+   "spans": [
+    [
+     131183,
+     131661,
+     "system"
+    ],
+    [
+     131661,
+     131882,
+     "user"
+    ],
+    [
+     131882,
+     131912,
+     "assistant"
+    ],
+    [
+     131912,
+     131962,
+     "tool"
+    ],
+    [
+     131962,
+     132052,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00100",
+   "doc_id": "agentic-00100",
+   "source_row_id": "6cc3eccc-8d82-4467-a65f-d50f5c26d5fc",
+   "kind": "agentic",
+   "start": 132052,
+   "end": 133316,
+   "n_tokens": 1264,
+   "n_loss_tokens": 410,
+   "spans": [
+    [
+     132052,
+     132285,
+     "system"
+    ],
+    [
+     132285,
+     132584,
+     "user"
+    ],
+    [
+     132584,
+     132755,
+     "assistant"
+    ],
+    [
+     132755,
+     133077,
+     "tool"
+    ],
+    [
+     133077,
+     133316,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00101",
+   "doc_id": "agentic-00101",
+   "source_row_id": "8b692b87-2c72-42f0-a477-856418a976f1",
+   "kind": "agentic",
+   "start": 133316,
+   "end": 134590,
+   "n_tokens": 1274,
+   "n_loss_tokens": 470,
+   "spans": [
+    [
+     133316,
+     133745,
+     "system"
+    ],
+    [
+     133745,
+     133827,
+     "user"
+    ],
+    [
+     133827,
+     133868,
+     "assistant"
+    ],
+    [
+     133868,
+     134161,
+     "tool"
+    ],
+    [
+     134161,
+     134590,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00102",
+   "doc_id": "agentic-00102",
+   "source_row_id": "2b647669-e778-4392-a0ab-1183084819af",
+   "kind": "agentic",
+   "start": 134590,
+   "end": 135616,
+   "n_tokens": 1026,
+   "n_loss_tokens": 264,
+   "spans": [
+    [
+     134590,
+     134894,
+     "system"
+    ],
+    [
+     134894,
+     135126,
+     "user"
+    ],
+    [
+     135126,
+     135222,
+     "assistant"
+    ],
+    [
+     135222,
+     135448,
+     "tool"
+    ],
+    [
+     135448,
+     135616,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00103",
+   "doc_id": "agentic-00103",
+   "source_row_id": "2dd8deb4-5017-48cd-8711-55e1aed6c575",
+   "kind": "agentic",
+   "start": 135616,
+   "end": 136753,
+   "n_tokens": 1137,
+   "n_loss_tokens": 299,
+   "spans": [
+    [
+     135616,
+     135905,
+     "system"
+    ],
+    [
+     135905,
+     136172,
+     "user"
+    ],
+    [
+     136172,
+     136203,
+     "assistant"
+    ],
+    [
+     136203,
+     136485,
+     "tool"
+    ],
+    [
+     136485,
+     136753,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00104",
+   "doc_id": "agentic-00104",
+   "source_row_id": "15c948ce-1aae-4329-b507-c22c15c866fe",
+   "kind": "agentic",
+   "start": 136753,
+   "end": 137642,
+   "n_tokens": 889,
+   "n_loss_tokens": 22,
+   "spans": [
+    [
+     136753,
+     137082,
+     "system"
+    ],
+    [
+     137082,
+     137401,
+     "user"
+    ],
+    [
+     137401,
+     137423,
+     "assistant"
+    ],
+    [
+     137423,
+     137642,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00105",
+   "doc_id": "agentic-00105",
+   "source_row_id": "575ce9a1-b631-4266-b2f6-fd1179dc159d",
+   "kind": "agentic",
+   "start": 137642,
+   "end": 139052,
+   "n_tokens": 1410,
+   "n_loss_tokens": 532,
+   "spans": [
+    [
+     137642,
+     137884,
+     "system"
+    ],
+    [
+     137884,
+     137984,
+     "user"
+    ],
+    [
+     137984,
+     138028,
+     "assistant"
+    ],
+    [
+     138028,
+     138564,
+     "tool"
+    ],
+    [
+     138564,
+     139052,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00106",
+   "doc_id": "agentic-00106",
+   "source_row_id": "f68cfec0-ed98-4fe4-9614-39ec985e76ae",
+   "kind": "agentic",
+   "start": 139052,
+   "end": 140204,
+   "n_tokens": 1152,
+   "n_loss_tokens": 141,
+   "spans": [
+    [
+     139052,
+     139546,
+     "system"
+    ],
+    [
+     139546,
+     139830,
+     "user"
+    ],
+    [
+     139830,
+     139866,
+     "assistant"
+    ],
+    [
+     139866,
+     140099,
+     "tool"
+    ],
+    [
+     140099,
+     140204,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00107",
+   "doc_id": "agentic-00107",
+   "source_row_id": "906e214c-0e9b-4b7e-8d55-a766a33a83dd",
+   "kind": "agentic",
+   "start": 140204,
+   "end": 141261,
+   "n_tokens": 1057,
+   "n_loss_tokens": 49,
+   "spans": [
+    [
+     140204,
+     140770,
+     "system"
+    ],
+    [
+     140770,
+     140974,
+     "user"
+    ],
+    [
+     140974,
+     141023,
+     "assistant"
+    ],
+    [
+     141023,
+     141261,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00108",
+   "doc_id": "agentic-00108",
+   "source_row_id": "763c62f4-2a69-4c20-a551-195ae37a2120",
+   "kind": "agentic",
+   "start": 141261,
+   "end": 142388,
+   "n_tokens": 1127,
+   "n_loss_tokens": 34,
+   "spans": [
+    [
+     141261,
+     141693,
+     "system"
+    ],
+    [
+     141693,
+     141859,
+     "user"
+    ],
+    [
+     141859,
+     141893,
+     "assistant"
+    ],
+    [
+     141893,
+     142388,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00109",
+   "doc_id": "agentic-00109",
+   "source_row_id": "5fc2410e-a8bc-4e78-8437-3cc63595a3f1",
+   "kind": "agentic",
+   "start": 142388,
+   "end": 142853,
+   "n_tokens": 465,
+   "n_loss_tokens": 80,
+   "spans": [
+    [
+     142388,
+     142655,
+     "system"
+    ],
+    [
+     142655,
+     142723,
+     "user"
+    ],
+    [
+     142723,
+     142739,
+     "assistant"
+    ],
+    [
+     142739,
+     142789,
+     "tool"
+    ],
+    [
+     142789,
+     142853,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00110",
+   "doc_id": "agentic-00110",
+   "source_row_id": "9ed631be-7fd8-4e4d-8928-c420a07eea45",
+   "kind": "agentic",
+   "start": 142853,
+   "end": 143532,
+   "n_tokens": 679,
+   "n_loss_tokens": 116,
+   "spans": [
+    [
+     142853,
+     143199,
+     "system"
+    ],
+    [
+     143199,
+     143320,
+     "user"
+    ],
+    [
+     143320,
+     143345,
+     "assistant"
+    ],
+    [
+     143345,
+     143441,
+     "tool"
+    ],
+    [
+     143441,
+     143532,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00111",
+   "doc_id": "agentic-00111",
+   "source_row_id": "57894f47-ee5f-4062-b87d-f620e25914d3",
+   "kind": "agentic",
+   "start": 143532,
+   "end": 144979,
+   "n_tokens": 1447,
+   "n_loss_tokens": 642,
+   "spans": [
+    [
+     143532,
+     143747,
+     "system"
+    ],
+    [
+     143747,
+     143913,
+     "user"
+    ],
+    [
+     143913,
+     143957,
+     "assistant"
+    ],
+    [
+     143957,
+     144381,
+     "tool"
+    ],
+    [
+     144381,
+     144979,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00112",
+   "doc_id": "agentic-00112",
+   "source_row_id": "dd763138-b50b-4b4e-b2e4-51ac25bdc41b",
+   "kind": "agentic",
+   "start": 144979,
+   "end": 146140,
+   "n_tokens": 1161,
+   "n_loss_tokens": 294,
+   "spans": [
+    [
+     144979,
+     145373,
+     "system"
+    ],
+    [
+     145373,
+     145547,
+     "user"
+    ],
+    [
+     145547,
+     145596,
+     "assistant"
+    ],
+    [
+     145596,
+     145895,
+     "tool"
+    ],
+    [
+     145895,
+     146140,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00113",
+   "doc_id": "agentic-00113",
+   "source_row_id": "42e12d6e-3022-435b-b8ee-26e744a4ba74",
+   "kind": "agentic",
+   "start": 146140,
+   "end": 147428,
+   "n_tokens": 1288,
+   "n_loss_tokens": 345,
+   "spans": [
+    [
+     146140,
+     146666,
+     "system"
+    ],
+    [
+     146666,
+     146757,
+     "user"
+    ],
+    [
+     146757,
+     146829,
+     "assistant"
+    ],
+    [
+     146829,
+     147155,
+     "tool"
+    ],
+    [
+     147155,
+     147428,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00114",
+   "doc_id": "agentic-00114",
+   "source_row_id": "c0b6884c-0b96-4a72-83d6-5b62a03fbb3e",
+   "kind": "agentic",
+   "start": 147428,
+   "end": 148214,
+   "n_tokens": 786,
+   "n_loss_tokens": 319,
+   "spans": [
+    [
+     147428,
+     147671,
+     "system"
+    ],
+    [
+     147671,
+     147747,
+     "user"
+    ],
+    [
+     147747,
+     147800,
+     "assistant"
+    ],
+    [
+     147800,
+     147948,
+     "tool"
+    ],
+    [
+     147948,
+     148214,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00115",
+   "doc_id": "agentic-00115",
+   "source_row_id": "334a824d-d1fb-45ba-9b24-33330b5770fa",
+   "kind": "agentic",
+   "start": 148214,
+   "end": 149569,
+   "n_tokens": 1355,
+   "n_loss_tokens": 325,
+   "spans": [
+    [
+     148214,
+     148582,
+     "system"
+    ],
+    [
+     148582,
+     148829,
+     "user"
+    ],
+    [
+     148829,
+     148889,
+     "assistant"
+    ],
+    [
+     148889,
+     149304,
+     "tool"
+    ],
+    [
+     149304,
+     149569,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00116",
+   "doc_id": "agentic-00116",
+   "source_row_id": "12146426-dac2-4476-9b44-e7adbac25fa3",
+   "kind": "agentic",
+   "start": 149569,
+   "end": 151101,
+   "n_tokens": 1532,
+   "n_loss_tokens": 374,
+   "spans": [
+    [
+     149569,
+     150218,
+     "system"
+    ],
+    [
+     150218,
+     150382,
+     "user"
+    ],
+    [
+     150382,
+     150430,
+     "assistant"
+    ],
+    [
+     150430,
+     150775,
+     "tool"
+    ],
+    [
+     150775,
+     151101,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00117",
+   "doc_id": "agentic-00117",
+   "source_row_id": "1cad9ca5-813b-42e6-a69c-bfb577f73ebb",
+   "kind": "agentic",
+   "start": 151101,
+   "end": 152244,
+   "n_tokens": 1143,
+   "n_loss_tokens": 347,
+   "spans": [
+    [
+     151101,
+     151323,
+     "system"
+    ],
+    [
+     151323,
+     151709,
+     "user"
+    ],
+    [
+     151709,
+     151761,
+     "assistant"
+    ],
+    [
+     151761,
+     151949,
+     "tool"
+    ],
+    [
+     151949,
+     152244,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00118",
+   "doc_id": "agentic-00118",
+   "source_row_id": "0f7da194-b5d4-41fc-a8b6-e2a7fa429ca5",
+   "kind": "agentic",
+   "start": 152244,
+   "end": 152953,
+   "n_tokens": 709,
+   "n_loss_tokens": 202,
+   "spans": [
+    [
+     152244,
+     152437,
+     "system"
+    ],
+    [
+     152437,
+     152674,
+     "user"
+    ],
+    [
+     152674,
+     152753,
+     "assistant"
+    ],
+    [
+     152753,
+     152830,
+     "tool"
+    ],
+    [
+     152830,
+     152953,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00119",
+   "doc_id": "agentic-00119",
+   "source_row_id": "491b6228-7472-4970-bc0b-460727a50987",
+   "kind": "agentic",
+   "start": 152953,
+   "end": 153937,
+   "n_tokens": 984,
+   "n_loss_tokens": 339,
+   "spans": [
+    [
+     152953,
+     153207,
+     "system"
+    ],
+    [
+     153207,
+     153392,
+     "user"
+    ],
+    [
+     153392,
+     153458,
+     "assistant"
+    ],
+    [
+     153458,
+     153664,
+     "tool"
+    ],
+    [
+     153664,
+     153937,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00120",
+   "doc_id": "agentic-00120",
+   "source_row_id": "6a214cc2-b0aa-41e0-9cc4-ab00257c4bbc",
+   "kind": "agentic",
+   "start": 153937,
+   "end": 155363,
+   "n_tokens": 1426,
+   "n_loss_tokens": 533,
+   "spans": [
+    [
+     153937,
+     154288,
+     "system"
+    ],
+    [
+     154288,
+     154551,
+     "user"
+    ],
+    [
+     154551,
+     154763,
+     "assistant"
+    ],
+    [
+     154763,
+     155042,
+     "tool"
+    ],
+    [
+     155042,
+     155363,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00121",
+   "doc_id": "agentic-00121",
+   "source_row_id": "ab4146cc-f9a1-4725-a5c4-f91b1dc3c4d3",
+   "kind": "agentic",
+   "start": 155363,
+   "end": 156357,
+   "n_tokens": 994,
+   "n_loss_tokens": 419,
+   "spans": [
+    [
+     155363,
+     155572,
+     "system"
+    ],
+    [
+     155572,
+     155692,
+     "user"
+    ],
+    [
+     155692,
+     155741,
+     "assistant"
+    ],
+    [
+     155741,
+     155987,
+     "tool"
+    ],
+    [
+     155987,
+     156357,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00122",
+   "doc_id": "agentic-00122",
+   "source_row_id": "7c308e64-45c8-4639-af00-04d648731fb4",
+   "kind": "agentic",
+   "start": 156357,
+   "end": 158072,
+   "n_tokens": 1715,
+   "n_loss_tokens": 628,
+   "spans": [
+    [
+     156357,
+     156601,
+     "system"
+    ],
+    [
+     156601,
+     156953,
+     "user"
+    ],
+    [
+     156953,
+     157015,
+     "assistant"
+    ],
+    [
+     157015,
+     157506,
+     "tool"
+    ],
+    [
+     157506,
+     158072,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00123",
+   "doc_id": "agentic-00123",
+   "source_row_id": "3bac4895-1a36-4380-8ef7-c36abfcc4ba4",
+   "kind": "agentic",
+   "start": 158072,
+   "end": 159119,
+   "n_tokens": 1047,
+   "n_loss_tokens": 334,
+   "spans": [
+    [
+     158072,
+     158333,
+     "system"
+    ],
+    [
+     158333,
+     158579,
+     "user"
+    ],
+    [
+     158579,
+     158648,
+     "assistant"
+    ],
+    [
+     158648,
+     158854,
+     "tool"
+    ],
+    [
+     158854,
+     159119,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00124",
+   "doc_id": "agentic-00124",
+   "source_row_id": "6a31ccf6-4540-47fe-8242-dfdea16ef61a",
+   "kind": "agentic",
+   "start": 159119,
+   "end": 161584,
+   "n_tokens": 2465,
+   "n_loss_tokens": 888,
+   "spans": [
+    [
+     159119,
+     159558,
+     "system"
+    ],
+    [
+     159558,
+     159829,
+     "user"
+    ],
+    [
+     159829,
+     159939,
+     "assistant"
+    ],
+    [
+     159939,
+     160806,
+     "tool"
+    ],
+    [
+     160806,
+     161584,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00125",
+   "doc_id": "agentic-00125",
+   "source_row_id": "c5a75a43-82e0-4163-9052-3c9bf08877dc",
+   "kind": "agentic",
+   "start": 161584,
+   "end": 162399,
+   "n_tokens": 815,
+   "n_loss_tokens": 164,
+   "spans": [
+    [
+     161584,
+     161886,
+     "system"
+    ],
+    [
+     161886,
+     162164,
+     "user"
+    ],
+    [
+     162164,
+     162209,
+     "assistant"
+    ],
+    [
+     162209,
+     162280,
+     "tool"
+    ],
+    [
+     162280,
+     162399,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00126",
+   "doc_id": "agentic-00126",
+   "source_row_id": "7be2b03a-4998-46e8-a3cd-3b9f204f0e7f",
+   "kind": "agentic",
+   "start": 162399,
+   "end": 163585,
+   "n_tokens": 1186,
+   "n_loss_tokens": 381,
+   "spans": [
+    [
+     162399,
+     162680,
+     "system"
+    ],
+    [
+     162680,
+     162941,
+     "user"
+    ],
+    [
+     162941,
+     163000,
+     "assistant"
+    ],
+    [
+     163000,
+     163263,
+     "tool"
+    ],
+    [
+     163263,
+     163585,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00127",
+   "doc_id": "agentic-00127",
+   "source_row_id": "33e8c808-952e-4e3c-ad17-5e492313e0ed",
+   "kind": "agentic",
+   "start": 163585,
+   "end": 164209,
+   "n_tokens": 624,
+   "n_loss_tokens": 210,
+   "spans": [
+    [
+     163585,
+     163716,
+     "system"
+    ],
+    [
+     163716,
+     163884,
+     "user"
+    ],
+    [
+     163884,
+     163920,
+     "assistant"
+    ],
+    [
+     163920,
+     164035,
+     "tool"
+    ],
+    [
+     164035,
+     164209,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00128",
+   "doc_id": "agentic-00128",
+   "source_row_id": "92c9561c-f812-4c0e-a1e0-3c2e2861bf5e",
+   "kind": "agentic",
+   "start": 164209,
+   "end": 164703,
+   "n_tokens": 494,
+   "n_loss_tokens": 127,
+   "spans": [
+    [
+     164209,
+     164356,
+     "system"
+    ],
+    [
+     164356,
+     164510,
+     "user"
+    ],
+    [
+     164510,
+     164577,
+     "assistant"
+    ],
+    [
+     164577,
+     164643,
+     "tool"
+    ],
+    [
+     164643,
+     164703,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00129",
+   "doc_id": "agentic-00129",
+   "source_row_id": "c10664f0-d34c-4f43-bf4b-6cc06eda23aa",
+   "kind": "agentic",
+   "start": 164703,
+   "end": 166754,
+   "n_tokens": 2051,
+   "n_loss_tokens": 624,
+   "spans": [
+    [
+     164703,
+     165168,
+     "system"
+    ],
+    [
+     165168,
+     165456,
+     "user"
+    ],
+    [
+     165456,
+     165528,
+     "assistant"
+    ],
+    [
+     165528,
+     166202,
+     "tool"
+    ],
+    [
+     166202,
+     166754,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00130",
+   "doc_id": "agentic-00130",
+   "source_row_id": "f96dd3c2-7a1f-4a88-9d96-41ef31317ed4",
+   "kind": "agentic",
+   "start": 166754,
+   "end": 167964,
+   "n_tokens": 1210,
+   "n_loss_tokens": 39,
+   "spans": [
+    [
+     166754,
+     167164,
+     "system"
+    ],
+    [
+     167164,
+     167621,
+     "user"
+    ],
+    [
+     167621,
+     167660,
+     "assistant"
+    ],
+    [
+     167660,
+     167964,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00131",
+   "doc_id": "agentic-00131",
+   "source_row_id": "ed5d13a2-7aed-416d-b314-acf636c538a4",
+   "kind": "agentic",
+   "start": 167964,
+   "end": 169804,
+   "n_tokens": 1840,
+   "n_loss_tokens": 751,
+   "spans": [
+    [
+     167964,
+     168197,
+     "system"
+    ],
+    [
+     168197,
+     168436,
+     "user"
+    ],
+    [
+     168436,
+     168479,
+     "assistant"
+    ],
+    [
+     168479,
+     169096,
+     "tool"
+    ],
+    [
+     169096,
+     169804,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00132",
+   "doc_id": "agentic-00132",
+   "source_row_id": "b2b0e00f-c3b5-42a0-b839-29b790e0956f",
+   "kind": "agentic",
+   "start": 169804,
+   "end": 172029,
+   "n_tokens": 2225,
+   "n_loss_tokens": 798,
+   "spans": [
+    [
+     169804,
+     170158,
+     "system"
+    ],
+    [
+     170158,
+     170654,
+     "user"
+    ],
+    [
+     170654,
+     170744,
+     "assistant"
+    ],
+    [
+     170744,
+     171321,
+     "tool"
+    ],
+    [
+     171321,
+     172029,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00133",
+   "doc_id": "agentic-00133",
+   "source_row_id": "31546265-cf52-49a1-9f95-1160ee80ff8e",
+   "kind": "agentic",
+   "start": 172029,
+   "end": 173185,
+   "n_tokens": 1156,
+   "n_loss_tokens": 365,
+   "spans": [
+    [
+     172029,
+     172178,
+     "system"
+    ],
+    [
+     172178,
+     172581,
+     "user"
+    ],
+    [
+     172581,
+     172630,
+     "assistant"
+    ],
+    [
+     172630,
+     172869,
+     "tool"
+    ],
+    [
+     172869,
+     173185,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00134",
+   "doc_id": "agentic-00134",
+   "source_row_id": "1ccb2cf2-c876-408c-b4fb-c20906f391d8",
+   "kind": "agentic",
+   "start": 173185,
+   "end": 174724,
+   "n_tokens": 1539,
+   "n_loss_tokens": 666,
+   "spans": [
+    [
+     173185,
+     173382,
+     "system"
+    ],
+    [
+     173382,
+     173725,
+     "user"
+    ],
+    [
+     173725,
+     173770,
+     "assistant"
+    ],
+    [
+     173770,
+     174103,
+     "tool"
+    ],
+    [
+     174103,
+     174724,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00135",
+   "doc_id": "agentic-00135",
+   "source_row_id": "a6af34bf-4d6b-474c-9baf-23518f1088d4",
+   "kind": "agentic",
+   "start": 174724,
+   "end": 176336,
+   "n_tokens": 1612,
+   "n_loss_tokens": 506,
+   "spans": [
+    [
+     174724,
+     175045,
+     "system"
+    ],
+    [
+     175045,
+     175499,
+     "user"
+    ],
+    [
+     175499,
+     175627,
+     "assistant"
+    ],
+    [
+     175627,
+     175958,
+     "tool"
+    ],
+    [
+     175958,
+     176336,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00136",
+   "doc_id": "agentic-00136",
+   "source_row_id": "40d25bcd-f8fa-4f04-ac8c-a3c683c6c77c",
+   "kind": "agentic",
+   "start": 176336,
+   "end": 179042,
+   "n_tokens": 2706,
+   "n_loss_tokens": 1120,
+   "spans": [
+    [
+     176336,
+     176505,
+     "system"
+    ],
+    [
+     176505,
+     177036,
+     "user"
+    ],
+    [
+     177036,
+     177286,
+     "assistant"
+    ],
+    [
+     177286,
+     178172,
+     "tool"
+    ],
+    [
+     178172,
+     179042,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00137",
+   "doc_id": "agentic-00137",
+   "source_row_id": "276da31a-276e-4f4a-a6e4-5e30725ae865",
+   "kind": "agentic",
+   "start": 179042,
+   "end": 180879,
+   "n_tokens": 1837,
+   "n_loss_tokens": 452,
+   "spans": [
+    [
+     179042,
+     179413,
+     "system"
+    ],
+    [
+     179413,
+     179908,
+     "user"
+    ],
+    [
+     179908,
+     180050,
+     "assistant"
+    ],
+    [
+     180050,
+     180569,
+     "tool"
+    ],
+    [
+     180569,
+     180879,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00138",
+   "doc_id": "agentic-00138",
+   "source_row_id": "8a9139b6-e88d-423a-b1ff-c52a9a688662",
+   "kind": "agentic",
+   "start": 180879,
+   "end": 182276,
+   "n_tokens": 1397,
+   "n_loss_tokens": 527,
+   "spans": [
+    [
+     180879,
+     181160,
+     "system"
+    ],
+    [
+     181160,
+     181415,
+     "user"
+    ],
+    [
+     181415,
+     181487,
+     "assistant"
+    ],
+    [
+     181487,
+     181821,
+     "tool"
+    ],
+    [
+     181821,
+     182276,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00139",
+   "doc_id": "agentic-00139",
+   "source_row_id": "540ec8f1-13e4-440a-b8b3-cca0ce23c2ec",
+   "kind": "agentic",
+   "start": 182276,
+   "end": 183703,
+   "n_tokens": 1427,
+   "n_loss_tokens": 336,
+   "spans": [
+    [
+     182276,
+     182720,
+     "system"
+    ],
+    [
+     182720,
+     183092,
+     "user"
+    ],
+    [
+     183092,
+     183212,
+     "assistant"
+    ],
+    [
+     183212,
+     183487,
+     "tool"
+    ],
+    [
+     183487,
+     183703,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00140",
+   "doc_id": "agentic-00140",
+   "source_row_id": "0367cc80-6fe1-488e-9f9c-66bff7a8d450",
+   "kind": "agentic",
+   "start": 183703,
+   "end": 184913,
+   "n_tokens": 1210,
+   "n_loss_tokens": 230,
+   "spans": [
+    [
+     183703,
+     184073,
+     "system"
+    ],
+    [
+     184073,
+     184523,
+     "user"
+    ],
+    [
+     184523,
+     184559,
+     "assistant"
+    ],
+    [
+     184559,
+     184719,
+     "tool"
+    ],
+    [
+     184719,
+     184913,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00141",
+   "doc_id": "agentic-00141",
+   "source_row_id": "fb6f7461-d5c2-46fa-93e8-997d328bd095",
+   "kind": "agentic",
+   "start": 184913,
+   "end": 188838,
+   "n_tokens": 3925,
+   "n_loss_tokens": 1714,
+   "spans": [
+    [
+     184913,
+     185444,
+     "system"
+    ],
+    [
+     185444,
+     185554,
+     "user"
+    ],
+    [
+     185554,
+     185591,
+     "assistant"
+    ],
+    [
+     185591,
+     187161,
+     "tool"
+    ],
+    [
+     187161,
+     188838,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00142",
+   "doc_id": "agentic-00142",
+   "source_row_id": "1e47be43-79d1-4047-a822-289cde7c710d",
+   "kind": "agentic",
+   "start": 188838,
+   "end": 190832,
+   "n_tokens": 1994,
+   "n_loss_tokens": 709,
+   "spans": [
+    [
+     188838,
+     189351,
+     "system"
+    ],
+    [
+     189351,
+     189761,
+     "user"
+    ],
+    [
+     189761,
+     189866,
+     "assistant"
+    ],
+    [
+     189866,
+     190228,
+     "tool"
+    ],
+    [
+     190228,
+     190832,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00143",
+   "doc_id": "agentic-00143",
+   "source_row_id": "a042bb10-d886-4357-ab9b-3609c5864750",
+   "kind": "agentic",
+   "start": 190832,
+   "end": 191984,
+   "n_tokens": 1152,
+   "n_loss_tokens": 211,
+   "spans": [
+    [
+     190832,
+     191198,
+     "system"
+    ],
+    [
+     191198,
+     191375,
+     "user"
+    ],
+    [
+     191375,
+     191464,
+     "assistant"
+    ],
+    [
+     191464,
+     191862,
+     "tool"
+    ],
+    [
+     191862,
+     191984,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00144",
+   "doc_id": "agentic-00144",
+   "source_row_id": "96e72bd6-0821-4c73-9e4e-d52780636d45",
+   "kind": "agentic",
+   "start": 191984,
+   "end": 192625,
+   "n_tokens": 641,
+   "n_loss_tokens": 54,
+   "spans": [
+    [
+     191984,
+     192225,
+     "system"
+    ],
+    [
+     192225,
+     192488,
+     "user"
+    ],
+    [
+     192488,
+     192542,
+     "assistant"
+    ],
+    [
+     192542,
+     192625,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00145",
+   "doc_id": "agentic-00145",
+   "source_row_id": "f344eb9c-262e-4ec0-bc9b-48ecfa640998",
+   "kind": "agentic",
+   "start": 192625,
+   "end": 194437,
+   "n_tokens": 1812,
+   "n_loss_tokens": 309,
+   "spans": [
+    [
+     192625,
+     193328,
+     "system"
+    ],
+    [
+     193328,
+     193779,
+     "user"
+    ],
+    [
+     193779,
+     194088,
+     "assistant"
+    ],
+    [
+     194088,
+     194437,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00146",
+   "doc_id": "agentic-00146",
+   "source_row_id": "f205fba0-8a29-4c54-a3a6-441f7cbf175c",
+   "kind": "agentic",
+   "start": 194437,
+   "end": 195480,
+   "n_tokens": 1043,
+   "n_loss_tokens": 356,
+   "spans": [
+    [
+     194437,
+     194648,
+     "system"
+    ],
+    [
+     194648,
+     194886,
+     "user"
+    ],
+    [
+     194886,
+     194936,
+     "assistant"
+    ],
+    [
+     194936,
+     195174,
+     "tool"
+    ],
+    [
+     195174,
+     195480,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00147",
+   "doc_id": "agentic-00147",
+   "source_row_id": "a2187870-fedb-407a-b678-574b7115ca2e",
+   "kind": "agentic",
+   "start": 195480,
+   "end": 196668,
+   "n_tokens": 1188,
+   "n_loss_tokens": 32,
+   "spans": [
+    [
+     195480,
+     195860,
+     "system"
+    ],
+    [
+     195860,
+     196344,
+     "user"
+    ],
+    [
+     196344,
+     196376,
+     "assistant"
+    ],
+    [
+     196376,
+     196668,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00148",
+   "doc_id": "agentic-00148",
+   "source_row_id": "1670eae9-47b3-4780-83fa-9c0dca5a6190",
+   "kind": "agentic",
+   "start": 196668,
+   "end": 198321,
+   "n_tokens": 1653,
+   "n_loss_tokens": 539,
+   "spans": [
+    [
+     196668,
+     196905,
+     "system"
+    ],
+    [
+     196905,
+     197190,
+     "user"
+    ],
+    [
+     197190,
+     197323,
+     "assistant"
+    ],
+    [
+     197323,
+     197915,
+     "tool"
+    ],
+    [
+     197915,
+     198321,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00149",
+   "doc_id": "agentic-00149",
+   "source_row_id": "bb356c61-d9f4-4df4-92a1-27c3cfd6cc82",
+   "kind": "agentic",
+   "start": 198321,
+   "end": 199399,
+   "n_tokens": 1078,
+   "n_loss_tokens": 352,
+   "spans": [
+    [
+     198321,
+     198542,
+     "system"
+    ],
+    [
+     198542,
+     198733,
+     "user"
+    ],
+    [
+     198733,
+     198788,
+     "assistant"
+    ],
+    [
+     198788,
+     199102,
+     "tool"
+    ],
+    [
+     199102,
+     199399,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00150",
+   "doc_id": "agentic-00150",
+   "source_row_id": "5b40920b-d82b-4fdf-9ab5-b47e94921244",
+   "kind": "agentic",
+   "start": 199399,
+   "end": 200040,
+   "n_tokens": 641,
+   "n_loss_tokens": 118,
+   "spans": [
+    [
+     199399,
+     199648,
+     "system"
+    ],
+    [
+     199648,
+     199851,
+     "user"
+    ],
+    [
+     199851,
+     199882,
+     "assistant"
+    ],
+    [
+     199882,
+     199953,
+     "tool"
+    ],
+    [
+     199953,
+     200040,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00151",
+   "doc_id": "agentic-00151",
+   "source_row_id": "bf71cb23-09b2-43c5-81c5-87c7ae7e1d7c",
+   "kind": "agentic",
+   "start": 200040,
+   "end": 201055,
+   "n_tokens": 1015,
+   "n_loss_tokens": 262,
+   "spans": [
+    [
+     200040,
+     200267,
+     "system"
+    ],
+    [
+     200267,
+     200463,
+     "user"
+    ],
+    [
+     200463,
+     200534,
+     "assistant"
+    ],
+    [
+     200534,
+     200864,
+     "tool"
+    ],
+    [
+     200864,
+     201055,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00152",
+   "doc_id": "agentic-00152",
+   "source_row_id": "105d5a93-b3a5-4d20-a92e-ac062dcfe276",
+   "kind": "agentic",
+   "start": 201055,
+   "end": 201906,
+   "n_tokens": 851,
+   "n_loss_tokens": 226,
+   "spans": [
+    [
+     201055,
+     201274,
+     "system"
+    ],
+    [
+     201274,
+     201454,
+     "user"
+    ],
+    [
+     201454,
+     201503,
+     "assistant"
+    ],
+    [
+     201503,
+     201729,
+     "tool"
+    ],
+    [
+     201729,
+     201906,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00153",
+   "doc_id": "agentic-00153",
+   "source_row_id": "2b6786c5-b2e7-4a12-9744-a65d55eb497a",
+   "kind": "agentic",
+   "start": 201906,
+   "end": 202756,
+   "n_tokens": 850,
+   "n_loss_tokens": 118,
+   "spans": [
+    [
+     201906,
+     202329,
+     "system"
+    ],
+    [
+     202329,
+     202517,
+     "user"
+    ],
+    [
+     202517,
+     202575,
+     "assistant"
+    ],
+    [
+     202575,
+     202696,
+     "tool"
+    ],
+    [
+     202696,
+     202756,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00154",
+   "doc_id": "agentic-00154",
+   "source_row_id": "96a812de-84b8-4fbe-a3e8-453b8dbadb3d",
+   "kind": "agentic",
+   "start": 202756,
+   "end": 203473,
+   "n_tokens": 717,
+   "n_loss_tokens": 151,
+   "spans": [
+    [
+     202756,
+     202938,
+     "system"
+    ],
+    [
+     202938,
+     203103,
+     "user"
+    ],
+    [
+     203103,
+     203162,
+     "assistant"
+    ],
+    [
+     203162,
+     203381,
+     "tool"
+    ],
+    [
+     203381,
+     203473,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00155",
+   "doc_id": "agentic-00155",
+   "source_row_id": "abbd89ef-3d84-4c48-80a1-19f64f43fc38",
+   "kind": "agentic",
+   "start": 203473,
+   "end": 204778,
+   "n_tokens": 1305,
+   "n_loss_tokens": 290,
+   "spans": [
+    [
+     203473,
+     204028,
+     "system"
+    ],
+    [
+     204028,
+     204381,
+     "user"
+    ],
+    [
+     204381,
+     204502,
+     "assistant"
+    ],
+    [
+     204502,
+     204609,
+     "tool"
+    ],
+    [
+     204609,
+     204778,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00156",
+   "doc_id": "agentic-00156",
+   "source_row_id": "cce22910-15f0-4cb7-ab90-7293808d8d54",
+   "kind": "agentic",
+   "start": 204778,
+   "end": 205688,
+   "n_tokens": 910,
+   "n_loss_tokens": 279,
+   "spans": [
+    [
+     204778,
+     204962,
+     "system"
+    ],
+    [
+     204962,
+     205166,
+     "user"
+    ],
+    [
+     205166,
+     205224,
+     "assistant"
+    ],
+    [
+     205224,
+     205467,
+     "tool"
+    ],
+    [
+     205467,
+     205688,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00157",
+   "doc_id": "agentic-00157",
+   "source_row_id": "05603a07-a985-49e5-9a12-572d0a1fcbad",
+   "kind": "agentic",
+   "start": 205688,
+   "end": 206450,
+   "n_tokens": 762,
+   "n_loss_tokens": 174,
+   "spans": [
+    [
+     205688,
+     205996,
+     "system"
+    ],
+    [
+     205996,
+     206169,
+     "user"
+    ],
+    [
+     206169,
+     206225,
+     "assistant"
+    ],
+    [
+     206225,
+     206332,
+     "tool"
+    ],
+    [
+     206332,
+     206450,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00158",
+   "doc_id": "agentic-00158",
+   "source_row_id": "bb939d10-4262-4892-8bce-7a0c2e768bd9",
+   "kind": "agentic",
+   "start": 206450,
+   "end": 207255,
+   "n_tokens": 805,
+   "n_loss_tokens": 234,
+   "spans": [
+    [
+     206450,
+     206600,
+     "system"
+    ],
+    [
+     206600,
+     206909,
+     "user"
+    ],
+    [
+     206909,
+     207021,
+     "assistant"
+    ],
+    [
+     207021,
+     207133,
+     "tool"
+    ],
+    [
+     207133,
+     207255,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00159",
+   "doc_id": "agentic-00159",
+   "source_row_id": "f664d78d-5b7a-4fb8-ae56-22321c070027",
+   "kind": "agentic",
+   "start": 207255,
+   "end": 208134,
+   "n_tokens": 879,
+   "n_loss_tokens": 181,
+   "spans": [
+    [
+     207255,
+     207615,
+     "system"
+    ],
+    [
+     207615,
+     207842,
+     "user"
+    ],
+    [
+     207842,
+     207893,
+     "assistant"
+    ],
+    [
+     207893,
+     208004,
+     "tool"
+    ],
+    [
+     208004,
+     208134,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00160",
+   "doc_id": "agentic-00160",
+   "source_row_id": "4b22e177-0468-4ca9-91a4-162a43c067c1",
+   "kind": "agentic",
+   "start": 208134,
+   "end": 208937,
+   "n_tokens": 803,
+   "n_loss_tokens": 135,
+   "spans": [
+    [
+     208134,
+     208479,
+     "system"
+    ],
+    [
+     208479,
+     208774,
+     "user"
+    ],
+    [
+     208774,
+     208885,
+     "assistant"
+    ],
+    [
+     208885,
+     208913,
+     "tool"
+    ],
+    [
+     208913,
+     208937,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00161",
+   "doc_id": "agentic-00161",
+   "source_row_id": "1c7ac18a-5def-433f-b5c1-550144c17b0a",
+   "kind": "agentic",
+   "start": 208937,
+   "end": 210121,
+   "n_tokens": 1184,
+   "n_loss_tokens": 408,
+   "spans": [
+    [
+     208937,
+     209090,
+     "system"
+    ],
+    [
+     209090,
+     209298,
+     "user"
+    ],
+    [
+     209298,
+     209421,
+     "assistant"
+    ],
+    [
+     209421,
+     209836,
+     "tool"
+    ],
+    [
+     209836,
+     210121,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00162",
+   "doc_id": "agentic-00162",
+   "source_row_id": "5bd43adc-e1af-4c1e-b2d0-78c125cf8c53",
+   "kind": "agentic",
+   "start": 210121,
+   "end": 211039,
+   "n_tokens": 918,
+   "n_loss_tokens": 74,
+   "spans": [
+    [
+     210121,
+     210398,
+     "system"
+    ],
+    [
+     210398,
+     210597,
+     "user"
+    ],
+    [
+     210597,
+     210671,
+     "assistant"
+    ],
+    [
+     210671,
+     211039,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00163",
+   "doc_id": "agentic-00163",
+   "source_row_id": "8994ba65-0841-4c6f-adf2-73ba975b1f0b",
+   "kind": "agentic",
+   "start": 211039,
+   "end": 212004,
+   "n_tokens": 965,
+   "n_loss_tokens": 26,
+   "spans": [
+    [
+     211039,
+     211222,
+     "system"
+    ],
+    [
+     211222,
+     211559,
+     "user"
+    ],
+    [
+     211559,
+     211585,
+     "assistant"
+    ],
+    [
+     211585,
+     212004,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00164",
+   "doc_id": "agentic-00164",
+   "source_row_id": "0dd3ad9e-e386-45a9-b0c4-1a1c4bfab67f",
+   "kind": "agentic",
+   "start": 212004,
+   "end": 212738,
+   "n_tokens": 734,
+   "n_loss_tokens": 103,
+   "spans": [
+    [
+     212004,
+     212261,
+     "system"
+    ],
+    [
+     212261,
+     212430,
+     "user"
+    ],
+    [
+     212430,
+     212448,
+     "assistant"
+    ],
+    [
+     212448,
+     212653,
+     "tool"
+    ],
+    [
+     212653,
+     212738,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00165",
+   "doc_id": "agentic-00165",
+   "source_row_id": "b8300df1-4170-4dc3-b741-24621f49120e",
+   "kind": "agentic",
+   "start": 212738,
+   "end": 213926,
+   "n_tokens": 1188,
+   "n_loss_tokens": 139,
+   "spans": [
+    [
+     212738,
+     213025,
+     "system"
+    ],
+    [
+     213025,
+     213575,
+     "user"
+    ],
+    [
+     213575,
+     213714,
+     "assistant"
+    ],
+    [
+     213714,
+     213926,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00166",
+   "doc_id": "agentic-00166",
+   "source_row_id": "7121f826-47b7-4b0a-9860-1fa17b41cc9a",
+   "kind": "agentic",
+   "start": 213926,
+   "end": 215061,
+   "n_tokens": 1135,
+   "n_loss_tokens": 218,
+   "spans": [
+    [
+     213926,
+     214221,
+     "system"
+    ],
+    [
+     214221,
+     214642,
+     "user"
+    ],
+    [
+     214642,
+     214721,
+     "assistant"
+    ],
+    [
+     214721,
+     214922,
+     "tool"
+    ],
+    [
+     214922,
+     215061,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00167",
+   "doc_id": "agentic-00167",
+   "source_row_id": "e07e732d-d051-4da3-b2dd-44acb996ac5c",
+   "kind": "agentic",
+   "start": 215061,
+   "end": 216189,
+   "n_tokens": 1128,
+   "n_loss_tokens": 340,
+   "spans": [
+    [
+     215061,
+     215387,
+     "system"
+    ],
+    [
+     215387,
+     215631,
+     "user"
+    ],
+    [
+     215631,
+     215728,
+     "assistant"
+    ],
+    [
+     215728,
+     215946,
+     "tool"
+    ],
+    [
+     215946,
+     216189,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00168",
+   "doc_id": "agentic-00168",
+   "source_row_id": "e10ca90b-f1a5-4754-9e0d-711c51e35070",
+   "kind": "agentic",
+   "start": 216189,
+   "end": 217160,
+   "n_tokens": 971,
+   "n_loss_tokens": 265,
+   "spans": [
+    [
+     216189,
+     216498,
+     "system"
+    ],
+    [
+     216498,
+     216679,
+     "user"
+    ],
+    [
+     216679,
+     216709,
+     "assistant"
+    ],
+    [
+     216709,
+     216925,
+     "tool"
+    ],
+    [
+     216925,
+     217160,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00169",
+   "doc_id": "agentic-00169",
+   "source_row_id": "10852900-a9d4-4d9a-bfe4-ad638c03e66f",
+   "kind": "agentic",
+   "start": 217160,
+   "end": 217931,
+   "n_tokens": 771,
+   "n_loss_tokens": 209,
+   "spans": [
+    [
+     217160,
+     217394,
+     "system"
+    ],
+    [
+     217394,
+     217584,
+     "user"
+    ],
+    [
+     217584,
+     217638,
+     "assistant"
+    ],
+    [
+     217638,
+     217776,
+     "tool"
+    ],
+    [
+     217776,
+     217931,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00170",
+   "doc_id": "agentic-00170",
+   "source_row_id": "dd85194b-4db4-40e8-844e-7efd1a79da17",
+   "kind": "agentic",
+   "start": 217931,
+   "end": 218645,
+   "n_tokens": 714,
+   "n_loss_tokens": 149,
+   "spans": [
+    [
+     217931,
+     218315,
+     "system"
+    ],
+    [
+     218315,
+     218408,
+     "user"
+    ],
+    [
+     218408,
+     218440,
+     "assistant"
+    ],
+    [
+     218440,
+     218528,
+     "tool"
+    ],
+    [
+     218528,
+     218645,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00171",
+   "doc_id": "agentic-00171",
+   "source_row_id": "36cff87c-7ac1-4ef9-911a-9e15184c5a9d",
+   "kind": "agentic",
+   "start": 218645,
+   "end": 219378,
+   "n_tokens": 733,
+   "n_loss_tokens": 180,
+   "spans": [
+    [
+     218645,
+     218944,
+     "system"
+    ],
+    [
+     218944,
+     219066,
+     "user"
+    ],
+    [
+     219066,
+     219093,
+     "assistant"
+    ],
+    [
+     219093,
+     219225,
+     "tool"
+    ],
+    [
+     219225,
+     219378,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00172",
+   "doc_id": "agentic-00172",
+   "source_row_id": "b3726e1e-430e-4318-9f3e-fd75ac8d08c2",
+   "kind": "agentic",
+   "start": 219378,
+   "end": 219834,
+   "n_tokens": 456,
+   "n_loss_tokens": 29,
+   "spans": [
+    [
+     219378,
+     219592,
+     "system"
+    ],
+    [
+     219592,
+     219697,
+     "user"
+    ],
+    [
+     219697,
+     219726,
+     "assistant"
+    ],
+    [
+     219726,
+     219834,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00173",
+   "doc_id": "agentic-00173",
+   "source_row_id": "99fd90d9-fcca-4f2c-9d28-00f2bcb6cda8",
+   "kind": "agentic",
+   "start": 219834,
+   "end": 220344,
+   "n_tokens": 510,
+   "n_loss_tokens": 40,
+   "spans": [
+    [
+     219834,
+     220098,
+     "system"
+    ],
+    [
+     220098,
+     220179,
+     "user"
+    ],
+    [
+     220179,
+     220219,
+     "assistant"
+    ],
+    [
+     220219,
+     220344,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00174",
+   "doc_id": "agentic-00174",
+   "source_row_id": "484ee977-073a-4773-9a4d-a98991383e75",
+   "kind": "agentic",
+   "start": 220344,
+   "end": 220967,
+   "n_tokens": 623,
+   "n_loss_tokens": 25,
+   "spans": [
+    [
+     220344,
+     220580,
+     "system"
+    ],
+    [
+     220580,
+     220799,
+     "user"
+    ],
+    [
+     220799,
+     220824,
+     "assistant"
+    ],
+    [
+     220824,
+     220967,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00175",
+   "doc_id": "agentic-00175",
+   "source_row_id": "6a54a387-5609-4752-be0d-68161686c0f3",
+   "kind": "agentic",
+   "start": 220967,
+   "end": 221666,
+   "n_tokens": 699,
+   "n_loss_tokens": 96,
+   "spans": [
+    [
+     220967,
+     221366,
+     "system"
+    ],
+    [
+     221366,
+     221495,
+     "user"
+    ],
+    [
+     221495,
+     221534,
+     "assistant"
+    ],
+    [
+     221534,
+     221609,
+     "tool"
+    ],
+    [
+     221609,
+     221666,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00176",
+   "doc_id": "agentic-00176",
+   "source_row_id": "de581c15-432e-4623-aca5-68dd8431e73d",
+   "kind": "agentic",
+   "start": 221666,
+   "end": 222455,
+   "n_tokens": 789,
+   "n_loss_tokens": 78,
+   "spans": [
+    [
+     221666,
+     222127,
+     "system"
+    ],
+    [
+     222127,
+     222262,
+     "user"
+    ],
+    [
+     222262,
+     222340,
+     "assistant"
+    ],
+    [
+     222340,
+     222455,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00177",
+   "doc_id": "agentic-00177",
+   "source_row_id": "82bd0efe-67ed-4d38-9f15-757bfdc5c113",
+   "kind": "agentic",
+   "start": 222455,
+   "end": 223124,
+   "n_tokens": 669,
+   "n_loss_tokens": 156,
+   "spans": [
+    [
+     222455,
+     222761,
+     "system"
+    ],
+    [
+     222761,
+     222866,
+     "user"
+    ],
+    [
+     222866,
+     222905,
+     "assistant"
+    ],
+    [
+     222905,
+     223007,
+     "tool"
+    ],
+    [
+     223007,
+     223124,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00178",
+   "doc_id": "agentic-00178",
+   "source_row_id": "c8beea8a-8653-4e9b-b094-4b9ac6da38a5",
+   "kind": "agentic",
+   "start": 223124,
+   "end": 223711,
+   "n_tokens": 587,
+   "n_loss_tokens": 88,
+   "spans": [
+    [
+     223124,
+     223496,
+     "system"
+    ],
+    [
+     223496,
+     223567,
+     "user"
+    ],
+    [
+     223567,
+     223605,
+     "assistant"
+    ],
+    [
+     223605,
+     223661,
+     "tool"
+    ],
+    [
+     223661,
+     223711,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00179",
+   "doc_id": "agentic-00179",
+   "source_row_id": "06608fe9-8607-4ccf-9e12-769fff64ce5e",
+   "kind": "agentic",
+   "start": 223711,
+   "end": 224254,
+   "n_tokens": 543,
+   "n_loss_tokens": 74,
+   "spans": [
+    [
+     223711,
+     223990,
+     "system"
+    ],
+    [
+     223990,
+     224128,
+     "user"
+    ],
+    [
+     224128,
+     224161,
+     "assistant"
+    ],
+    [
+     224161,
+     224213,
+     "tool"
+    ],
+    [
+     224213,
+     224254,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00180",
+   "doc_id": "agentic-00180",
+   "source_row_id": "deacbbe2-f501-44bf-a7f4-db6adf90dab1",
+   "kind": "agentic",
+   "start": 224254,
+   "end": 225138,
+   "n_tokens": 884,
+   "n_loss_tokens": 382,
+   "spans": [
+    [
+     224254,
+     224431,
+     "system"
+    ],
+    [
+     224431,
+     224524,
+     "user"
+    ],
+    [
+     224524,
+     224565,
+     "assistant"
+    ],
+    [
+     224565,
+     224797,
+     "tool"
+    ],
+    [
+     224797,
+     225138,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00181",
+   "doc_id": "agentic-00181",
+   "source_row_id": "96933c7c-2eba-458e-8749-8cbbb60586c4",
+   "kind": "agentic",
+   "start": 225138,
+   "end": 225531,
+   "n_tokens": 393,
+   "n_loss_tokens": 70,
+   "spans": [
+    [
+     225138,
+     225314,
+     "system"
+    ],
+    [
+     225314,
+     225394,
+     "user"
+    ],
+    [
+     225394,
+     225435,
+     "assistant"
+    ],
+    [
+     225435,
+     225502,
+     "tool"
+    ],
+    [
+     225502,
+     225531,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00182",
+   "doc_id": "agentic-00182",
+   "source_row_id": "dd7608df-dea8-4997-9382-45720ef5e4be",
+   "kind": "agentic",
+   "start": 225531,
+   "end": 226341,
+   "n_tokens": 810,
+   "n_loss_tokens": 281,
+   "spans": [
+    [
+     225531,
+     225719,
+     "system"
+    ],
+    [
+     225719,
+     225840,
+     "user"
+    ],
+    [
+     225840,
+     225880,
+     "assistant"
+    ],
+    [
+     225880,
+     226100,
+     "tool"
+    ],
+    [
+     226100,
+     226341,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00183",
+   "doc_id": "agentic-00183",
+   "source_row_id": "dc11e7b0-4dbc-49b0-80cb-7bc6544fafdb",
+   "kind": "agentic",
+   "start": 226341,
+   "end": 227456,
+   "n_tokens": 1115,
+   "n_loss_tokens": 315,
+   "spans": [
+    [
+     226341,
+     226638,
+     "system"
+    ],
+    [
+     226638,
+     226934,
+     "user"
+    ],
+    [
+     226934,
+     227000,
+     "assistant"
+    ],
+    [
+     227000,
+     227207,
+     "tool"
+    ],
+    [
+     227207,
+     227456,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00184",
+   "doc_id": "agentic-00184",
+   "source_row_id": "62711366-5fff-47af-bd21-55f6e6564837",
+   "kind": "agentic",
+   "start": 227456,
+   "end": 229096,
+   "n_tokens": 1640,
+   "n_loss_tokens": 641,
+   "spans": [
+    [
+     227456,
+     227756,
+     "system"
+    ],
+    [
+     227756,
+     228077,
+     "user"
+    ],
+    [
+     228077,
+     228154,
+     "assistant"
+    ],
+    [
+     228154,
+     228532,
+     "tool"
+    ],
+    [
+     228532,
+     229096,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00185",
+   "doc_id": "agentic-00185",
+   "source_row_id": "5d6ed220-2885-4db8-ac69-6e9066854063",
+   "kind": "agentic",
+   "start": 229096,
+   "end": 229916,
+   "n_tokens": 820,
+   "n_loss_tokens": 279,
+   "spans": [
+    [
+     229096,
+     229401,
+     "system"
+    ],
+    [
+     229401,
+     229510,
+     "user"
+    ],
+    [
+     229510,
+     229573,
+     "assistant"
+    ],
+    [
+     229573,
+     229700,
+     "tool"
+    ],
+    [
+     229700,
+     229916,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00186",
+   "doc_id": "agentic-00186",
+   "source_row_id": "e7c6bf5e-a5b5-45d6-b2e8-609229966e86",
+   "kind": "agentic",
+   "start": 229916,
+   "end": 231058,
+   "n_tokens": 1142,
+   "n_loss_tokens": 346,
+   "spans": [
+    [
+     229916,
+     230173,
+     "system"
+    ],
+    [
+     230173,
+     230300,
+     "user"
+    ],
+    [
+     230300,
+     230354,
+     "assistant"
+    ],
+    [
+     230354,
+     230766,
+     "tool"
+    ],
+    [
+     230766,
+     231058,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00187",
+   "doc_id": "agentic-00187",
+   "source_row_id": "8ee3ff87-9bb3-4edc-be1c-a6af4df4f2d0",
+   "kind": "agentic",
+   "start": 231058,
+   "end": 231641,
+   "n_tokens": 583,
+   "n_loss_tokens": 174,
+   "spans": [
+    [
+     231058,
+     231287,
+     "system"
+    ],
+    [
+     231287,
+     231401,
+     "user"
+    ],
+    [
+     231401,
+     231441,
+     "assistant"
+    ],
+    [
+     231441,
+     231507,
+     "tool"
+    ],
+    [
+     231507,
+     231641,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00188",
+   "doc_id": "agentic-00188",
+   "source_row_id": "c07912d6-f15e-4392-97bc-1a11d306a98c",
+   "kind": "agentic",
+   "start": 231641,
+   "end": 232298,
+   "n_tokens": 657,
+   "n_loss_tokens": 16,
+   "spans": [
+    [
+     231641,
+     231990,
+     "system"
+    ],
+    [
+     231990,
+     232160,
+     "user"
+    ],
+    [
+     232160,
+     232176,
+     "assistant"
+    ],
+    [
+     232176,
+     232298,
+     "tool"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00189",
+   "doc_id": "agentic-00189",
+   "source_row_id": "49043f5a-cecd-4bf2-93a9-68b6f9757aef",
+   "kind": "agentic",
+   "start": 232298,
+   "end": 233099,
+   "n_tokens": 801,
+   "n_loss_tokens": 161,
+   "spans": [
+    [
+     232298,
+     232756,
+     "system"
+    ],
+    [
+     232756,
+     232821,
+     "user"
+    ],
+    [
+     232821,
+     232861,
+     "assistant"
+    ],
+    [
+     232861,
+     232978,
+     "tool"
+    ],
+    [
+     232978,
+     233099,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00190",
+   "doc_id": "agentic-00190",
+   "source_row_id": "e39781a4-29a3-4896-83d2-0ab5d264b6ed",
+   "kind": "agentic",
+   "start": 233099,
+   "end": 233936,
+   "n_tokens": 837,
+   "n_loss_tokens": 149,
+   "spans": [
+    [
+     233099,
+     233529,
+     "system"
+    ],
+    [
+     233529,
+     233696,
+     "user"
+    ],
+    [
+     233696,
+     233769,
+     "assistant"
+    ],
+    [
+     233769,
+     233860,
+     "tool"
+    ],
+    [
+     233860,
+     233936,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00191",
+   "doc_id": "agentic-00191",
+   "source_row_id": "7c1ed5b7-8c55-4139-90d9-ee067ab8e735",
+   "kind": "agentic",
+   "start": 233936,
+   "end": 234558,
+   "n_tokens": 622,
+   "n_loss_tokens": 149,
+   "spans": [
+    [
+     233936,
+     234182,
+     "system"
+    ],
+    [
+     234182,
+     234312,
+     "user"
+    ],
+    [
+     234312,
+     234371,
+     "assistant"
+    ],
+    [
+     234371,
+     234468,
+     "tool"
+    ],
+    [
+     234468,
+     234558,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00192",
+   "doc_id": "agentic-00192",
+   "source_row_id": "3f756364-d33f-46bd-87c0-f84c094bd6c2",
+   "kind": "agentic",
+   "start": 234558,
+   "end": 235795,
+   "n_tokens": 1237,
+   "n_loss_tokens": 370,
+   "spans": [
+    [
+     234558,
+     234927,
+     "system"
+    ],
+    [
+     234927,
+     235075,
+     "user"
+    ],
+    [
+     235075,
+     235107,
+     "assistant"
+    ],
+    [
+     235107,
+     235457,
+     "tool"
+    ],
+    [
+     235457,
+     235795,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00193",
+   "doc_id": "agentic-00193",
+   "source_row_id": "edc50778-f6a4-46f9-99f8-6892e356bf6b",
+   "kind": "agentic",
+   "start": 235795,
+   "end": 236443,
+   "n_tokens": 648,
+   "n_loss_tokens": 154,
+   "spans": [
+    [
+     235795,
+     236048,
+     "system"
+    ],
+    [
+     236048,
+     236208,
+     "user"
+    ],
+    [
+     236208,
+     236249,
+     "assistant"
+    ],
+    [
+     236249,
+     236330,
+     "tool"
+    ],
+    [
+     236330,
+     236443,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00194",
+   "doc_id": "agentic-00194",
+   "source_row_id": "e3594167-9df5-4227-8a01-a464b652ee10",
+   "kind": "agentic",
+   "start": 236443,
+   "end": 236984,
+   "n_tokens": 541,
+   "n_loss_tokens": 142,
+   "spans": [
+    [
+     236443,
+     236674,
+     "system"
+    ],
+    [
+     236674,
+     236770,
+     "user"
+    ],
+    [
+     236770,
+     236822,
+     "assistant"
+    ],
+    [
+     236822,
+     236894,
+     "tool"
+    ],
+    [
+     236894,
+     236984,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00195",
+   "doc_id": "agentic-00195",
+   "source_row_id": "4b6e6b41-d433-4f94-a0b0-e6fbfc9ea819",
+   "kind": "agentic",
+   "start": 236984,
+   "end": 237734,
+   "n_tokens": 750,
+   "n_loss_tokens": 190,
+   "spans": [
+    [
+     236984,
+     237243,
+     "system"
+    ],
+    [
+     237243,
+     237419,
+     "user"
+    ],
+    [
+     237419,
+     237477,
+     "assistant"
+    ],
+    [
+     237477,
+     237602,
+     "tool"
+    ],
+    [
+     237602,
+     237734,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00196",
+   "doc_id": "agentic-00196",
+   "source_row_id": "6c9909ea-8834-4a1a-a82f-5eba7702b694",
+   "kind": "agentic",
+   "start": 237734,
+   "end": 238588,
+   "n_tokens": 854,
+   "n_loss_tokens": 271,
+   "spans": [
+    [
+     237734,
+     237927,
+     "system"
+    ],
+    [
+     237927,
+     238073,
+     "user"
+    ],
+    [
+     238073,
+     238124,
+     "assistant"
+    ],
+    [
+     238124,
+     238368,
+     "tool"
+    ],
+    [
+     238368,
+     238588,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00197",
+   "doc_id": "agentic-00197",
+   "source_row_id": "d2f8d3cb-61fd-4259-8563-33939064b659",
+   "kind": "agentic",
+   "start": 238588,
+   "end": 239677,
+   "n_tokens": 1089,
+   "n_loss_tokens": 288,
+   "spans": [
+    [
+     238588,
+     239044,
+     "system"
+    ],
+    [
+     239044,
+     239122,
+     "user"
+    ],
+    [
+     239122,
+     239144,
+     "assistant"
+    ],
+    [
+     239144,
+     239411,
+     "tool"
+    ],
+    [
+     239411,
+     239677,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00198",
+   "doc_id": "agentic-00198",
+   "source_row_id": "14e30b94-1d58-4e66-b5c6-95539750e58c",
+   "kind": "agentic",
+   "start": 239677,
+   "end": 240594,
+   "n_tokens": 917,
+   "n_loss_tokens": 157,
+   "spans": [
+    [
+     239677,
+     240158,
+     "system"
+    ],
+    [
+     240158,
+     240367,
+     "user"
+    ],
+    [
+     240367,
+     240403,
+     "assistant"
+    ],
+    [
+     240403,
+     240473,
+     "tool"
+    ],
+    [
+     240473,
+     240594,
+     "assistant"
+    ]
+   ]
+  },
+  {
+   "sample_id": "agentic-00199",
+   "doc_id": "agentic-00199",
+   "source_row_id": "211ecd4a-6e07-47f6-98bb-055485821720",
+   "kind": "agentic",
+   "start": 240594,
+   "end": 242104,
+   "n_tokens": 1510,
+   "n_loss_tokens": 117,
+   "spans": [
+    [
+     240594,
+     241033,
+     "system"
+    ],
+    [
+     241033,
+     241383,
+     "user"
+    ],
+    [
+     241383,
+     241500,
+     "assistant"
+    ],
+    [
+     241500,
+     242104,
+     "tool"
+    ]
+   ]
+  }
+ ],
+ "split": "train",
+ "never_train": false,
+ "capability_lane": "agentic",
+ "source": "NousResearch/hermes-function-calling-v1:func_calling/train",
+ "language": "en",
+ "script": "Latn",
+ "license_tier": "A",
+ "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+ "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+ "dedup_status": "pass",
+ "dedup_report": {
+  "exact_duplicates_removed": 0,
+  "near_duplicates_removed": 0,
+  "jaccard_threshold": 0.8,
+  "samples_in": 200,
+  "samples_kept": 200
+ },
+ "contamination_status": "screened_clean",
+ "eval_overlap": false,
+ "provenance_tier": "published_dataset_downloadable",
+ "parent_shard_ids": [],
+ "data_kind": "agentic",
+ "documents_screened_out": 0
+}

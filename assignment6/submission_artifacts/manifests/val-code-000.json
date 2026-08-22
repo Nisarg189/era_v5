@@ -1,0 +1,848 @@
+{
+ "shard_id": "val-code-000",
+ "content_hash": "6b89173fe87e92d4c3e94a202bd99d980f8473134eaf999ea426ac89e594f2ff",
+ "token_file": "val-code-000.npy",
+ "n_tokens": 71973,
+ "n_samples": 48,
+ "n_loss_tokens": 71973,
+ "samples": [
+  {
+   "sample_id": "held-code-00000",
+   "doc_id": "held-code-00000",
+   "source_row_id": "alphagov/notifications-admin/app/extensions.py",
+   "kind": "pretrain",
+   "start": 0,
+   "end": 94,
+   "n_tokens": 94,
+   "n_loss_tokens": 94,
+   "spans": [
+    [
+     0,
+     94,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00001",
+   "doc_id": "held-code-00001",
+   "source_row_id": "jeremiedecock/snippets/python/pygame/hello_text.py",
+   "kind": "pretrain",
+   "start": 94,
+   "end": 468,
+   "n_tokens": 374,
+   "n_loss_tokens": 374,
+   "spans": [
+    [
+     94,
+     468,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00002",
+   "doc_id": "held-code-00002",
+   "source_row_id": "gjcarneiro/yacron/yacron/cron.py",
+   "kind": "pretrain",
+   "start": 468,
+   "end": 6229,
+   "n_tokens": 5761,
+   "n_loss_tokens": 5761,
+   "spans": [
+    [
+     468,
+     6229,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00003",
+   "doc_id": "held-code-00003",
+   "source_row_id": "ENCODE-DCC/encoded/src/encoded/tests/fixtures/schemas/genetic_modification.py",
+   "kind": "pretrain",
+   "start": 6229,
+   "end": 12007,
+   "n_tokens": 5778,
+   "n_loss_tokens": 5778,
+   "spans": [
+    [
+     6229,
+     12007,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00004",
+   "doc_id": "held-code-00004",
+   "source_row_id": "kengz/Unity-Lab/test/env/test_vec_env.py",
+   "kind": "pretrain",
+   "start": 12007,
+   "end": 13497,
+   "n_tokens": 1490,
+   "n_loss_tokens": 1490,
+   "spans": [
+    [
+     12007,
+     13497,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00005",
+   "doc_id": "held-code-00005",
+   "source_row_id": "emanuele/jstsp2015/classif_and_ktst.py",
+   "kind": "pretrain",
+   "start": 13497,
+   "end": 17617,
+   "n_tokens": 4120,
+   "n_loss_tokens": 4120,
+   "spans": [
+    [
+     13497,
+     17617,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00006",
+   "doc_id": "held-code-00006",
+   "source_row_id": "cessor/gameoflife/config.py",
+   "kind": "pretrain",
+   "start": 17617,
+   "end": 18845,
+   "n_tokens": 1228,
+   "n_loss_tokens": 1228,
+   "spans": [
+    [
+     17617,
+     18845,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00007",
+   "doc_id": "held-code-00007",
+   "source_row_id": "daicang/Leetcode-solutions/268-missing-number.py",
+   "kind": "pretrain",
+   "start": 18845,
+   "end": 19038,
+   "n_tokens": 193,
+   "n_loss_tokens": 193,
+   "spans": [
+    [
+     18845,
+     19038,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00008",
+   "doc_id": "held-code-00008",
+   "source_row_id": "plotly/plotly.py/packages/python/plotly/plotly/validators/choropleth/colorbar/_minexponent.py",
+   "kind": "pretrain",
+   "start": 19038,
+   "end": 19228,
+   "n_tokens": 190,
+   "n_loss_tokens": 190,
+   "spans": [
+    [
+     19038,
+     19228,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00009",
+   "doc_id": "held-code-00009",
+   "source_row_id": "arbakker/yt-daemon/search_yt.py",
+   "kind": "pretrain",
+   "start": 19228,
+   "end": 19366,
+   "n_tokens": 138,
+   "n_loss_tokens": 138,
+   "spans": [
+    [
+     19228,
+     19366,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00010",
+   "doc_id": "held-code-00010",
+   "source_row_id": "matslindh/codingchallenges/adventofcode2021/day10.py",
+   "kind": "pretrain",
+   "start": 19366,
+   "end": 20332,
+   "n_tokens": 966,
+   "n_loss_tokens": 966,
+   "spans": [
+    [
+     19366,
+     20332,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00011",
+   "doc_id": "held-code-00011",
+   "source_row_id": "IECS/MansOS/tools/lib/tests/configtest.py",
+   "kind": "pretrain",
+   "start": 20332,
+   "end": 20724,
+   "n_tokens": 392,
+   "n_loss_tokens": 392,
+   "spans": [
+    [
+     20332,
+     20724,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00012",
+   "doc_id": "held-code-00012",
+   "source_row_id": "ernitron/radio-server/radio-server/server.py",
+   "kind": "pretrain",
+   "start": 20724,
+   "end": 27070,
+   "n_tokens": 6346,
+   "n_loss_tokens": 6346,
+   "spans": [
+    [
+     20724,
+     27070,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00013",
+   "doc_id": "held-code-00013",
+   "source_row_id": "babyliynfg/cross/tools/project-creator/Python2.6.6/Lib/test/test_pyclbr.py",
+   "kind": "pretrain",
+   "start": 27070,
+   "end": 30739,
+   "n_tokens": 3669,
+   "n_loss_tokens": 3669,
+   "spans": [
+    [
+     27070,
+     30739,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00014",
+   "doc_id": "held-code-00014",
+   "source_row_id": "htlcnn/pyrevitscripts/HTL.tab/Test.panel/Test.pushbutton/keyman/keyman/keys/models.py",
+   "kind": "pretrain",
+   "start": 30739,
+   "end": 30828,
+   "n_tokens": 89,
+   "n_loss_tokens": 89,
+   "spans": [
+    [
+     30739,
+     30828,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00015",
+   "doc_id": "held-code-00015",
+   "source_row_id": "wikimedia/pywikibot-core/scripts/djvutext.py",
+   "kind": "pretrain",
+   "start": 30828,
+   "end": 33791,
+   "n_tokens": 2963,
+   "n_loss_tokens": 2963,
+   "spans": [
+    [
+     30828,
+     33791,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00016",
+   "doc_id": "held-code-00016",
+   "source_row_id": "Azure/azure-sdk-for-python/sdk/sql/azure-mgmt-sql/azure/mgmt/sql/operations/_managed_database_queries_operations.py",
+   "kind": "pretrain",
+   "start": 33791,
+   "end": 37756,
+   "n_tokens": 3965,
+   "n_loss_tokens": 3965,
+   "spans": [
+    [
+     33791,
+     37756,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00017",
+   "doc_id": "held-code-00017",
+   "source_row_id": "MyNameIsMeerkat/skyline/src/webapp/webapp.py",
+   "kind": "pretrain",
+   "start": 37756,
+   "end": 38856,
+   "n_tokens": 1100,
+   "n_loss_tokens": 1100,
+   "spans": [
+    [
+     37756,
+     38856,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00018",
+   "doc_id": "held-code-00018",
+   "source_row_id": "johnrocamora/ImagePy/max_tiff.py",
+   "kind": "pretrain",
+   "start": 38856,
+   "end": 39417,
+   "n_tokens": 561,
+   "n_loss_tokens": 561,
+   "spans": [
+    [
+     38856,
+     39417,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00019",
+   "doc_id": "held-code-00019",
+   "source_row_id": "SF-Zhou/LeetCode.Solutions/solutions/regular_expression_matching.py",
+   "kind": "pretrain",
+   "start": 39417,
+   "end": 40026,
+   "n_tokens": 609,
+   "n_loss_tokens": 609,
+   "spans": [
+    [
+     39417,
+     40026,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00020",
+   "doc_id": "held-code-00020",
+   "source_row_id": "HellerCommaA/flask-material-lite/sample_application/__init__.py",
+   "kind": "pretrain",
+   "start": 40026,
+   "end": 41082,
+   "n_tokens": 1056,
+   "n_loss_tokens": 1056,
+   "spans": [
+    [
+     40026,
+     41082,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00021",
+   "doc_id": "held-code-00021",
+   "source_row_id": "praveenv253/sht/tests/test_grids.py",
+   "kind": "pretrain",
+   "start": 41082,
+   "end": 41215,
+   "n_tokens": 133,
+   "n_loss_tokens": 133,
+   "spans": [
+    [
+     41082,
+     41215,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00022",
+   "doc_id": "held-code-00022",
+   "source_row_id": "tmetsch/graph_stitcher/stitcher/vis.py",
+   "kind": "pretrain",
+   "start": 41215,
+   "end": 43881,
+   "n_tokens": 2666,
+   "n_loss_tokens": 2666,
+   "spans": [
+    [
+     41215,
+     43881,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00023",
+   "doc_id": "held-code-00023",
+   "source_row_id": "DCOD-OpenSource/django-simple-help/simple_help/admin.py",
+   "kind": "pretrain",
+   "start": 43881,
+   "end": 44243,
+   "n_tokens": 362,
+   "n_loss_tokens": 362,
+   "spans": [
+    [
+     43881,
+     44243,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00024",
+   "doc_id": "held-code-00024",
+   "source_row_id": "codeif/crimg/crimg/bin.py",
+   "kind": "pretrain",
+   "start": 44243,
+   "end": 44818,
+   "n_tokens": 575,
+   "n_loss_tokens": 575,
+   "spans": [
+    [
+     44243,
+     44818,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00025",
+   "doc_id": "held-code-00025",
+   "source_row_id": "MetaPlot/MetaPlot/metaplot/helpers.py",
+   "kind": "pretrain",
+   "start": 44818,
+   "end": 46631,
+   "n_tokens": 1813,
+   "n_loss_tokens": 1813,
+   "spans": [
+    [
+     44818,
+     46631,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00026",
+   "doc_id": "held-code-00026",
+   "source_row_id": "andrewebdev/django-ostinato/ostinato/tests/statemachine/models.py",
+   "kind": "pretrain",
+   "start": 46631,
+   "end": 46772,
+   "n_tokens": 141,
+   "n_loss_tokens": 141,
+   "spans": [
+    [
+     46631,
+     46772,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00027",
+   "doc_id": "held-code-00027",
+   "source_row_id": "ExCiteS/geokey-sapelli/geokey_sapelli/migrations/0006_sapelliproject_sapelli_fingerprint.py",
+   "kind": "pretrain",
+   "start": 46772,
+   "end": 46955,
+   "n_tokens": 183,
+   "n_loss_tokens": 183,
+   "spans": [
+    [
+     46772,
+     46955,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00028",
+   "doc_id": "held-code-00028",
+   "source_row_id": "Who8MyLunch/euler/problem_001.py",
+   "kind": "pretrain",
+   "start": 46955,
+   "end": 47163,
+   "n_tokens": 208,
+   "n_loss_tokens": 208,
+   "spans": [
+    [
+     46955,
+     47163,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00029",
+   "doc_id": "held-code-00029",
+   "source_row_id": "naitoh/py2rb/tests/strings/split.py",
+   "kind": "pretrain",
+   "start": 47163,
+   "end": 47275,
+   "n_tokens": 112,
+   "n_loss_tokens": 112,
+   "spans": [
+    [
+     47163,
+     47275,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00030",
+   "doc_id": "held-code-00030",
+   "source_row_id": "255BITS/HyperGAN/hypergan/train_hooks/negative_momentum_train_hook.py",
+   "kind": "pretrain",
+   "start": 47275,
+   "end": 47685,
+   "n_tokens": 410,
+   "n_loss_tokens": 410,
+   "spans": [
+    [
+     47275,
+     47685,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00031",
+   "doc_id": "held-code-00031",
+   "source_row_id": "djgagne/hagelslag/hagelslag/evaluation/MulticlassContingencyTable.py",
+   "kind": "pretrain",
+   "start": 47685,
+   "end": 48948,
+   "n_tokens": 1263,
+   "n_loss_tokens": 1263,
+   "spans": [
+    [
+     47685,
+     48948,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00032",
+   "doc_id": "held-code-00032",
+   "source_row_id": "cytex124/celsius-cloud-backend/src/addons/management_user/admin.py",
+   "kind": "pretrain",
+   "start": 48948,
+   "end": 49050,
+   "n_tokens": 102,
+   "n_loss_tokens": 102,
+   "spans": [
+    [
+     48948,
+     49050,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00033",
+   "doc_id": "held-code-00033",
+   "source_row_id": "guillaume-havard/testdjango/sitetest/miniURL/forms.py",
+   "kind": "pretrain",
+   "start": 49050,
+   "end": 49282,
+   "n_tokens": 232,
+   "n_loss_tokens": 232,
+   "spans": [
+    [
+     49050,
+     49282,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00034",
+   "doc_id": "held-code-00034",
+   "source_row_id": "bcimontreal/bci_workshop/python/extra_stuff/livebargraph.py",
+   "kind": "pretrain",
+   "start": 49282,
+   "end": 49673,
+   "n_tokens": 391,
+   "n_loss_tokens": 391,
+   "spans": [
+    [
+     49282,
+     49673,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00035",
+   "doc_id": "held-code-00035",
+   "source_row_id": "KMPSUJ/lego_robot/pilot.py",
+   "kind": "pretrain",
+   "start": 49673,
+   "end": 52700,
+   "n_tokens": 3027,
+   "n_loss_tokens": 3027,
+   "spans": [
+    [
+     49673,
+     52700,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00036",
+   "doc_id": "held-code-00036",
+   "source_row_id": "arruda/amao/AMAO/apps/Corretor/models/retorno.py",
+   "kind": "pretrain",
+   "start": 52700,
+   "end": 53961,
+   "n_tokens": 1261,
+   "n_loss_tokens": 1261,
+   "spans": [
+    [
+     52700,
+     53961,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00037",
+   "doc_id": "held-code-00037",
+   "source_row_id": "lmazuel/azure-sdk-for-python/azure-mgmt-network/azure/mgmt/network/v2017_10_01/models/application_gateway_ssl_predefined_policy.py",
+   "kind": "pretrain",
+   "start": 53961,
+   "end": 54526,
+   "n_tokens": 565,
+   "n_loss_tokens": 565,
+   "spans": [
+    [
+     53961,
+     54526,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00038",
+   "doc_id": "held-code-00038",
+   "source_row_id": "jeff-alves/Tera/game/message/unused/S_PARTY_MEMBER_INTERVAL_POS_UPDATE.py",
+   "kind": "pretrain",
+   "start": 54526,
+   "end": 54618,
+   "n_tokens": 92,
+   "n_loss_tokens": 92,
+   "spans": [
+    [
+     54526,
+     54618,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00039",
+   "doc_id": "held-code-00039",
+   "source_row_id": "opesci/devito/tests/test_dimension.py",
+   "kind": "pretrain",
+   "start": 54618,
+   "end": 60157,
+   "n_tokens": 5539,
+   "n_loss_tokens": 5539,
+   "spans": [
+    [
+     54618,
+     60157,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00040",
+   "doc_id": "held-code-00040",
+   "source_row_id": "MoonCheesez/stack/PiGame/pigame/manage.py",
+   "kind": "pretrain",
+   "start": 60157,
+   "end": 60462,
+   "n_tokens": 305,
+   "n_loss_tokens": 305,
+   "spans": [
+    [
+     60157,
+     60462,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00041",
+   "doc_id": "held-code-00041",
+   "source_row_id": "joke2k/faker/faker/providers/company/az_AZ/__init__.py",
+   "kind": "pretrain",
+   "start": 60462,
+   "end": 61166,
+   "n_tokens": 704,
+   "n_loss_tokens": 704,
+   "spans": [
+    [
+     60462,
+     61166,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00042",
+   "doc_id": "held-code-00042",
+   "source_row_id": "piotroxp/scibibscan/scib/lib/python3.5/site-packages/astropy/utils/compat/fractions.py",
+   "kind": "pretrain",
+   "start": 61166,
+   "end": 61317,
+   "n_tokens": 151,
+   "n_loss_tokens": 151,
+   "spans": [
+    [
+     61166,
+     61317,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00043",
+   "doc_id": "held-code-00043",
+   "source_row_id": "indexofire/gork/src/gork/application/know/plugins/attachments/models.py",
+   "kind": "pretrain",
+   "start": 61317,
+   "end": 63792,
+   "n_tokens": 2475,
+   "n_loss_tokens": 2475,
+   "spans": [
+    [
+     61317,
+     63792,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00044",
+   "doc_id": "held-code-00044",
+   "source_row_id": "wonjunetai/pulse/features/uniprot_core.py",
+   "kind": "pretrain",
+   "start": 63792,
+   "end": 64761,
+   "n_tokens": 969,
+   "n_loss_tokens": 969,
+   "spans": [
+    [
+     63792,
+     64761,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00045",
+   "doc_id": "held-code-00045",
+   "source_row_id": "Bushstar/UFO-Project/test/functional/feature_block.py",
+   "kind": "pretrain",
+   "start": 64761,
+   "end": 70608,
+   "n_tokens": 5847,
+   "n_loss_tokens": 5847,
+   "spans": [
+    [
+     64761,
+     70608,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00046",
+   "doc_id": "held-code-00046",
+   "source_row_id": "francisar/rds_manager/aliyun/api/rest/Rds20140815CheckAccountNameAvailableRequest.py",
+   "kind": "pretrain",
+   "start": 70608,
+   "end": 70755,
+   "n_tokens": 147,
+   "n_loss_tokens": 147,
+   "spans": [
+    [
+     70608,
+     70755,
+     "text"
+    ]
+   ]
+  },
+  {
+   "sample_id": "held-code-00047",
+   "doc_id": "held-code-00047",
+   "source_row_id": "atizo/braindump/brainstorming/migrations/0005_auto__add_field_idea_color.py",
+   "kind": "pretrain",
+   "start": 70755,
+   "end": 71973,
+   "n_tokens": 1218,
+   "n_loss_tokens": 1218,
+   "spans": [
+    [
+     70755,
+     71973,
+     "text"
+    ]
+   ]
+  }
+ ],
+ "split": "validation",
+ "never_train": false,
+ "capability_lane": "code",
+ "source": "codeparrot/github-code-clean:Python-all/train",
+ "language": "en",
+ "script": "Latn",
+ "license_tier": "A",
+ "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+ "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+ "dedup_status": "pass",
+ "dedup_report": {
+  "exact_duplicates_removed": 0,
+  "near_duplicates_removed": 0,
+  "jaccard_threshold": 0.8,
+  "samples_in": 48,
+  "samples_kept": 48
+ },
+ "contamination_status": "held_out",
+ "eval_overlap": false,
+ "provenance_tier": "published_dataset_downloadable",
+ "parent_shard_ids": [],
+ "data_kind": "pretrain"
+}

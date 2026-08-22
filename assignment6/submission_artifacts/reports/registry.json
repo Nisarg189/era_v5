@@ -1,0 +1,939 @@
+{
+ "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+ "shards": {
+  "val-web-000": {
+   "shard_id": "val-web-000",
+   "content_hash": "e4388809c2123815371c12e530c9a8b2cda5d31430bf6715c996e9933d640d2a",
+   "token_file": "val-web-000.npy",
+   "n_tokens": 43201,
+   "n_samples": 50,
+   "n_loss_tokens": 43201,
+   "split": "validation",
+   "never_train": false,
+   "capability_lane": "web",
+   "source": "HuggingFaceFW/fineweb-edu:default/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 50,
+    "samples_kept": 50
+   },
+   "contamination_status": "held_out",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "pretrain"
+  },
+  "test-web-000": {
+   "shard_id": "test-web-000",
+   "content_hash": "3f0dc0bf5ff4c9e014f49fa65e25e72e07ef46ba3d54a69fe9ff2179ea03364d",
+   "token_file": "test-web-000.npy",
+   "n_tokens": 49912,
+   "n_samples": 50,
+   "n_loss_tokens": 49912,
+   "split": "test",
+   "never_train": true,
+   "capability_lane": "web",
+   "source": "HuggingFaceFW/fineweb-edu:default/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 50,
+    "samples_kept": 50
+   },
+   "contamination_status": "held_out",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "pretrain",
+   "benchmark_id": "era-v5-holdout-web",
+   "version_tag": "v1",
+   "access_log": []
+  },
+  "val-code-000": {
+   "shard_id": "val-code-000",
+   "content_hash": "6b89173fe87e92d4c3e94a202bd99d980f8473134eaf999ea426ac89e594f2ff",
+   "token_file": "val-code-000.npy",
+   "n_tokens": 71973,
+   "n_samples": 48,
+   "n_loss_tokens": 71973,
+   "split": "validation",
+   "never_train": false,
+   "capability_lane": "code",
+   "source": "codeparrot/github-code-clean:Python-all/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 48,
+    "samples_kept": 48
+   },
+   "contamination_status": "held_out",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "pretrain"
+  },
+  "test-code-000": {
+   "shard_id": "test-code-000",
+   "content_hash": "26c8b05658bf6abbbc670f70eb7ccf7e514dde4b264868b4bec9d89fd86c9a42",
+   "token_file": "test-code-000.npy",
+   "n_tokens": 68694,
+   "n_samples": 49,
+   "n_loss_tokens": 68694,
+   "split": "test",
+   "never_train": true,
+   "capability_lane": "code",
+   "source": "codeparrot/github-code-clean:Python-all/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 49,
+    "samples_kept": 49
+   },
+   "contamination_status": "held_out",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "pretrain",
+   "benchmark_id": "era-v5-holdout-code",
+   "version_tag": "v1",
+   "access_log": []
+  },
+  "val-indic-000": {
+   "shard_id": "val-indic-000",
+   "content_hash": "48f3bfd1b5cfcda21e27b14f34729ba59e854ed6b442f274d291e7d127ce995f",
+   "token_file": "val-indic-000.npy",
+   "n_tokens": 27523,
+   "n_samples": 50,
+   "n_loss_tokens": 27523,
+   "split": "validation",
+   "never_train": false,
+   "capability_lane": "indic",
+   "source": "ai4bharat/sangraha:verified/hin",
+   "language": "hi",
+   "script": "Deva",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 50,
+    "samples_kept": 50
+   },
+   "contamination_status": "held_out",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "pretrain"
+  },
+  "test-indic-000": {
+   "shard_id": "test-indic-000",
+   "content_hash": "d6f9acaff0e535130e5e6cd7ddb777b6f7e3ef35ff3510c2fba271294274000b",
+   "token_file": "test-indic-000.npy",
+   "n_tokens": 27939,
+   "n_samples": 48,
+   "n_loss_tokens": 27939,
+   "split": "test",
+   "never_train": true,
+   "capability_lane": "indic",
+   "source": "ai4bharat/sangraha:verified/hin",
+   "language": "hi",
+   "script": "Deva",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 2,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 50,
+    "samples_kept": 48
+   },
+   "contamination_status": "held_out",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "pretrain",
+   "benchmark_id": "era-v5-holdout-indic",
+   "version_tag": "v1",
+   "access_log": []
+  },
+  "val-stem-000": {
+   "shard_id": "val-stem-000",
+   "content_hash": "a851d3453ea0f4ba75af35a9299782d15900f72436965b9e6957ecd9fe93c961",
+   "token_file": "val-stem-000.npy",
+   "n_tokens": 21044,
+   "n_samples": 86,
+   "n_loss_tokens": 16480,
+   "split": "validation",
+   "never_train": false,
+   "capability_lane": "stem",
+   "source": "AI-MO/NuminaMath-CoT:default/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 86,
+    "samples_kept": 86
+   },
+   "contamination_status": "held_out",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "sft"
+  },
+  "test-stem-000": {
+   "shard_id": "test-stem-000",
+   "content_hash": "5acbd5cc20806cf97e952cd00bfad94daf76f56d89875c72a296ad68a49dbba8",
+   "token_file": "test-stem-000.npy",
+   "n_tokens": 20537,
+   "n_samples": 86,
+   "n_loss_tokens": 15501,
+   "split": "test",
+   "never_train": true,
+   "capability_lane": "stem",
+   "source": "AI-MO/NuminaMath-CoT:default/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 86,
+    "samples_kept": 86
+   },
+   "contamination_status": "held_out",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "sft",
+   "benchmark_id": "era-v5-holdout-stem",
+   "version_tag": "v1",
+   "access_log": []
+  },
+  "val-reasoning-000": {
+   "shard_id": "val-reasoning-000",
+   "content_hash": "6ad70f3a5125cac5e1e2f5a15fe818c1784b224b8ff16bf70917016b282ec900",
+   "token_file": "val-reasoning-000.npy",
+   "n_tokens": 27295,
+   "n_samples": 43,
+   "n_loss_tokens": 23803,
+   "split": "validation",
+   "never_train": false,
+   "capability_lane": "reasoning",
+   "source": "AI-MO/NuminaMath-CoT:default/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 43,
+    "samples_kept": 43
+   },
+   "contamination_status": "held_out",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "sft"
+  },
+  "test-reasoning-000": {
+   "shard_id": "test-reasoning-000",
+   "content_hash": "004905c4180fe2b4668db63897bea3a68ef5bddde11a1fb217c707058bc74495",
+   "token_file": "test-reasoning-000.npy",
+   "n_tokens": 28784,
+   "n_samples": 44,
+   "n_loss_tokens": 25206,
+   "split": "test",
+   "never_train": true,
+   "capability_lane": "reasoning",
+   "source": "AI-MO/NuminaMath-CoT:default/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 44,
+    "samples_kept": 44
+   },
+   "contamination_status": "held_out",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "sft",
+   "benchmark_id": "era-v5-holdout-reasoning",
+   "version_tag": "v1",
+   "access_log": []
+  },
+  "val-agentic-000": {
+   "shard_id": "val-agentic-000",
+   "content_hash": "a4ca672164e6185cc4058aa4cbe66394a5a84cf7201000ebeee9a2d439b54609",
+   "token_file": "val-agentic-000.npy",
+   "n_tokens": 66627,
+   "n_samples": 50,
+   "n_loss_tokens": 22886,
+   "split": "validation",
+   "never_train": false,
+   "capability_lane": "agentic",
+   "source": "NousResearch/hermes-function-calling-v1:func_calling/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 50,
+    "samples_kept": 50
+   },
+   "contamination_status": "held_out",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "agentic"
+  },
+  "test-agentic-000": {
+   "shard_id": "test-agentic-000",
+   "content_hash": "c952c3cfd037d763c79a9566d2448548b05152b3ac5d9d6b7995f76cf196de41",
+   "token_file": "test-agentic-000.npy",
+   "n_tokens": 77564,
+   "n_samples": 50,
+   "n_loss_tokens": 23890,
+   "split": "test",
+   "never_train": true,
+   "capability_lane": "agentic",
+   "source": "NousResearch/hermes-function-calling-v1:func_calling/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 50,
+    "samples_kept": 50
+   },
+   "contamination_status": "held_out",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "agentic",
+   "benchmark_id": "era-v5-holdout-agentic",
+   "version_tag": "v1",
+   "access_log": []
+  },
+  "train-web-000": {
+   "shard_id": "train-web-000",
+   "content_hash": "6b03625030a39ab7b3b0217c445e3ccf0782307140624114a783814d69b5840a",
+   "token_file": "train-web-000.npy",
+   "n_tokens": 226128,
+   "n_samples": 200,
+   "n_loss_tokens": 226128,
+   "split": "train",
+   "never_train": false,
+   "capability_lane": "web",
+   "source": "HuggingFaceFW/fineweb-edu:default/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 200,
+    "samples_kept": 200
+   },
+   "contamination_status": "screened_clean",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "pretrain",
+   "documents_screened_out": 0,
+   "admitted": true
+  },
+  "train-code-000": {
+   "shard_id": "train-code-000",
+   "content_hash": "faeec94b3d49e566d3f253ec07cc027e863c9de0db3756e9d2397753cff0eeaa",
+   "token_file": "train-code-000.npy",
+   "n_tokens": 288927,
+   "n_samples": 188,
+   "n_loss_tokens": 288927,
+   "split": "train",
+   "never_train": false,
+   "capability_lane": "code",
+   "source": "codeparrot/github-code-clean:Python-all/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 188,
+    "samples_kept": 188
+   },
+   "contamination_status": "screened_clean",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "pretrain",
+   "documents_screened_out": 1,
+   "admitted": true
+  },
+  "train-indic-000": {
+   "shard_id": "train-indic-000",
+   "content_hash": "d19e22fab85a09e449f1d1f9d2950b026c59afc8e30b1e4e5ddcf2e63aeaefea",
+   "token_file": "train-indic-000.npy",
+   "n_tokens": 234321,
+   "n_samples": 390,
+   "n_loss_tokens": 234321,
+   "split": "train",
+   "never_train": false,
+   "capability_lane": "indic",
+   "source": "ai4bharat/sangraha:verified/hin",
+   "language": "hi",
+   "script": "Deva",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 390,
+    "samples_kept": 390
+   },
+   "contamination_status": "screened_clean",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "pretrain",
+   "documents_screened_out": 9,
+   "admitted": true
+  },
+  "train-stem-000": {
+   "shard_id": "train-stem-000",
+   "content_hash": "8240c76d249d5b10dd518aab88249318f4274064a1cd3aff1af10ea448f3208c",
+   "token_file": "train-stem-000.npy",
+   "n_tokens": 193596,
+   "n_samples": 803,
+   "n_loss_tokens": 147945,
+   "split": "train",
+   "never_train": false,
+   "capability_lane": "stem",
+   "source": "AI-MO/NuminaMath-CoT:default/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 803,
+    "samples_kept": 803
+   },
+   "contamination_status": "screened_clean",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "sft",
+   "documents_screened_out": 0,
+   "admitted": true
+  },
+  "train-reasoning-000": {
+   "shard_id": "train-reasoning-000",
+   "content_hash": "d53cc24feaad45c90b5b11b96d1cdf022da0baf0a2d81e26525d42c79a2d223a",
+   "token_file": "train-reasoning-000.npy",
+   "n_tokens": 198080,
+   "n_samples": 336,
+   "n_loss_tokens": 171726,
+   "split": "train",
+   "never_train": false,
+   "capability_lane": "reasoning",
+   "source": "AI-MO/NuminaMath-CoT:default/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 336,
+    "samples_kept": 336
+   },
+   "contamination_status": "screened_clean",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "sft",
+   "documents_screened_out": 0,
+   "admitted": true
+  },
+  "train-agentic-000": {
+   "shard_id": "train-agentic-000",
+   "content_hash": "a8bb08398c2cc3c64c466d9d22b1764530702e1a49cb947099615c428b2cf715",
+   "token_file": "train-agentic-000.npy",
+   "n_tokens": 242104,
+   "n_samples": 200,
+   "n_loss_tokens": 67398,
+   "split": "train",
+   "never_train": false,
+   "capability_lane": "agentic",
+   "source": "NousResearch/hermes-function-calling-v1:func_calling/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 200,
+    "samples_kept": 200
+   },
+   "contamination_status": "screened_clean",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "agentic",
+   "documents_screened_out": 0,
+   "admitted": true
+  },
+  "candidate-contaminated-001": {
+   "shard_id": "candidate-contaminated-001",
+   "content_hash": "2197cac5331ef3d3db25e0e426b90d69659b4b0c480b742d463db492d49ef305",
+   "token_file": "candidate-contaminated-001.npy",
+   "n_tokens": 2715,
+   "n_samples": 12,
+   "n_loss_tokens": 2221,
+   "split": "train",
+   "never_train": false,
+   "capability_lane": "stem",
+   "source": "AI-MO/NuminaMath-CoT:default/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 12,
+    "samples_kept": 12
+   },
+   "contamination_status": "quarantined_and_rebuilt",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [
+    "candidate-contaminated-000"
+   ],
+   "data_kind": "sft",
+   "probe": true,
+   "probe_role": "rebuilt after quarantine",
+   "quarantined_sample_ids": [
+    "held-stem-00086",
+    "held-stem-00087",
+    "held-stem-00088",
+    "held-stem-00089",
+    "held-stem-00090",
+    "held-stem-00091"
+   ],
+   "admitted": true
+  },
+  "candidate-clean-000": {
+   "shard_id": "candidate-clean-000",
+   "content_hash": "558c60dbdd43e8e2bdd8ef4fe6936cf2a8c377974acd051ab65783a9dd8ea01f",
+   "token_file": "candidate-clean-000.npy",
+   "n_tokens": 14011,
+   "n_samples": 12,
+   "n_loss_tokens": 14011,
+   "split": "train",
+   "never_train": false,
+   "capability_lane": "web",
+   "source": "HuggingFaceFW/fineweb-edu:default/train",
+   "language": "en",
+   "script": "Latn",
+   "license_tier": "A",
+   "tokenizer_hash": "48e9fa5d02090d90166890124b3e317f5b88029d6f0043109134745b8092ec5a",
+   "cleaning_pipeline_hash": "5e1ea72c70c2b033e0c0ceb73e690a35ba00e3ed635778cfe432b399cfe01be6",
+   "dedup_status": "pass",
+   "dedup_report": {
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 0,
+    "jaccard_threshold": 0.8,
+    "samples_in": 12,
+    "samples_kept": 12
+   },
+   "contamination_status": "unscanned",
+   "eval_overlap": false,
+   "provenance_tier": "published_dataset_downloadable",
+   "parent_shard_ids": [],
+   "data_kind": "pretrain",
+   "probe": true,
+   "probe_role": "clean control candidate",
+   "admitted": true
+  }
+ },
+ "events": [
+  {
+   "event": "registered",
+   "shard_id": "val-web-000",
+   "result": "PASS",
+   "detail": "validation shard indexed for the firewall, never_train=False"
+  },
+  {
+   "event": "registered",
+   "shard_id": "test-web-000",
+   "result": "PASS",
+   "detail": "test shard indexed for the firewall, never_train=True"
+  },
+  {
+   "event": "registered",
+   "shard_id": "val-code-000",
+   "result": "PASS",
+   "detail": "validation shard indexed for the firewall, never_train=False"
+  },
+  {
+   "event": "registered",
+   "shard_id": "test-code-000",
+   "result": "PASS",
+   "detail": "test shard indexed for the firewall, never_train=True"
+  },
+  {
+   "event": "registered",
+   "shard_id": "val-indic-000",
+   "result": "PASS",
+   "detail": "validation shard indexed for the firewall, never_train=False"
+  },
+  {
+   "event": "registered",
+   "shard_id": "test-indic-000",
+   "result": "PASS",
+   "detail": "test shard indexed for the firewall, never_train=True"
+  },
+  {
+   "event": "registered",
+   "shard_id": "val-stem-000",
+   "result": "PASS",
+   "detail": "validation shard indexed for the firewall, never_train=False"
+  },
+  {
+   "event": "registered",
+   "shard_id": "test-stem-000",
+   "result": "PASS",
+   "detail": "test shard indexed for the firewall, never_train=True"
+  },
+  {
+   "event": "registered",
+   "shard_id": "val-reasoning-000",
+   "result": "PASS",
+   "detail": "validation shard indexed for the firewall, never_train=False"
+  },
+  {
+   "event": "registered",
+   "shard_id": "test-reasoning-000",
+   "result": "PASS",
+   "detail": "test shard indexed for the firewall, never_train=True"
+  },
+  {
+   "event": "registered",
+   "shard_id": "val-agentic-000",
+   "result": "PASS",
+   "detail": "validation shard indexed for the firewall, never_train=False"
+  },
+  {
+   "event": "registered",
+   "shard_id": "test-agentic-000",
+   "result": "PASS",
+   "detail": "test shard indexed for the firewall, never_train=True"
+  },
+  {
+   "event": "document_screened_out",
+   "shard_id": "__screen__",
+   "result": "BLOCK",
+   "detail": "code-00025 matched held-code-00071 by ngram_fingerprint",
+   "hit": {
+    "sample_id": "code-00025",
+    "match": "ngram_fingerprint",
+    "shared_ngrams": 62,
+    "jaccard": 0.8857,
+    "held_out_shard": "test-code-000",
+    "held_out_sample": "held-code-00071"
+   }
+  },
+  {
+   "event": "document_screened_out",
+   "shard_id": "__screen__",
+   "result": "BLOCK",
+   "detail": "indic-00041 matched held-indic-00052 by exact_content_hash",
+   "hit": {
+    "sample_id": "indic-00041",
+    "match": "exact_content_hash",
+    "held_out_shard": "test-indic-000",
+    "held_out_sample": "held-indic-00052"
+   }
+  },
+  {
+   "event": "document_screened_out",
+   "shard_id": "__screen__",
+   "result": "BLOCK",
+   "detail": "indic-00102 matched held-indic-00052 by exact_content_hash",
+   "hit": {
+    "sample_id": "indic-00102",
+    "match": "exact_content_hash",
+    "held_out_shard": "test-indic-000",
+    "held_out_sample": "held-indic-00052"
+   }
+  },
+  {
+   "event": "document_screened_out",
+   "shard_id": "__screen__",
+   "result": "BLOCK",
+   "detail": "indic-00171 matched held-indic-00052 by exact_content_hash",
+   "hit": {
+    "sample_id": "indic-00171",
+    "match": "exact_content_hash",
+    "held_out_shard": "test-indic-000",
+    "held_out_sample": "held-indic-00052"
+   }
+  },
+  {
+   "event": "document_screened_out",
+   "shard_id": "__screen__",
+   "result": "BLOCK",
+   "detail": "indic-00204 matched held-indic-00052 by exact_content_hash",
+   "hit": {
+    "sample_id": "indic-00204",
+    "match": "exact_content_hash",
+    "held_out_shard": "test-indic-000",
+    "held_out_sample": "held-indic-00052"
+   }
+  },
+  {
+   "event": "document_screened_out",
+   "shard_id": "__screen__",
+   "result": "BLOCK",
+   "detail": "indic-00216 matched held-indic-00052 by exact_content_hash",
+   "hit": {
+    "sample_id": "indic-00216",
+    "match": "exact_content_hash",
+    "held_out_shard": "test-indic-000",
+    "held_out_sample": "held-indic-00052"
+   }
+  },
+  {
+   "event": "document_screened_out",
+   "shard_id": "__screen__",
+   "result": "BLOCK",
+   "detail": "indic-00242 matched held-indic-00052 by exact_content_hash",
+   "hit": {
+    "sample_id": "indic-00242",
+    "match": "exact_content_hash",
+    "held_out_shard": "test-indic-000",
+    "held_out_sample": "held-indic-00052"
+   }
+  },
+  {
+   "event": "document_screened_out",
+   "shard_id": "__screen__",
+   "result": "BLOCK",
+   "detail": "indic-00310 matched held-indic-00052 by exact_content_hash",
+   "hit": {
+    "sample_id": "indic-00310",
+    "match": "exact_content_hash",
+    "held_out_shard": "test-indic-000",
+    "held_out_sample": "held-indic-00052"
+   }
+  },
+  {
+   "event": "document_screened_out",
+   "shard_id": "__screen__",
+   "result": "BLOCK",
+   "detail": "indic-00347 matched held-indic-00052 by exact_content_hash",
+   "hit": {
+    "sample_id": "indic-00347",
+    "match": "exact_content_hash",
+    "held_out_shard": "test-indic-000",
+    "held_out_sample": "held-indic-00052"
+   }
+  },
+  {
+   "event": "document_screened_out",
+   "shard_id": "__screen__",
+   "result": "BLOCK",
+   "detail": "indic-00388 matched held-indic-00052 by exact_content_hash",
+   "hit": {
+    "sample_id": "indic-00388",
+    "match": "exact_content_hash",
+    "held_out_shard": "test-indic-000",
+    "held_out_sample": "held-indic-00052"
+   }
+  },
+  {
+   "event": "admitted",
+   "shard_id": "train-web-000",
+   "result": "PASS",
+   "detail": "226128 tokens, lane web, content hash verified"
+  },
+  {
+   "event": "admitted",
+   "shard_id": "train-code-000",
+   "result": "PASS",
+   "detail": "288927 tokens, lane code, content hash verified"
+  },
+  {
+   "event": "admitted",
+   "shard_id": "train-indic-000",
+   "result": "PASS",
+   "detail": "234321 tokens, lane indic, content hash verified"
+  },
+  {
+   "event": "admitted",
+   "shard_id": "train-stem-000",
+   "result": "PASS",
+   "detail": "193596 tokens, lane stem, content hash verified"
+  },
+  {
+   "event": "admitted",
+   "shard_id": "train-reasoning-000",
+   "result": "PASS",
+   "detail": "198080 tokens, lane reasoning, content hash verified"
+  },
+  {
+   "event": "admitted",
+   "shard_id": "train-agentic-000",
+   "result": "PASS",
+   "detail": "242104 tokens, lane agentic, content hash verified"
+  },
+  {
+   "event": "admission_blocked",
+   "shard_id": "candidate-contaminated-000",
+   "result": "BLOCK",
+   "detail": "evaluation overlap on 6 sample(s)",
+   "firewall_hits": [
+    {
+     "sample_id": "held-stem-00086",
+     "match": "exact_content_hash",
+     "held_out_shard": "test-stem-000",
+     "held_out_sample": "held-stem-00086"
+    },
+    {
+     "sample_id": "held-stem-00087",
+     "match": "exact_content_hash",
+     "held_out_shard": "test-stem-000",
+     "held_out_sample": "held-stem-00087"
+    },
+    {
+     "sample_id": "held-stem-00088",
+     "match": "exact_content_hash",
+     "held_out_shard": "test-stem-000",
+     "held_out_sample": "held-stem-00088"
+    },
+    {
+     "sample_id": "held-stem-00089",
+     "match": "exact_content_hash",
+     "held_out_shard": "test-stem-000",
+     "held_out_sample": "held-stem-00089"
+    },
+    {
+     "sample_id": "held-stem-00090",
+     "match": "exact_content_hash",
+     "held_out_shard": "test-stem-000",
+     "held_out_sample": "held-stem-00090"
+    },
+    {
+     "sample_id": "held-stem-00091",
+     "match": "exact_content_hash",
+     "held_out_shard": "test-stem-000",
+     "held_out_sample": "held-stem-00091"
+    }
+   ]
+  },
+  {
+   "event": "admitted",
+   "shard_id": "candidate-contaminated-001",
+   "result": "PASS",
+   "detail": "2715 tokens, lane stem, content hash verified"
+  },
+  {
+   "event": "admitted",
+   "shard_id": "candidate-clean-000",
+   "result": "PASS",
+   "detail": "14011 tokens, lane web, content hash verified"
+  }
+ ]
+}

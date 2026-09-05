@@ -1,0 +1,48 @@
+{
+  "trained_val": {
+    "loss": 2.902569407093708,
+    "ppl": 18.22090219040765,
+    "acc": 0.33964120370370376
+  },
+  "adjoint_identity_max_abs_diff": 3.375077994860476e-14,
+  "generation_samples": {
+    "भारत ": "भारत .   stereto self a self.    = , take, =   blempuleded_t_n_st_t I isa[",
+    "The ": "The  calling calling  tem eleree    d  len.filave ---ible = = and ns\"hes),\n\n--- ",
+    "def ": "def   s (self.\n\n \"  = -self.   \"}. arguments\"R\"  wnteeniteteshede__Yontintese_"
+  },
+  "candidate_scaling": [
+    {
+      "candidates": 1200,
+      "unseen_added": 0,
+      "val_top1_acc": 0.3746744791666667,
+      "head_params_added": 0
+    },
+    {
+      "candidates": 2200,
+      "unseen_added": 1000,
+      "val_top1_acc": 0.3714192708333333,
+      "head_params_added": 0
+    },
+    {
+      "candidates": 4200,
+      "unseen_added": 3000,
+      "val_top1_acc": 0.36669921875,
+      "head_params_added": 0
+    },
+    {
+      "candidates": 7200,
+      "unseen_added": 6000,
+      "val_top1_acc": 0.36393229166666663,
+      "head_params_added": 0
+    }
+  ],
+  "open_vocab_zero_shot": {
+    "context": "भारत एक ",
+    "n_real_unseen": 40,
+    "n_gibberish": 40,
+    "mean_logprob_real_unseen": -7.541756513496989,
+    "mean_logprob_gibberish": -13.079843921943127,
+    "prob_mass_real_unseen": 0.18936268952153018,
+    "prob_mass_gibberish": 0.00020418350411305513
+  }
+}

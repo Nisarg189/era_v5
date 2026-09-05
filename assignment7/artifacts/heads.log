@@ -1,0 +1,40 @@
+loading corpus...
+vocab 1200  train 967490  val 107502
+
+=== Kronecker input + reversible head ===
+    total params 1,014,145  V-dependent head params 0
+    step    1  train 7.026  val 11.655  val_acc 0.005
+    step  100  train 3.520  val 3.397  val_acc 0.283
+    step  200  train 3.352  val 3.078  val_acc 0.323
+    step  300  train 3.087  val 2.963  val_acc 0.345
+    step  400  train 3.071  val 2.909  val_acc 0.347
+    step  500  train 3.045  val 2.851  val_acc 0.352
+    step  600  train 2.751  val 2.823  val_acc 0.348
+    FINAL val loss 2.8585  ppl 17.43  acc 0.3390
+    per-lane val loss: web_en 2.964  indic 3.209  math 3.292  code 2.150  agentic 2.781
+
+=== Kronecker input + dense head ===
+    total params 1,129,344  V-dependent head params 115,200
+    step    1  train 7.075  val 6.786  val_acc 0.247
+    step  100  train 3.001  val 2.994  val_acc 0.342
+    step  200  train 3.059  val 2.828  val_acc 0.353
+    step  300  train 2.868  val 2.759  val_acc 0.356
+    step  400  train 2.853  val 2.726  val_acc 0.354
+    step  500  train 2.843  val 2.703  val_acc 0.356
+    step  600  train 2.551  val 2.654  val_acc 0.361
+    FINAL val loss 2.6860  ppl 14.67  acc 0.3513
+    per-lane val loss: web_en 2.812  indic 2.964  math 3.058  code 2.079  agentic 2.610
+
+=== dense input + dense head (classic) ===
+    total params 458,112  V-dependent head params 115,200
+    step    1  train 7.107  val 6.705  val_acc 0.247
+    step  100  train 3.022  val 3.064  val_acc 0.321
+    step  200  train 3.066  val 2.816  val_acc 0.355
+    step  300  train 2.766  val 2.699  val_acc 0.363
+    step  400  train 2.752  val 2.608  val_acc 0.385
+    step  500  train 2.700  val 2.540  val_acc 0.392
+    step  600  train 2.282  val 2.487  val_acc 0.397
+    FINAL val loss 2.5038  ppl 12.23  acc 0.3963
+    per-lane val loss: web_en 2.631  indic 2.874  math 2.825  code 1.911  agentic 2.301
+
+DONE in 483.3s -> artifacts/heads.json

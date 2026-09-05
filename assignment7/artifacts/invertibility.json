@@ -1,0 +1,861 @@
+{
+  "n_tokens": 9975,
+  "windows": {
+    "32": {
+      "pos_dim": 32,
+      "per_script": {
+        "space/empty": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "latin/ascii": {
+          "n": 5984,
+          "fits_window": 5983,
+          "roundtrip_ok": 5984
+        },
+        "inverted": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "cent": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "pound": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "currency": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "yen": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "broken": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "section": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "diaeresis": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "copyright": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "feminine": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "left-pointing": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "not": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "soft": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "registered": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "macron": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "degree": {
+          "n": 5,
+          "fits_window": 5,
+          "roundtrip_ok": 5
+        },
+        "plus-minus": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "superscript": {
+          "n": 3,
+          "fits_window": 3,
+          "roundtrip_ok": 3
+        },
+        "acute": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "micro": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "pilcrow": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "middle": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "cedilla": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "masculine": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "right-pointing": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "vulgar": {
+          "n": 3,
+          "fits_window": 3,
+          "roundtrip_ok": 3
+        },
+        "latin": {
+          "n": 75,
+          "fits_window": 75,
+          "roundtrip_ok": 75
+        },
+        "multiplication": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "division": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "modifier": {
+          "n": 3,
+          "fits_window": 3,
+          "roundtrip_ok": 3
+        },
+        "greek": {
+          "n": 7,
+          "fits_window": 7,
+          "roundtrip_ok": 7
+        },
+        "devanagari": {
+          "n": 970,
+          "fits_window": 967,
+          "roundtrip_ok": 970
+        },
+        "gujarati": {
+          "n": 778,
+          "fits_window": 773,
+          "roundtrip_ok": 778
+        },
+        "telugu": {
+          "n": 2087,
+          "fits_window": 2002,
+          "roundtrip_ok": 2087
+        },
+        "zero": {
+          "n": 5,
+          "fits_window": 5,
+          "roundtrip_ok": 5
+        },
+        "hyphen": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "non-breaking": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "figure": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "en": {
+          "n": 5,
+          "fits_window": 5,
+          "roundtrip_ok": 5
+        },
+        "em": {
+          "n": 4,
+          "fits_window": 4,
+          "roundtrip_ok": 4
+        },
+        "horizontal": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "left": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "right": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "dagger": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "bullet": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "prime": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "double": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "indian": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "rightwards": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "minus": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        }
+      },
+      "collisions_per_script": {
+        "telugu": 15,
+        "latin/ascii": 1,
+        "gujarati": 1
+      },
+      "total_collisions": 17,
+      "distinct_codes": 9958,
+      "n_tokens": 9975,
+      "collision_examples": [
+        [
+          " స్వాతంత్ర్య",
+          " స్వాతంత్ర్యం",
+          "telugu"
+        ],
+        [
+          "ఢాకా-ఢిల్లీ-",
+          "ఢాకా-ఢిల్లీ-ల",
+          "telugu"
+        ],
+        [
+          "ఢాకా-ఢిల్లీ-",
+          "ఢాకా-ఢిల్లీ-లాహ",
+          "telugu"
+        ],
+        [
+          "ఢాకా-ఢిల్లీ-",
+          "ఢాకా-ఢిల్లీ-లాహోర్",
+          "telugu"
+        ],
+        [
+          " నిరక్షరాస్యత",
+          " నిరక్షరాస్యత,",
+          "telugu"
+        ],
+        [
+          " ఎదుర్కొంటున్న",
+          " ఎదుర్కొంటున్నది.",
+          "telugu"
+        ],
+        [
+          " దక్షిణదిగ్భా",
+          " దక్షిణదిగ్భాగే",
+          "telugu"
+        ],
+        [
+          " దక్షిణదిగ్భా",
+          " దక్షిణదిగ్భాగే,",
+          "telugu"
+        ]
+      ]
+    },
+    "48": {
+      "pos_dim": 48,
+      "per_script": {
+        "space/empty": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "latin/ascii": {
+          "n": 5984,
+          "fits_window": 5984,
+          "roundtrip_ok": 5984
+        },
+        "inverted": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "cent": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "pound": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "currency": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "yen": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "broken": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "section": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "diaeresis": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "copyright": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "feminine": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "left-pointing": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "not": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "soft": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "registered": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "macron": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "degree": {
+          "n": 5,
+          "fits_window": 5,
+          "roundtrip_ok": 5
+        },
+        "plus-minus": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "superscript": {
+          "n": 3,
+          "fits_window": 3,
+          "roundtrip_ok": 3
+        },
+        "acute": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "micro": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "pilcrow": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "middle": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "cedilla": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "masculine": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "right-pointing": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "vulgar": {
+          "n": 3,
+          "fits_window": 3,
+          "roundtrip_ok": 3
+        },
+        "latin": {
+          "n": 75,
+          "fits_window": 75,
+          "roundtrip_ok": 75
+        },
+        "multiplication": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "division": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "modifier": {
+          "n": 3,
+          "fits_window": 3,
+          "roundtrip_ok": 3
+        },
+        "greek": {
+          "n": 7,
+          "fits_window": 7,
+          "roundtrip_ok": 7
+        },
+        "devanagari": {
+          "n": 970,
+          "fits_window": 970,
+          "roundtrip_ok": 970
+        },
+        "gujarati": {
+          "n": 778,
+          "fits_window": 778,
+          "roundtrip_ok": 778
+        },
+        "telugu": {
+          "n": 2087,
+          "fits_window": 2084,
+          "roundtrip_ok": 2087
+        },
+        "zero": {
+          "n": 5,
+          "fits_window": 5,
+          "roundtrip_ok": 5
+        },
+        "hyphen": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "non-breaking": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "figure": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "en": {
+          "n": 5,
+          "fits_window": 5,
+          "roundtrip_ok": 5
+        },
+        "em": {
+          "n": 4,
+          "fits_window": 4,
+          "roundtrip_ok": 4
+        },
+        "horizontal": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "left": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "right": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "dagger": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "bullet": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "prime": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "double": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "indian": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "rightwards": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "minus": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        }
+      },
+      "collisions_per_script": {},
+      "total_collisions": 0,
+      "distinct_codes": 9975,
+      "n_tokens": 9975,
+      "collision_examples": []
+    },
+    "64": {
+      "pos_dim": 64,
+      "per_script": {
+        "space/empty": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "latin/ascii": {
+          "n": 5984,
+          "fits_window": 5984,
+          "roundtrip_ok": 5984
+        },
+        "inverted": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "cent": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "pound": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "currency": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "yen": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "broken": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "section": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "diaeresis": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "copyright": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "feminine": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "left-pointing": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "not": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "soft": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "registered": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "macron": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "degree": {
+          "n": 5,
+          "fits_window": 5,
+          "roundtrip_ok": 5
+        },
+        "plus-minus": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "superscript": {
+          "n": 3,
+          "fits_window": 3,
+          "roundtrip_ok": 3
+        },
+        "acute": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "micro": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "pilcrow": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "middle": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "cedilla": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "masculine": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "right-pointing": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "vulgar": {
+          "n": 3,
+          "fits_window": 3,
+          "roundtrip_ok": 3
+        },
+        "latin": {
+          "n": 75,
+          "fits_window": 75,
+          "roundtrip_ok": 75
+        },
+        "multiplication": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "division": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "modifier": {
+          "n": 3,
+          "fits_window": 3,
+          "roundtrip_ok": 3
+        },
+        "greek": {
+          "n": 7,
+          "fits_window": 7,
+          "roundtrip_ok": 7
+        },
+        "devanagari": {
+          "n": 970,
+          "fits_window": 970,
+          "roundtrip_ok": 970
+        },
+        "gujarati": {
+          "n": 778,
+          "fits_window": 778,
+          "roundtrip_ok": 778
+        },
+        "telugu": {
+          "n": 2087,
+          "fits_window": 2087,
+          "roundtrip_ok": 2087
+        },
+        "zero": {
+          "n": 5,
+          "fits_window": 5,
+          "roundtrip_ok": 5
+        },
+        "hyphen": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "non-breaking": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "figure": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "en": {
+          "n": 5,
+          "fits_window": 5,
+          "roundtrip_ok": 5
+        },
+        "em": {
+          "n": 4,
+          "fits_window": 4,
+          "roundtrip_ok": 4
+        },
+        "horizontal": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "left": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "right": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "dagger": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "bullet": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "prime": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "double": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "indian": {
+          "n": 2,
+          "fits_window": 2,
+          "roundtrip_ok": 2
+        },
+        "rightwards": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        },
+        "minus": {
+          "n": 1,
+          "fits_window": 1,
+          "roundtrip_ok": 1
+        }
+      },
+      "collisions_per_script": {},
+      "total_collisions": 0,
+      "distinct_codes": 9975,
+      "n_tokens": 9975,
+      "collision_examples": []
+    }
+  },
+  "exact_inverse_for_all_in_window": false
+}

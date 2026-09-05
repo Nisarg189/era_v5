@@ -1,0 +1,2 @@
+numpy>=1.24
+# CPU only; no other dependencies. Python 3.9+.

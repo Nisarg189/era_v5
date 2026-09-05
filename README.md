@@ -13,6 +13,7 @@ in it.
 |---|---|---|
 | 5 | Data mixtures and curriculum | **[assignment5/README.md](assignment5/README.md)** |
 | 6 | Building the training dataset | **[assignment6/README.md](assignment6/README.md)** |
+| 7 | Embeddings and model internals | **[assignment7/README.md](assignment7/README.md)** |
 
 ## Session 5, in short
 
@@ -68,6 +69,30 @@ results worth naming:
 
 Full architecture and design decisions in [assignment6/README.md](assignment6/README.md).
 
+## Session 7, in short
+
+Problem 5 of the Session 7 brief: make the Kronecker embedding reversible and use that to
+delete the output head. The forward path is token to bytes to code to projection to
+embedding; the code is exactly invertible, so tying the output head to the input codec
+turns prediction into nearest-code, and the head then holds no parameter that grows with
+the vocabulary.
+
+Proven by training three small transformers from scratch on the six-lane mixture and by
+auditing the real 9,975 token vocabulary:
+
+- **The head can go.** Removing it costs 1.2 points of accuracy (0.339 against 0.351)
+  while removing 100 percent of the vocabulary-dependent head parameters.
+- **The codec is invertible.** Every in-window token round-trips exactly; the only loss
+  is 17 collisions at pos_dim 32, fifteen of them Telugu, falling to 0 at 48.
+- **The head is the codec adjoint**, equal to a code-space dot product to within 3e-14,
+  so it is an operation rather than a stored matrix.
+- **A million-token vocabulary is free.** The dense head at the V5 target of 262,144
+  tokens is 2.12 billion parameters and 34 GB of optimizer state, and at 1,000,000 it is
+  129.5 GB; the reversible head is zero in both. Growing the candidate vocabulary six
+  times over at evaluation costs one point of accuracy and no parameters.
+
+Full reasoning, tables and raw results in [assignment7/README.md](assignment7/README.md).
+
 ## Layout
 
 ```
@@ -84,6 +109,14 @@ assignment6/
   tdes/                the system, one module per responsibility
   tests/               69 invariant tests, offline, under a second
   submission_artifacts/  run.log, evidence.json, evidence.md, manifests, ledgers, reports
+
+assignment7/
+  README.md            the reversible-Kronecker result, and the deliverable
+  run_demo.py          one command regenerates every number
+  rkron/               codec + exact inverse, numpy autograd, transformer, data, training
+  experiments/         the invertibility audit, the head comparison, the reversal demos
+  tests/               gradient checks and the reversible-Kronecker invariants
+  artifacts/           the JSON every table is read from
 ```
 
 Corpora and model checkpoints are not committed. The scripts in each assignment's

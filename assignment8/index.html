@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Attention, in the order it was built</title>
+<meta name="description" content="Every attention mechanism in date order, from additive attention in 2014 to DroPE in 2025. Each one explained as an answer to a problem that existed at that moment, with honest pros and cons and a sourced date.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#9673;</text></svg>">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span class="mark">ATTENTION &middot; 2014&ndash;2025</span>
+    <nav>
+      <a href="#baseline">Start here</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#reading" class="opt">What it shows</a>
+      <a href="#cards">Mechanisms</a>
+      <a href="#sources">Sources</a>
+      <button class="themebtn" id="themebtn" type="button" aria-label="Switch colour theme">&#9681;</button>
+    </nav>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Attention, in the order it was built</h1>
+    <p class="lede">Standard attention was never wrong. It was <strong>expensive</strong>. It sends two separate bills: the all-pairs score matrix, which grows with the square of the length, and the key-value cache, which grows with the length and belongs to one conversation at a time.</p>
+    <p class="lede">Every mechanism below is somebody reading one of those two bills and trying to pay less of it. They are in the order they appeared, not the order they are usually taught, because the order is the argument. Read it and the field changes its mind in front of you.</p>
+    <div class="factbar">
+      <div><b id="fact-n">29</b><span>mechanisms</span></div>
+      <div><b>11 yr</b><span>2014 to 2025</span></div>
+      <div><b id="fact-src">29</b><span>dates checked at source</span></div>
+      <div><b>1</b><span>date with no paper</span></div>
+    </div>
+  </div>
+</header>
+
+<section id="baseline">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="kicker">Start here</span>
+      <h2>Standard attention, the thing everything else modifies</h2>
+      <p>Nothing further down makes sense without this. Read it first, even if the rest is familiar. Every card on this page changes at least one of the six steps below, and each card says which.</p>
+    </div>
+
+    <div class="primer">
+      <p class="lede">A token on its own knows nothing about any other token. Attention is the step that lets it look. Each token first produces three vectors from its own embedding:</p>
+      <ul class="qkv">
+        <li><b>query</b><span>what am I looking for</span></li>
+        <li><b>key</b><span>what do I contain</span></li>
+        <li><b>value</b><span>what I hand over if I am chosen</span></li>
+      </ul>
+
+      <ol class="steps">
+        <li><b>Score.</b> Compare the current query with every key using a dot product. One query and one key give one number. Six tokens give thirty-six numbers.</li>
+        <li><b>Scale.</b> Divide every score by the square root of the head width. Dot products grow as the head gets wider, and large numbers make the next step too sharp.</li>
+        <li><b>Mask.</b> In a decoder, set every future position to minus infinity. A token being predicted must not be allowed to read the answer.</li>
+        <li><b>Softmax.</b> Turn each row of scores into positive weights that add to one. Minus infinity becomes exactly zero, so the future gets no weight at all.</li>
+        <li><b>Read.</b> Multiply each value by its weight and add them together. The result is the new vector for this token.</li>
+        <li><b>Cache.</b> While generating, keep the key and value of every token seen so far, so they are not computed again for the next token.</li>
+      </ol>
+
+      <p>Steps 1 to 5 are the mechanism. Step 6 is not part of the mathematics at all. It is what the mechanism costs at serving time, and half of this page exists because of it.</p>
+
+      <div class="bills">
+        <div><b>Compute</b><p>The number of comparisons grows with the square of the length. One thousand tokens is one million scores. Ten thousand is one hundred million.</p></div>
+        <div><b>Memory</b><p>The cache grows with the length, and it belongs to one conversation. Model weights are loaded once and shared. A cache is not shared with anybody.</p></div>
+      </div>
+
+      <div class="demo" id="demo-sdpa">
+        <h5>Live</h5>
+        <p class="cap">All six steps on one sentence, with every number computed. Step through them, then switch the mask off and watch attention move onto words that have not happened yet.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="timeline">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="kicker">The timeline</span>
+      <h2>Eleven years, five running arguments</h2>
+      <p>Each dot is one mechanism at its true date. The row is the bill it attacks. A ring means the mechanism is on the required list for this assignment. Select a row to isolate it, or select a dot to jump to the card.</p>
+    </div>
+    <div class="tl-panel">
+      <div class="tl-legend" id="tl-legend"></div>
+      <div class="tl-scroll">
+        <div class="tl-inner" id="tl-inner"></div>
+      </div>
+      <div class="tl-tip" id="tl-tip" aria-hidden="true"></div>
+      <p class="tl-hint">Scroll the chart sideways on a narrow screen. Rows with nothing in a period are as informative as rows that are busy.</p>
+    </div>
+  </div>
+</section>
+
+<section id="reading">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="kicker">What the order shows</span>
+      <h2>Six things that are invisible in a list</h2>
+      <p>These are read off the chart above, not asserted. Each one is a shape in the dates.</p>
+    </div>
+
+    <div class="finding" style="--c:var(--comp)">
+      <h3>1. The bills arrive two years after the method, not with it</h3>
+      <p>Attention is published in June 2017. Nothing attacks its cost until January 2019. The gap is how long it took to build models big enough for the cost to hurt. Every card after that gap is a reaction, and none of them could have been written earlier, because the problem did not exist yet.</p>
+    </div>
+
+    <div class="finding" style="--c:var(--mem)">
+      <h3>2. Decode memory was solved by one person before it was a famous problem</h3>
+      <p>Multi-query attention appears in November 2019, alone, in a six-page note. The rest of the decode-memory row is empty until May 2023. The fix sat unused for three and a half years, because the cache does not hurt until models are served to many people at once. Grouped-query attention then arrives with a conversion recipe, and that, not the idea, is what made it spread.</p>
+    </div>
+
+    <div class="finding" style="--c:var(--pos)">
+      <h3>3. Position is the row that never resolves</h3>
+      <p>It is busy in 2017, busy again in 2021, and then four entries land between June and September 2023 inside fourteen weeks. That cluster is not research progress. It is the whole open-weights community trying to make an 8K checkpoint reach 32K on one machine. The row is still open in December 2025.</p>
+    </div>
+
+    <div class="finding" style="--c:var(--state)">
+      <h3>4. Recurrence never left, it was waiting for a kernel</h3>
+      <p>The field abandoned recurrent state in 2017 and started rebuilding it in 2020. The delta rule is published in February 2021 and does not reach a real model until June 2024, when somebody works out how to train it in parallel. Three years of silence in that row is not three years of doubt. It is three years of the idea being correct and unaffordable.</p>
+    </div>
+
+    <div class="finding" style="--c:var(--found)">
+      <h3>5. The most useful change of the decade was not a new mechanism</h3>
+      <p>FlashAttention, May 2022, changes nothing about the model. It computes the same attention and moves less memory. It made long context affordable without a quality argument, and in doing so it retired a generation of approximations that had been beating attention only on paper. Any honest timeline has to show that the exact method won a round.</p>
+    </div>
+
+    <div class="finding" style="--c:var(--ink-soft)">
+      <h3>6. The direction of travel, and what it suggests comes next</h3>
+      <p>Read the rows left to right and the priorities move: exactness, then decode memory, then length, then memory again, then sparsity that is trained rather than bolted on. The two newest entries point the same way. Sparse attention stopped being an inference patch and became part of pretraining, and DroPE stopped repairing the positional embedding and removed it. Both are cases of a workaround being promoted into the training recipe. That is where the next one will come from as well: whatever is currently applied after training and works.</p>
+    </div>
+  </div>
+</section>
+
+<section id="cards">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="kicker">The mechanisms</span>
+      <h2>Each one, and what it costs</h2>
+      <p>Nothing here has only advantages. Where a card looks one-sided, the card is wrong. Every quoted figure is the paper&rsquo;s own, and the paper is linked.</p>
+    </div>
+    <div id="cardlist"></div>
+  </div>
+</section>
+
+<section id="sources">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="kicker">Dates and sources</span>
+      <h2>Where every date came from</h2>
+      <p>The date used is the first public appearance: for a paper, the v1 submission date in the arXiv submission history, not the conference year and not the date of a later revision. Each was opened and read rather than recalled.</p>
+    </div>
+    <div class="srcwrap">
+      <table class="srctable" id="srctable"></table>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Built for ERA V5, Session 8. The repository, the full source table and the answer to the timeline question are in the README next to this page.</p>
+    <p id="built"></p>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/demos.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

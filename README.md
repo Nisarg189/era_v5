@@ -14,6 +14,7 @@ in it.
 | 5 | Data mixtures and curriculum | **[assignment5/README.md](assignment5/README.md)** |
 | 6 | Building the training dataset | **[assignment6/README.md](assignment6/README.md)** |
 | 7 | Embeddings and model internals | **[assignment7/README.md](assignment7/README.md)** |
+| 8 | Modern attention variants | **[assignment8/README.md](assignment8/README.md)** |
 
 ## Session 5, in short
 
@@ -93,6 +94,32 @@ auditing the real 9,975 token vocabulary:
 
 Full reasoning, tables and raw results in [assignment7/README.md](assignment7/README.md).
 
+## Session 8, in short
+
+A web app that explains every attention mechanism in the order it was launched, not the
+order it was taught, so that the field can be watched changing its mind. **Twenty-nine
+mechanisms across eleven years**, from additive attention in September 2014 to DroPE in
+December 2025. All eighteen on the required list, plus nine more that the timeline needs
+in order to make sense.
+
+Every date was read from the primary record, which for a paper means the v1 entry in the
+arXiv submission history rather than the conference year. Two traps were caught in that
+check:
+
+- **DroPE is two unrelated methods.** The first search result is a March 2025 paper on
+  autonomous driving. The one taught in the session is Sakana AI's, submitted 13 December
+  2025, and it removes positional embeddings rather than rescaling them.
+- **NTK-aware scaling has no paper.** It was a Reddit post with no reachable dated record,
+  so it is listed as late June 2023 and marked approximate rather than given a false
+  precision.
+
+Nine live demos compute their numbers in the browser rather than quoting stored results,
+including the attention layer itself, the cache bill, and the bar chart that shows naive
+top-k attention saving almost nothing because it still has to score every key.
+
+Full reasoning, the timeline reading and the complete source table in
+[assignment8/README.md](assignment8/README.md).
+
 ## Layout
 
 ```
@@ -117,6 +144,12 @@ assignment7/
   experiments/         the invertibility audit, the head comparison, the reversal demos
   tests/               gradient checks and the reversible-Kronecker invariants
   artifacts/           the JSON every table is read from
+
+assignment8/
+  README.md            the report, the timeline reading, and every date with its source
+  index.html           the page, static, no build step
+  css/ js/             one stylesheet, the mechanism data, the renderer, nine live demos
+  deploy.sh            copies the page into the course site folder before a deploy
 ```
 
 Corpora and model checkpoints are not committed. The scripts in each assignment's
